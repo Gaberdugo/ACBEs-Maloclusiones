@@ -24,14 +24,14 @@ const ARBOLES = {
           },
 
           {
-            texto: "Materiales",
+            texto: "Materiales e insumos",
 
             siguiente: "materiales"
 
           },
 
           {
-            texto: "Arbol de elecciones",
+            texto: "Arbol de decisiones",
 
             siguiente: "habitos"
 
@@ -400,7 +400,7 @@ const ARBOLES = {
 
         tipo: "accion",
 
-        texto: "<strong>Asociado a la mandíbula</strong> <span class=\"badge-ne-alta\">(NE: alta, GRADE)</span><br>Al sospechar de una hiperplasia o algún síndrome craneofacial como origen de la mordida cruzada, se recomienda remitir al posgrado de ortodoncia para su adecuado diagnóstico y tratamiento; ya que la formación de los estudiantes de pregrado no incluye manejo de anomalías dentofaciales.<br><br><small><i>Sollenius O, Golež A, Primožič J, Ovsenik M, Bondemark L, Petrén S. Three-dimensional evaluation of forced unilateral posterior crossbite correction in the mixed dentition: A randomized controlled trial. Eur J Orthod. 2020 Aug;42:415–25.</i></small>",
+        texto: "<strong>Asociado a la mandíbula</strong><br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span><br>Al sospechar de una hiperplasia o algún síndrome craneofacial como origen de la mordida cruzada, se recomienda remitir al posgrado de ortodoncia para su adecuado diagnóstico y tratamiento; ya que la formación de los estudiantes de pregrado no incluye manejo de anomalías dentofaciales.<br><br><small><i>Sollenius O, Golež A, Primožič J, Ovsenik M, Bondemark L, Petrén S. Three-dimensional evaluation of forced unilateral posterior crossbite correction in the mixed dentition: A randomized controlled trial. Eur J Orthod. 2020 Aug;42:415–25.</i></small>",
 
         imagen: "./image/mordida1_11.png",
         
@@ -552,7 +552,7 @@ const ARBOLES = {
 
         tipo: "accion",
 
-        texto: "<strong>Expansión maxilar lenta</strong> <span class=\"badge-ne-alta\">(NE: alta, GRADE)</span>"
+        texto: "<strong>Expansión maxilar lenta</strong><br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span>"
         
         +
 
@@ -577,7 +577,7 @@ const ARBOLES = {
 
         tipo: "accion",
 
-        texto: "<strong>Expansión maxilar rápida</strong> <span class=\"badge-ne-alta\">(NE: alta, GRADE)</span>"
+        texto: "<strong>Expansión maxilar rápida</strong> <span class=\"badge-ne-alta\"><br>(NE: alta, GRADE)</span>"
 
         +
         
@@ -597,7 +597,7 @@ const ARBOLES = {
 
         +
         
-        "<br><br>Se puede lograr una expansión intermolar de 5.2 mm al estar anclado a los primeros molares permanentes. <span class=\"badge-ne-moderado\">(NE: moderado, GRADE)</span>"
+        "<br><br>Se puede lograr una expansión intermolar de 5.2 mm al estar anclado a los primeros molares permanentes. <br><span class=\"badge-ne-moderado\">(NE: moderado, GRADE)</span>"
         
         +
 
@@ -800,7 +800,7 @@ const ARBOLES = {
 
         tipo: "accion",
 
-        texto: "<strong>Hyrax</strong> <span class=\"badge-ne-muy-baja\">(NE: baja, GRADE)</span>" 
+        texto: "<strong>Hyrax</strong><br><span class=\"badge-ne-muy-baja\">(NE: baja, GRADE)</span>" 
         
         + 
         
@@ -812,7 +812,7 @@ const ARBOLES = {
 
         +
 
-        "<br><br>Expansor dentosoportado de estructura rígida en acero inoxidable, lo que permite mayores ganancias transversales. Produce un aumento del grosor óseo lingual, ancho maxilar, cresta alveolar, y arco respecto a la activación total del tornillo de 7 mm. Adicionalmente, presenta un mayor efecto ortopédico en el suelo de la cavidad nasal y cavidad nasal posterior al compararse con disyuntores tipo Haas. Se referencia un alcance en el nivel de expansión del tornillo de 6.04 +/- 1.07mm con un rango de 5 - 8 mm, evidenciando una expansión intercanina de 3.8 mm ± 2.2 mm y una expansión intermolar de 6.2 mm ± 2.9 mm. <span class=\"badge-ne-muy-baja\">(NE: baja, GRADE)</span>"
+        "<br><br>Expansor dentosoportado de estructura rígida en acero inoxidable, lo que permite mayores ganancias transversales. Produce un aumento del grosor óseo lingual, ancho maxilar, cresta alveolar, y arco respecto a la activación total del tornillo de 7 mm. Adicionalmente, presenta un mayor efecto ortopédico en el suelo de la cavidad nasal y cavidad nasal posterior al compararse con disyuntores tipo Haas. Se referencia un alcance en el nivel de expansión del tornillo de 6.04 +/- 1.07mm con un rango de 5 - 8 mm, evidenciando una expansión intercanina de 3.8 mm ± 2.2 mm y una expansión intermolar de 6.2 mm ± 2.9 mm.<br><span class=\"badge-ne-muy-baja\">(NE: baja, GRADE)</span>"
         
         +
 
@@ -847,7 +847,7 @@ const ARBOLES = {
 
         tipo: "accion",
 
-        texto: "<strong>Disyuntor de Hass</strong> <span class=\"badge-ne-alta\">(NE: alta, GRADE)</span>" 
+        texto: "<strong>Disyuntor de Hass</strong><br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span>" 
         
         + 
         
@@ -859,7 +859,7 @@ const ARBOLES = {
 
         +
 
-        "<br><br>Expansor dento-tejido soportado con almohadilla acrílica cerca del paladar. Es menos rígido que el Hyrax, lo que puede limitar las ganancias transversales. Se realiza la activación dando 1 vuelta por día hasta lograr sobrecorrección molar (cúspide palatina del molar maxilar en contacto con la cúspide vestibular del molar mandibular), y llega a una fase activa seguida de 6 meses de retención con el aparato como retenedor. La cooperación del paciente es clave, por eso se sugiere el envío de recordatorios vía WhatsApp para realizar las activaciones. Presenta un menor aumento del grosor óseo lingual, aumento del ancho maxilar, cresta alveolar y arco al compararse con el disyuntor Hyrax; adicionalmente tiene menor efecto ortopédico en el suelo de la cavidad nasal y cavidad nasal posterior al compararse con este mismo disyuntor. Se evidencia un promedio de expansión intermolar de 6.7 mm y un promedio de expansión intercanina de 5.3 mm al anclarse a primeros molares permanentes, por otro lado, presenta una expansión intermolar de 5.1 mm ± 3.4 mm y una expansión intercanina de 3,2 mm ± 2.7 mm cementando el aparato en los quintos. <span class=\"badge-ne-muy-baja\">(NE: baja, GRADE)</span>"
+        "<br><br>Expansor dento-tejido soportado con almohadilla acrílica cerca del paladar. Es menos rígido que el Hyrax, lo que puede limitar las ganancias transversales. Se realiza la activación dando 1 vuelta por día hasta lograr sobrecorrección molar (cúspide palatina del molar maxilar en contacto con la cúspide vestibular del molar mandibular), y llega a una fase activa seguida de 6 meses de retención con el aparato como retenedor. La cooperación del paciente es clave, por eso se sugiere el envío de recordatorios vía WhatsApp para realizar las activaciones. Presenta un menor aumento del grosor óseo lingual, aumento del ancho maxilar, cresta alveolar y arco al compararse con el disyuntor Hyrax; adicionalmente tiene menor efecto ortopédico en el suelo de la cavidad nasal y cavidad nasal posterior al compararse con este mismo disyuntor. Se evidencia un promedio de expansión intermolar de 6.7 mm y un promedio de expansión intercanina de 5.3 mm al anclarse a primeros molares permanentes, por otro lado, presenta una expansión intermolar de 5.1 mm ± 3.4 mm y una expansión intercanina de 3,2 mm ± 2.7 mm cementando el aparato en los quintos. <br><span class=\"badge-ne-muy-baja\">(NE: baja, GRADE)</span>"
         
         +
 
