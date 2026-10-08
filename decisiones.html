@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ACBEs Maloclusiones</title>
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <header class="topbar">
+
+    <!-- VOLVER -->
+    <button
+      class="home-btn"
+      onclick="history.back()"
+      aria-label="Volver">
+      ←
+    </button>
+
+    <!-- LOGO -->
+    <div class="logo">
+      UN
+    </div>
+
+    <!-- INICIO -->
+    <button
+      class="home-btn"
+      onclick="window.location.href='index.html'"
+      aria-label="Inicio">
+      ⌂
+    </button>
+
+    <!-- ESPACIO -->
+    <div class="spacer"></div>
+
+  </header>
+
+  <main class="page">
+
+    <div class="decision-page">
+
+      <div class="breadcrumb">
+        ACBEs Maloclusiones / Recorrido clínico
+      </div>
+
+      <section class="decision-card">
+
+        <div class="decision-label" id="treeLabel">
+          RECORRIDO
+        </div>
+
+        <h1 id="treeTitle"></h1>
+
+        <div id="flow"></div>
+
+      </section>
+
+    </div>
+
+  </main>
+
+
+  <script src="contenido/arboles.js"></script>
+  <script src="js/decisiones.js"></script>
+
+</body>
+</html>

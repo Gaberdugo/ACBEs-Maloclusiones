@@ -1,0 +1,1013 @@
+:root{
+  --green:#169447;
+  --green-dark:#0f7135;
+  --green-soft:#eaf7ef;
+  --blue:#2b7ea5;
+  --blue-dark:#1d607e;
+  --text:#243038;
+  --muted:#68767d;
+  --line:#dfe7e4;
+  --bg:#f7faf8;
+  --dark:#20282d;
+  --shadow:0 14px 40px rgba(26,48,38,.10);
+}
+
+
+/* =====================================================
+   BASE
+===================================================== */
+
+*{
+  box-sizing:border-box;
+}
+
+html,
+body{
+  margin:0;
+  min-height:100%;
+
+  font-family:Arial,Helvetica,sans-serif;
+
+  color:var(--text);
+  background:var(--bg);
+}
+
+button,
+a{
+  font:inherit;
+}
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+
+/* =====================================================
+   BARRA SUPERIOR
+===================================================== */
+
+.topbar{
+  height:68px;
+
+  background:var(--dark);
+  color:#fff;
+
+  display:flex;
+  align-items:center;
+
+  padding:0 24px;
+  gap:18px;
+
+  box-shadow:0 2px 10px rgba(0,0,0,.14);
+}
+
+.menu-btn,
+.home-btn,
+.exit-btn{
+  border:0;
+  background:transparent;
+
+  color:#fff;
+
+  cursor:pointer;
+
+  font-size:25px;
+
+  width:42px;
+  height:42px;
+
+  border-radius:10px;
+
+  display:grid;
+  place-items:center;
+}
+
+.menu-btn:hover,
+.home-btn:hover,
+.exit-btn:hover{
+  background:rgba(255,255,255,.1);
+}
+
+.logo{
+  width:42px;
+  height:42px;
+
+  border-radius:10px;
+
+  background:var(--green);
+
+  display:grid;
+  place-items:center;
+
+  font-weight:800;
+  font-size:16px;
+
+  letter-spacing:-1px;
+}
+
+.spacer{
+  flex:1;
+}
+
+
+/* =====================================================
+   PÁGINA
+===================================================== */
+
+.page{
+  min-height:calc(100vh - 116px);
+
+  padding:44px 24px 54px;
+}
+
+
+/* =====================================================
+   PORTADA
+===================================================== */
+
+.cover{
+  max-width:1100px;
+  min-height:560px;
+
+  margin:auto;
+
+  border:3px solid var(--green);
+  border-radius:28px;
+
+  background:#fff;
+
+  box-shadow:var(--shadow);
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  text-align:center;
+
+  position:relative;
+  overflow:hidden;
+}
+
+.cover:before{
+  content:"";
+
+  position:absolute;
+
+  width:360px;
+  height:360px;
+
+  border-radius:50%;
+
+  background:var(--green-soft);
+
+  right:-150px;
+  top:-130px;
+}
+
+.cover:after{
+  content:"";
+
+  position:absolute;
+
+  width:260px;
+  height:260px;
+
+  border-radius:50%;
+
+  background:#eef7fb;
+
+  left:-120px;
+  bottom:-130px;
+}
+
+.cover-content{
+  position:relative;
+  z-index:1;
+
+  max-width:760px;
+
+  padding:50px 30px;
+}
+
+.kicker{
+  display:inline-block;
+
+  padding:8px 14px;
+
+  border-radius:999px;
+
+  background:var(--green-soft);
+
+  color:var(--green-dark);
+
+  font-weight:800;
+  font-size:13px;
+
+  letter-spacing:1.2px;
+
+  text-transform:uppercase;
+}
+
+.cover h1{
+  font-size:clamp(42px,7vw,72px);
+
+  line-height:1;
+
+  margin:18px 0 12px;
+}
+
+.cover-subtitle{
+  font-size:clamp(21px,3vw,30px);
+
+  margin:0;
+
+  color:var(--green-dark);
+
+  font-weight:600;
+}
+
+.cover-text{
+  max-width:680px;
+
+  margin:24px auto 0;
+
+  color:var(--muted);
+
+  font-size:17px;
+
+  line-height:1.65;
+}
+
+.start-btn{
+  display:inline-flex;
+
+  align-items:center;
+  justify-content:center;
+
+  gap:14px;
+
+  margin-top:30px;
+
+  padding:16px 30px;
+
+  border-radius:12px;
+
+  background:var(--green);
+
+  color:#fff;
+
+  font-weight:800;
+
+  letter-spacing:.5px;
+
+  transition:.16s ease;
+
+  box-shadow:0 8px 18px rgba(22,148,71,.2);
+}
+
+.start-btn:hover{
+  background:var(--green-dark);
+
+  transform:translateY(-2px);
+}
+
+
+/* =====================================================
+   PÁGINA DE SELECCIÓN
+===================================================== */
+
+.decision-page{
+  max-width:1150px;
+
+  margin:auto;
+}
+
+.breadcrumb{
+  font-size:14px;
+
+  color:var(--muted);
+
+  margin:0 0 18px;
+}
+
+.decision-card{
+  background:#fff;
+
+  border:3px solid var(--green);
+
+  border-radius:24px;
+
+  padding:34px;
+
+  box-shadow:var(--shadow);
+
+  position: relative; /* Clave para que el botón "Volver" absoluto se ubique respecto a esta tarjeta */
+}
+
+.decision-label{
+  color:var(--green-dark);
+
+  font-size:13px;
+
+  font-weight:800;
+
+  letter-spacing:1px;
+
+  text-transform:uppercase;
+}
+
+.decision-card h1{
+  font-size:clamp(30px,5vw,48px);
+
+  margin:10px 0 12px;
+
+  padding-right: 120px; /* Espacio para que el título no se encime con el botón de volver flotante */
+}
+
+.decision-intro{
+  color:var(--muted);
+
+  font-size:17px;
+
+  line-height:1.6;
+
+  margin:0 0 28px;
+}
+
+.options{
+  display:grid;
+
+  gap:14px;
+}
+
+/* =====================================================
+   TARJETAS DE MALOCLUSIONES
+===================================================== */
+
+.option{
+  display:grid;
+
+  grid-template-columns:46px minmax(0,1fr) 42px 20px;
+
+  align-items:center;
+
+  gap:16px;
+
+  border:2px solid var(--green);
+
+  border-radius:16px;
+
+  padding:18px;
+
+  background:#fff;
+
+  cursor:pointer;
+
+  text-align:left;
+
+  transition:.15s ease;
+}
+
+.option:hover{
+  background:var(--green-soft);
+
+  transform:translateY(-1px);
+
+  box-shadow:0 8px 18px rgba(20,100,50,.08);
+}
+
+.option-letter{
+  width:40px;
+  height:40px;
+
+  border-radius:50%;
+
+  background:var(--green-soft);
+
+  color:var(--green-dark);
+
+  display:grid;
+  place-items:center;
+
+  font-weight:800;
+}
+
+.option-title{
+  font-weight:800;
+
+  font-size:18px;
+
+  line-height:1.35;
+}
+
+.option-arrow{
+  color:var(--green-dark);
+
+  font-size:25px;
+}
+
+.definition-btn{
+  width:34px;
+  height:34px;
+
+  border:2px solid var(--blue);
+
+  border-radius:50%;
+
+  background:#fff;
+
+  color:var(--blue-dark);
+
+  font-weight:800;
+
+  cursor:pointer;
+
+  z-index:2;
+}
+
+.definition-btn:hover{
+  background:#eef8fc;
+}
+
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+.footer{
+  min-height:48px;
+
+  padding:0 24px 22px;
+
+  display:flex;
+
+  justify-content:space-between;
+
+  gap:20px;
+
+  color:#77848a;
+
+  font-size:13px;
+
+  max-width:1150px;
+
+  margin:auto;
+}
+
+/* =====================================================
+   BADGES DE EVIDENCIA (NE / GRADE)
+===================================================== */
+.badge-ne-alta {
+  background-color: #eaf7ef;
+  color: #14c504;
+  border: 1px solid #14c504;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-weight: 700;
+}
+
+.badge-ne-moderado {
+  background-color: #fef9e7;
+  color: #b78103;
+  border: 1px solid #f9a825;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-weight: 700;
+}
+
+.badge-ne-muy-baja {
+  background-color: #fde8e8;
+  color: #c53030;
+  border: 1px solid #e53e3e;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-weight: 700;
+}
+
+/* =====================================================
+   MODAL DE DEFINICIÓN
+===================================================== */
+
+.modal[hidden]{
+  display:none;
+}
+
+.modal{
+  position:fixed;
+
+  inset:0;
+
+  z-index:1000;
+
+  display:flex;
+
+  align-items:center;
+  justify-content:center;
+
+  padding:30px;
+}
+
+.modal-backdrop{
+  position:absolute;
+
+  inset:0;
+
+  background:rgba(20,28,36,.70);
+
+  backdrop-filter:blur(3px);
+}
+
+.modal-card{
+  position:relative;
+
+  z-index:2;
+
+  width:min(720px,100%);
+
+  max-height:85vh;
+
+  overflow:auto;
+  overflow-x:hidden;
+
+  background:#fff;
+
+  border:4px solid var(--green);
+
+  border-radius:24px;
+
+  padding:38px 42px 42px;
+
+  box-shadow:0 25px 70px rgba(0,0,0,.30);
+}
+
+.modal-label{
+  color:var(--green-dark);
+
+  font-size:13px;
+
+  font-weight:800;
+
+  letter-spacing:1.5px;
+
+  text-transform:uppercase;
+
+  margin-bottom:12px;
+}
+
+.modal-card h2{
+  margin:0 45px 24px 0;
+
+  color:var(--text);
+
+  font-size:clamp(26px,4vw,38px);
+
+  line-height:1.2;
+}
+
+.modal-card p{
+  margin:0;
+
+  color:var(--muted);
+
+  font-size:17px;
+
+  line-height:1.7;
+}
+
+.modal-image{
+  display:block;
+
+  width:auto;
+
+  max-width:100%;
+
+  height:auto;
+
+  max-height:300px;
+
+  object-fit:contain;
+
+  margin:10px auto 28px;
+
+  border-radius:12px;
+}
+
+.modal-close{
+  position:absolute;
+
+  top:14px;
+  right:16px;
+
+  width:40px;
+  height:40px;
+
+  border:0;
+
+  border-radius:50%;
+
+  background:#f0f3f4;
+
+  color:var(--text);
+
+  font-size:28px;
+
+  line-height:1;
+
+  cursor:pointer;
+
+  display:grid;
+
+  place-items:center;
+}
+
+.modal-close:hover{
+  background:#e3e9eb;
+}
+
+
+/* =====================================================
+   ÁRBOL DE DECISIONES & ACCIONES CON IMAGEN A LA DERECHA
+===================================================== */
+
+#flow{
+  width:100%;
+
+  padding:55px 20px 80px;
+
+  display:flex;
+
+  justify-content:center;
+}
+
+.flow-node{
+  width:100%;
+
+  display:flex;
+
+  flex-direction:column;
+
+  align-items:center;
+}
+
+/* LAYOUT GENERAL: TARJETA PRINCIPAL + IMAGEN FUERA A LA DERECHA */
+.decision-page-layout {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 30px;
+  width: 100%;
+  max-width: 1450px;
+  margin: auto;
+  justify-content: center;
+}
+
+.decision-page-layout .decision-card {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Contenedor fijo de la imagen lateral */
+#externalImageContainer {
+  flex: 0 0 500px;
+  position: sticky;
+  top: 20px;
+}
+
+#externalImageContainer img {
+  width: 100%;
+  height: auto;
+  border-radius: 24px;
+  box-shadow: var(--shadow);
+  display: block;
+  border: 3px solid var(--green);
+  object-fit: contain;
+  background: #fff;
+}
+
+
+/* =====================================================
+   PREGUNTA / DECISIÓN
+===================================================== */
+
+.decision-node{
+  gap:0;
+}
+
+.flow-shape{
+  width:100%;
+
+  min-height:130px;
+
+  padding:30px 45px;
+
+  display:flex;
+
+  align-items:center;
+  justify-content:center;
+
+  background:#ffffff;
+
+  border:2px solid #0f7135;
+
+  border-radius:22px;
+
+  color:#0f7135;
+
+  font-size:25px;
+
+  font-weight:600;
+
+  line-height:1.35;
+
+  text-align:center;
+
+  box-shadow:0 10px 25px rgba(0,0,0,.10);
+
+  white-space: pre-line;
+}
+
+
+/* =====================================================
+   OPCIONES
+===================================================== */
+
+.flow-options{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 45px;
+}
+
+
+/* =====================================================
+   BOTONES
+===================================================== */
+
+.flow-button{
+  position:relative;
+
+  min-width:150px;
+
+  padding:16px 28px;
+
+  border:2px solid var(--green);
+
+  border-radius:15px;
+
+  background:#fff;
+
+  color:var(--green-dark);
+
+  font-size:18px;
+
+  font-weight:800;
+
+  cursor:pointer;
+
+  box-shadow:0 6px 16px rgba(0,0,0,.07);
+
+  transition:.18s ease;
+}
+
+.flow-button:hover{
+  background:var(--green);
+
+  color:#fff;
+
+  transform:translateY(-3px);
+
+  box-shadow:0 10px 22px rgba(22,148,71,.18);
+}
+
+
+/* =====================================================
+   BOTÓN DE VOLVER FLOTANTE (Arriba a la derecha)
+===================================================== */
+
+.flow-button.back-btn,
+.back-btn {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  min-width: auto;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 10px;
+  z-index: 10;
+}
+
+.flow-button.back-btn:hover {
+  background: var(--green);
+  color: #fff;
+}
+
+
+/* =====================================================
+   ACCIONES
+===================================================== */
+
+.action-node{
+  gap:25px;
+  align-items: center;
+}
+
+.action-box{
+  width: 100%;
+
+  max-width: 650px;
+
+  padding:28px 38px;
+
+  border-radius:20px;
+
+  background:#ffffff;
+
+  border:2px solid #0f7135;
+
+  color:#0f7135;
+
+  font-size:21px;
+
+  line-height:1.45;
+
+  text-align:center;
+
+  box-shadow:0 10px 25px rgba(0,0,0,.10);
+}
+
+.action-box strong{
+  display:inline-block;
+
+  margin-left:8px;
+
+  color:#114706;
+
+  font-size:22px;
+
+  font-weight: bold;
+}
+
+
+/* =====================================================
+   MÚLTIPLES OPCIONES
+===================================================== */
+
+.flow-options .flow-button:not(.yes-button):not(.no-button){
+  min-width:180px;
+}
+
+
+/* =====================================================
+   MÓVIL
+===================================================== */
+
+@media(max-width:768px){
+
+  .topbar{
+    padding:0 12px;
+
+    gap:8px;
+  }
+
+  .page{
+    padding:22px 12px 38px;
+  }
+
+  .cover{
+    min-height:500px;
+
+    border-radius:20px;
+  }
+
+  .cover-content{
+    padding:35px 20px;
+  }
+
+  .decision-card{
+    padding:22px 16px;
+
+    border-radius:20px;
+  }
+
+  .decision-card h1 {
+    padding-right: 0; /* En móviles quitamos el espacio lateral para que el título aproveche el ancho */
+  }
+
+  .option{
+    grid-template-columns:40px minmax(0,1fr) 38px 16px;
+
+    padding:15px 12px;
+  }
+
+  .footer{
+    padding:0 14px 18px;
+
+    flex-direction:column;
+
+    gap:6px;
+  }
+
+
+  /* =================================================
+     MODAL EN CELULAR
+  ================================================ */
+
+  .modal{
+    padding:15px;
+  }
+
+  .modal-card{
+    padding:30px 22px 28px;
+
+    border-radius:20px;
+  }
+
+  .modal-card h2{
+    font-size:26px;
+  }
+
+  .modal-card p{
+    font-size:16px;
+  }
+
+  .modal-image{
+    max-height:280px;
+  }
+
+
+  /* =================================================
+     ÁRBOL EN CELULAR (Vuelve a apilarse verticalmente)
+  ================================================ */
+
+  .decision-page-layout {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #externalImageContainer {
+    flex: unset;
+    width: 100%;
+    max-width: 450px;
+    position: static;
+    margin-top: 25px;
+  }
+
+  #flow{
+    padding:35px 10px 55px;
+  }
+
+  .flow-shape{
+    width:100%;
+
+    min-height:110px;
+
+    padding:25px;
+
+    font-size:20px;
+
+    border-radius:18px;
+  }
+
+  .flow-options{
+    gap:20px;
+
+    flex-wrap:wrap;
+
+    margin-top:35px;
+  }
+
+  .flow-button{
+    min-width:125px;
+
+    padding:13px 18px;
+
+    font-size:16px;
+  }
+
+  .flow-options .flow-button:not(.yes-button):not(.no-button){
+    min-width:140px;
+  }
+
+  /* Botón de volver en móvil (pasa a ser estático o más cómodo arriba si se prefiere) */
+  .flow-button.back-btn,
+  .back-btn {
+    position: static;
+    display: block;
+    margin: 0 0 20px 0;
+    max-width: 150px;
+  }
+
+  .action-box{
+    width: 100%;
+    max-width:100%;
+
+    font-size:18px;
+
+    padding:22px 25px;
+  }
+
+}

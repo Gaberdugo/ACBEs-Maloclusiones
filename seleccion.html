@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ACBEs Maloclusiones · Selección</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="topbar">
+
+    <!-- VOLVER -->
+    <button
+      class="home-btn"
+      onclick="history.back()"
+      aria-label="Volver">
+      ←
+    </button>
+
+    <!-- LOGO -->
+    <div class="logo">
+      UN
+    </div>
+
+    <!-- INICIO -->
+    <button
+      class="home-btn"
+      onclick="window.location.href='index.html'"
+      aria-label="Inicio">
+      ⌂
+    </button>
+
+    <!-- ESPACIO -->
+    <div class="spacer"></div>
+
+  </header>
+<main class="page">
+  <div class="decision-page">
+    <p class="breadcrumb">ACBEs Maloclusiones / Navegación clínica</p>
+    <section class="decision-card">
+      <h1>SELECCIÓN INICIAL</h1>
+      <div id="options" class="options"></div>
+    </section>
+  </div>
+</main>
+<footer class="footer"><span>ACBEs Maloclusiones</span><span>Herramienta de navegación clínica</span></footer>
+<div class="modal" id="definitionModal" hidden aria-hidden="true">
+  <div class="modal-backdrop" data-close-modal></div>
+  <section class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" id="closeModal" aria-label="Cerrar definición">×</button>
+    <div class="kicker">DEFINICIÓN</div>
+    <h2 id="modalTitle"></h2><p id="modalText"></p>
+  </section>
+</div>
+<script src="contenido/definiciones.js"></script><script src="js/seleccion.js"></script>
+</body>
+</html>
