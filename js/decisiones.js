@@ -48,7 +48,7 @@ function mostrarNodo(id) {
   }
 
 
-  /* Limpiar pantalla y gestionar contenedor externo de imagen si aplica */
+  /* Limpiar pantalla, gestionar diseño y clases especiales de la tarjeta y página */
   actualizarLayoutGeneral(nodo);
 
 
@@ -107,18 +107,28 @@ function mostrarNodo(id) {
 
 
 /* =====================================================
-   GESTIÓN DE LAYOUT GENERAL (TARJETA + IMAGEN EXTERNA)
+   GESTIÓN DE LAYOUT GENERAL (TARJETA + CLASES + IMAGEN EXTERNA)
 ===================================================== */
 
 function actualizarLayoutGeneral(nodo) {
-  // Buscamos o creamos el wrapper general de la tarjeta de decisión y la imagen externa
   const decisionCard = document.querySelector(".decision-card");
+  const decisionPage = document.querySelector(".decision-page");
   let layoutWrapper = document.querySelector(".decision-page-layout");
+
+  // Limpiamos y gestionamos dinámicamente las clases panorámicas
+  decisionCard.className = "decision-card";
+  decisionPage.className = "decision-page";
+
+  if (nodo.clase) {
+    decisionCard.classList.add(nodo.clase);
+    if (nodo.clase.includes("panoramica")) {
+      decisionPage.classList.add("page-panoramica");
+    }
+  }
 
   if (!layoutWrapper) {
     layoutWrapper = document.createElement("div");
     layoutWrapper.className = "decision-page-layout";
-    // Metemos la tarjeta dentro del nuevo wrapper
     decisionCard.parentNode.insertBefore(layoutWrapper, decisionCard);
     layoutWrapper.appendChild(decisionCard);
   }
@@ -542,7 +552,6 @@ function agregarBotonesPersonalizados(
 
   /* Si el nodo no tiene botones, no hacemos nada */
   if (!nodo.botones) {
-    // Nos aseguramos de ocultar el botón flotante si este nodo no lo requiere
     const btnFlotanteExistente = document.querySelector('.decision-card > .flow-button.back-btn');
     if (btnFlotanteExistente) {
       btnFlotanteExistente.style.display = 'none';
@@ -550,7 +559,6 @@ function agregarBotonesPersonalizados(
     return;
   }
 
-  // Buscamos o creamos el botón flotante exclusivo para la esquina superior derecha
   let btnVolverFlotante = document.querySelector('.decision-card > .flow-button.back-btn');
   if (!btnVolverFlotante) {
     btnVolverFlotante = document.createElement("button");
@@ -563,18 +571,15 @@ function agregarBotonesPersonalizados(
 
   nodo.botones.forEach(botonData => {
 
-    // Si el botón es el de "Volver", lo manejamos arriba a la derecha
     if (botonData.texto.toLowerCase() === "volver") {
       tieneVolver = true;
       btnVolverFlotante.textContent = botonData.texto;
       btnVolverFlotante.style.display = "block";
       
-      // Limpiamos eventos previos clonando o asignando directamente
       btnVolverFlotante.onclick = () => {
         mostrarNodo(botonData.siguiente);
       };
     } else {
-      // Cualquier otro botón personalizado se pinta de forma normal abajo
       const boton = document.createElement("button");
       boton.type = "button";
       boton.className = "flow-button";
@@ -589,7 +594,6 @@ function agregarBotonesPersonalizados(
 
   });
 
-  // Si el nodo actual tiene botones pero ninguno es "Volver", ocultamos el botón flotante
   if (!tieneVolver) {
     btnVolverFlotante.style.display = "none";
   }
