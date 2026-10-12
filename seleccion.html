@@ -8,32 +8,15 @@
 </head>
 <body>
 <header class="topbar">
-
     <!-- VOLVER -->
-    <button
-      class="home-btn"
-      onclick="history.back()"
-      aria-label="Volver">
-      ←
-    </button>
-
+    <button class="home-btn" onclick="history.back()" aria-label="Volver">←</button>
     <!-- LOGO -->
-    <div class="logo">
-      UN
-    </div>
-
+    <div class="logo">UN</div>
     <!-- INICIO -->
-    <button
-      class="home-btn"
-      onclick="window.location.href='index.html'"
-      aria-label="Inicio">
-      ⌂
-    </button>
-
+    <button class="home-btn" onclick="window.location.href='index.html'" aria-label="Inicio">⌂</button>
     <!-- ESPACIO -->
     <div class="spacer"></div>
-
-  </header>
+</header>
 <main class="page">
   <div class="decision-page">
     <p class="breadcrumb">ACBEs Maloclusiones / Navegación clínica</p>
@@ -43,7 +26,18 @@
     </section>
   </div>
 </main>
-<footer class="footer"><span>ACBEs Maloclusiones</span><span>Herramienta de navegación clínica</span></footer>
+
+<footer class="footer">
+  <div class="footer-left">
+    <span>ACBEs Maloclusiones</span>
+    <span>Herramienta de navegación clínica</span>
+  </div>
+  <!-- Contenedor para tu imagen en el footer -->
+  <div class="footer-logo-container">
+    <img src="image/Footer.png" alt="Logo Footer" class="footer-img">
+  </div>
+</footer>
+
 <div class="modal" id="definitionModal" hidden aria-hidden="true">
   <div class="modal-backdrop" data-close-modal></div>
   <section class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">

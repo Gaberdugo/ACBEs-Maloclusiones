@@ -11,7 +11,7 @@
   --dark:#20282d;
   --shadow:0 14px 40px rgba(26,48,38,.10);
 
-  /* CONSTANTES DE TAMAÑO DE LETRA (Modifica aquí cuando quieras) */
+  /* CONSTANTES DE TAMAÑO DE LETRA */
   --font-action: 14px;  
   --font-cita: 8px;    
 }
@@ -28,7 +28,10 @@
 html,
 body{
   margin:0;
-  min-height:100%;
+  padding:0;
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
   font-family:Arial,Helvetica,sans-serif;
   color:var(--text);
   background:var(--bg);
@@ -103,6 +106,7 @@ a{
 ===================================================== */
 
 .page{
+  flex:1;
   min-height:calc(100vh - 116px);
   padding:44px 24px 54px;
 }
@@ -217,6 +221,8 @@ a{
 ===================================================== */
 
 .decision-page{
+  flex:1;
+  width:100%;
   max-width:1150px;
   margin:auto;
   transition: max-width 0.2s ease;
@@ -333,19 +339,44 @@ a{
 
 
 /* =====================================================
-   PIE DE PÁGINA (FOOTER)
+   PIE DE PÁGINA (FOOTER) - Color Oscuro #20282d
 ===================================================== */
 
 .footer{
-  min-height:48px;
-  padding:0 24px 22px;
-  display:flex;
-  justify-content:space-between;
-  gap:20px;
-  color:#77848a;
-  font-size:13px;
-  max-width:1150px;
-  margin:auto;
+  width: 100%;
+  background-color: #20282d !important;
+  color: #ffffff !important;
+  padding: 18px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: auto;
+  box-shadow: 0 -4px 15px rgba(0,0,0,0.12);
+}
+
+.footer a {
+  color: #ffffff !important;
+  text-decoration: underline;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.footer-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.footer-img {
+  max-height: 40px;
+  width: auto;
+  object-fit: contain;
 }
 
 
@@ -668,6 +699,7 @@ a{
   display: block !important;
   margin-top: 18px !important;
   text-align: right !important;
+  color: #6c757d !important;
   opacity: 0.85;
 }
 
@@ -704,13 +736,11 @@ a{
   width: 100% !important;
 }
 
-/* Permitimos que la caja de acción aproveche todo el espacio interno */
 .decision-card-panoramica .action-box {
   max-width: 100% !important;
   padding: 24px !important;
 }
 
-/* La imagen se adapta exactamente al ancho interno de la caja */
 .img-panoramica {
   width: 100% !important;
   max-width: 100% !important;
