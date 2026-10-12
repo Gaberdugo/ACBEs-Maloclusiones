@@ -360,6 +360,8 @@ a{
 .footer a {
   color: #ffffff !important;
   text-decoration: underline;
+  display: inline-flex;
+  align-items: center;
 }
 
 .footer-left {
@@ -377,6 +379,12 @@ a{
   max-height: 40px;
   width: auto;
   object-fit: contain;
+  cursor: pointer; /* Muestra la manita al pasar el mouse por encima */
+  transition: opacity 0.2s ease;
+}
+
+.footer-img:hover {
+  opacity: 0.85; /* Da un efecto sutil al pasar el mouse */
 }
 
 
