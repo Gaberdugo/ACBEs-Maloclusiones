@@ -159,8 +159,9 @@ function actualizarLayoutGeneral(nodo) {
    DECISIÓN SÍ / NO
 ===================================================== */
 
-function mostrarDecision(nodo) {
 
+
+function mostrarDecision(nodo) {
 
   const contenedor =
     document.createElement("div");
@@ -169,7 +170,9 @@ function mostrarDecision(nodo) {
     "flow-node decision-node";
 
 
-  /* Pregunta */
+  /* -----------------------------------------------
+     PREGUNTA / TÍTULO
+  ----------------------------------------------- */
 
   const pregunta =
     document.createElement("div");
@@ -180,11 +183,32 @@ function mostrarDecision(nodo) {
   pregunta.innerHTML =
     nodo.texto;
 
-
   contenedor.appendChild(pregunta);
 
 
-  /* Botones */
+  /* -----------------------------------------------
+     DESCRIPCIÓN OPCIONAL CON HTML
+  ----------------------------------------------- */
+
+  if (nodo.descripcion) {
+
+    const descripcion =
+      document.createElement("div");
+
+    descripcion.className =
+      "flow-description";
+
+    descripcion.innerHTML =
+      nodo.descripcion;
+
+    contenedor.appendChild(descripcion);
+
+  }
+
+
+  /* -----------------------------------------------
+     BOTONES
+  ----------------------------------------------- */
 
   const opciones =
     document.createElement("div");
@@ -206,7 +230,6 @@ function mostrarDecision(nodo) {
   botonSi.textContent =
     "Sí";
 
-
   botonSi.addEventListener("click", () => {
 
     mostrarNodo(nodo.si);
@@ -227,7 +250,6 @@ function mostrarDecision(nodo) {
   botonNo.textContent =
     "No";
 
-
   botonNo.addEventListener("click", () => {
 
     mostrarNodo(nodo.no);
@@ -239,17 +261,22 @@ function mostrarDecision(nodo) {
 
   opciones.appendChild(botonNo);
 
-
   contenedor.appendChild(opciones);
 
 
-  /* BOTONES PERSONALIZADOS */
+  /* -----------------------------------------------
+     BOTONES PERSONALIZADOS
+  ----------------------------------------------- */
 
   agregarBotonesPersonalizados(
     contenedor,
     nodo
   );
 
+
+  /* -----------------------------------------------
+     MOSTRAR NODO
+  ----------------------------------------------- */
 
   flow.appendChild(contenedor);
 
