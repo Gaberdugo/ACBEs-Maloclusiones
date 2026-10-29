@@ -1,6 +1,7 @@
 const ARBOLES = {
 
 
+
   apinamiento_mandibular_anterior: {
     
     titulo: "",
@@ -50,7 +51,7 @@ const ARBOLES = {
         
         +
 
-        "<br><br><img src='./image/im53.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        "<br><br><img src='./image/Im48.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
 
         +
 
@@ -58,11 +59,11 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>Proffit WR, Fields HW, Sarver DM. Contemporary Orthodontics. 6th ed. Elsevier; 2019. ISBN: 9780323543873</span>"
+        "<span class='cita-biblio'>Proffit WR, Fields HW, Sarver DM. Contemporary Orthodontics. 6th ed. Elsevier; 2019. ISBN: 9780323543873</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Graber TM, Vanarsdall RL VK. Orthodontics: Current Principles & Techniques. Vol. 4th ed, Elsevier / Mosby. 2005.</span>"
+        "<span class='cita-biblio'>Graber TM, Vanarsdall RL VK. Orthodontics: Current Principles & Techniques. Vol. 4th ed, Elsevier / Mosby. 2005.</span>"
 
         +
 
@@ -78,11 +79,11 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>Vanderlinden FPGM. Development of the dentition. Quintessence Publishing, editor. Chicago, Illinois: Quintessence Publishing; 1983.</span>"
+        "<span class='cita-biblio'>Vanderlinden FPGM. Development of the dentition. Quintessence Publishing, editor. Chicago, Illinois: Quintessence Publishing; 1983.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Graber TM, Vanarsdall RL VK. Orthodontics: Current Principles & Techniques. Vol. 4th ed, Elsevier / Mosby. 2005.</span>"
+        "<span class='cita-biblio'>Graber TM, Vanarsdall RL VK. Orthodontics: Current Principles & Techniques. Vol. 4th ed, Elsevier / Mosby. 2005.</span>"
 
         +
 
@@ -90,7 +91,7 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>Vanderlinden FPGM. Development of the dentition. Quintessence Publishing, editor. Chicago, Illinois: Quintessence Publishing; 1983.</span>"
+        "<span class='cita-biblio'>Vanderlinden FPGM. Development of the dentition. Quintessence Publishing, editor. Chicago, Illinois: Quintessence Publishing; 1983.</span>"
 
         +
 
@@ -98,11 +99,11 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>Vanderlinden FPGM. Development of the dentition. Quintessence Publishing, editor. Chicago, Illinois: Quintessence Publishing; 1983.</span>"
+        "<span class='cita-biblio'>Vanderlinden FPGM. Development of the dentition. Quintessence Publishing, editor. Chicago, Illinois: Quintessence Publishing; 1983.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Moss JP. Introduction to Orthodontics, 2nd edition (1995). Birgit Thilander and Olli Ronning. Forlagshuset Gothia, Stockholm. Price: SEK 550,00. ISBN: 91-7205-004-004. The European Journal of Orthodontics. 1996;18(2).</span>"
+        "<span class='cita-biblio'>Moss JP. Introduction to Orthodontics, 2nd edition (1995). Birgit Thilander and Olli Ronning. Forlagshuset Gothia, Stockholm. Price: SEK 550,00. ISBN: 91-7205-004-004. The European Journal of Orthodontics. 1996;18(2).</span>"
 
         +
 
@@ -150,7 +151,12 @@ const ARBOLES = {
 
         tipo: "accion",
 
-        texto: "Toma de modelos y radiografías diagnósticas (Panorámica y de perfil)",
+        texto: "Toma de modelos y radiografías diagnósticas (Panorámica y de perfil)"
+        
+        +
+
+        "<br><br><img src='./image/Im49.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        ,
 
         imagen: "./image/Apiñamiento1_1.png",
 
@@ -214,11 +220,11 @@ const ARBOLES = {
         
         +
         
-        "La clasificación del apiñamiento mandibular anterior suele establecerse a partir de la discrepancia medida en milímetros, y aunque los rangos pueden variar ligeramente entre autores, la literatura ofrece parámetros comunes que permiten unificar criterios. Con ello, se considera apiñamiento leve cuando la discrepancia es menor a 3 mm, moderado cuando se encuentra entre 3 y 5 mm, y severo cuando supera los 5 mm."
+        "<br><br>La clasificación del apiñamiento mandibular anterior suele establecerse a partir de la discrepancia medida en milímetros, y aunque los rangos pueden variar ligeramente entre autores, la literatura ofrece parámetros comunes que permiten unificar criterios. Con ello, se considera apiñamiento leve cuando la discrepancia es menor a 3 mm, moderado cuando se encuentra entre 3 y 5 mm, y severo cuando supera los 5 mm."
 
         +
 
-        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> Estos valores se adoptan en este trabajo porque coinciden con los rangos reportados en estudios clave: Owais et al. (2011) describieron el apiñamiento leve como menor a 2 mm."
+        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> Estos valores se adoptan porque coinciden con los rangos reportados en estudios clave: Owais et al. (2011) describieron el apiñamiento leve como menor a 2 mm."
 
         +
 
@@ -226,7 +232,7 @@ const ARBOLES = {
 
         +
         
-        "<br><span class=\"badge-ne-moderado\">(NE: moderado, GRADE)</span> incluyeron discrepancias entre 3 y 8 mm dentro de categorías leves a moderadas;"
+        "<br><span class=\"badge-ne-moderado\">(NE: moderado, GRADE)</span> Davidovitch et al. (1997) incluyeron discrepancias entre 3 y 8 mm dentro de categorías leves a moderadas;"
 
         +
 
@@ -263,6 +269,10 @@ const ARBOLES = {
         +
 
         "<br>Con ello, los rangos adoptados (< 3 mm, 3–5 mm y > 5 mm) se fundamentan en patrones consistentes dentro de la literatura y permiten describir la severidad del apiñamiento con criterios claros y comparables entre estudios."
+
+        +
+
+        "<span class='cita-biblio'>Khalaf K, Mustafa A, Wazzan M, Omar M, Estaitia M, El-Kishawi M. Clinical effectiveness of space maintainers and space regainers in the mixed dentition: A systematic review. Vol. 34, Saudi Dental Journal. 2022.</span>"
 
         ,
 
@@ -310,13 +320,11 @@ const ARBOLES = {
         
         "<Strong>Leve < 3mm o Moderado 3mm - 5mm</Strong>"
         
-        +
-        
-        "La clasificación del apiñamiento mandibular anterior suele establecerse a partir de la discrepancia medida en milímetros, y aunque los rangos pueden variar ligeramente entre autores, la literatura ofrece parámetros comunes que permiten unificar criterios. Con ello, se considera apiñamiento leve cuando la discrepancia es menor a 3 mm, moderado cuando se encuentra entre 3 y 5 mm, y severo cuando supera los 5 mm."
+        +"<br>La clasificación del apiñamiento mandibular anterior suele establecerse a partir de la discrepancia medida en milímetros, y aunque los rangos pueden variar ligeramente entre autores, la literatura ofrece parámetros comunes que permiten unificar criterios. Con ello, se considera apiñamiento leve cuando la discrepancia es menor a 3 mm, moderado cuando se encuentra entre 3 y 5 mm, y severo cuando supera los 5 mm."
 
         +
 
-        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> Estos valores se adoptan en este trabajo porque coinciden con los rangos reportados en estudios clave: Owais et al. (2011) describieron el apiñamiento leve como menor a 2 mm."
+        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> Estos valores se adoptan porque coinciden con los rangos reportados en estudios clave: Owais et al. (2011) describieron el apiñamiento leve como menor a 2 mm."
 
         +
 
@@ -324,7 +332,7 @@ const ARBOLES = {
 
         +
         
-        "<br><span class=\"badge-ne-moderado\">(NE: moderado, GRADE)</span> incluyeron discrepancias entre 3 y 8 mm dentro de categorías leves a moderadas;"
+        "<br><span class=\"badge-ne-moderado\">(NE: moderado, GRADE)</span> Davidovitch et al. (1997) incluyeron discrepancias entre 3 y 8 mm dentro de categorías leves a moderadas;"
 
         +
 
@@ -362,6 +370,10 @@ const ARBOLES = {
 
         "<br>Con ello, los rangos adoptados (< 3 mm, 3–5 mm y > 5 mm) se fundamentan en patrones consistentes dentro de la literatura y permiten describir la severidad del apiñamiento con criterios claros y comparables entre estudios."
 
+        +
+
+        "<span class='cita-biblio'>Khalaf K, Mustafa A, Wazzan M, Omar M, Estaitia M, El-Kishawi M. Clinical effectiveness of space maintainers and space regainers in the mixed dentition: A systematic review. Vol. 34, Saudi Dental Journal. 2022.</span>"
+
         ,
 
         imagen: "./image/Apiñamiento1_4.png",
@@ -387,35 +399,51 @@ const ARBOLES = {
 
         descripcion: 
         
-        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> El apiñamiento mandibular anterior se relaciona principalmente con una discrepancia entre el tamaño de los dientes y las dimensiones del arco, afectando tanto la longitud como la anchura. En el plano longitudinal, la disminución del perímetro de arco suele estar asociada a la migración mesial de los primeros molares permanentes hacia el espacio remanente que dejan los molares temporales tras su exfoliación o pérdida prematura, lo cual reduce el espacio disponible para la alineación incisiva. Los estudios longitudinales describen pérdidas naturales de entre 0,44 y 2–4 mm por cuadrante, relacionadas con movimientos mesiales progresivos y con cierta inclinación lingual de los incisivos durante la transición hacia la dentición permanente."
+        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> El apiñamiento mandibular anterior se relaciona principalmente con una discrepancia entre el tamaño de los dientes y las dimensiones del arco, afectando tanto la longitud como la anchura. En el plano longitudinal, la disminución del perímetro de arco suele estar asociada a la migración mesial de los primeros molares permanentes hacia el espacio remanente que dejan los molares temporales tras su exfoliación o pérdida prematura, lo cual reduce el espacio disponible para la alineación incisiva."
         
         +
 
-        "<br><span class='cita-biblio'>Owais AI, Rousan ME, Badran SA, Abu Alhaija ES. Effectiveness of a lower lingual arch as a space holding device. Eur J Orthod. 2011 Feb;33:37–42. </span>"
+        "<span class='cita-biblio'>Owais AI, Rousan ME, Badran SA, Abu Alhaija ES. Effectiveness of a lower lingual arch as a space holding device. Eur J Orthod. 2011 Feb;33:37–42. </span>"
+        
+        +
+
+        "<span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22.</span>"
+        "<span class='cita-biblio'>Khalaf K, Mustafa A, Wazzan M, Omar M, Estaitia M, El-Kishawi M. Clinical effectiveness of space maintainers and space regainers in the mixed dentition: A systematic review. Saudi Dent J. 2022 Feb;34:75–86.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Khalaf K, Mustafa A, Wazzan M, Omar M, Estaitia M, El-Kishawi M. Clinical effectiveness of space maintainers and space regainers in the mixed dentition: A systematic review. Saudi Dent J. 2022 Feb;34:75–86.</span>"
+        "<span class='cita-biblio'>Rebellato J, Lindauer SJ, Rubenstein LK, Isaacson RJ, Davidovitch M, Vroom K. Lower arch perimeter preservation using the lingual arch. Am J Orthod Dentofacial Orthop. 1997;112(4).</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Brennan MM, Gianelly AA. The use of the lingual arch in the mixed dentition to resolve incisor crowding. Am J Orthod Dentofacial Orthop. 2000;117:81–5.</span>"
+        "<span class='cita-biblio'>Brennan MM, Gianelly AA. The use of the lingual arch in the mixed dentition to resolve incisor crowding. Am J Orthod Dentofacial Orthop. 2000;117:81–5.</span>"
+
+        +
+        
+        "<br>Los estudios longitudinales describen pérdidas naturales de entre 0,44 y 2–4 mm por cuadrante, relacionadas con movimientos mesiales progresivos y con cierta inclinación lingual de los incisivos durante la transición hacia la dentición permanente."
+        
+        +
+
+        "<span class='cita-biblio'>Davidovitch M, McInnis D, Lindauer SJ. The effects of lip bumper therapy in the mixed dentition. Am J Orthod Dentofacial Orthop. 1997;111(1).</span>"
+        
+        +
+
+        "<span class='cita-biblio'>Kau CH, Durning P, Richmond S, Miotti FA, Harzer W. Extractions as a form of interception in the developing dentition: A randomized controlled trial. J Orthod. 2004;31(2).</span>"
 
         +
 
-        "<br><span class='cita-biblio'>dos Santos CCO, da Rosa Moreira Bastos RT, Bellini-Pereira SA, Garib D, Normando D. Spontaneous changes in mandibular incisor crowding from mixed to permanent dentition: a systematic review. Vol. 24, Progress in Orthodontics. Springer Science and Business Media Deutschland GmbH; 2023.</span>"
+        "<span class='cita-biblio'>Tai K, Hotokezaka H, Park JH, Tai H, Miyajima K, Choi M, et al. Preliminary cone-beam computed tomography study evaluating dental and skeletal changes after treatment with a mandibular Schwarz appliance. American Journal of Orthodontics and Dentofacial Orthopedics. 2010;138(3).</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Arslan SG, Kama JD, Şahin S, Hamamci O. Longitudinal changes in dental arches from mixed to permanent dentition in a Turkish population. Am J Orthod Dentofac Orthop. 2007;132:576.e15-576.e21.</span>"
+        "<span class='cita-biblio'>Raucci G, Pacheĉo-Pereira C, Elyasi M, D’Apuzzo F, Flores-Mir C, Perillo L. Short-and long-Term evaluation of mandibular dental arch dimensional changes in patients treated with a lip bumper during mixed dentition followed by fixed appliances. Angle Orthodontist. 2016;86(5).</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Sinclair PM, Little RM. Maturation of untreated normal occlusions. Am J Orthod. 1983;83:114–23.</span>"
+        "<span class='cita-biblio'>Hagberg C. The alignment of permanent mandibular incisors in children. A longitudinal prospective study. Eur J Orthod. 1994;16(2).</span>"
 
         +
 
@@ -423,19 +451,23 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>Davidovitch M, McInnis D, Lindauer SJ. The effects of lip bumper therapy in the mixed dentition. Am J Orthod Dentofacial Orthop. 1997;111:52–8.</span>"
+        "<span class='cita-biblio'>Davidovitch M, McInnis D, Lindauer SJ. The effects of lip bumper therapy in the mixed dentition. Am J Orthod Dentofacial Orthop. 1997;111:52–8.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Kau CH, Durning P, Richmond S, Miotti FA, Harzer W. Extractions as a form of interception in the developing dentition: a randomized controlled trial. J Orthod. 2004 Jun;31:107–14.</span>"
+        "<span class='cita-biblio'>Kau CH, Durning P, Richmond S, Miotti FA, Harzer W. Extractions as a form of interception in the developing dentition: a randomized controlled trial. J Orthod. 2004 Jun;31:107–14.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Tai K, Hotokezaka H, Park JH, Tai H, Miyajima K, Choi M, et al. Preliminary cone-beam computed tomography study evaluating dental and skeletal changes after treatment with a mandibular Schwarz appliance. Am J Orthod Dentofac Orthop. 2010;138:262.e1-262.e11.</span>"
+        "<span class='cita-biblio'>Tai K, Hotokezaka H, Park JH, Tai H, Miyajima K, Choi M, et al. Preliminary cone-beam computed tomography study evaluating dental and skeletal changes after treatment with a mandibular Schwarz appliance. Am J Orthod Dentofac Orthop. 2010;138:262.e1-262.e11.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Hagberg C. The alignment of permanent mandibular incisors in children. A longitudinal prospective study. Eur J Orthod. 1994 Apr;16:121–9.</span>"
+        "<span class='cita-biblio'>Hagberg C. The alignment of permanent mandibular incisors in children. A longitudinal prospective study. Eur J Orthod. 1994 Apr;16:121–9.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Raucci G, Pacheĉo-Pereira C, Elyasi M, D’Apuzzo F, Flores-Mir C, Perillo L. Short-and long-Term evaluation of mandibular dental arch dimensional changes in patients treated with a lip bumper during mixed dentition followed by fixed appliances. Angle Orthodontist. 2016;86(5).</span>"
 
         +
 
@@ -443,19 +475,19 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>Turner S, Harrison JE, Sharif FNJ, Owens D, Millett DT. Orthodontic treatment for crowded teeth in children. Vol. 2021, Cochrane Database of Systematic Reviews. John Wiley and Sons Ltd; 2021.</span>"
+        "<span class='cita-biblio'>Turner S, Harrison JE, Sharif FNJ, Owens D, Millett DT. Orthodontic treatment for crowded teeth in children. Vol. 2021, Cochrane Database of Systematic Reviews. John Wiley and Sons Ltd; 2021.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Sampson WJ, Richards LC. Prediction of mandibular incisor and canine crowding changes in the mixed dentition. Am J Orthod. 1985;88:47–63.</span>"
+        "<span class='cita-biblio'>Sampson WJ, Richards LC. Prediction of mandibular incisor and canine crowding changes in the mixed dentition. Am J Orthod. 1985;88:47–63.</span>"
 
         ,
 
         imagen: "./image/Apiñamiento1_6.png",
 
-        si: "leve",
+        si: "activo",
 
-        no: "activo",
+        no: "leve",
 
         botones: [
 
@@ -505,23 +537,23 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>dos Santos CCO, da Rosa Moreira Bastos RT, Bellini-Pereira SA, Garib D, Normando D. Spontaneous changes in mandibular incisor crowding from mixed to permanent dentition: a systematic review. Vol. 24, Progress in Orthodontics. Springer Science and Business Media Deutschland GmbH; 2023.</span>"
+        "<span class='cita-biblio'>dos Santos CCO, da Rosa Moreira Bastos RT, Bellini-Pereira SA, Garib D, Normando D. Spontaneous changes in mandibular incisor crowding from mixed to permanent dentition: a systematic review. Vol. 24, Progress in Orthodontics. Springer Science and Business Media Deutschland GmbH; 2023.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Kau CH, Durning P, Richmond S, Miotti FA, Harzer W. Extractions as a form of interception in the developing dentition: a randomized controlled trial. J Orthod. 2004 Jun;31:107–14.</span>"
+        "<span class='cita-biblio'>Kau CH, Durning P, Richmond S, Miotti FA, Harzer W. Extractions as a form of interception in the developing dentition: a randomized controlled trial. J Orthod. 2004 Jun;31:107–14.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Arslan SG, Kama JD, Şahin S, Hamamci O. Longitudinal changes in dental arches from mixed to permanent dentition in a Turkish population. Am J Orthod Dentofac Orthop. 2007;132:576.e15-576.e21. </span>"
+        "<span class='cita-biblio'>Arslan SG, Kama JD, Şahin S, Hamamci O. Longitudinal changes in dental arches from mixed to permanent dentition in a Turkish population. Am J Orthod Dentofac Orthop. 2007;132:576.e15-576.e21. </span>"
 
         +
 
-        "<br><span class='cita-biblio'>Sinclair PM, Little RM. Maturation of untreated normal occlusions. Am J Orthod. 1983;83:114–23.</span>"
+        "<span class='cita-biblio'>Sinclair PM, Little RM. Maturation of untreated normal occlusions. Am J Orthod. 1983;83:114–23.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Hagberg C. The alignment of permanent mandibular incisors in children. A longitudinal prospective study. Eur J Orthod. 1994 Apr;16:121–9.</span>"
+        "<span class='cita-biblio'>Hagberg C. The alignment of permanent mandibular incisors in children. A longitudinal prospective study. Eur J Orthod. 1994 Apr;16:121–9.</span>"
 
         +
 
@@ -529,19 +561,19 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>dos Santos CCO, da Rosa Moreira Bastos RT, Bellini-Pereira SA, Garib D, Normando D. Spontaneous changes in mandibular incisor crowding from mixed to permanent dentition: a systematic review. Vol. 24, Progress in Orthodontics. Springer Science and Business Media Deutschland GmbH; 2023.</span>"
+        "<span class='cita-biblio'>dos Santos CCO, da Rosa Moreira Bastos RT, Bellini-Pereira SA, Garib D, Normando D. Spontaneous changes in mandibular incisor crowding from mixed to permanent dentition: a systematic review. Vol. 24, Progress in Orthodontics. Springer Science and Business Media Deutschland GmbH; 2023.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Arslan SG, Kama JD, Şahin S, Hamamci O. Longitudinal changes in dental arches from mixed to permanent dentition in a Turkish population. Am J Orthod Dentofac Orthop. 2007;132:576.e15-576.e21. </span>"
+        "<span class='cita-biblio'>Arslan SG, Kama JD, Şahin S, Hamamci O. Longitudinal changes in dental arches from mixed to permanent dentition in a Turkish population. Am J Orthod Dentofac Orthop. 2007;132:576.e15-576.e21. </span>"
 
         +
 
-        "<br><span class='cita-biblio'>Sinclair PM, Little RM. Maturation of untreated normal occlusions. Am J Orthod. 1983;83:114–23.</span>"
+        "<span class='cita-biblio'>Sinclair PM, Little RM. Maturation of untreated normal occlusions. Am J Orthod. 1983;83:114–23.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Hagberg C. The alignment of permanent mandibular incisors in children. A longitudinal prospective study. Eur J Orthod. 1994 Apr;16:121–9.</span>"
+        "<span class='cita-biblio'>Hagberg C. The alignment of permanent mandibular incisors in children. A longitudinal prospective study. Eur J Orthod. 1994 Apr;16:121–9.</span>"
 
         +
 
@@ -549,15 +581,15 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22. </span>"
+        "<span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22. </span>"
 
         +
 
-        "<br><span class='cita-biblio'>dos Santos CCO, da Rosa Moreira Bastos RT, Bellini-Pereira SA, Garib D, Normando D. Spontaneous changes in mandibular incisor crowding from mixed to permanent dentition: a systematic review. Vol. 24, Progress in Orthodontics. Springer Science and Business Media Deutschland GmbH; 2023.</span>"
+        "<span class='cita-biblio'>dos Santos CCO, da Rosa Moreira Bastos RT, Bellini-Pereira SA, Garib D, Normando D. Spontaneous changes in mandibular incisor crowding from mixed to permanent dentition: a systematic review. Vol. 24, Progress in Orthodontics. Springer Science and Business Media Deutschland GmbH; 2023.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Turner S, Harrison JE, Sharif FNJ, Owens D, Millett DT. Orthodontic treatment for crowded teeth in children. Vol. 2021, Cochrane Database of Systematic Reviews. John Wiley and Sons Ltd; 2021.</span>"
+        "<span class='cita-biblio'>Turner S, Harrison JE, Sharif FNJ, Owens D, Millett DT. Orthodontic treatment for crowded teeth in children. Vol. 2021, Cochrane Database of Systematic Reviews. John Wiley and Sons Ltd; 2021.</span>"
         
         ,
 
@@ -702,23 +734,23 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>Owais AI, Rousan ME, Badran SA, Abu Alhaija ES. Effectiveness of a lower lingual arch as a space holding device. Eur J Orthod. 2011 Feb;33:37–42.</span>"
+        "<span class='cita-biblio'>Owais AI, Rousan ME, Badran SA, Abu Alhaija ES. Effectiveness of a lower lingual arch as a space holding device. Eur J Orthod. 2011 Feb;33:37–42.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22. </span>"
+        "<span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22. </span>"
 
         +
 
-        "<br><span class='cita-biblio'>Khalaf K, Mustafa A, Wazzan M, Omar M, Estaitia M, El-Kishawi M. Clinical effectiveness of space maintainers and space regainers in the mixed dentition: A systematic review. Saudi Dent J. 2022 Feb;34:75–86.</span>"
+        "<span class='cita-biblio'>Khalaf K, Mustafa A, Wazzan M, Omar M, Estaitia M, El-Kishawi M. Clinical effectiveness of space maintainers and space regainers in the mixed dentition: A systematic review. Saudi Dent J. 2022 Feb;34:75–86.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Brennan MM, Gianelly AA. The use of the lingual arch in the mixed dentition to resolve incisor crowding. Am J Orthod Dentofacial Orthop. 2000;117:81–5. </span>"
+        "<span class='cita-biblio'>Brennan MM, Gianelly AA. The use of the lingual arch in the mixed dentition to resolve incisor crowding. Am J Orthod Dentofacial Orthop. 2000;117:81–5. </span>"
 
         +
 
-        "<br><span class='cita-biblio'>Ciftci V, Uzel A, Dogan MC. Evaluation of skeletal and dental effects of lower lingual arches. J Clin Pediatr Dent. 2018;42:469–74.</span>"
+        "<span class='cita-biblio'>Ciftci V, Uzel A, Dogan MC. Evaluation of skeletal and dental effects of lower lingual arches. J Clin Pediatr Dent. 2018;42:469–74.</span>"
 
         +
 
@@ -726,19 +758,19 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>Owais AI, Rousan ME, Badran SA, Abu Alhaija ES. Effectiveness of a lower lingual arch as a space holding device. Eur J Orthod. 2011 Feb;33:37–42. </span>"
+        "<span class='cita-biblio'>Owais AI, Rousan ME, Badran SA, Abu Alhaija ES. Effectiveness of a lower lingual arch as a space holding device. Eur J Orthod. 2011 Feb;33:37–42. </span>"
 
         +
 
-        "<br><span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22.</span>"
+        "<span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Brennan MM, Gianelly AA. The use of the lingual arch in the mixed dentition to resolve incisor crowding. Am J Orthod Dentofacial Orthop. 2000;117:81–5.</span>"
+        "<span class='cita-biblio'>Brennan MM, Gianelly AA. The use of the lingual arch in the mixed dentition to resolve incisor crowding. Am J Orthod Dentofacial Orthop. 2000;117:81–5.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Khalaf K, Mustafa A, Wazzan M, Omar M, Estaitia M, El-Kishawi M. Clinical effectiveness of space maintainers and space regainers in the mixed dentition: A systematic review. Saudi Dent J. 2022 Feb;34:75–86.</span>"
+        "<span class='cita-biblio'>Khalaf K, Mustafa A, Wazzan M, Omar M, Estaitia M, El-Kishawi M. Clinical effectiveness of space maintainers and space regainers in the mixed dentition: A systematic review. Saudi Dent J. 2022 Feb;34:75–86.</span>"
       
         +
 
@@ -746,19 +778,19 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>Owais AI, Rousan ME, Badran SA, Abu Alhaija ES. Effectiveness of a lower lingual arch as a space holding device. Eur J Orthod. 2011 Feb;33:37–42.</span>"
+        "<span class='cita-biblio'>Owais AI, Rousan ME, Badran SA, Abu Alhaija ES. Effectiveness of a lower lingual arch as a space holding device. Eur J Orthod. 2011 Feb;33:37–42.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Rebellato J, Lindauer SJ, Rubenstein LK, Isaacson RJ, Davidovitch M, Vroom K. Lower arch perimeter preservation using the lingual arch. Am J Orthod Dentofacial Orthop. 1997;112:449–56.</span>"
+        "<span class='cita-biblio'>Rebellato J, Lindauer SJ, Rubenstein LK, Isaacson RJ, Davidovitch M, Vroom K. Lower arch perimeter preservation using the lingual arch. Am J Orthod Dentofacial Orthop. 1997;112:449–56.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22.</span>"
+        "<span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22.</span>"
         
         +
 
-        "<br><span class='cita-biblio'>Turner S, Harrison JE, Sharif FNJ, Owens D, Millett DT. Orthodontic treatment for crowded teeth in children. Vol. 2021, Cochrane Database of Systematic Reviews. John Wiley and Sons Ltd; 2021.</span>"
+        "<span class='cita-biblio'>Turner S, Harrison JE, Sharif FNJ, Owens D, Millett DT. Orthodontic treatment for crowded teeth in children. Vol. 2021, Cochrane Database of Systematic Reviews. John Wiley and Sons Ltd; 2021.</span>"
         
         ,
 
@@ -787,7 +819,7 @@ const ARBOLES = {
         
         +
 
-        "<br><br><img src='./image/im56.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        "<br><br><img src='./image/Im50.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
 
         +
 
@@ -795,23 +827,23 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>Owais AI, Rousan ME, Badran SA, Abu Alhaija ES. Effectiveness of a lower lingual arch as a space holding device. Eur J Orthod. 2011 Feb;33:37–42.</span>"
+        "<span class='cita-biblio'>Owais AI, Rousan ME, Badran SA, Abu Alhaija ES. Effectiveness of a lower lingual arch as a space holding device. Eur J Orthod. 2011 Feb;33:37–42.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22. </span>"
+        "<span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22. </span>"
 
         +
 
-        "<br><span class='cita-biblio'>Rebellato J, Lindauer SJ, Rubenstein LK, Isaacson RJ, Davidovitch M, Vroom K. Lower arch perimeter preservation using the lingual arch. Am J Orthod Dentofacial Orthop. 1997;112:449–56.</span>"
+        "<span class='cita-biblio'>Rebellato J, Lindauer SJ, Rubenstein LK, Isaacson RJ, Davidovitch M, Vroom K. Lower arch perimeter preservation using the lingual arch. Am J Orthod Dentofacial Orthop. 1997;112:449–56.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Brennan MM, Gianelly AA. The use of the lingual arch in the mixed dentition to resolve incisor crowding. Am J Orthod Dentofacial Orthop. 2000;117:81–5. </span>"
+        "<span class='cita-biblio'>Brennan MM, Gianelly AA. The use of the lingual arch in the mixed dentition to resolve incisor crowding. Am J Orthod Dentofacial Orthop. 2000;117:81–5. </span>"
 
         +
 
-        "<br><span class='cita-biblio'>Ciftci V, Uzel A, Dogan MC. Evaluation of skeletal and dental effects of lower lingual arches. J Clin Pediatr Dent. 2018;42:469–74.</span>"
+        "<span class='cita-biblio'>Ciftci V, Uzel A, Dogan MC. Evaluation of skeletal and dental effects of lower lingual arches. J Clin Pediatr Dent. 2018;42:469–74.</span>"
 
         +
 
@@ -819,19 +851,19 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>Owais AI, Rousan ME, Badran SA, Abu Alhaija ES. Effectiveness of a lower lingual arch as a space holding device. Eur J Orthod. 2011 Feb;33:37–42.</span>"
+        "<span class='cita-biblio'>Owais AI, Rousan ME, Badran SA, Abu Alhaija ES. Effectiveness of a lower lingual arch as a space holding device. Eur J Orthod. 2011 Feb;33:37–42.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22. </span>"
+        "<span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22. </span>"
 
         +
 
-        "<br><span class='cita-biblio'>Khalaf K, Mustafa A, Wazzan M, Omar M, Estaitia M, El-Kishawi M. Clinical effectiveness of space maintainers and space regainers in the mixed dentition: A systematic review. Saudi Dent J. 2022 Feb;34:75–86.</span>"
+        "<span class='cita-biblio'>Khalaf K, Mustafa A, Wazzan M, Omar M, Estaitia M, El-Kishawi M. Clinical effectiveness of space maintainers and space regainers in the mixed dentition: A systematic review. Saudi Dent J. 2022 Feb;34:75–86.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Brennan MM, Gianelly AA. The use of the lingual arch in the mixed dentition to resolve incisor crowding. Am J Orthod Dentofacial Orthop. 2000;117:81–5. </span>"
+        "<span class='cita-biblio'>Brennan MM, Gianelly AA. The use of the lingual arch in the mixed dentition to resolve incisor crowding. Am J Orthod Dentofacial Orthop. 2000;117:81–5. </span>"
 
         +
 
@@ -839,31 +871,31 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>Owais AI, Rousan ME, Badran SA, Abu Alhaija ES. Effectiveness of a lower lingual arch as a space holding device. Eur J Orthod. 2011 Feb;33:37–42.</span>"
+        "<span class='cita-biblio'>Owais AI, Rousan ME, Badran SA, Abu Alhaija ES. Effectiveness of a lower lingual arch as a space holding device. Eur J Orthod. 2011 Feb;33:37–42.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22.</span>"
+        "<span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Khalaf K, Mustafa A, Wazzan M, Omar M, Estaitia M, El-Kishawi M. Clinical effectiveness of space maintainers and space regainers in the mixed dentition: A systematic review. Saudi Dent J. 2022 Feb;34:75–86.</span>"
+        "<span class='cita-biblio'>Khalaf K, Mustafa A, Wazzan M, Omar M, Estaitia M, El-Kishawi M. Clinical effectiveness of space maintainers and space regainers in the mixed dentition: A systematic review. Saudi Dent J. 2022 Feb;34:75–86.</span>"
         
         +
 
-        "<br><span class='cita-biblio'>Rebellato J, Lindauer SJ, Rubenstein LK, Isaacson RJ, Davidovitch M, Vroom K. Lower arch perimeter preservation using the lingual arch. Am J Orthod Dentofacial Orthop. 1997;112:449–56.</span>"
+        "<span class='cita-biblio'>Rebellato J, Lindauer SJ, Rubenstein LK, Isaacson RJ, Davidovitch M, Vroom K. Lower arch perimeter preservation using the lingual arch. Am J Orthod Dentofacial Orthop. 1997;112:449–56.</span>"
         
         +
 
-        "<br><span class='cita-biblio'>Brennan MM, Gianelly AA. The use of the lingual arch in the mixed dentition to resolve incisor crowding. Am J Orthod Dentofacial Orthop. 2000;117:81–5.</span>"
+        "<span class='cita-biblio'>Brennan MM, Gianelly AA. The use of the lingual arch in the mixed dentition to resolve incisor crowding. Am J Orthod Dentofacial Orthop. 2000;117:81–5.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Ciftci V, Uzel A, Dogan MC. Evaluation of skeletal and dental effects of lower lingual arches. J Clin Pediatr Dent. 2018;42:469–74.</span>"
+        "<span class='cita-biblio'>Ciftci V, Uzel A, Dogan MC. Evaluation of skeletal and dental effects of lower lingual arches. J Clin Pediatr Dent. 2018;42:469–74.</span>"
         
         +
 
-        "<br><span class='cita-biblio'>Turner S, Harrison JE, Sharif FNJ, Owens D, Millett DT. Orthodontic treatment for crowded teeth in children. Vol. 2021, Cochrane Database of Systematic Reviews. John Wiley and Sons Ltd; 2021.</span>"
+        "<span class='cita-biblio'>Turner S, Harrison JE, Sharif FNJ, Owens D, Millett DT. Orthodontic treatment for crowded teeth in children. Vol. 2021, Cochrane Database of Systematic Reviews. John Wiley and Sons Ltd; 2021.</span>"
         
         ,
 
@@ -890,19 +922,19 @@ const ARBOLES = {
 
         descripcion: 
         
-        "La alteración de la secuencia de erupción dental se entiende, en el contexto del apiñamiento mandibular anterior, como la inversión del orden fisiológico de erupción entre el canino permanente y el primer premolar. En lugar de la secuencia habitual 3-4-5, se observa una erupción 4-3-5, es decir, el canino erupciona antes que el primer premolar. En algunos casos, esta alteración también incluye una erupción marcadamente precoz del canino en relación con el segundo premolar. Este patrón anómalo se reconoce como un factor etiológico que contribuye al desarrollo o agravamiento del apiñamiento incisivo durante la dentición mixta tardía."
+        "<br><br>La alteración de la secuencia de erupción dental se entiende, en el contexto del apiñamiento mandibular anterior, como la inversión del orden fisiológico de erupción entre el canino permanente y el primer premolar. En lugar de la secuencia habitual 3-4-5, se observa una erupción 4-3-5, es decir, el canino erupciona antes que el primer premolar. En algunos casos, esta alteración también incluye una erupción marcadamente precoz del canino en relación con el segundo premolar. Este patrón anómalo se reconoce como un factor etiológico que contribuye al desarrollo o agravamiento del apiñamiento incisivo durante la dentición mixta tardía."
 
         +
 
-        "<br>La evidencia disponible respalda esta asociación.<br><span class=\"badge-ne-moderado\">(NE: Moderado, GRADE)</span> encontraron que los niños con apiñamiento moderado a severo presentaban un avance eruptivo significativamente mayor del canino permanente (65,82 ± 13,00 %) respecto al primer premolar (78,92 ± 10,15 %), mientras que en el grupo sin apiñamiento ambos dientes mostraban porcentajes de erupción prácticamente simultáneos (74,12 % y 75,47 %, respectivamente; p < 0,001). <br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> De forma concordante, Sampson (1985) y Kau et al. (2004) describieron que la erupción temprana del canino ocupa de manera anticipada tanto el espacio primate como el espacio destinado al primer premolar, lo que favorece el desplazamiento del segmento anterior y el incremento de la irregularidad incisiva"
+        "<br><br>La evidencia disponible respalda esta asociación.<br><span class=\"badge-ne-moderado\">(NE: Moderado, GRADE)</span> encontraron que los niños con apiñamiento moderado a severo presentaban un avance eruptivo significativamente mayor del canino permanente (65,82 ± 13,00 %) respecto al primer premolar (78,92 ± 10,15 %), mientras que en el grupo sin apiñamiento ambos dientes mostraban porcentajes de erupción prácticamente simultáneos (74,12 % y 75,47 %, respectivamente; p < 0,001). <br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> De forma concordante, Sampson (1985) y Kau et al. (2004) describieron que la erupción temprana del canino ocupa de manera anticipada tanto el espacio primate como el espacio destinado al primer premolar, lo que favorece el desplazamiento del segmento anterior y el incremento de la irregularidad incisiva"
         
         +
 
-        "<br><span class='cita-biblio'>Kau CH, Durning P, Richmond S, Miotti FA, Harzer W. Extractions as a form of interception in the developing dentition: a randomized controlled trial. J Orthod. 2004 Jun;31:107–14.</span>"
+        "<span class='cita-biblio'>Kau CH, Durning P, Richmond S, Miotti FA, Harzer W. Extractions as a form of interception in the developing dentition: a randomized controlled trial. J Orthod. 2004 Jun;31:107–14.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Sampson WJ, Richards LC. Prediction of mandibular incisor and canine crowding changes in the mixed dentition. Am J Orthod. 1985;88:47–63.</span>"
+        "<span class='cita-biblio'>Sampson WJ, Richards LC. Prediction of mandibular incisor and canine crowding changes in the mixed dentition. Am J Orthod. 1985;88:47–63.</span>"
 
         +
 
@@ -910,19 +942,19 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>dos Santos CCO, da Rosa Moreira Bastos RT, Bellini-Pereira SA, Garib D, Normando D. Spontaneous changes in mandibular incisor crowding from mixed to permanent dentition: a systematic review. Vol. 24, Progress in Orthodontics. Springer Science and Business Media Deutschland GmbH; 2023.</span>"
+        "<span class='cita-biblio'>dos Santos CCO, da Rosa Moreira Bastos RT, Bellini-Pereira SA, Garib D, Normando D. Spontaneous changes in mandibular incisor crowding from mixed to permanent dentition: a systematic review. Vol. 24, Progress in Orthodontics. Springer Science and Business Media Deutschland GmbH; 2023.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Turner S, Harrison JE, Sharif FNJ, Owens D, Millett DT. Orthodontic treatment for crowded teeth in children. Vol. 2021, Cochrane Database of Systematic Reviews. John Wiley and Sons Ltd; 2021. </span>"
+        "<span class='cita-biblio'>Turner S, Harrison JE, Sharif FNJ, Owens D, Millett DT. Orthodontic treatment for crowded teeth in children. Vol. 2021, Cochrane Database of Systematic Reviews. John Wiley and Sons Ltd; 2021. </span>"
 
         +
 
-        "<br><span class='cita-biblio'>Moshkelgosha V, Khosravifard N, Golkari A. Tooth eruption sequence and dental crowding: a case-control study. F1000Research. 2014;3:122.</span>"
+        "<span class='cita-biblio'>Golkari A, Moshkelgosha V, Khosravifard N. Tooth eruption sequence and dental crowding: A case-control study. F1000Res. 2014;3.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Sampson WJ, Richards LC. Prediction of mandibular incisor and canine crowding changes in the mixed dentition. Am J Orthod. 1985;88:47–63.</span>"
+        "<span class='cita-biblio'>Sampson WJ, Richards LC. Prediction of mandibular incisor and canine crowding changes in the mixed dentition. Am J Orthod. 1985;88:47–63.</span>"
 
         ,
 
@@ -961,23 +993,23 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>Owais AI, Rousan ME, Badran SA, Abu Alhaija ES. Effectiveness of a lower lingual arch as a space holding device. Eur J Orthod. 2011 Feb;33:37–42.</span>"
+        "<span class='cita-biblio'>Owais AI, Rousan ME, Badran SA, Abu Alhaija ES. Effectiveness of a lower lingual arch as a space holding device. Eur J Orthod. 2011 Feb;33:37–42.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22. </span>"
+        "<span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22. </span>"
 
         +
 
-        "<br><span class='cita-biblio'>Rebellato J, Lindauer SJ, Rubenstein LK, Isaacson RJ, Davidovitch M, Vroom K. Lower arch perimeter preservation using the lingual arch. Am J Orthod Dentofacial Orthop. 1997;112:449–56.</span>"
+        "<span class='cita-biblio'>Rebellato J, Lindauer SJ, Rubenstein LK, Isaacson RJ, Davidovitch M, Vroom K. Lower arch perimeter preservation using the lingual arch. Am J Orthod Dentofacial Orthop. 1997;112:449–56.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Brennan MM, Gianelly AA. The use of the lingual arch in the mixed dentition to resolve incisor crowding. Am J Orthod Dentofacial Orthop. 2000;117:81–5. </span>"
+        "<span class='cita-biblio'>Brennan MM, Gianelly AA. The use of the lingual arch in the mixed dentition to resolve incisor crowding. Am J Orthod Dentofacial Orthop. 2000;117:81–5. </span>"
 
         +
 
-        "<br><span class='cita-biblio'>Ciftci V, Uzel A, Dogan MC. Evaluation of skeletal and dental effects of lower lingual arches. J Clin Pediatr Dent. 2018;42:469–74.</span>"
+        "<span class='cita-biblio'>Ciftci V, Uzel A, Dogan MC. Evaluation of skeletal and dental effects of lower lingual arches. J Clin Pediatr Dent. 2018;42:469–74.</span>"
 
         +
 
@@ -985,19 +1017,19 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>Owais AI, Rousan ME, Badran SA, Abu Alhaija ES. Effectiveness of a lower lingual arch as a space holding device. Eur J Orthod. 2011 Feb;33:37–42.</span>"
+        "<span class='cita-biblio'>Owais AI, Rousan ME, Badran SA, Abu Alhaija ES. Effectiveness of a lower lingual arch as a space holding device. Eur J Orthod. 2011 Feb;33:37–42.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22. </span>"
+        "<span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22. </span>"
 
         +
 
-        "<br><span class='cita-biblio'>Khalaf K, Mustafa A, Wazzan M, Omar M, Estaitia M, El-Kishawi M. Clinical effectiveness of space maintainers and space regainers in the mixed dentition: A systematic review. Saudi Dent J. 2022 Feb;34:75–86.</span>"
+        "<span class='cita-biblio'>Khalaf K, Mustafa A, Wazzan M, Omar M, Estaitia M, El-Kishawi M. Clinical effectiveness of space maintainers and space regainers in the mixed dentition: A systematic review. Saudi Dent J. 2022 Feb;34:75–86.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Brennan MM, Gianelly AA. The use of the lingual arch in the mixed dentition to resolve incisor crowding. Am J Orthod Dentofacial Orthop. 2000;117:81–5. </span>"
+        "<span class='cita-biblio'>Brennan MM, Gianelly AA. The use of the lingual arch in the mixed dentition to resolve incisor crowding. Am J Orthod Dentofacial Orthop. 2000;117:81–5. </span>"
 
         +
 
@@ -1005,31 +1037,31 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>Owais AI, Rousan ME, Badran SA, Abu Alhaija ES. Effectiveness of a lower lingual arch as a space holding device. Eur J Orthod. 2011 Feb;33:37–42.</span>"
+        "<span class='cita-biblio'>Owais AI, Rousan ME, Badran SA, Abu Alhaija ES. Effectiveness of a lower lingual arch as a space holding device. Eur J Orthod. 2011 Feb;33:37–42.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22.</span>"
+        "<span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Khalaf K, Mustafa A, Wazzan M, Omar M, Estaitia M, El-Kishawi M. Clinical effectiveness of space maintainers and space regainers in the mixed dentition: A systematic review. Saudi Dent J. 2022 Feb;34:75–86.</span>"
+        "<span class='cita-biblio'>Khalaf K, Mustafa A, Wazzan M, Omar M, Estaitia M, El-Kishawi M. Clinical effectiveness of space maintainers and space regainers in the mixed dentition: A systematic review. Saudi Dent J. 2022 Feb;34:75–86.</span>"
         
         +
 
-        "<br><span class='cita-biblio'>Rebellato J, Lindauer SJ, Rubenstein LK, Isaacson RJ, Davidovitch M, Vroom K. Lower arch perimeter preservation using the lingual arch. Am J Orthod Dentofacial Orthop. 1997;112:449–56.</span>"
+        "<span class='cita-biblio'>Rebellato J, Lindauer SJ, Rubenstein LK, Isaacson RJ, Davidovitch M, Vroom K. Lower arch perimeter preservation using the lingual arch. Am J Orthod Dentofacial Orthop. 1997;112:449–56.</span>"
         
         +
 
-        "<br><span class='cita-biblio'>Brennan MM, Gianelly AA. The use of the lingual arch in the mixed dentition to resolve incisor crowding. Am J Orthod Dentofacial Orthop. 2000;117:81–5.</span>"
+        "<span class='cita-biblio'>Brennan MM, Gianelly AA. The use of the lingual arch in the mixed dentition to resolve incisor crowding. Am J Orthod Dentofacial Orthop. 2000;117:81–5.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Ciftci V, Uzel A, Dogan MC. Evaluation of skeletal and dental effects of lower lingual arches. J Clin Pediatr Dent. 2018;42:469–74.</span>"
+        "<span class='cita-biblio'>Ciftci V, Uzel A, Dogan MC. Evaluation of skeletal and dental effects of lower lingual arches. J Clin Pediatr Dent. 2018;42:469–74.</span>"
         
         +
 
-        "<br><span class='cita-biblio'>Turner S, Harrison JE, Sharif FNJ, Owens D, Millett DT. Orthodontic treatment for crowded teeth in children. Vol. 2021, Cochrane Database of Systematic Reviews. John Wiley and Sons Ltd; 2021.</span>"
+        "<span class='cita-biblio'>Turner S, Harrison JE, Sharif FNJ, Owens D, Millett DT. Orthodontic treatment for crowded teeth in children. Vol. 2021, Cochrane Database of Systematic Reviews. John Wiley and Sons Ltd; 2021.</span>"
         
         ,
 
@@ -1193,19 +1225,19 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>Owais AI, Rousan ME, Badran SA, Abu Alhaija ES. Effectiveness of a lower lingual arch as a space holding device. Eur J Orthod. 2011 Feb;33:37–42. </span>"
+        "<span class='cita-biblio'>Owais AI, Rousan ME, Badran SA, Abu Alhaija ES. Effectiveness of a lower lingual arch as a space holding device. Eur J Orthod. 2011 Feb;33:37–42. </span>"
 
         +
 
-        "<br><span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22.</span>"
+        "<span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Khalaf K, Mustafa A, Wazzan M, Omar M, Estaitia M, El-Kishawi M. Clinical effectiveness of space maintainers and space regainers in the mixed dentition: A systematic review. Saudi Dent J. 2022 Feb;34:75–86.</span>"
+        "<span class='cita-biblio'>Khalaf K, Mustafa A, Wazzan M, Omar M, Estaitia M, El-Kishawi M. Clinical effectiveness of space maintainers and space regainers in the mixed dentition: A systematic review. Saudi Dent J. 2022 Feb;34:75–86.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Sinclair PM, Little RM. Maturation of untreated normal occlusions. Am J Orthod. 1983;83:114–23. </span>"
+        "<span class='cita-biblio'>Sinclair PM, Little RM. Maturation of untreated normal occlusions. Am J Orthod. 1983;83:114–23. </span>"
 
         +
 
@@ -1240,7 +1272,7 @@ const ARBOLES = {
         
         +
 
-        "<br><br><img src='./image/im57.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        "<br><br><img src='./image/im51.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
 
         +
 
@@ -1248,15 +1280,15 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>Davidovitch M, McInnis D, Lindauer SJ. The effects of lip bumper therapy in the mixed dentition. Am J Orthod Dentofacial Orthop. 1997;111:52–8.</span>"
+        "<span class='cita-biblio'>Davidovitch M, McInnis D, Lindauer SJ. The effects of lip bumper therapy in the mixed dentition. Am J Orthod Dentofacial Orthop. 1997;111:52–8.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Raucci G, Pacheĉo-Pereira C, Elyasi M, D’Apuzzo F, Flores-Mir C, Perillo L. Short-and long-Term evaluation of mandibular dental arch dimensional changes in patients treated with a lip bumper during mixed dentition followed by fixed appliances. Angle Orthod. 2016 Sep;86:753–60.</span>"
+        "<span class='cita-biblio'>Raucci G, Pacheĉo-Pereira C, Elyasi M, D’Apuzzo F, Flores-Mir C, Perillo L. Short-and long-Term evaluation of mandibular dental arch dimensional changes in patients treated with a lip bumper during mixed dentition followed by fixed appliances. Angle Orthod. 2016 Sep;86:753–60.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Moshkelgosha V, Khosravifard N, Golkari A. Tooth eruption sequence and dental crowding: a case-control study. F1000Research. 2014;3:122.</span>"
+        "<span class='cita-biblio'>Moshkelgosha V, Khosravifard N, Golkari A. Tooth eruption sequence and dental crowding: a case-control study. F1000Research. 2014;3:122.</span>"
 
         +
 
@@ -1264,15 +1296,15 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>Davidovitch M, McInnis D, Lindauer SJ. The effects of lip bumper therapy in the mixed dentition. Am J Orthod Dentofacial Orthop. 1997;111:52–8.</span>"
+        "<span class='cita-biblio'>Davidovitch M, McInnis D, Lindauer SJ. The effects of lip bumper therapy in the mixed dentition. Am J Orthod Dentofacial Orthop. 1997;111:52–8.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Raucci G, Pacheĉo-Pereira C, Elyasi M, D’Apuzzo F, Flores-Mir C, Perillo L. Short-and long-Term evaluation of mandibular dental arch dimensional changes in patients treated with a lip bumper during mixed dentition followed by fixed appliances. Angle Orthod. 2016 Sep;86:753–60.</span>"
+        "<span class='cita-biblio'>Raucci G, Pacheĉo-Pereira C, Elyasi M, D’Apuzzo F, Flores-Mir C, Perillo L. Short-and long-Term evaluation of mandibular dental arch dimensional changes in patients treated with a lip bumper during mixed dentition followed by fixed appliances. Angle Orthod. 2016 Sep;86:753–60.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Moshkelgosha V, Khosravifard N, Golkari A. Tooth eruption sequence and dental crowding: a case-control study. F1000Research. 2014;3:122.</span>"
+        "<span class='cita-biblio'>Moshkelgosha V, Khosravifard N, Golkari A. Tooth eruption sequence and dental crowding: a case-control study. F1000Research. 2014;3:122.</span>"
 
         +
 
@@ -1280,23 +1312,23 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>Davidovitch M, McInnis D, Lindauer SJ. The effects of lip bumper therapy in the mixed dentition. Am J Orthod Dentofacial Orthop. 1997;111:52–8.</span>"
+        "<span class='cita-biblio'>Davidovitch M, McInnis D, Lindauer SJ. The effects of lip bumper therapy in the mixed dentition. Am J Orthod Dentofacial Orthop. 1997;111:52–8.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22</span>"
+        "<span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Khalaf K, Mustafa A, Wazzan M, Omar M, Estaitia M, El-Kishawi M. Clinical effectiveness of space maintainers and space regainers in the mixed dentition: A systematic review. Saudi Dent J. 2022 Feb;34:75–86.</span>"
+        "<span class='cita-biblio'>Khalaf K, Mustafa A, Wazzan M, Omar M, Estaitia M, El-Kishawi M. Clinical effectiveness of space maintainers and space regainers in the mixed dentition: A systematic review. Saudi Dent J. 2022 Feb;34:75–86.</span>"
         
         +
 
-        "<br><span class='cita-biblio'>Raucci G, Pacheĉo-Pereira C, Elyasi M, D’Apuzzo F, Flores-Mir C, Perillo L. Short-and long-Term evaluation of mandibular dental arch dimensional changes in patients treated with a lip bumper during mixed dentition followed by fixed appliances. Angle Orthod. 2016 Sep;86:753–60.</span>"
+        "<span class='cita-biblio'>Raucci G, Pacheĉo-Pereira C, Elyasi M, D’Apuzzo F, Flores-Mir C, Perillo L. Short-and long-Term evaluation of mandibular dental arch dimensional changes in patients treated with a lip bumper during mixed dentition followed by fixed appliances. Angle Orthod. 2016 Sep;86:753–60.</span>"
         
         +
 
-        "<br><span class='cita-biblio'>Turner S, Harrison JE, Sharif FNJ, Owens D, Millett DT. Orthodontic treatment for crowded teeth in children. Vol. 2021, Cochrane Database of Systematic Reviews. John Wiley and Sons Ltd; 2021.</span>"
+        "<span class='cita-biblio'>Turner S, Harrison JE, Sharif FNJ, Owens D, Millett DT. Orthodontic treatment for crowded teeth in children. Vol. 2021, Cochrane Database of Systematic Reviews. John Wiley and Sons Ltd; 2021.</span>"
         
         ,
 
@@ -1414,19 +1446,19 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>Arslan SG, Kama JD, Şahin S, Hamamci O. Longitudinal changes in dental arches from mixed to permanent dentition in a Turkish population. Am J Orthod Dentofac Orthop. 2007;132:576.e15-576.e21.</span>"
+        "<span class='cita-biblio'>Arslan SG, Kama JD, Şahin S, Hamamci O. Longitudinal changes in dental arches from mixed to permanent dentition in a Turkish population. Am J Orthod Dentofac Orthop. 2007;132:576.e15-576.e21.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Sinclair PM, Little RM. Maturation of untreated normal occlusions. Am J Orthod. 1983;83:114–23. </span>"
+        "<span class='cita-biblio'>Sinclair PM, Little RM. Maturation of untreated normal occlusions. Am J Orthod. 1983;83:114–23. </span>"
 
         +
 
-        "<br><span class='cita-biblio'>Hagberg C. The alignment of permanent mandibular incisors in children. A longitudinal prospective study. Eur J Orthod. 1994 Apr;16:121–9.</span>"
+        "<span class='cita-biblio'>Hagberg C. The alignment of permanent mandibular incisors in children. A longitudinal prospective study. Eur J Orthod. 1994 Apr;16:121–9.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Sinclair PM, Little RM. Maturation of untreated normal occlusions. Am J Orthod. 1983;83:114–23. </span>"
+        "<span class='cita-biblio'>Sinclair PM, Little RM. Maturation of untreated normal occlusions. Am J Orthod. 1983;83:114–23. </span>"
 
         +
 
@@ -1434,31 +1466,31 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>Davidovitch M, McInnis D, Lindauer SJ. The effects of lip bumper therapy in the mixed dentition. Am J Orthod Dentofacial Orthop. 1997;111:52–8.</span>"
+        "<span class='cita-biblio'>Davidovitch M, McInnis D, Lindauer SJ. The effects of lip bumper therapy in the mixed dentition. Am J Orthod Dentofacial Orthop. 1997;111:52–8.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22.</span>"
+        "<span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>dos Santos CCO, da Rosa Moreira Bastos RT, Bellini-Pereira SA, Garib D, Normando D. Spontaneous changes in mandibular incisor crowding from mixed to permanent dentition: a systematic review. Vol. 24, Progress in Orthodontics. Springer Science and Business Media Deutschland GmbH; 2023.</span>"
+        "<span class='cita-biblio'>dos Santos CCO, da Rosa Moreira Bastos RT, Bellini-Pereira SA, Garib D, Normando D. Spontaneous changes in mandibular incisor crowding from mixed to permanent dentition: a systematic review. Vol. 24, Progress in Orthodontics. Springer Science and Business Media Deutschland GmbH; 2023.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Khalaf K, Mustafa A, Wazzan M, Omar M, Estaitia M, El-Kishawi M. Clinical effectiveness of space maintainers and space regainers in the mixed dentition: A systematic review. Saudi Dent J. 2022 Feb;34:75–86.</span>"
+        "<span class='cita-biblio'>Khalaf K, Mustafa A, Wazzan M, Omar M, Estaitia M, El-Kishawi M. Clinical effectiveness of space maintainers and space regainers in the mixed dentition: A systematic review. Saudi Dent J. 2022 Feb;34:75–86.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Brennan MM, Gianelly AA. The use of the lingual arch in the mixed dentition to resolve incisor crowding. Am J Orthod Dentofacial Orthop. 2000;117:81–5.</span>"
+        "<span class='cita-biblio'>Brennan MM, Gianelly AA. The use of the lingual arch in the mixed dentition to resolve incisor crowding. Am J Orthod Dentofacial Orthop. 2000;117:81–5.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Tai K, Hotokezaka H, Park JH, Tai H, Miyajima K, Choi M, et al. Preliminary cone-beam computed tomography study evaluating dental and skeletal changes after treatment with a mandibular Schwarz appliance. Am J Orthod Dentofac Orthop. 2010;138:262.e1-262.e11. </span>"
+        "<span class='cita-biblio'>Tai K, Hotokezaka H, Park JH, Tai H, Miyajima K, Choi M, et al. Preliminary cone-beam computed tomography study evaluating dental and skeletal changes after treatment with a mandibular Schwarz appliance. Am J Orthod Dentofac Orthop. 2010;138:262.e1-262.e11. </span>"
 
         +
 
-        "<br><span class='cita-biblio'>Raucci G, Pacheĉo-Pereira C, Elyasi M, D’Apuzzo F, Flores-Mir C, Perillo L. Short-and long-Term evaluation of mandibular dental arch dimensional changes in patients treated with a lip bumper during mixed dentition followed by fixed appliances. Angle Orthod. 2016 Sep;86:753–60.</span>"
+        "<span class='cita-biblio'>Raucci G, Pacheĉo-Pereira C, Elyasi M, D’Apuzzo F, Flores-Mir C, Perillo L. Short-and long-Term evaluation of mandibular dental arch dimensional changes in patients treated with a lip bumper during mixed dentition followed by fixed appliances. Angle Orthod. 2016 Sep;86:753–60.</span>"
 
         +
 
@@ -1466,11 +1498,11 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>Khalaf K, Mustafa A, Wazzan M, Omar M, Estaitia M, El-Kishawi M. Clinical effectiveness of space maintainers and space regainers in the mixed dentition: A systematic review. Saudi Dent J. 2022 Feb;34:75–86.</span>"
+        "<span class='cita-biblio'>Khalaf K, Mustafa A, Wazzan M, Omar M, Estaitia M, El-Kishawi M. Clinical effectiveness of space maintainers and space regainers in the mixed dentition: A systematic review. Saudi Dent J. 2022 Feb;34:75–86.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Turner S, Harrison JE, Sharif FNJ, Owens D, Millett DT. Orthodontic treatment for crowded teeth in children. Vol. 2021, Cochrane Database of Systematic Reviews. John Wiley and Sons Ltd; 2021. </span>"
+        "<span class='cita-biblio'>Turner S, Harrison JE, Sharif FNJ, Owens D, Millett DT. Orthodontic treatment for crowded teeth in children. Vol. 2021, Cochrane Database of Systematic Reviews. John Wiley and Sons Ltd; 2021. </span>"
 
         ,
 
@@ -1522,7 +1554,7 @@ const ARBOLES = {
         
         +
 
-        "<br><br><img src='./image/im58.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        "<br><br><img src='./image/im53.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
 
         +
 
@@ -1530,7 +1562,7 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>Tai K, Hotokezaka H, Park JH, Tai H, Miyajima K, Choi M, et al. Preliminary cone-beam computed tomography study evaluating dental and skeletal changes after treatment with a mandibular Schwarz appliance. Am J Orthod Dentofac Orthop. 2010;138:262.e1-262.e11.</span>"
+        "<span class='cita-biblio'>Tai K, Hotokezaka H, Park JH, Tai H, Miyajima K, Choi M, et al. Preliminary cone-beam computed tomography study evaluating dental and skeletal changes after treatment with a mandibular Schwarz appliance. Am J Orthod Dentofac Orthop. 2010;138:262.e1-262.e11.</span>"
 
         +
 
@@ -1538,7 +1570,7 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>Tai K, Hotokezaka H, Park JH, Tai H, Miyajima K, Choi M, et al. Preliminary cone-beam computed tomography study evaluating dental and skeletal changes after treatment with a mandibular Schwarz appliance. Am J Orthod Dentofac Orthop. 2010;138:262.e1-262.e11.</span>"
+        "<span class='cita-biblio'>Tai K, Hotokezaka H, Park JH, Tai H, Miyajima K, Choi M, et al. Preliminary cone-beam computed tomography study evaluating dental and skeletal changes after treatment with a mandibular Schwarz appliance. Am J Orthod Dentofac Orthop. 2010;138:262.e1-262.e11.</span>"
 
         +
 
@@ -1546,19 +1578,19 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22. </span>"
+        "<span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22. </span>"
 
         +
 
-        "<br><span class='cita-biblio'>Khalaf K, Mustafa A, Wazzan M, Omar M, Estaitia M, El-Kishawi M. Clinical effectiveness of space maintainers and space regainers in the mixed dentition: A systematic review. Saudi Dent J. 2022 Feb;34:75–86.</span>"
+        "<span class='cita-biblio'>Khalaf K, Mustafa A, Wazzan M, Omar M, Estaitia M, El-Kishawi M. Clinical effectiveness of space maintainers and space regainers in the mixed dentition: A systematic review. Saudi Dent J. 2022 Feb;34:75–86.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Tai K, Hotokezaka H, Park JH, Tai H, Miyajima K, Choi M, et al. Preliminary cone-beam computed tomography study evaluating dental and skeletal changes after treatment with a mandibular Schwarz appliance. Am J Orthod Dentofac Orthop. 2010;138:262.e1-262.e11.</span>"
+        "<span class='cita-biblio'>Tai K, Hotokezaka H, Park JH, Tai H, Miyajima K, Choi M, et al. Preliminary cone-beam computed tomography study evaluating dental and skeletal changes after treatment with a mandibular Schwarz appliance. Am J Orthod Dentofac Orthop. 2010;138:262.e1-262.e11.</span>"
         
         +
 
-        "<br><span class='cita-biblio'>Hagberg C. The alignment of permanent mandibular incisors in children. A longitudinal prospective study. Eur J Orthod. 1994 Apr;16:121–9.</span>"
+        "<span class='cita-biblio'>Turner S, Harrison JE, Sharif FNJ, Owens D, Millett DT. Orthodontic treatment for crowded teeth in children. Vol. 2021, Cochrane Database of Systematic Reviews. 2021.</span>"
         
         ,
 
@@ -1689,7 +1721,7 @@ const ARBOLES = {
 
         tipo: "decision",
 
-        texto: "¿Paciente con presencia de problemas transversales?",
+        texto: "¿El apiñamiento se resuelve?",
 
         imagen: "./image/Apiñamiento3_2.png",
 
@@ -1847,7 +1879,7 @@ const ARBOLES = {
         
         +
 
-        "<br><br><img src='./image/im53.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        "<br><br><img src='./image/Im53.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
 
         +
 
@@ -1859,7 +1891,7 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>Canut Brusola JA. Ortodoncia clínica y terapéutica. 2a ed. España: Masson; 2005.</span>"
+        "<span class='cita-biblio'>Canut Brusola JA. Ortodoncia clínica y terapéutica. 2a ed. España: Masson; 2005.</span>"
 
         +
 
@@ -1871,7 +1903,7 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>de Carvalho Barbosa PB, Santos PL, De Carli JP, Luiz de Freitas PH, Pithon MM, Paranhos LR. Aesthetic facial perception and need for intervention in laterognathism in women of different ethnicities. J Cranio-Maxillo-fac Surg Off Publ Eur Assoc Cranio-Maxillo-fac Surg. octubre de 2017;45(10):1600–6.</span>"
+        "<span class='cita-biblio'>de Carvalho Barbosa PB, Santos PL, De Carli JP, Luiz de Freitas PH, Pithon MM, Paranhos LR. Aesthetic facial perception and need for intervention in laterognathism in women of different ethnicities. J Cranio-Maxillo-fac Surg Off Publ Eur Assoc Cranio-Maxillo-fac Surg. octubre de 2017;45(10):1600–6.</span>"
 
         +
 
@@ -1883,7 +1915,7 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>Yezioro S, Forero A, Guevara S. Guía de Atención de Mordidas Cruzadas. Fund HOMI- Hosp Pediátrico Misericordia. 2016;17.</span>"
+        "<span class='cita-biblio'>Yezioro S, Forero A, Guevara S. Guía de Atención de Mordidas Cruzadas. Fund HOMI- Hosp Pediátrico Misericordia. 2016;17.</span>"
 
         +
 
@@ -1911,7 +1943,7 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>Canut Brusola JA. Ortodoncia clínica y terapéutica. 2a ed. España: Masson; 2005.</span>"
+        "<span class='cita-biblio'>Canut Brusola JA. Ortodoncia clínica y terapéutica. 2a ed. España: Masson; 2005.</span>"
 
         ,
 
@@ -1990,7 +2022,7 @@ const ARBOLES = {
         
         +
         
-        "<br><span class='cita-biblio'>Sollenius O, Golež A, Primožič J, Ovsenik M, Bondemark L, Petrén S. Three-dimensional evaluation of forced unilateral posterior crossbite correction in the mixed dentition: A randomized controlled trial. Eur J Orthod. 2020 Aug;42:415–25.</span>"
+        "<span class='cita-biblio'>Sollenius O, Golež A, Primožič J, Ovsenik M, Bondemark L, Petrén S. Three-dimensional evaluation of forced unilateral posterior crossbite correction in the mixed dentition: A randomized controlled trial. Eur J Orthod. 2020 Aug;42:415–25.</span>"
         
         ,
 
@@ -2183,7 +2215,7 @@ const ARBOLES = {
         
         +
         
-        "<br><span class='cita-biblio'>Sollenius O, Golež A, Primožič J, Ovsenik M, Bondemark L, Petrén S. Three-dimensional evaluation of forced unilateral posterior crossbite correction in the mixed dentition: A randomized controlled trial. Eur J Orthod. 2020 Aug;42:415–25.</span>"
+        "<span class='cita-biblio'>Sollenius O, Golež A, Primožič J, Ovsenik M, Bondemark L, Petrén S. Three-dimensional evaluation of forced unilateral posterior crossbite correction in the mixed dentition: A randomized controlled trial. Eur J Orthod. 2020 Aug;42:415–25.</span>"
         
         ,
 
@@ -2253,7 +2285,7 @@ const ARBOLES = {
         
         +
         
-        "<br><span class='cita-biblio'>Caroccia F, Moscagiuri F, Falconio L, Festa F, D’attilio M. Early orthodontic treatments of unilateral posterior crossbite: A systematic review. Vol. 10, Journal of Clinical Medicine. MDPI; 2021. p. 1–13.</span>"
+        "<span class='cita-biblio'>Caroccia F, Moscagiuri F, Falconio L, Festa F, D’attilio M. Early orthodontic treatments of unilateral posterior crossbite: A systematic review. Vol. 10, Journal of Clinical Medicine. MDPI; 2021. p. 1–13.</span>"
         
         +
 
@@ -2261,7 +2293,7 @@ const ARBOLES = {
         
         +
         
-        "<br><span class='cita-biblio'>Sollenius O, Golež A, Primožič J, Ovsenik M, Bondemark L, Petrén S. Three-dimensional evaluation of forced unilateral posterior crossbite correction in the mixed dentition: A randomized controlled trial. Eur J Orthod. 2020 Aug;42:415–25.</span>"
+        "<span class='cita-biblio'>Sollenius O, Golež A, Primožič J, Ovsenik M, Bondemark L, Petrén S. Three-dimensional evaluation of forced unilateral posterior crossbite correction in the mixed dentition: A randomized controlled trial. Eur J Orthod. 2020 Aug;42:415–25.</span>"
         
         ,
 
@@ -2329,7 +2361,7 @@ const ARBOLES = {
        
         +
         
-        "<br><span class='cita-biblio'>Sollenius O, Golež A, Primožič J, Ovsenik M, Bondemark L, Petrén S. Three-dimensional evaluation of forced unilateral posterior crossbite correction in the mixed dentition: A randomized controlled trial. Eur J Orthod. 2020 Aug;42:415–25.</span>"
+        "<span class='cita-biblio'>Sollenius O, Golež A, Primožič J, Ovsenik M, Bondemark L, Petrén S. Three-dimensional evaluation of forced unilateral posterior crossbite correction in the mixed dentition: A randomized controlled trial. Eur J Orthod. 2020 Aug;42:415–25.</span>"
         
         ,
 
@@ -2364,7 +2396,7 @@ const ARBOLES = {
         
         +
         
-        "<br><span class='cita-biblio'>Araújo M-C, Bocato J-R, Oltramari P-V-P, de Almeida M-R, Conti A-CC-F, Fernandes T-M-F. Tomographic evaluation of dentoskeletal effects of rapid maxillary expansion using Haas and Hyrax palatal expanders in children: A randomized clinical trial. J Clin Exp Dent. 2020 Oct;12:e922–30.</span>"
+        "<span class='cita-biblio'>Araújo M-C, Bocato J-R, Oltramari P-V-P, de Almeida M-R, Conti A-CC-F, Fernandes T-M-F. Tomographic evaluation of dentoskeletal effects of rapid maxillary expansion using Haas and Hyrax palatal expanders in children: A randomized clinical trial. J Clin Exp Dent. 2020 Oct;12:e922–30.</span>"
         
         +
         
@@ -2372,7 +2404,7 @@ const ARBOLES = {
         
         +
 
-        "<br><span class='cita-biblio'>Caroccia F, Moscagiuri F, Falconio L, Festa F, D’attilio M. Early orthodontic treatments of unilateral posterior crossbite: A systematic review. Vol. 10, Journal of Clinical Medicine. MDPI; 2021. p. 1–13.</span>"
+        "<span class='cita-biblio'>Caroccia F, Moscagiuri F, Falconio L, Festa F, D’attilio M. Early orthodontic treatments of unilateral posterior crossbite: A systematic review. Vol. 10, Journal of Clinical Medicine. MDPI; 2021. p. 1–13.</span>"
 
         +
         
@@ -2380,7 +2412,7 @@ const ARBOLES = {
         
         +
 
-        "<br><span class='cita-biblio'>Bazargani F, Lund H, Magnuson A, Ludwig B. Skeletal and dentoalveolar effects using tooth-borne and tooth-bone-borne RME appliances: A randomized controlled trial with 1-year follow-up. Eur J Orthod. 2021 Jun;43:245–53.</span>"
+        "<span class='cita-biblio'>Bazargani F, Lund H, Magnuson A, Ludwig B. Skeletal and dentoalveolar effects using tooth-borne and tooth-bone-borne RME appliances: A randomized controlled trial with 1-year follow-up. Eur J Orthod. 2021 Jun;43:245–53.</span>"
 
         +
         
@@ -2388,8 +2420,11 @@ const ARBOLES = {
         
         +
 
-        "<br><span class='cita-biblio'>Ottaviano G, Maculan P, Borghetto G, Favero V, Galletti B, Savietto E, et al. Nasal function before and after rapid maxillary expansion in children: A randomized, prospective, controlled study. Int J Pediatr Otorhinolaryngol. 2018 Dec;115:133–8.</span>"
+        "<span class='cita-biblio'>Ottaviano G, Maculan P, Borghetto G, Favero V, Galletti B, Savietto E, et al. Nasal function before and after rapid maxillary expansion in children: A randomized, prospective, controlled study. Int J Pediatr Otorhinolaryngol. 2018 Dec;115:133–8.</span>"
 
+        +
+
+        "<span class='cita-biblio'>Caroccia F, Moscagiuri F, Falconio L, Festa F, D’Attilio M. Early Orthodontic 26 Universidad Nacional de Colombia Facultad de Odontología Treatments of Unilateral Posterior Crossbite: A Systematic Review. J Clin Med. el 24 de diciembre de 2020;10(1):33.</span>"
 
         ,
 
@@ -2452,7 +2487,7 @@ const ARBOLES = {
         
         +
 
-        "<span class=\"badge-ne-muy-baja\">(NE: baja, GRADE)</span>" 
+        "<br><span class=\"badge-ne-muy-baja\">(NE: baja, GRADE)</span>" 
         
         + 
         
@@ -2468,7 +2503,7 @@ const ARBOLES = {
         
         +
         
-        "<br><span class='cita-biblio'>Gidwani KV, Bendgude VD, Kokkali V V., Mehta V. Comparison of effectiveness of quad helix appliance with other slow maxillary expanders in children with posterior crossbite: A systematic review. J Indian Soc Pedod Prev Dent. 2018 Jul;36:225–33.</span>"
+        "<span class='cita-biblio'>Gidwani KV, Bendgude VD, Kokkali V V., Mehta V. Comparison of effectiveness of quad helix appliance with other slow maxillary expanders in children with posterior crossbite: A systematic review. J Indian Soc Pedod Prev Dent. 2018 Jul;36:225–33.</span>"
         
         +
 
@@ -2480,7 +2515,7 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>Caroccia F, Moscagiuri F, Falconio L, Festa F, D’attilio M. Early orthodontic treatments of unilateral posterior crossbite: A systematic review. Vol. 10, Journal of Clinical Medicine. MDPI; 2021. p. 1–13.</span>"
+        "<span class='cita-biblio'>Caroccia F, Moscagiuri F, Falconio L, Festa F, D’attilio M. Early orthodontic treatments of unilateral posterior crossbite: A systematic review. Vol. 10, Journal of Clinical Medicine. MDPI; 2021. p. 1–13.</span>"
 
         ,
 
@@ -2523,7 +2558,7 @@ const ARBOLES = {
         
         +
         
-        "<br><span class='cita-biblio'>Gidwani KV, Bendgude VD, Kokkali V V., Mehta V. Comparison of effectiveness of quad helix appliance with other slow maxillary expanders in children with posterior crossbite: A systematic review. J Indian Soc Pedod Prev Dent. 2018 Jul;36:225–33.</span>"
+        "<span class='cita-biblio'>Gidwani KV, Bendgude VD, Kokkali V V., Mehta V. Comparison of effectiveness of quad helix appliance with other slow maxillary expanders in children with posterior crossbite: A systematic review. J Indian Soc Pedod Prev Dent. 2018 Jul;36:225–33.</span>"
         
         +
 
@@ -2531,7 +2566,7 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>Caroccia F, Moscagiuri F, Falconio L, Festa F, D’attilio M. Early orthodontic treatments of unilateral posterior crossbite: A systematic review. Vol. 10, Journal of Clinical Medicine. MDPI; 2021. p. 1–13.</span>"
+        "<span class='cita-biblio'>Caroccia F, Moscagiuri F, Falconio L, Festa F, D’attilio M. Early orthodontic treatments of unilateral posterior crossbite: A systematic review. Vol. 10, Journal of Clinical Medicine. MDPI; 2021. p. 1–13.</span>"
 
         ,
 
@@ -2595,7 +2630,7 @@ const ARBOLES = {
         
         + 
         
-        "<br><br><img src='./image/Im54.png' alt='Imagen a cambiar' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>" 
+        "<br><br><img src='./image/Im56.png' alt='Imagen a cambiar' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>" 
         
         +
         
@@ -2607,7 +2642,7 @@ const ARBOLES = {
         
         +
         
-        "<br><span class='cita-biblio'>Ottaviano G, Maculan P, Borghetto G, Favero V, Galletti B, Savietto E, et al. Nasal function before and after rapid maxillary expansion in children: A randomized, prospective, controlled study. Int J Pediatr Otorhinolaryngol. 2018 Dec;115:133–8.</span>"
+        "<span class='cita-biblio'>Ottaviano G, Maculan P, Borghetto G, Favero V, Galletti B, Savietto E, et al. Nasal function before and after rapid maxillary expansion in children: A randomized, prospective, controlled study. Int J Pediatr Otorhinolaryngol. 2018 Dec;115:133–8.</span>"
         
         +
 
@@ -2615,7 +2650,7 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>Lorente C, Lorente P, Perez-Vela M, Esquinas C, Lorente T. Quad-helix compression to decompensate molar inclination prior to skeletal expansion. J Orofac Orthop. 2020 Mar;81:142–9.</span>"
+        "<span class='cita-biblio'>Lorente C, Lorente P, Perez-Vela M, Esquinas C, Lorente T. Quad-helix compression to decompensate molar inclination prior to skeletal expansion. J Orofac Orthop. 2020 Mar;81:142–9.</span>"
 
         ,
 
@@ -2654,7 +2689,7 @@ const ARBOLES = {
         
         +
         
-        "<br><span class='cita-biblio'>Ugolini A, Cerruto C, Di Vece L, Ghislanzoni LH, Sforza C, Doldo T, et al. Dental arch response to Haas-type rapid maxillary expansion anchored to deciduous vs permanent molars: A multicentric randomized controlled trial. Angle Orthod. 2015 Jul;85:570–6.</span>"
+        "<span class='cita-biblio'>Ugolini A, Cerruto C, Di Vece L, Ghislanzoni LH, Sforza C, Doldo T, et al. Dental arch response to Haas-type rapid maxillary expansion anchored to deciduous vs permanent molars: A multicentric randomized controlled trial. Angle Orthod. 2015 Jul;85:570–6.</span>"
         
         +
 
@@ -2662,7 +2697,7 @@ const ARBOLES = {
 
         +
 
-        "<br><span class='cita-biblio'>Micheletti KR, Iwaki LCV, Provenzano MGA, Cuoghi OA, Ramos AL, Micheletti KR, et al. Effects of rapid maxillary expansion with six months of retention and no further orthodontic treatment. https://www.redalyc.org/journal/3072/307245984012/html/. 2015.</span>"
+        "<span class='cita-biblio'>Micheletti KR, Iwaki LCV, Provenzano MGA, Cuoghi OA, Ramos AL, Micheletti KR, et al. Effects of rapid maxillary expansion with six months of retention and no further orthodontic treatment. https://www.redalyc.org/journal/3072/307245984012/html/. 2015.</span>"
 
         ,
 
@@ -2701,7 +2736,7 @@ const ARBOLES = {
 
         + 
         
-        "<br><br><img src='./image/Im54.png' alt='Imagen a cambiar' style='max-width:50%; height:auto; border-radius:12px; margin: 10px 0;'>" 
+        "<br><br><img src='./image/Im58.png' alt='Imagen a cambiar' style='max-width:50%; height:auto; border-radius:12px; margin: 10px 0;'>" 
         
         ,
 
@@ -2727,10 +2762,6 @@ const ARBOLES = {
         tipo: "accion",
 
         texto: "<strong>Realizar compensación de inclinación</strong> <span class=\"badge-ne-muy-baja\">(NE: baja, GRADE)</span>" 
-        
-        + 
-        
-        "<br><br>Expansión intermolar de 6.7 mm y expansión intercanina de 5.3 mm "
 
         +
 
@@ -2742,7 +2773,7 @@ const ARBOLES = {
 
         +
         
-        "<br><span class='cita-biblio'>Lorente C, Lorente P, Perez-Vela M, Esquinas C, Lorente T. Quad-helix compression to decompensate molar inclination prior to skeletal expansion. J Orofac Orthop. 2020 Mar;81:142–9.</span>"
+        "<span class='cita-biblio'>Lorente C, Lorente P, Perez-Vela M, Esquinas C, Lorente T. Quad-helix compression to decompensate molar inclination prior to skeletal expansion. J Orofac Orthop. 2020 Mar;81:142–9.</span>"
 
         ,
 
@@ -2812,11 +2843,11 @@ const ARBOLES = {
         
         +
         
-        "<br><span class='cita-biblio'>Ugolini A, Cerruto C, Di Vece L, Ghislanzoni LH, Sforza C, Doldo T, et al. Dental arch response to Haas-type rapid maxillary expansion anchored to deciduous vs permanent molars: A multicentric randomized controlled trial. Angle Orthod. 2015 Jul;85:570–6</span>"
+        "<span class='cita-biblio'>Ugolini A, Cerruto C, Di Vece L, Ghislanzoni LH, Sforza C, Doldo T, et al. Dental arch response to Haas-type rapid maxillary expansion anchored to deciduous vs permanent molars: A multicentric randomized controlled trial. Angle Orthod. 2015 Jul;85:570–6</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Cerruto C, Ugolini A, Di Vece L, Doldo T, Caprioglio A, Silvestrini-Biavati A. Kephalometrische Befunde und Veränderungen im Bereich des Zahnbogens nach forcierter Gaumennahterweiterung mit einer Haas-Apparatur mit Verankerung an Milch- bzw. bleibenden Molaren: Eine multizentrische, randomisierte kontrollierte Studie. J Orofac Orthop. 2017 Sep;78:385–93.</span>"
+        "<span class='cita-biblio'>Cerruto C, Ugolini A, Di Vece L, Doldo T, Caprioglio A, Silvestrini-Biavati A. Kephalometrische Befunde und Veränderungen im Bereich des Zahnbogens nach forcierter Gaumennahterweiterung mit einer Haas-Apparatur mit Verankerung an Milch- bzw. bleibenden Molaren: Eine multizentrische, randomisierte kontrollierte Studie. J Orofac Orthop. 2017 Sep;78:385–93.</span>"
 
         ,
 
@@ -2859,11 +2890,11 @@ const ARBOLES = {
         
         +
         
-        "<br><span class='cita-biblio'>Ugolini A, Cerruto C, Di Vece L, Ghislanzoni LH, Sforza C, Doldo T, et al. Dental arch response to Haas-type rapid maxillary expansion anchored to deciduous vs permanent molars: A multicentric randomized controlled trial. Angle Orthod. 2015 Jul;85:570–6.</span>"
+        "<span class='cita-biblio'>Ugolini A, Cerruto C, Di Vece L, Ghislanzoni LH, Sforza C, Doldo T, et al. Dental arch response to Haas-type rapid maxillary expansion anchored to deciduous vs permanent molars: A multicentric randomized controlled trial. Angle Orthod. 2015 Jul;85:570–6.</span>"
 
         +
 
-        "<br><span class='cita-biblio'>Cerruto C, Ugolini A, Di Vece L, Doldo T, Caprioglio A, Silvestrini-Biavati A. Kephalometrische Befunde und Veränderungen im Bereich des Zahnbogens nach forcierter Gaumennahterweiterung mit einer Haas-Apparatur mit Verankerung an Milch- bzw. bleibenden Molaren: Eine multizentrische, randomisierte kontrollierte Studie. J Orofac Orthop. 2017 Sep;78:385–93.</span>"
+        "<span class='cita-biblio'>Cerruto C, Ugolini A, Di Vece L, Doldo T, Caprioglio A, Silvestrini-Biavati A. Kephalometrische Befunde und Veränderungen im Bereich des Zahnbogens nach forcierter Gaumennahterweiterung mit einer Haas-Apparatur mit Verankerung an Milch- bzw. bleibenden Molaren: Eine multizentrische, randomisierte kontrollierte Studie. J Orofac Orthop. 2017 Sep;78:385–93.</span>"
 
         ,
 
@@ -3036,7 +3067,7 @@ const ARBOLES = {
         
         +
         
-        "<br><span class='cita-biblio'>Micheletti KR, Iwaki LCV, Provenzano MGA, Cuoghi OA, Ramos AL, Micheletti KR, et al. Effects of rapid maxillary expansion with six months of retention and no further orthodontic treatment. https://www.redalyc.org/journal/3072/307245984012/html/. 2015.</span>"
+        "<span class='cita-biblio'>Micheletti KR, Iwaki LCV, Provenzano MGA, Cuoghi OA, Ramos AL, Micheletti KR, et al. Effects of rapid maxillary expansion with six months of retention and no further orthodontic treatment. https://www.redalyc.org/journal/3072/307245984012/html/. 2015.</span>"
         
         ,
 
