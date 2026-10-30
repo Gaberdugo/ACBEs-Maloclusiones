@@ -545,17 +545,16 @@ a{
   justify-content: center;
 }
 
-/* Tarjeta izquierda estándar (Compacta de 750px) */
+/* 👈 IZQUIERDA MÁS PEQUEÑA Y COMPACTA (Ancho más reducido) */
 .decision-page-layout .decision-card {
-  flex: 1;
-  max-width: 750px !important;
+  flex: 0 0 670px !important; 
+  max-width: 670px !important;
   width: 100% !important;
-  min-width: 0;
 }
 
-/* Contenedor fijo de la imagen lateral (700px) */
+/* 👈 DERECHA MUCHO MÁS GRANDE Y ESPACIOSA */
 #externalImageContainer {
-  flex: 0 0 700px;
+  flex: 0 0 740px !important; /* Ampliamos el espacio para el diagrama de la derecha */
   position: sticky;
   top: 20px;
 }

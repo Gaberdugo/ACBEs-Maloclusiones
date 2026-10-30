@@ -121,7 +121,7 @@ const ARBOLES = {
         ]
 
       },
-
+      
       materiales: {
 
         tipo: "accion",
@@ -224,7 +224,7 @@ const ARBOLES = {
 
         +
 
-        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> Estos valores se adoptan porque coinciden con los rangos reportados en estudios clave: Owais et al. (2011) describieron el apiñamiento leve como menor a 2 mm."
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> Estos valores se adoptan porque coinciden con los rangos reportados en estudios clave: <span class=\"badge-ne-alta\">Owais et al. (2011)</span> describieron el apiñamiento leve como menor a 2 mm."
 
         +
 
@@ -232,7 +232,7 @@ const ARBOLES = {
 
         +
         
-        "<br><span class=\"badge-ne-moderado\">(NE: moderado, GRADE)</span> Davidovitch et al. (1997) incluyeron discrepancias entre 3 y 8 mm dentro de categorías leves a moderadas;"
+        "<br><span class=\"badge-ne-moderado\">(NE: Moderado, GRADE) Davidovitch et al. (1997)</span> incluyeron discrepancias entre 3 y 8 mm dentro de categorías leves a moderadas;"
 
         +
 
@@ -240,7 +240,7 @@ const ARBOLES = {
 
         +
 
-        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> identificaron rangos de 4 a 9 mm al clasificar distintos grados de severidad."
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE) y Kau et al. (2004)</span> identificaron rangos de 4 a 9 mm al clasificar distintos grados de severidad."
 
         +
 
@@ -248,7 +248,7 @@ const ARBOLES = {
 
         +
 
-        "Por su parte, <br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> registraron reducciones promedio cercanas a 5 mm, lo que sitúa este valor como un límite clínicamente relevante;"
+        "Por su parte, <span class=\"badge-ne-alta\">(NE: Alta, GRADE) Chen et al. (2019)</span> registraron reducciones promedio cercanas a 5 mm, lo que sitúa este valor como un límite clínicamente relevante;"
 
         +
         
@@ -256,7 +256,7 @@ const ARBOLES = {
 
         +
 
-        "y <br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> Oliveira dos Santos observaron mejorías espontáneas de hasta 4,62 mm en apiñamientos leves a moderado"
+        "y <span class=\"badge-ne-alta\">(NE: Alta, GRADE) Oliveira dos Santos et al. (2023)</span> Oliveira dos Santos observaron mejorías espontáneas de hasta 4,62 mm en apiñamientos leves a moderado"
 
         +
 
@@ -264,7 +264,7 @@ const ARBOLES = {
 
         +
 
-        "Así mismo, <br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> Khalaf también utilizaron este mismo intervalo para describir los grados de apiñamiento leve y moderado."
+        "Así mismo, <span class=\"badge-ne-alta\">(NE: Alta, GRADE)  Khalaf et al. (2021)</span> también utilizaron este mismo intervalo para describir los grados de apiñamiento leve y moderado."
 
         +
 
@@ -318,13 +318,15 @@ const ARBOLES = {
 
         texto: 
         
-        "<Strong>Leve < 3mm o Moderado 3mm - 5mm</Strong>"
+        "<Strong>Severo</Strong> >5mm"
         
-        +"<br>La clasificación del apiñamiento mandibular anterior suele establecerse a partir de la discrepancia medida en milímetros, y aunque los rangos pueden variar ligeramente entre autores, la literatura ofrece parámetros comunes que permiten unificar criterios. Con ello, se considera apiñamiento leve cuando la discrepancia es menor a 3 mm, moderado cuando se encuentra entre 3 y 5 mm, y severo cuando supera los 5 mm."
+        +
+        
+        "<br><br>La clasificación del apiñamiento mandibular anterior suele establecerse a partir de la discrepancia medida en milímetros, y aunque los rangos pueden variar ligeramente entre autores, la literatura ofrece parámetros comunes que permiten unificar criterios. Con ello, se considera apiñamiento leve cuando la discrepancia es menor a 3 mm, moderado cuando se encuentra entre 3 y 5 mm, y severo cuando supera los 5 mm."
 
         +
 
-        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> Estos valores se adoptan porque coinciden con los rangos reportados en estudios clave: Owais et al. (2011) describieron el apiñamiento leve como menor a 2 mm."
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> Estos valores se adoptan porque coinciden con los rangos reportados en estudios clave: <span class=\"badge-ne-alta\">Owais et al. (2011)</span> describieron el apiñamiento leve como menor a 2 mm."
 
         +
 
@@ -332,7 +334,7 @@ const ARBOLES = {
 
         +
         
-        "<br><span class=\"badge-ne-moderado\">(NE: moderado, GRADE)</span> Davidovitch et al. (1997) incluyeron discrepancias entre 3 y 8 mm dentro de categorías leves a moderadas;"
+        "<br><span class=\"badge-ne-moderado\">(NE: Moderado, GRADE) Davidovitch et al. (1997)</span> incluyeron discrepancias entre 3 y 8 mm dentro de categorías leves a moderadas;"
 
         +
 
@@ -340,7 +342,7 @@ const ARBOLES = {
 
         +
 
-        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> identificaron rangos de 4 a 9 mm al clasificar distintos grados de severidad."
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE) y Kau et al. (2004)</span> identificaron rangos de 4 a 9 mm al clasificar distintos grados de severidad."
 
         +
 
@@ -348,7 +350,7 @@ const ARBOLES = {
 
         +
 
-        "Por su parte, <br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> registraron reducciones promedio cercanas a 5 mm, lo que sitúa este valor como un límite clínicamente relevante;"
+        "Por su parte, <span class=\"badge-ne-alta\">(NE: Alta, GRADE) Chen et al. (2019)</span> registraron reducciones promedio cercanas a 5 mm, lo que sitúa este valor como un límite clínicamente relevante;"
 
         +
         
@@ -356,7 +358,7 @@ const ARBOLES = {
 
         +
 
-        "y <br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> Oliveira dos Santos observaron mejorías espontáneas de hasta 4,62 mm en apiñamientos leves a moderado"
+        "y <span class=\"badge-ne-alta\">(NE: Alta, GRADE) Oliveira dos Santos et al. (2023)</span> Oliveira dos Santos observaron mejorías espontáneas de hasta 4,62 mm en apiñamientos leves a moderado"
 
         +
 
@@ -364,7 +366,7 @@ const ARBOLES = {
 
         +
 
-        "Así mismo, <br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> Khalaf también utilizaron este mismo intervalo para describir los grados de apiñamiento leve y moderado."
+        "Así mismo, <span class=\"badge-ne-alta\">(NE: Alta, GRADE)  Khalaf et al. (2021)</span> también utilizaron este mismo intervalo para describir los grados de apiñamiento leve y moderado."
 
         +
 
@@ -399,7 +401,7 @@ const ARBOLES = {
 
         descripcion: 
         
-        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> El apiñamiento mandibular anterior se relaciona principalmente con una discrepancia entre el tamaño de los dientes y las dimensiones del arco, afectando tanto la longitud como la anchura. En el plano longitudinal, la disminución del perímetro de arco suele estar asociada a la migración mesial de los primeros molares permanentes hacia el espacio remanente que dejan los molares temporales tras su exfoliación o pérdida prematura, lo cual reduce el espacio disponible para la alineación incisiva."
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> El apiñamiento mandibular anterior se relaciona principalmente con una discrepancia entre el tamaño de los dientes y las dimensiones del arco, afectando tanto la longitud como la anchura. En el plano longitudinal, la disminución del perímetro de arco suele estar asociada a la migración mesial de los primeros molares permanentes hacia el espacio remanente que dejan los molares temporales tras su exfoliación o pérdida prematura, lo cual reduce el espacio disponible para la alineación incisiva."
         
         +
 
@@ -447,7 +449,7 @@ const ARBOLES = {
 
         +
 
-        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> En cuanto a la anchura del arco, cuando esta se encuentra reducida, especialmente a nivel intercanino, se limita el espacio transversal necesario para la erupción de caninos y premolares, favoreciendo un colapso lateral que se traduce en mayor irregularidad de los incisivos. La literatura muestra que, sin intervención, suele presentarse una disminución natural de la anchura intercanina, mientras que diferentes estudios reportan incrementos entre 0,72 y 3,9 mm en anchuras intercanina, interpremolar e intermolar cuando se aplican intervenciones interceptivas orientadas a expandir o mantener el arco."
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> En cuanto a la anchura del arco, cuando esta se encuentra reducida, especialmente a nivel intercanino, se limita el espacio transversal necesario para la erupción de caninos y premolares, favoreciendo un colapso lateral que se traduce en mayor irregularidad de los incisivos. La literatura muestra que, sin intervención, suele presentarse una disminución natural de la anchura intercanina, mientras que diferentes estudios reportan incrementos entre 0,72 y 3,9 mm en anchuras intercanina, interpremolar e intermolar cuando se aplican intervenciones interceptivas orientadas a expandir o mantener el arco."
 
         +
 
@@ -471,7 +473,7 @@ const ARBOLES = {
 
         +
 
-        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> Así, tanto la reducción de la longitud del arco como la insuficiente anchura transversal actúan conjuntamente en el desarrollo y persistencia del apiñamiento mandibular anterior, lo que evidencia la importancia de comprender cómo cambian estas dimensiones durante la dentición mixta y por qué son determinantes en la aparición y severidad del apiñamiento."
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> Así, tanto la reducción de la longitud del arco como la insuficiente anchura transversal actúan conjuntamente en el desarrollo y persistencia del apiñamiento mandibular anterior, lo que evidencia la importancia de comprender cómo cambian estas dimensiones durante la dentición mixta y por qué son determinantes en la aparición y severidad del apiñamiento."
 
         +
 
@@ -480,6 +482,10 @@ const ARBOLES = {
         +
 
         "<span class='cita-biblio'>Sampson WJ, Richards LC. Prediction of mandibular incisor and canine crowding changes in the mixed dentition. Am J Orthod. 1985;88:47–63.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Raucci G, Pacheĉo-Pereira C, Elyasi M, D’Apuzzo F, Flores-Mir C, Perillo L. Short-and long-Term evaluation of mandibular dental arch dimensional changes in patients treated with a lip bumper during mixed dentition followed by fixed appliances. Angle Orthodontist. 2016;86(5).</span>"
 
         ,
 
@@ -533,7 +539,7 @@ const ARBOLES = {
         
         +
 
-        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> Una de las modalidades terapéuticas más conservadoras para manejar el apiñamiento mandibular anterior en dentición mixta es la supervisión de espacios, entendida como un seguimiento clínico periódico sin el uso de aparatología activa. Con ello, el objetivo es acompañar el proceso natural de recambio dentario y permitir que los cambios fisiológicos propios de esta etapa favorezcan una mejoría espontánea de la alineación incisiva. Esta conducta expectante ha sido ampliamente documentada en estudios longitudinales y revisiones sistemáticas, los cuales muestran que, durante la transición de dentición mixta a permanente, se presenta una reducción espontánea del apiñamiento con valores que pueden oscilar entre 0,17 y 4,62 mm (71) cerca de 1,27 mm en grupos control sin intervenciones y hasta 2-3 mm en poblaciones no tratadas<br><span class=\"badge-ne-moderado\">(NE: moderado, GRADE)</span>"
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> Una de las modalidades terapéuticas más conservadoras para manejar el apiñamiento mandibular anterior en dentición mixta es la supervisión de espacios, entendida como un seguimiento clínico periódico sin el uso de aparatología activa. Con ello, el objetivo es acompañar el proceso natural de recambio dentario y permitir que los cambios fisiológicos propios de esta etapa favorezcan una mejoría espontánea de la alineación incisiva. Esta conducta expectante ha sido ampliamente documentada en estudios longitudinales y revisiones sistemáticas, los cuales muestran que, durante la transición de dentición mixta a permanente, se presenta una reducción espontánea del apiñamiento con valores que pueden oscilar entre 0,17 y 4,62 mm (71) cerca de 1,27 mm en grupos control sin intervenciones y hasta 2-3 mm en poblaciones no tratadas<br><span class=\"badge-ne-moderado\">(NE: Moderado, GRADE)</span>"
 
         +
 
@@ -557,7 +563,7 @@ const ARBOLES = {
 
         +
 
-        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> Estos cambios favorables se relacionan principalmente con el aprovechamiento natural del espacio de Leeway, el incremento fisiológico de la anchura intercanina durante la erupción de los caninos permanentes, ciertos movimientos espontáneos de acomodación incisiva y el crecimiento transversal propio de la arcada."
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> Estos cambios favorables se relacionan principalmente con el aprovechamiento natural del espacio de Leeway, el incremento fisiológico de la anchura intercanina durante la erupción de los caninos permanentes, ciertos movimientos espontáneos de acomodación incisiva y el crecimiento transversal propio de la arcada."
 
         +
 
@@ -577,7 +583,7 @@ const ARBOLES = {
 
         +
 
-        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> La evidencia sugiere que la supervisión de espacios resulta especialmente útil en apiñamientos leves o moderados limítrofes (≤ 4–5 mm), donde la autocorrección es más predecible y ocurre, sobre todo, entre la erupción de los incisivos laterales y la llegada de los caninos permanentes. Esta modalidad permite evitar intervenciones innecesarias en pacientes que probablemente presentan una mejora espontánea, al tiempo que asegura un seguimiento cercano para detectar oportunamente los casos que sí requerirán manejo activo."
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> La evidencia sugiere que la supervisión de espacios resulta especialmente útil en apiñamientos leves o moderados limítrofes (≤ 4–5 mm), donde la autocorrección es más predecible y ocurre, sobre todo, entre la erupción de los incisivos laterales y la llegada de los caninos permanentes. Esta modalidad permite evitar intervenciones innecesarias en pacientes que probablemente presentan una mejora espontánea, al tiempo que asegura un seguimiento cercano para detectar oportunamente los casos que sí requerirán manejo activo."
 
         +
 
@@ -730,7 +736,7 @@ const ARBOLES = {
 
         +
 
-        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> El mantenimiento de espacios en dentición mixta se entiende como una modalidad terapéutica cuyo propósito es conservar la longitud y el perímetro del arco, evitando la pérdida de espacio que ocurre de manera habitual tras la exfoliación o la pérdida prematura de los segundos molares temporales. Esta pérdida suele favorecer la migración mesial de los primeros molares permanentes, reduciendo así el espacio disponible para la alineación de los incisivos. El aparato más estudiado y utilizado con esta finalidad es el arco lingual inferior pasivo, elaborado en alambre de acero inoxidable (entre 0,9 y 1,25 mm), cementado en los primeros molares permanentes y ajustado de manera que permanezca completamente pasivo, apoyado a nivel cingular de los incisivos inferiores."
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> El mantenimiento de espacios en dentición mixta se entiende como una modalidad terapéutica cuyo propósito es conservar la longitud y el perímetro del arco, evitando la pérdida de espacio que ocurre de manera habitual tras la exfoliación o la pérdida prematura de los segundos molares temporales. Esta pérdida suele favorecer la migración mesial de los primeros molares permanentes, reduciendo así el espacio disponible para la alineación de los incisivos. El aparato más estudiado y utilizado con esta finalidad es el arco lingual inferior pasivo, elaborado en alambre de acero inoxidable (entre 0,9 y 1,25 mm), cementado en los primeros molares permanentes y ajustado de manera que permanezca completamente pasivo, apoyado a nivel cingular de los incisivos inferiores."
 
         +
 
@@ -754,7 +760,11 @@ const ARBOLES = {
 
         +
 
-        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> Su función principal es impedir el movimiento mesial de los molares permanentes, preservando el espacio de Leeway para que pueda aprovecharse durante el recambio dentario y así contribuir a la resolución del apiñamiento incisivo anterior. En términos clínicos, los estudios reportan incrementos modestos pero significativos en las anchuras intercanina, interpremolar e intermolar (entre 0,72 y 2,41 mm) y una resolución promedio del apiñamiento mandibular que oscila entre 4 y 5,10 mm, con tasas de éxito cercanas al 60–68 % cuando se utiliza como única intervención interceptiva"
+        "<span class='cita-biblio'>Rebellato J, Lindauer SJ, Rubenstein LK, Isaacson RJ, Davidovitch M, Vroom K. Lower arch perimeter preservation using the lingual arch. Am J Orthod Dentofacial Orthop. 1997;112(4).</span>"
+
+        +
+
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> Su función principal es impedir el movimiento mesial de los molares permanentes, preservando el espacio de Leeway para que pueda aprovecharse durante el recambio dentario y así contribuir a la resolución del apiñamiento incisivo anterior. En términos clínicos, los estudios reportan incrementos modestos pero significativos en las anchuras intercanina, interpremolar e intermolar (entre 0,72 y 2,41 mm) y una resolución promedio del apiñamiento mandibular que oscila entre 4 y 5,10 mm, con tasas de éxito cercanas al 60–68 % cuando se utiliza como única intervención interceptiva"
 
         +
 
@@ -774,7 +784,7 @@ const ARBOLES = {
       
         +
 
-        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> Si bien se ha descrito una ligera proclividad de los incisivos inferiores durante su uso, el mantenimiento de espacios mediante arco lingual pasivo continúa considerándose una estrategia conservadora, de bajo riesgo y utilidad demostrada. Está especialmente indicado en apiñamientos leves a moderados, en aquellos casos en los que el espacio de Leeway disponible permite anticipar una alineación adecuada sin necesidad de recurrir a extracciones definitivas."
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> Si bien se ha descrito una ligera proclividad de los incisivos inferiores durante su uso, el mantenimiento de espacios mediante arco lingual pasivo continúa considerándose una estrategia conservadora, de bajo riesgo y utilidad demostrada. Está especialmente indicado en apiñamientos leves a moderados, en aquellos casos en los que el espacio de Leeway disponible permite anticipar una alineación adecuada sin necesidad de recurrir a extracciones definitivas."
 
         +
 
@@ -823,7 +833,7 @@ const ARBOLES = {
 
         +
 
-        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> El arco lingual inferior pasivo se considera el principal aparato de mantenimiento de espacios en el manejo interceptivo del apiñamiento mandibular anterior durante la dentición mixta. Se define como un dispositivo fijo y pasivo, elaborado habitualmente en alambre redondo de acero inoxidable de 0,9 a 1,25 mm, cementado o soldado a bandas en los primeros molares permanentes inferiores y ajustado de manera que permanezca sin activación, apoyado suavemente sobre la superficie lingual de los incisivos inferiores sin ejercer fuerzas directas sobre ellos."
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> El arco lingual inferior pasivo se considera el principal aparato de mantenimiento de espacios en el manejo interceptivo del apiñamiento mandibular anterior durante la dentición mixta. Se define como un dispositivo fijo y pasivo, elaborado habitualmente en alambre redondo de acero inoxidable de 0,9 a 1,25 mm, cementado o soldado a bandas en los primeros molares permanentes inferiores y ajustado de manera que permanezca sin activación, apoyado suavemente sobre la superficie lingual de los incisivos inferiores sin ejercer fuerzas directas sobre ellos."
 
         +
 
@@ -867,7 +877,7 @@ const ARBOLES = {
 
         +
 
-        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> En cuanto a sus efectos clínicos, la literatura reporta que el arco lingual pasivo logra una resolución promedio del apiñamiento entre 4 y 5,10 mm, con tasas de éxito del 60–68 % en casos leves a moderados.<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> Asimismo, produce incrementos modestos pero significativos en la anchura intercanina, interpremolar e intermolar, sin evidencia de efectos negativos sobre el crecimiento mandibular. En conjunto, estos hallazgos respaldan su uso como una intervención interceptiva conservadora y eficaz en la dentición mixta."
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> En cuanto a sus efectos clínicos, la literatura reporta que el arco lingual pasivo logra una resolución promedio del apiñamiento entre 4 y 5,10 mm, con tasas de éxito del 60–68 % en casos leves a moderados.<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> Asimismo, produce incrementos modestos pero significativos en la anchura intercanina, interpremolar e intermolar, sin evidencia de efectos negativos sobre el crecimiento mandibular. En conjunto, estos hallazgos respaldan su uso como una intervención interceptiva conservadora y eficaz en la dentición mixta."
 
         +
 
@@ -926,7 +936,7 @@ const ARBOLES = {
 
         +
 
-        "<br><br>La evidencia disponible respalda esta asociación.<br><span class=\"badge-ne-moderado\">(NE: Moderado, GRADE)</span> encontraron que los niños con apiñamiento moderado a severo presentaban un avance eruptivo significativamente mayor del canino permanente (65,82 ± 13,00 %) respecto al primer premolar (78,92 ± 10,15 %), mientras que en el grupo sin apiñamiento ambos dientes mostraban porcentajes de erupción prácticamente simultáneos (74,12 % y 75,47 %, respectivamente; p < 0,001). <br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> De forma concordante, Sampson (1985) y Kau et al. (2004) describieron que la erupción temprana del canino ocupa de manera anticipada tanto el espacio primate como el espacio destinado al primer premolar, lo que favorece el desplazamiento del segmento anterior y el incremento de la irregularidad incisiva"
+        "<br><br>La evidencia disponible respalda esta asociación.<br><span class=\"badge-ne-moderado\">(NE: Moderado, GRADE) Moshkelgosha et al. (2014)</span> encontraron que los niños con apiñamiento moderado a severo presentaban un avance eruptivo significativamente mayor del canino permanente (65,82 ± 13,00 %) respecto al primer premolar (78,92 ± 10,15 %), mientras que en el grupo sin apiñamiento ambos dientes mostraban porcentajes de erupción prácticamente simultáneos (74,12 % y 75,47 %, respectivamente; p < 0,001). <br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> De forma concordante, <span class=\"badge-ne-alta\">Sampson (1985)</span> y <span class=\"badge-ne-alta\">Kau et al. (2004)</span> describieron que la erupción temprana del canino ocupa de manera anticipada tanto el espacio primate como el espacio destinado al primer premolar, lo que favorece el desplazamiento del segmento anterior y el incremento de la irregularidad incisiva"
         
         +
 
@@ -938,7 +948,11 @@ const ARBOLES = {
 
         +
 
-        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> Además, esta alteración se relaciona con la reducción fisiológica del perímetro de arco y con la pérdida del efecto de “autoalineación” que ofrece la erupción tardía del canino en una secuencia normal.<br><span class=\"badge-ne-moderado\">(NE: Moderado, GRADE)</span> Por ello, la evaluación radiográfica del orden eruptivo canino-primer premolar constituye un predictor clínico útil para identificar pacientes con mayor riesgo de presentar o mantener un apiñamiento mandibular anterior significativo durante la transición hacia la dentición permanente."
+        "<span class='cita-biblio'>Golkari A, Moshkelgosha V, Khosravifard N. Tooth eruption sequence and dental crowding: A case-control study. F1000Res. 2014;3.</span>"
+
+        +
+
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> Además, esta alteración se relaciona con la reducción fisiológica del perímetro de arco y con la pérdida del efecto de “autoalineación” que ofrece la erupción tardía del canino en una secuencia normal.<br><span class=\"badge-ne-moderado\">(NE: Moderado, GRADE)</span> Por ello, la evaluación radiográfica del orden eruptivo canino-primer premolar constituye un predictor clínico útil para identificar pacientes con mayor riesgo de presentar o mantener un apiñamiento mandibular anterior significativo durante la transición hacia la dentición permanente."
 
         +
 
@@ -985,59 +999,15 @@ const ARBOLES = {
         
         +
 
-        "<br><br><img src='./image/im56.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        "<br><span class=\"badge-ne-moderado\">(NE: Moderado, GRADE)</span> El aparato de guía de erupción (EGA) se define como un dispositivo removible destinado a orientar la erupción de los dientes permanentes durante la dentición mixta. Actúa mediante planos inclinados y modificaciones de los contactos oclusales, y en algunos modelos incorpora elementos de expansión, lo que permite influir en la posición de incisivos y caninos, así como en las relaciones sagitales y verticales del paciente en crecimiento"
 
         +
 
-        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> El arco lingual inferior pasivo se considera el principal aparato de mantenimiento de espacios en el manejo interceptivo del apiñamiento mandibular anterior durante la dentición mixta. Se define como un dispositivo fijo y pasivo, elaborado habitualmente en alambre redondo de acero inoxidable de 0,9 a 1,25 mm, cementado o soldado a bandas en los primeros molares permanentes inferiores y ajustado de manera que permanezca sin activación, apoyado suavemente sobre la superficie lingual de los incisivos inferiores sin ejercer fuerzas directas sobre ellos."
+        "<span class='cita-biblio'>Myrlund R, Dubland M, Keski-Nisula K, Kerosuo H. One year treatment effects of the eruption guidance appliance in 7- to 8-year-old children: A randomized clinical trial. Eur J Orthod. 2014 Aug;37:128–34.</span>"
 
         +
 
-        "<span class='cita-biblio'>Owais AI, Rousan ME, Badran SA, Abu Alhaija ES. Effectiveness of a lower lingual arch as a space holding device. Eur J Orthod. 2011 Feb;33:37–42.</span>"
-
-        +
-
-        "<span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22. </span>"
-
-        +
-
-        "<span class='cita-biblio'>Rebellato J, Lindauer SJ, Rubenstein LK, Isaacson RJ, Davidovitch M, Vroom K. Lower arch perimeter preservation using the lingual arch. Am J Orthod Dentofacial Orthop. 1997;112:449–56.</span>"
-
-        +
-
-        "<span class='cita-biblio'>Brennan MM, Gianelly AA. The use of the lingual arch in the mixed dentition to resolve incisor crowding. Am J Orthod Dentofacial Orthop. 2000;117:81–5. </span>"
-
-        +
-
-        "<span class='cita-biblio'>Ciftci V, Uzel A, Dogan MC. Evaluation of skeletal and dental effects of lower lingual arches. J Clin Pediatr Dent. 2018;42:469–74.</span>"
-
-        +
-
-        "<br>Su finalidad es impedir la migración mesial de los primeros molares permanentes y preservar la longitud y el perímetro del arco, evitando que se pierda el espacio de Leeway tras la exfoliación o pérdida prematura de los segundos molares temporales. De esta manera, el espacio remanente puede aprovecharse durante la erupción de caninos y premolares permanentes, favoreciendo la corrección fisiológica del apiñamiento incisivo anterior."
-
-        +
-
-        "<span class='cita-biblio'>Owais AI, Rousan ME, Badran SA, Abu Alhaija ES. Effectiveness of a lower lingual arch as a space holding device. Eur J Orthod. 2011 Feb;33:37–42.</span>"
-
-        +
-
-        "<span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22. </span>"
-
-        +
-
-        "<span class='cita-biblio'>Khalaf K, Mustafa A, Wazzan M, Omar M, Estaitia M, El-Kishawi M. Clinical effectiveness of space maintainers and space regainers in the mixed dentition: A systematic review. Saudi Dent J. 2022 Feb;34:75–86.</span>"
-
-        +
-
-        "<span class='cita-biblio'>Brennan MM, Gianelly AA. The use of the lingual arch in the mixed dentition to resolve incisor crowding. Am J Orthod Dentofacial Orthop. 2000;117:81–5. </span>"
-
-        +
-
-        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> En cuanto a sus efectos clínicos, la literatura reporta que el arco lingual pasivo logra una resolución promedio del apiñamiento entre 4 y 5,10 mm, con tasas de éxito del 60–68 % en casos leves a moderados.<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> Asimismo, produce incrementos modestos pero significativos en la anchura intercanina, interpremolar e intermolar, sin evidencia de efectos negativos sobre el crecimiento mandibular. En conjunto, estos hallazgos respaldan su uso como una intervención interceptiva conservadora y eficaz en la dentición mixta."
-
-        +
-
-        "<span class='cita-biblio'>Owais AI, Rousan ME, Badran SA, Abu Alhaija ES. Effectiveness of a lower lingual arch as a space holding device. Eur J Orthod. 2011 Feb;33:37–42.</span>"
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> Cuando se utiliza un aparato de guía de erupción, resulta indispensable complementarlo con un arco lingual inferior pasivo, ya que el EGA no controla la migración mesial de los molares permanentes ni preserva la longitud del arco. El arco lingual asegura la conservación del espacio de Leeway, evitando la pérdida de perímetro durante la fase activa del tratamiento y permitiendo que el espacio disponible se use de manera eficaz en la alineación de los incisivos inferiores."
 
         +
 
@@ -1045,24 +1015,56 @@ const ARBOLES = {
 
         +
 
-        "<span class='cita-biblio'>Khalaf K, Mustafa A, Wazzan M, Omar M, Estaitia M, El-Kishawi M. Clinical effectiveness of space maintainers and space regainers in the mixed dentition: A systematic review. Saudi Dent J. 2022 Feb;34:75–86.</span>"
-        
-        +
-
-        "<span class='cita-biblio'>Rebellato J, Lindauer SJ, Rubenstein LK, Isaacson RJ, Davidovitch M, Vroom K. Lower arch perimeter preservation using the lingual arch. Am J Orthod Dentofacial Orthop. 1997;112:449–56.</span>"
-        
-        +
-
         "<span class='cita-biblio'>Brennan MM, Gianelly AA. The use of the lingual arch in the mixed dentition to resolve incisor crowding. Am J Orthod Dentofacial Orthop. 2000;117:81–5.</span>"
 
         +
 
-        "<span class='cita-biblio'>Ciftci V, Uzel A, Dogan MC. Evaluation of skeletal and dental effects of lower lingual arches. J Clin Pediatr Dent. 2018;42:469–74.</span>"
-        
+        "<br><span class=\"badge-ne-moderado\">(NE: Moderado, GRADE)</span> El ensayo clínico aleatorizado de <span class=\"badge-ne-moderado\">Myrlund et al. (2015)</span> aplicó esta combinación de manera sistemática: todos los pacientes tratados con guía de erupción recibieron también un arco lingual pasivo, justamente para garantizar la preservación del E-space mientras se corregían las relaciones sagitales, el overjet y la mordida profunda."
+
         +
 
-        "<span class='cita-biblio'>Turner S, Harrison JE, Sharif FNJ, Owens D, Millett DT. Orthodontic treatment for crowded teeth in children. Vol. 2021, Cochrane Database of Systematic Reviews. John Wiley and Sons Ltd; 2021.</span>"
+        "<span class='cita-biblio'>Myrlund R, Dubland M, Keski-Nisula K, Kerosuo H. One year treatment effects of the eruption guidance appliance in 7- to 8-year-old children: A randomized clinical trial. Eur J Orthod. 2014 Aug;37:128–34. </span>"
+
+        +
         
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> En casos seleccionados, especialmente cuando existe apiñamiento moderado con riesgo de colapso anterior adicional, esta combinación puede reforzarse mediante la extracción seriada o equilibrada de los caninos temporales inferiores, siguiendo los criterios interceptivos descritos en la literatura clásica"
+
+        +
+
+        "<span class='cita-biblio'>Kau CH, Durning P, Richmond S, Miotti FA, Harzer W. Extractions as a form of interception in the developing dentition: a randomized controlled trial. J Orthod. 2004 Jun;31:107–14.</span>"
+
+        +
+
+        "<br><span class=\"badge-ne-moderado\">(NE: Moderado, GRADE)</span> En el estudio de <br><span class=\"badge-ne-moderado\">Myrlund et al. (2015)</span>, esta estrategia tri-modal (guía de erupción, arco lingual pasivo y extracción selectiva de caninos) permitió obtener una reducción significativa del apiñamiento mandibular anterior, además de mejoras marcadas en overjet, overbite y relación molar, con corrección de la Clase II en el 96 % de los casos tratados"
+
+        +
+
+        "<span class='cita-biblio'>Myrlund R, Dubland M, Keski-Nisula K, Kerosuo H. One year treatment effects of the eruption guidance appliance in 7- to 8-year-old children: A randomized clinical trial. Eur J Orthod. 2014 Aug;37:128–34. </span>"
+
+        +
+
+        "<br><span class=\"badge-ne-moderado\">(NE: Moderado, GRADE)</span> La preservación efectiva del espacio de Leeway por parte del arco lingual fue un componente clave para estos resultados."
+
+        +
+
+        "<span class='cita-biblio'>Brennan MM, Gianelly AA. The use of the lingual arch in the mixed dentition to resolve incisor crowding. Am J Orthod Dentofacial Orthop. 2000;117:81–5. </span>"
+
+        +
+
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> Aunque la evidencia procede de un único ensayo aleatorizado, la integración de estos tres elementos ofrece una alternativa interceptiva sólida para pacientes jóvenes que presentan simultáneamente apiñamiento mandibular, aumento del overjet y mordida profunda, logrando resultados más completos que los obtenidos con cada modalidad por separado."
+
+        +
+
+        "<span class='cita-biblio'>Kau CH, Durning P, Richmond S, Miotti FA, Harzer W. Extractions as a form of interception in the developing dentition: a randomized controlled trial. J Orthod. 2004 Jun;31:107–14.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22. </span>"
+
+        +
+
+        "<span class='cita-biblio'>Myrlund R, Dubland M, Keski-Nisula K, Kerosuo H. One year treatment effects of the eruption guidance appliance in 7- to 8-year-old children: A randomized clinical trial. Eur J Orthod. 2014 Aug;37:128–34.</span>"
+
         ,
 
         imagen: "./image/Apiñamiento2b_9.png",
@@ -1221,7 +1223,7 @@ const ARBOLES = {
 
         descripcion: 
 
-        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span>  La pérdida de longitud de arco mandibular se entiende como la disminución del perímetro disponible entre los primeros molares permanentes durante la transición de la dentición mixta a la permanente. Este fenómeno ocurre principalmente por la migración mesial de los molares permanentes hacia el espacio de Leeway después de la exfoliación (o de la pérdida prematura) de los segundos molares temporales. La literatura reporta reducciones que pueden oscilar entre 0,44 mm y 4 mm por arcada, dependiendo del estudio y de las características de la población evaluada."
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span>  La pérdida de longitud de arco mandibular se entiende como la disminución del perímetro disponible entre los primeros molares permanentes durante la transición de la dentición mixta a la permanente. Este fenómeno ocurre principalmente por la migración mesial de los molares permanentes hacia el espacio de Leeway después de la exfoliación (o de la pérdida prematura) de los segundos molares temporales. La literatura reporta reducciones que pueden oscilar entre 0,44 mm y 4 mm por arcada, dependiendo del estudio y de las características de la población evaluada."
 
         +
 
@@ -1238,6 +1240,22 @@ const ARBOLES = {
         +
 
         "<span class='cita-biblio'>Sinclair PM, Little RM. Maturation of untreated normal occlusions. Am J Orthod. 1983;83:114–23. </span>"
+
+        +
+
+        "<span class='cita-biblio'>Rebellato J, Lindauer SJ, Rubenstein LK, Isaacson RJ, Davidovitch M, Vroom K. Lower arch perimeter preservation using the lingual arch. Am J Orthod Dentofacial Orthop. 1997;112(4).</span>"
+        
+        +
+
+        "<span class='cita-biblio'>Brennan MM, Gianelly AA. The use of the lingual arch in the mixed dentition to resolve incisor crowding. Am J Orthod Dentofacial Orthop. 2000;117(1).</span>"
+        
+        +
+
+        "<span class='cita-biblio'>Arslan SG, Kama JD, Şahin S, Hamamci O. Longitudinal changes in dental arches from mixed to permanent dentition in a Turkish population. American Journal of Orthodontics and Dentofacial Orthopedics. 2007;132(5).</span>"
+        
+        +
+
+        "<span class='cita-biblio'>Ciftci V, Uzel A, Dogan MC. Evaluation of skeletal and dental effects of lower lingual arches. Journal of Clinical Pediatric Dentistry. 2018;42(6).</span>"
 
         +
 
@@ -1276,7 +1294,23 @@ const ARBOLES = {
 
         +
 
-        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> El lip bumper es un aparato interceptivo utilizado en dentición mixta para modificar el equilibrio de fuerzas en el arco mandibular. Se fabrica habitualmente en alambre redondo de acero inoxidable de 0.036 a 0.045 pulgadas, recubierto con tubo termocontraíble o con un escudo acrílico anterior, y se inserta en los tubos linguales soldados a las bandas de los primeros o segundos molares permanentes inferiores. Su posición habitual es 2–3 mm por delante y por debajo de los incisivos inferiores, sin contacto directo con dientes o encía, de manera que actúa como una barrera que elimina la presión labial sobre el sector anterio."
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> El lip bumper es un aparato interceptivo utilizado en dentición mixta para modificar el equilibrio de fuerzas en el arco mandibular. Se fabrica habitualmente en alambre redondo de acero inoxidable de 0.036 a 0.045 pulgadas, recubierto con tubo termocontraíble o con un escudo acrílico anterior, y se inserta en los tubos linguales soldados a las bandas de los primeros o segundos molares permanentes inferiores. Su posición habitual es 2–3 mm por delante y por debajo de los incisivos inferiores, sin contacto directo con dientes o encía, de manera que actúa como una barrera que elimina la presión labial sobre el sector anterio."
+
+        +
+
+        "<span class='cita-biblio'>Davidovitch M, McInnis D, Lindauer SJ. The effects of lip bumper therapy in the mixed dentition. Am J Orthod Dentofacial Orthop. 1997;111:52–8.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Raucci G, Pacheĉo-Pereira C, Elyasi M, D’Apuzzo F, Flores-Mir C, Perillo L. Short-and long-Term evaluation of mandibular dental arch dimensional changes in patients treated with a lip bumper during mixed dentition followed by fixed appliances. Angle Orthod. 2016 Sep;86:753–60.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Nevant CT, Buschang PH, Alexander RG, Steffen JM. Lip bumper therapy for gaining arch length. American Journal of Orthodontics and Dentofacial Orthopedics. 1991;100(4).</span>"
+
+        +
+
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> Este aparato resulta especialmente útil cuando se combinan deficiencias de longitud y anchura de arco, o cuando existe riesgo inminente de pérdida de perímetro por migración mesial de los molares permanentes tras la exfoliación o extracción de los segundos molares temporales. Su mecanismo de acción permite recuperar espacio al liberar la presión de los tejidos blandos sobre incisivos y caninos, favoreciendo la protrusión fisiológica de incisivos, la expansión transversal a nivel intercanino, interpremolar e intermolar, y el enderezamiento o distalización de los primeros molares permanentes. La literatura reporta ganancias significativas de perímetro de arco entre 2,5 y 5,5 mm, incrementos en la anchura intercanina de 2,1–3,8 mm, interpremolar de 2,7–4 mm e intermolar de 3,6–5,5 mm, además de una resolución del apiñamiento mandibular anterior de 3–5 mm en promedio, con estabilidad clínica a largo plazo."
 
         +
 
@@ -1292,23 +1326,7 @@ const ARBOLES = {
 
         +
 
-        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> Este aparato resulta especialmente útil cuando se combinan deficiencias de longitud y anchura de arco, o cuando existe riesgo inminente de pérdida de perímetro por migración mesial de los molares permanentes tras la exfoliación o extracción de los segundos molares temporales. Su mecanismo de acción permite recuperar espacio al liberar la presión de los tejidos blandos sobre incisivos y caninos, favoreciendo la protrusión fisiológica de incisivos, la expansión transversal a nivel intercanino, interpremolar e intermolar, y el enderezamiento o distalización de los primeros molares permanentes. La literatura reporta ganancias significativas de perímetro de arco entre 2,5 y 5,5 mm, incrementos en la anchura intercanina de 2,1–3,8 mm, interpremolar de 2,7–4 mm e intermolar de 3,6–5,5 mm, además de una resolución del apiñamiento mandibular anterior de 3–5 mm en promedio, con estabilidad clínica a largo plazo."
-
-        +
-
-        "<span class='cita-biblio'>Davidovitch M, McInnis D, Lindauer SJ. The effects of lip bumper therapy in the mixed dentition. Am J Orthod Dentofacial Orthop. 1997;111:52–8.</span>"
-
-        +
-
-        "<span class='cita-biblio'>Raucci G, Pacheĉo-Pereira C, Elyasi M, D’Apuzzo F, Flores-Mir C, Perillo L. Short-and long-Term evaluation of mandibular dental arch dimensional changes in patients treated with a lip bumper during mixed dentition followed by fixed appliances. Angle Orthod. 2016 Sep;86:753–60.</span>"
-
-        +
-
-        "<span class='cita-biblio'>Moshkelgosha V, Khosravifard N, Golkari A. Tooth eruption sequence and dental crowding: a case-control study. F1000Research. 2014;3:122.</span>"
-
-        +
-
-        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> Estas mejoras suelen ser mayores que las obtenidas únicamente con el arco lingual pasivo cuando existe una deficiencia simultánea de longitud y anchura. El lip bumper es especialmente indicado cuando el espacio de Leeway ya se ha perdido parcialmente o cuando el apiñamiento supera los 5–6 mm, situación en la cual el mantenimiento pasivo del espacio resulta insuficiente para recuperar el perímetro necesario. Por ello, en casos con reducción documentada del arco y estrechez transversal, el lip bumper constituye una alternativa conservadora y eficaz para restablecer el perímetro y la anchura del arco sin necesidad de extracciones premolares."
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> Estas mejoras suelen ser mayores que las obtenidas únicamente con el arco lingual pasivo cuando existe una deficiencia simultánea de longitud y anchura. El lip bumper es especialmente indicado cuando el espacio de Leeway ya se ha perdido parcialmente o cuando el apiñamiento supera los 5–6 mm, situación en la cual el mantenimiento pasivo del espacio resulta insuficiente para recuperar el perímetro necesario. Por ello, en casos con reducción documentada del arco y estrechez transversal, el lip bumper constituye una alternativa conservadora y eficaz para restablecer el perímetro y la anchura del arco sin necesidad de extracciones premolares."
 
         +
 
@@ -1442,7 +1460,7 @@ const ARBOLES = {
 
         descripcion: 
 
-        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> Los problemas transversales representan un factor importante en la aparición y el agravamiento del apiñamiento mandibular anterior, ya que una anchura intercanina, interpremolar o intermolar reducida limita el espacio disponible para la erupción normal de caninos y premolares permanentes. Esta insuficiencia transversal favorece el colapso del sector anterior y condiciona una mayor irregularidad de los incisivos. La evidencia longitudinal muestra que, en ausencia de intervención, la anchura intercanina suele permanecer estable o incluso disminuir durante la transición de la dentición mixta a la permanente. <br><span class=\"badge-ne-moderado\">(NE: Moderado, GRADE)</span> Además, se ha observado que los niños con apiñamiento marcado presentan valores de anchura intercanina inferiores a 26 mm, lo que refuerza su papel como predictor clínico."
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> Los problemas transversales representan un factor importante en la aparición y el agravamiento del apiñamiento mandibular anterior, ya que una anchura intercanina, interpremolar o intermolar reducida limita el espacio disponible para la erupción normal de caninos y premolares permanentes. Esta insuficiencia transversal favorece el colapso del sector anterior y condiciona una mayor irregularidad de los incisivos. La evidencia longitudinal muestra que, en ausencia de intervención, la anchura intercanina suele permanecer estable o incluso disminuir durante la transición de la dentición mixta a la permanente. <br><span class=\"badge-ne-moderado\">(NE: Moderado, GRADE)</span> Además, se ha observado que los niños con apiñamiento marcado presentan valores de anchura intercanina inferiores a 26 mm, lo que refuerza su papel como predictor clínico."
 
         +
 
@@ -1458,11 +1476,7 @@ const ARBOLES = {
 
         +
 
-        "<span class='cita-biblio'>Sinclair PM, Little RM. Maturation of untreated normal occlusions. Am J Orthod. 1983;83:114–23. </span>"
-
-        +
-
-        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> Por el contrario, los pacientes que experimentan una mejoría espontánea o terapéutica del apiñamiento tienden a mostrar incrementos naturales o inducidos de la anchura intercanina. Diversos estudios coinciden en que las intervenciones interceptivas más efectivas (como el arco lingual pasivo, el lip bumper o los aparatos de expansión) generan aumentos significativos en las dimensiones transversales, con incrementos de 0,72 a 3,8 mm en anchura intercanina, 2,7 a 4 mm en interpremolar y 3,6 a 5,5 mm en intermolar, dependiendo del aparato y del protocolo utilizado."
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> Por el contrario, los pacientes que experimentan una mejoría espontánea o terapéutica del apiñamiento tienden a mostrar incrementos naturales o inducidos de la anchura intercanina. Diversos estudios coinciden en que las intervenciones interceptivas más efectivas (como el arco lingual pasivo, el lip bumper o los aparatos de expansión) generan aumentos significativos en las dimensiones transversales, con incrementos de 0,72 a 3,8 mm en anchura intercanina, 2,7 a 4 mm en interpremolar y 3,6 a 5,5 mm en intermolar, dependiendo del aparato y del protocolo utilizado."
 
         +
 
@@ -1494,7 +1508,7 @@ const ARBOLES = {
 
         +
 
-        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> En conjunto, estos hallazgos muestran que la estrechez transversal mandibular no solo contribuye al desarrollo del apiñamiento, sino que su corrección activa se vuelve un componente esencial para lograr una alineación estable del sector anterior y reducir la necesidad de extracciones premolares"
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> En conjunto, estos hallazgos muestran que la estrechez transversal mandibular no solo contribuye al desarrollo del apiñamiento, sino que su corrección activa se vuelve un componente esencial para lograr una alineación estable del sector anterior y reducir la necesidad de extracciones premolares"
 
         +
 
@@ -2014,7 +2028,7 @@ const ARBOLES = {
         
         +
         
-        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span>."
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span>"
         
         +
 
@@ -2207,7 +2221,7 @@ const ARBOLES = {
 
         tipo: "accion",
 
-        texto: "<strong>Asociado a la mandíbula</strong><br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span>"
+        texto: "<strong>Asociado a la mandíbula</strong><br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span>"
         
         +
         
@@ -2289,7 +2303,7 @@ const ARBOLES = {
         
         +
 
-        "<br><br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span> Los resultados muestran que los cambios naturales en el área de superficie palatina, el área de proyección palatina y el volumen de la placa palatina fueron mínimos, con un aumento de la anchura del paladar de entre 0,3 y 0,6 mm atribuido al crecimiento natural durante el período de observación de un año. Esto indica que la mordida cruzada posterior no se autocorrige de manera significativa sin tratamiento en la dentición mixta durante este período. Además la referencia indica que los niños con mordida cruzada posterior presentaban, antes del tratamiento, una superficie palatina y un área de proyección significativamente menores en comparación con un grupo de oclusión normal, y estas diferencias no se normalizaron o igualaron durante el año de observación. En resumen se debe realizar un tratamiento ortodóncico temprano para evitar efectos negativos de la mordida cruzada posterior en el crecimiento y desarrollo de la mandíbula y los dientes."
+        "<br><br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> Los resultados muestran que los cambios naturales en el área de superficie palatina, el área de proyección palatina y el volumen de la placa palatina fueron mínimos, con un aumento de la anchura del paladar de entre 0,3 y 0,6 mm atribuido al crecimiento natural durante el período de observación de un año. Esto indica que la mordida cruzada posterior no se autocorrige de manera significativa sin tratamiento en la dentición mixta durante este período. Además la referencia indica que los niños con mordida cruzada posterior presentaban, antes del tratamiento, una superficie palatina y un área de proyección significativamente menores en comparación con un grupo de oclusión normal, y estas diferencias no se normalizaron o igualaron durante el año de observación. En resumen se debe realizar un tratamiento ortodóncico temprano para evitar efectos negativos de la mordida cruzada posterior en el crecimiento y desarrollo de la mandíbula y los dientes."
         
         +
         
@@ -2353,7 +2367,7 @@ const ARBOLES = {
 
         tipo: "accion",
 
-        texto: "<strong>Expansión maxilar lenta</strong><br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span>"
+        texto: "<strong>Expansión maxilar lenta</strong><br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span>"
         
         +
 
@@ -2388,7 +2402,7 @@ const ARBOLES = {
         
         +
         
-        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span>"
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span>"
 
         +
         
@@ -2408,7 +2422,7 @@ const ARBOLES = {
 
         +
         
-        "<br><br>Se puede lograr una expansión intermolar de 5.2 mm al estar anclado a los primeros molares permanentes. <br><span class=\"badge-ne-moderado\">(NE: moderado, GRADE)</span>"
+        "<br><br>Se puede lograr una expansión intermolar de 5.2 mm al estar anclado a los primeros molares permanentes. <br><span class=\"badge-ne-moderado\">(NE: Moderado, GRADE)</span>"
         
         +
 
@@ -2673,7 +2687,7 @@ const ARBOLES = {
 
         tipo: "accion",
 
-        texto: "<strong>Disyuntor de Hass</strong><br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span>" 
+        texto: "<strong>Disyuntor de Hass</strong><br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span>" 
         
         + 
         
@@ -2827,7 +2841,7 @@ const ARBOLES = {
         
         +
         
-        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span>"
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span>"
         
         +
         
@@ -2878,7 +2892,7 @@ const ARBOLES = {
         
         +
         
-        "<br><span class=\"badge-ne-alta\">(NE: alta, GRADE)</span>"
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span>"
         
         +
 
