@@ -1,6 +1,1481 @@
 const ARBOLES = {
 
+  labio_paladar_hendido_clase_iii: {
 
+    titulo: "",
+
+    inicio: "presentacion",
+
+    nodos: {
+
+      presentacion: {
+
+        tipo: "decision_opciones",
+
+        texto: "Malocusión Clase III Labio Y/O Paladar Hendido Y Malocusión Clase III En Detición Mixta o Decidua",
+        
+        opciones: [
+
+          {
+            texto: "Definiciones",
+
+            siguiente: "definicion"
+
+          },
+
+          {
+            texto: "Materiales e insumos",
+
+            siguiente: "materiales"
+
+          },
+
+          {
+            texto: "Arbol de decisiones",
+
+            siguiente: "modelos"
+
+          }
+
+        ]
+
+      },
+
+      definicion: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Maloclusión clase III en LPH</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im40.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        +
+
+        "Corresponde a una discrepancia dento esquelética sagital, caracterizada por una posición relativa-mente adelantada de la mandíbula respecto al maxilar. La maloclusión clase III esquelética presenta una etiología multifactorial, aunque con una marcada influencia genética y la participación de factores ambientales y funcionales. Su origen puede estar asociado a una deficiencia del crecimiento maxilar,un exceso del crecimiento mandibular o una combinación de ambos factores. En términos oclusales, esta maloclusión puede manifestarse con una relación molar y canina de clase III esquelética, aunque en algunos casos pueden desarrollar compensaciones dentales que enmascaran la discrepancia esquelética y generar relaciones oclusales cercanas a Clase I. La compensación dental más frecuente se manifiesta como una protrusión de los incisivos maxilares y una retrusión de los incisivos mandibulares, lo que se traduce clínicamente en una mordida borde a borde o en una mordida cruzada anterior. El diagnóstico de la Clase III esquelética requiere una evaluación clínica y cefalometrica, mediante la identificación de características esqueléticas comunes, como el acortamiento de la base craneal anterior (NS) y posterior (S-Ar/Ba), la disminución del ángulo de la silla turca (NS-Ar) y el aumento del ángulo gonial (Ar-Go-Gn), que conducen a una posición más anterior de la fosa glenoidea, lo que resulta en maloclusión de clase III esquelética. Otras medidas en las que se correlacionan el maxilar con la mandíbula y cada uno de ellos con la base craneal anterior, (ANB) y (Wits) con valores menores o negativos; alteración de la diferencia maxilomandibular; nasion perpendicular al punto A (+2,3 mm) y nasion perpendicular al pogonion (0 mm), ambos alterados [7, 8, 9]."
+        
+        ,
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "presentacion",
+          }
+
+        ]
+
+      },
+      
+      materiales: {
+
+        tipo: "accion",
+
+        clase: "decision-card-panoramica",
+
+        texto: "<Strong>Materiales para apiñamiento mandibular anterior</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/materialesC.png' style='width: 850px; height: auto; display: block; margin: 20px auto; border-radius: 12px;'>"
+        
+        ,
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "presentacion",
+          }
+
+        ]
+
+      },
+
+      modelos: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Explicación de necesidad y objetivos de tratamiento</Strong>"
+        
+        +
+
+        "<br><br>Los pacientes con LPHNS presentan con frecuencia una deficiencia del tercio medio facial caracte-rizada por retrusión maxilar, perfil facial cóncavo y tendencia al desarrollo de una maloclusión Clase III. Esta alteración tiene un origen multifactorial y se relaciona tanto con factores intrínsecos del desa-rrollo craneofacial como con los efectos derivados de las cirugías tempranas a los que estos pacientes son sometidos. Además de la deficiencia sagital, el maxilar suele presentar compromiso transversal y vertical, favoreciendo la presencia de mordidas cruzadas anteriores y posteriores (55). Los objetivos del tratamiento incluyen mejorar la relación maxilo mandibular, corregir las mordidas cruzadas, op-timizar la estética facial y establecer condiciones más favorables para el desarrollo oclusal durante el crecimiento"
+
+        +
+
+        "<span class='cita-biblio'>Zere E, Chaudhari PK, Sharan J, Dhingra K, Tiwari N. Developing Class III malocclusions: challenges and solutions. Clin Cosmet Investig Dent. 2018;10:99–116</span>"
+
+        ,
+
+        imagen: "./image/LPH1_1.png",
+
+        siguiente: "tratamiento",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "presentacion",
+          }
+
+        ]
+
+      },
+
+      tratamiento: {
+
+        tipo: "decision",
+
+        texto: "¿Paciente y acudiente aceptan el plan de tratamiento?",
+
+        imagen: "./image/LPH1_2.png",
+
+        si: "dentincion",
+
+        no: "consecuencias",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "modelos",
+          }
+
+        ]
+
+      },
+
+      consecuencias: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Informar las consecuencias de no realizar el tratamiento</Strong>"
+        
+        +
+
+        "<br><br>Los pacientes tratados con máscara facial (FM) mostraron una mejoría significativa de las relaciones esqueléticas y dentales en comparación con los pacientes controles no tratados, evidenciada por incre-mentos en el ángulo SNA de 2.12° (WMD = 2.12, IC del 95 %: 1.58 a 2.66), el ángulo ANB de 4.17° (WMD = 4.17, IC del 95 %: 3.60 a 4.74), el ángulo SN-MP de 2.60° (WMD = 2.60, IC del 95 %: 1.10 a 4.10) y, una disminución del ángulo SNB de 1.94° (WMD = -1.94, IC del 95 %: -2.48 a -1.40). "
+
+        +
+
+        "<br><span class=\"badge-ne-moderado\">(NE: Moderado, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Palikaraki G, Makrygiannakis MA, Zafeiriadis AA, Benetou V, Sanoudos M, Bitsanis I, et al. The effect of facemask in patients with unilateral cleft lip and palate: A systematic review and meta-Analysis. Vol. 43, European Journal of Orthodontics. Oxford University Press; 2021. p. 69–79. </span>"
+
+        ,
+
+        imagen: "./image/LPH1_3.png",
+
+        siguiente: null,
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "tratamiento",
+          }
+
+        ]
+
+      },
+
+      dentincion: {
+
+        tipo: "decision_opciones",
+
+        texto: "Tipo de dentición presente",
+        
+        descripcion: 
+        
+        "<br>Se compararon los resultados del tratamiento realizado de forma temprana (4-7 años) con aquellos obtenidos mediante tratamiento tardío (8-13 años) y se concluyó que no se encontraron diferencias estadísticamente significativas entre ambos grupos en cuanto a la proyección esquelética final del tercio medio facial. No obstante, el grupo tratado tempranamente presentó un incremento significativamente mayor del ángulo ANB (4.56°) en comparación con el grupo de tratamiento tardío (2.53°). Sin embargo, esta diferencia se atribuyó principalmente a una mayor rotación mandibular en sentido horario y no a un mayor desplazamiento anterior del maxilar. Dichos efectos fueron más evidentes en los pacientes de menor edad, probablemente debido al crecimiento vertical asociado con la transición hacia la dentición mixta. En cuanto al ángulo SNA, aunque el grupo de tratamiento temprano mostró un incremento mayor (2,14°) que el grupo de tratamiento tardío (1,29°), esta diferencia no alcanzó significación estadística."
+        
+        +
+
+        "<br>De igual manera, no se observaron diferencias significativas entre ambos grupos respecto a la recidiva. En términos generales, el 57,5 % de los pacientes volvieron a presentar algún grado de mordida cruzada anterior durante el seguimiento. Esta recidiva no se relaciona con una pérdida de estabilidad del avance maxilar obtenido, sino con el crecimiento mandibular continuo y su rotación en sentido anti horario, fenómenos que superaron los cambios esqueléticos alcanzados en el maxilar."
+        
+        +
+
+        "<span class=\"badge-ne-muy-baja\">(NE: Muy baja, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Segal DA, Grayson BH, Shetye PR. Skeletal and dentoalveolar changes following the use of an occlusally bonded maxillary protraction headgear appliance in patients born with cleft lip and palate. Semin Orthod. 2017 Sep;23:279–94.</span>"
+
+        ,
+
+        imagen: "./image/LPH1_4.png",
+        
+        opciones: [
+
+          {
+            texto: "Dentición decidua ó mixta temprana",
+
+            siguiente: "mixtatemprana"
+
+          },
+
+          {
+            texto: "Dentición intertransicional o mixta tardia",
+
+            siguiente: "mixtatardia"
+
+          },
+
+          {
+            texto: "Dentición permanente",
+
+            siguiente: "permanente"
+
+          }
+
+        ],
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "tratamiento",
+          }
+
+        ]
+
+      },
+
+      mixtatemprana: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Dentición decidua ó mixta temprana</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im41.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        ,
+
+        imagen: "./image/LPH1_5.png",
+
+        siguiente: "anclaje",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "dentincion",
+          }
+
+        ]
+
+      },
+
+      mixtatardia: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Dentición intertransicional o mixta tardia</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im42.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        ,
+
+        imagen: "./image/LPH1_6.png",
+
+        siguiente: "alveolar",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "dentincion",
+          }
+
+        ]
+
+      },
+
+      alveolar: {
+
+        tipo: "decision",
+
+        texto: "¿Ha sido  realizado un  injerto alveolar secundario?",
+
+        descripcion: 
+
+        "<br>Algunos estudios han sugerido que en pacientes con labio y/o paladar hendido, la realización de un injerto alveolar secundario antes de la protracción maxilar podría favorecer una respuesta esquelética más favorable; sin embargo, la evidencia disponible es limitada y debe interpretarse con cautela. Durante el tratamiento ortodóncico interceptivo con FM, se observaron mejores efectos esqueléticos en los pacientes que habían recibido injerto alveolar, evidenciados por un mayor avance del punto A (4,18 mm) en comparación con aquellos sin injerto (2,64 mm). Asimismo, el grupo con injerto presentó una menor rotación mandibular en sentido horario (10 % frente a 50 %), lo que sugiere un menor incremento del ángulo mandibular y de la altura facial inferior, factores considerados importantes para la estabilidad de los resultados terapéuticos. De igual manera, se observó una mayor mejoría de la relación esquelética, evaluada mediante el ángulo ANB. Los autores reportaron que aproximadamente el 90 % de la corrección obtenida en el grupo con injerto fue atribuible al avance maxilar, mientras que en el grupo sin injerto solo el 50 % de la mejoría se relacionó con cambios maxilares, correspondiendo el porcentaje restante principalmente a la rotación mandibular."
+        
+        +
+
+        "<span class=\"badge-ne-muy-baja\">(NE: Muy baja, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Zhang Y, Jia H, Fu Z, Huang Y, Wang Z, Guo R, et al. Dentoskeletal effects of facemask therapy in skeletal Class III cleft patients with or without bone graft. Am J Orthod Dentofac Orthop. 2018 Apr;153:542–9.</span>"
+
+        ,
+
+        imagen: "./image/LPH1_8.png",
+
+        si: "anclaje",
+
+        no: "priorizar",
+
+        botones: [
+
+          {
+            texto: "Volver 1",
+            siguiente: "mixtatardia",
+          },
+          {
+            texto: "Volver 2",
+            siguiente: "crecimiento",
+          }
+
+        ]
+
+      },
+
+      priorizar: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Priorizar la realización del injerto</Strong>",
+
+        imagen: "./image/LPH1_11.png",
+
+        siguiente: null,
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "alveolar",
+          }
+
+        ]
+
+      },
+
+      permanente:{
+
+        tipo: "accion",
+
+        texto: "<Strong>Dentición permanente</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im43.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        ,
+
+        imagen: "./image/LPH1_7.png",
+
+        siguiente: "crecimiento",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "dentincion",
+          }
+
+        ]
+
+      },
+
+      crecimiento: {
+
+        tipo: "decision",
+
+        texto: "¿Persiste la posibilidad de crecimiento?",
+
+        descripcion: 
+
+        "<br>La determinación del estadio de maduración vertebral cervical permite establecer si el paciente conserva potencial de crecimiento e identificar la proximidad del pico de crecimiento mandibular mediante el análisis morfológico de las vértebras cervicales C2, C3 y C4 en una radiografía lateral de cráneo. Esta información es relevante para estimar la respuesta esperada al tratamiento ortopédico maxilar y para planificar oportunamente futuras intervenciones ortodónticas o quirúrgicas."
+        
+        +
+
+        "<br>Según este método, el pico de crecimiento ocurre entre los estadios cervicales CS3 y CS4."
+
+        +
+
+        "En el estadio CS3, considerado el inicio del pico de crecimiento, se observan concavidades en los bordes inferiores de C2 y C3, mientras que C4 permanece plano. Adicionalmente, los cuerpos vertebrales de C3 y C4 presentan una morfología trapezoidal o rectangular horizontal.Por su parte, en el estadio CS4 se evidencian concavidades en los bordes inferiores de C2, C3 y C4, acompañadas de cuerpos vertebrales con una forma rectangular horizontal bien definida. Este estadio indica que el pico de crecimiento mandibular ocurrió aproximadamente entre uno y dos años antes de la evaluación radiográfica"
+
+        +
+
+        "<span class='cita-biblio'>Baccetti T, Franchi L, McNamara JA, Tollaro I. Early dentofacial features of Class II malocclusion: a longitudinal study from the deciduous through the mixed dentition. Am J Orthod Dentofacial Orthop. 1997;111:502–9.</span>"
+
+        ,
+
+        imagen: "./image/LPH1_9.png",
+
+        si: "alveolar",
+
+        no: "protocolo",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "permanente",
+          }
+
+        ]
+
+      },
+
+      protocolo: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Remitir al protocolo de ortodoncia correctiva</Strong>",
+
+        imagen: "./image/LPH1_11.png",
+
+        siguiente: null,
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "crecimiento",
+          }
+
+        ]
+
+      },
+
+      anclaje: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Remitir al protocolo de ortodoncia correctiva</Strong>",
+
+        imagen: "./image/LPH2_1.png",
+
+        siguiente: "expansion",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "alveolar",
+          }
+
+        ]
+
+      },
+
+      expansion: {
+
+        tipo: "decision",
+
+        texto: "¿Ha sido  realizado un  injerto alveolar secundario?",
+
+        descripcion: 
+
+        "<br>La necesidad de expansión maxilar debe determinarse mediante la evaluación clínica de la discrepancia transversal maxilar. En pacientes con LPHNS , la deficiencia transversal del maxilar es frecuente debido a las alteraciones del crecimiento propias de la fisura y a los efectos cicatriciales derivados de las cirugías primarias. La presencia de mordida cruzada posterior, colapso maxilar o discrepancia transversal constituye una indicación para realizar expansión maxilar antes o simultáneamente a la protracción maxilar"
+        
+        +
+
+        "<span class='cita-biblio'>Deepika U, Ray P, Nayak A, Simon LS, Mahakur M, Sahu M. Dento-skeletal Sequel of Hyrax in Nonsyndromic Cleft Lip and Palate: A Systematic Review and Meta-analysis. Int J Clin Pediatr Dent. 2023;16:882–96.</span>"
+
+        ,
+
+        imagen: "./image/LPH2_2.png",
+
+        si: "picocercimiento",
+
+        no: "protraccion",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "anclaje",
+          }
+
+        ]
+
+      },
+
+      protraccion: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Elección protocolo de protracción</Strong>",
+
+        imagen: "./image/LPH2_7.png",
+
+        siguiente: "picocrecimiento2",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "expansion",
+          }
+
+        ]
+
+      },
+
+      picocrecimiento2: {
+
+        tipo: "decision",
+
+        texto: "¿Ha sido  realizado un  injerto alveolar secundario?",
+
+        descripcion: 
+
+        "<br>La evidencia disponible sugiere que cuando se opta por realizar el tratamiento de pacientes con LPHNS con protocolo Alternate Rapid Maxillary Expansion and Constriction (Alt RAMEC), realizar la expansión y protracción maxilar cerca del pico puberal de crecimiento podría permitir una mayor estabilidad de los resultados y disminuir la probabilidad de recidiva de tratamientos iniciados durante etapas más tempranas de la dentición mixta con este protocolo."
+        
+        +
+
+        "<br><span class=\"badge-ne-muy-baja\">(NE: Muy baja, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>S V, Chavan SJ, Manchanda JS, Zanwar VS, Jain SS, Arya R, et al. Skeletal Changes After Alt-RAMEC Protocol in Cleft Lip and Palate: A Systematic Review and Meta-Analysis. Cleft Palate Craniofacial J. 2025 Sep; </span>"
+
+        ,
+
+        imagen: "./image/LPH2_8.png",
+
+        si: "mini",
+
+        no: "petit",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "protraccion",
+          }
+
+        ]
+
+      },
+
+      picocercimiento: {
+
+        tipo: "decision",
+
+        texto: "¿Ha sido  realizado un  injerto alveolar secundario?",
+
+        descripcion: 
+
+        "<br>La evidencia disponible sugiere que cuando se opta por realizar el tratamiento de pacientes con LPHNS con protocolo Alternate Rapid Maxillary Expansion and Constriction (Alt RAMEC), realizar la expansión y protracción maxilar cerca del pico puberal de crecimiento podría permitir una mayor estabilidad de los resultados y disminuir la probabilidad de recidiva de tratamientos iniciados durante etapas más tempranas de la dentición mixta con este protocolo."
+        
+        +
+
+        "<br><span class=\"badge-ne-muy-baja\">(NE: Muy baja, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>S V, Chavan SJ, Manchanda JS, Zanwar VS, Jain SS, Arya R, et al. Skeletal Changes After Alt-RAMEC Protocol in Cleft Lip and Palate: A Systematic Review and Meta-Analysis. Cleft Palate Craniofacial J. 2025 Sep; </span>"
+
+        ,
+
+        imagen: "./image/LPH2_3.png",
+
+        si: "ramec",
+
+        no: "QuaHy",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "expansion",
+          }
+
+        ]
+
+      },
+
+      ramec: {
+
+        tipo: "accion",
+
+        texto: 
+        
+        "<Strong>Disyunción con Alt RAMEC</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im46.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        +
+
+        "<br>El protocolo Alt-RAMEC consiste en ciclos alternados de expansión y constricción maxilar realizados semanalmente durante aproximadamente siete semanas. Su objetivo es incrementar la desarticulación de las suturas circunmaxilares para facilitar la posterior protracción maxilar. La evidencia disponible sugiere que la aplicación del protocolo cerca del pico de crecimiento puede favorecer una mayor estabilidad de los resultados obtenidos."
+
+        +
+
+        "<br>Finalizada la fase de expansión-constricción, el tratamiento continúa con la fase de protracción maxilar mediante FM, con un seguimiento de al menos 6 meses."
+        
+        +
+
+        "<br>El éxito terapéutico depende en gran medida de la adherencia al uso de la aparatología y de la magnitud y dirección de las fuerzas aplicadas."
+
+        +
+
+        "<br>En pacientes con LPHNS, el protocolo de Alt-RAMEC en combinación con FM, ha mostrado mejoras en el perfil facial y en la convexidad facial, así como un incremento significativo del ángulo SNA reportado entre (3.23° y 5.75°). La evidencia sugiere que estos cambios son atribuibles principalmente a modificaciones esqueléticas más que dentoalveolares y, indica una adecuada estabilidad a largo plazo de la protracción maxilar alcanzada mediante este protocolo cuando se aplica cerca al pico de crecimiento."
+
+        +
+
+        "<br>No obstante, los efectos sobre la relación maxilomandibular global son menos consistentes. Aunque se observa una tendencia al aumento del ángulo ANB entre (4.03° y 6.12°) esta tiene una heterogeneidad del 96 % esto debido a la variabilidad en el tiempo de uso y los niveles de fuerzas utilizados entre los estudios analizados; asimismo, la fase de expansión previa puede inducir una rotación mandibular hacia abajo y atrás lo que genera una ligera disminución del ángulo SNB entre (-1.37° y -0.8°). Estos cambios podrían ser desfavorables en pacientes con un patrón de crecimiento vertical aumentado o con tendencia a la rotación mandibular posterior."
+
+        +
+
+        "<br>Desde el punto de vista periodontal, algunos estudios han reportado que con el protocolo Alt RA-MEC puede generar una reducción del espesor del hueso alveolar vestibular de los dientes utilizados como anclaje durante la expansión, por lo que se recomienda un monitoreo clínico y radiográfico periódico durante el tratamiento.<span class=\"badge-ne-muy-baja\">(NE: Muy baja, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>S V, Chavan SJ, Manchanda JS, Zanwar VS, Jain SS, Arya R, et al. Skeletal Changes After Alt-RAMEC Protocol in Cleft Lip and Palate: A Systematic Review and Meta-Analysis. Cleft Palate Craniofacial J. 2025 Sep; </span>"
+
+        +
+
+        "<br>Recomendación de uso: El protocolo clásico Alt-RAMEC consiste en alternar semanalmente ciclos de ERM y constricción maxilar durante un período aproximado de 5 a 9 semanas. Finalizada esta fase, se inicia la protracción maxilar mediante FM. Algunos estudios sugieren que el uso de expansores de doble bisagra podría favorecer una mayor movilización del complejo maxilar y potenciar los efectos de la protracción. Asimismo, se recomienda mantener las fuerzas de protracción durante el mayor número de horas posible al día, idealmente de forma continua o según la máxima tolerancia del paciente, con el fin de optimizar la respuesta ortopédica."
+        
+        +
+        
+        "<br><span class=\"badge-ne-muy-baja\">(NE: Muy baja, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>S V, Chavan SJ, Manchanda JS, Zanwar VS, Jain SS, Arya R, et al. Skeletal Changes After Alt-RAMEC Protocol in Cleft Lip and Palate: A Systematic Review and Meta-Analysis. Cleft Palate Craniofacial J. 2025 Sep; </span>"
+
+        ,
+
+        imagen: "./image/LPH2_6.png",
+
+        siguiente: "petit",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "expansion",
+          }
+
+        ]
+
+      },
+
+      QuaHy: {
+
+        tipo: "decision_opciones",
+
+        texto: "Elección",
+
+        imagen: "./image/LPH2_4.png",
+        
+        opciones: [
+
+          {
+            texto: "Quadhelix",
+
+            siguiente: "quadhelix"
+
+          },
+
+          {
+            texto: "Disyuntor Hyrax",
+
+            siguiente: "hyrax"
+
+          }
+
+        ],
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "picocercimiento",
+          }
+
+        ]
+
+      },
+
+      hyrax: {
+
+        tipo: "accion",
+
+        texto: 
+        
+        "<Strong>Disyuntor Hyrax</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im45.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        +
+
+        "<br>Asimismo, la ERM se ha asociado con un aumento del volumen de la vía aérea orofaríngea. Sin embargo, cuando el objetivo terapéutico incluye la corrección de la deficiencia sagital maxilar, la expansión rápida debe complementarse con terapia de protracción maxilar, ya que la expansión aislada genera principalmente cambios transversales con un efecto limitado sobre el avance esquelético del maxilar"
+        
+        +
+        
+        "<br><span class=\"badge-ne-muy-baja\">(NE: Muy baja, GRADE)</span>"
+        
+        +
+
+        "<span class='cita-biblio'>Vasant MR, Menon S, Kannan S. Maxillary Expansion in Cleft Lip and Palate using Quad Helix and Rapid Palatal Expansion Screw. Med journal, Armed Forces India. 2009 Apr;65:150–3.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Deepika U, Ray P, Nayak A, Simon LS, Mahakur M, Sahu M. Dento-skeletal Sequel of Hyrax in Nonsyndromic Cleft Lip and Palate: A Systematic Review and Meta-analysis. Int J Clin Pediatr Dent. 2023;16:882–96.</span>"
+
+        +
+
+        "<br>Recomendación de uso: Se recomienda considerar el uso de esta alternativa en dentición decidua tardía y dentición mixta. El protocolo de activación consiste en dos cuartos de vuelta diarios (una activación en la mañana y una en la noche), equivalentes a aproximadamente 0,5 mm de expansión por día. La activación debe mantenerse hasta alcanzar la corrección transversal o una ligera sobrecorrección clínica. Habitualmente, la fase activa tiene una duración aproximada de 7 a 14 días, dependiendo de la magnitud de la discrepancia transversal. Posteriormente, se recomienda mantener el aparato en posición pasiva como retenedor durante un período mínimo de 3 a 6 meses para favorecer la estabilidad de los resultados obtenidos. "
+        
+        +
+        
+        "<br><span class=\"badge-ne-muy-baja\">(NE: Muy baja, GRADE)</span>"
+        
+        +
+
+        "<span class='cita-biblio'>Deepika U, Ray P, Nayak A, Simon LS, Mahakur M, Sahu M. Dento-skeletal Sequel of Hyrax in Nonsyndromic Cleft Lip and Palate: A Systematic Review and Meta-analysis. Int J Clin Pediatr Dent. 2023;16:882–96.</span>"
+
+        ,
+
+        imagen: "./image/LPH2_5.png",
+
+        siguiente: "petit",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "QuaHy",
+          }
+
+        ]
+
+      },       
+
+      quadhelix: {
+
+        tipo: "accion",
+
+        texto: 
+        
+        "<Strong>Quadhelix</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im44.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        +
+
+        "<br>El QH constituye una alternativa para realizar ESM en pacientes con LPHNS. La evidencia disponible indica que, en comparación con ERM mediante Hyrax (HY), el QH requiere un mayor tiempo de tratamiento para alcanzar la corrección transversal. Aunque se ha observado una mayor rotación molar durante la expansión, no se han encontrado diferencias significativas en las dimensiones intercaninas ni en las intermolares finales entre ambos métodos. Los cambios que se evidenciaron con el uso del QH fueron en el ancho intercanino (8.5 mm) (SD 3.65), ancho intermolar (4.35 mm)(SD 2.30), rotación molar (26.60°)(SD 16.30) e inclinación molar (7.0°)(SD 4.5).Por tanto, el QH puede considerarse una opción cuando se busca una expansión más gradual y controlada del maxilar"
+        
+        +
+        
+        "<br><span class=\"badge-ne-muy-baja\">(NE: Muy baja, GRADE)</span>"
+        
+        +
+
+        "<span class='cita-biblio'>Vasant MR, Menon S, Kannan S. Maxillary Expansion in Cleft Lip and Palate using Quad Helix and Rapid Palatal Expansion Screw. Med journal, Armed Forces India. 2009 Apr;65:150–3.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Deepika U, Ray P, Nayak A, Simon LS, Mahakur M, Sahu M. Dento-skeletal Sequel of Hyrax in Nonsyndromic Cleft Lip and Palate: A Systematic Review and Meta-analysis. Int J Clin Pediatr Dent. 2023;16:882–96.</span>"
+
+        ,
+
+        imagen: "./image/LPH2_4.png",
+
+        siguiente: "petit",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "QuaHy",
+          }
+
+        ]
+
+      }, 
+
+      petit: {
+
+        tipo: "accion",
+
+        texto: 
+        
+        "<Strong>Protocolo de protracción con mascara Petit</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im47.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        +
+
+        "<br>La FM constituye una alternativa eficaz para el tratamiento de la deficiencia maxilar en pacientes con LPHNS. Los resultados con el uso de FM mostraron cambios esqueléticos significativos en comparación con pacientes con LPHNS no tratados, evidenciados por un aumento del ángulo SNA entre (2,12° a 2.64°), una disminución del ángulo SNB entre (-1,90° a -2.00°), un incremento del ángulo ANB entre (4,17° a 4,40°), una mejoría de 5,53 mm (IC 95 %: 4.27 a 6.79) en la valoración de Wits y, un aumento del ángulo mandibular entre (1,64° a 2,75°) lo que sugiere una rotación mandibular en sentido horario (hacia abajo y atrás) en pacientes con LPHNS tratados en comparación con el grupo control de pacientes con LPHNS no tratados, posiblemente relacionado con la resistencia generada por los tejidos cicatriciales propios de la fisura. "
+        
+        +
+        
+        "<br>En cuanto a los efectos dentoalveolares, la mayoría de los estudios no encontraron diferencias estadísticamente significativas. No obstante se reportó una proinclinación de los incisivos superiores U1-SN entre (2.84° a 3,24°), una disminución en el IMPA de 3,75° y una reducción en el ángulo interincisal U1-L1 de 2,35°. Adicionalmente, una corrección del overjet de 5,16 mm (IC 95 %: 4.33 a 5.99) y una reducción del overbite de 3,46 mm (IC 95 %: -4.26 a -2.66), sugiriendo la presencia de com-pensaciones dentarias asociadas a la protracción maxilar"
+
+        +
+
+        "<br><span class=\"badge-ne-moderado\">(NE: Moderado, GRADE)</span>"
+        
+        +
+
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span>"
+        
+        +
+
+        "<span class='cita-biblio'>Haichao J, Weiran L. Maxillary Protraction Effects on Anterior Crossbites Repaired Unilateral Cleft Versus Noncleft Prepubertal Boys. https://angle-orthodontist.kglmeridian.com/meridian/angle/published/rest/pdf-watermark/v1/journals/angl/78/4/article-p617.pdf/watermark-pdf/. 2008. </span>"
+
+        +
+
+        "<span class='cita-biblio'>Palikaraki G, Makrygiannakis MA, Zafeiriadis AA, Benetou V, Sanoudos M, Bitsanis I, et al. The effect of facemask in patients with unilateral cleft lip and palate: A systematic review and meta-Analysis. Vol. 43, European Journal of Orthodontics. Oxford University Press; 2021. p. 69–79.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Siddiqui HP, Kuijpers-Jagtman AM, Sennimalai K, Meazzini MC, Selvaraj M, Machawal J. Effects of Maxillary Protraction Techniques on Maxillofacial, Dental, and Soft Tissue Outcomes in Patients With Non-Syndromic Unilateral Cleft Lip and Palate: A Systematic Review and Meta-Analysis. Vol. 28, Orthodontics and Craniofacial Research. John Wiley and Sons Inc; 2025. p. 885–906. </span>"
+
+        +
+
+        "<span class='cita-biblio'>Gandhi V, Fattal A, Genova G, Yadav S, Janakiraman N. Comparative Analysis of Bone vs. Tooth Anchored Maxillary Protraction in Cleft Lip and Palate Patients-A Systematic Review and Meta-Analysis. Orthod Craniofac Res. 2025 Sep; </span>"
+    
+        +
+        
+        "<br>Recomendaciones de uso: Para la protracción maxilar se recomienda la aplicación de fuerzas entre 400 y 500 gramos por lado, dirigidas aproximadamente entre 10° y 30° por debajo del plano oclusal. El uso diario de la máscara facial debe mantenerse durante al menos 12 a 14 horas, aunque puede ajustarse según los objetivos terapéuticos, la cooperación del paciente y la respuesta clínica observada. La duración del tratamiento debe individualizarse en función de la severidad de la deficiencia maxilar, la respuesta ortopédica obtenida y el patrón de crecimiento craneofacial. En la mayoría de los pacientes, la fase activa de protracción suele extenderse entre 12 y 18 meses, requiriendo controles periódicos para evaluar la necesidad de continuar, modificar o finalizar la terapia."
+
+        +
+
+        "<br><span class=\"badge-ne-moderado\">(NE: Moderado, GRADE)</span>"
+        
+        +
+
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span>"
+        
+        +
+
+        "<span class='cita-biblio'>Palikaraki G, Makrygiannakis MA, Zafeiriadis AA, Benetou V, Sanoudos M, Bitsanis I, et al. The effect of facemask in patients with unilateral cleft lip and palate: A systematic review and meta-Analysis. Vol. 43, European Journal of Orthodontics. Oxford University Press; 2021. p. 69–79.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Siddiqui HP, Kuijpers-Jagtman AM, Sennimalai K, Meazzini MC, Selvaraj M, Machawal J. Effects of Maxillary Protraction Techniques on Maxillofacial, Dental, and Soft Tissue Outcomes in Patients With Non-Syndromic Unilateral Cleft Lip and Palate: A Systematic Review and Meta-Analysis. Vol. 28, Orthodontics and Craniofacial Research. John Wiley and Sons Inc; 2025. p. 885–906. </span>"
+
+        +
+
+        "<span class='cita-biblio'>Gandhi V, Fattal A, Genova G, Yadav S, Janakiraman N. Comparative Analysis of Bone vs. Tooth Anchored Maxillary Protraction in Cleft Lip and Palate Patients-A Systematic Review and Meta-Analysis. Orthod Craniofac Res. 2025 Sep; </span>"
+    
+        +
+
+        "<br>Fuerza de tracción entre 400 y 500 gramos por lado"
+
+        +
+
+        "<br>Angulación de elasticos entre 10° y 30° por debajo del plano oclusal"
+        
+        +
+
+        "Uso mínimo de 14 horas al dia"
+
+        ,
+
+        imagen: "./image/LPH3_3.png",
+
+        siguiente: "reevaluacion",
+
+        botones: [
+
+          {
+            texto: "Volver 1",
+            siguiente: "quadhelix",
+          },
+          {
+            texto: "Volver 2",
+            siguiente: "hyrax",
+          },
+          {
+            texto: "Volver 3",
+            siguiente: "ramec",
+          },
+          {
+            texto: "Volver 4",
+            siguiente: "picocrecimiento2",
+          }
+
+        ]
+
+      },
+
+      mini: {
+
+        tipo: "decision_opciones",
+
+        texto: "<Strong>Miniplacas con elásticos intermaxilares</Strong>",
+
+        descripcion:
+        
+        "<br><br>La terapia con elásticos intermaxilares de Clase III anclados a miniplacas consiste en la colocación quirúrgica de dos miniplacas en la región infra cigomática del maxilar y dos miniplacas adicionales en la región mandibular, generalmente entre los caninos y los incisivos laterales. Ambas estructuras se conectan mediante elásticos de Clase III, generando fuerzas ortopédicas continuas."
+
+        +
+
+        "<br>Al estar el sistema anclado directamente al hueso, las fuerzas se transmiten predominantemente al complejo maxilomandibular, favoreciendo los cambios esqueléticos y minimizando las compensacio-nes dentoalveolares observadas con los sistemas de anclaje dentario. Los cambios promedio registrados para este tratamiento fueron un aumento en el ANB de 1.51°, aumento en el SNA de 1.63°, un rango de proinclinación de los incisivos superiores U1-FH entre 0.5° y 4.3°, y un incremento en el overjet de 2.38 mm; finalmente un cambio no significativo en el SNB de -0.62° en promedio y (p=0.62)"
+
+        +
+
+        "<br><span class=\"badge-ne-muy-baja\">(NE: Muy baja, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Jahanbin A, Shafaee H, Pahlavan H, Bardideh E, Entezari M. Efficacy of Different Methods of Bone-Anchored Maxillary Protraction in Cleft Lip and Palate Children: A Systematic Review and Meta-Analysis. J Craniofac Surg. 2023 May;34:875–80.</span>"
+
+        +
+        
+        "<br>Recomendaciones de uso: Se recomienda iniciar la tracción intermaxilar con fuerzas ligeras, apro-ximadamente de 150 gramos por lado, incrementándose progresivamente hasta alcanzar entre 200 y 250 gramos por lado, según la tolerancia del paciente y la respuesta clínica observada. Se recomienda que los elásticos sean utilizados de forma continua, idealmente durante las 24 horas del día, retirándose únicamente para la higiene oral y el recambio de los mismos. Para mantener una magnitud de fuerza adecuada, los pacientes deben ser instruidos para reemplazar los elásticos al menos una vez al día o según las indicaciones del fabricante y del protocolo clínico utilizado. La duración del tratamiento debe individualizarse de acuerdo con la severidad de la discrepancia esquelética, la respuesta al tratamiento, el patrón de crecimiento craneofacial y el grado de cooperación del paciente. En la mayoría de los protocolos, la fase activa de protracción suele mantenerse durante aproximadamente 12 a 18 meses. La protracción maxilar mediante miniplacas y elásticos intermaxilares suele estar mejor documentada en pacientes cercanos al final de la dentición mixta o en dentición permanente temprana, cuando existe suficiente soporte óseo para la colocación de las miniplacas."
+
+        +
+
+        "<br><span class=\"badge-ne-muy-baja\">(NE: Muy baja, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Jahanbin A, Shafaee H, Pahlavan H, Bardideh E, Entezari M. Efficacy of Different Methods of Bone-Anchored Maxillary Protraction in Cleft Lip and Palate Children: A Systematic Review and Meta-Analysis. J Craniofac Surg. 2023 May;34:875–80.</span>"
+        
+
+        ,
+
+        imagen: "./image/LPH3_5.png",
+        
+        opciones: [
+
+          {
+            texto: "Mini implantes con resortes intraorales",
+
+            siguiente: "miniimplantes"
+
+          },
+
+          {
+            texto: "Mascara  facial asistida por miniplacas",
+
+            siguiente: "mascara"
+
+          }
+
+        ]
+
+      },
+
+      miniimplantes: {
+
+        tipo: "accion",
+
+        texto: 
+        
+        "<Strong>Mini implantes con resortes intraorales</Strong>"
+        
+        +
+
+        "<br><br>La protracción maxilar asistida por resortes intraorales de níquel-titanio (NiTi) con anclaje esquelético mediante mini implantes utiliza resortes helicoidales de aproximadamente 0,036 pulgadas que generan fuerzas continuas entre 300 y 500 gramos por lado. Los tiempos de tratamiento reportados oscilan entre 5 y 8 meses."
+        
+        +
+        
+        "<br>Este protocolo suele combinarse con expansión maxilar previa mediante expansores tipo bisagra. Los estudios reportan un avance maxilar promedio en el punto A de 2,9 ± 1,9 mm, superior al observado con expansión maxilar rápida convencional, que alcanza aproximadamente 0,9 ± 1,1 mm. Estos resultados sugieren que la protracción maxilar asistida por mini implantes puede constituir una alternativa efectiva para incrementar los efectos ortopédicos sobre el maxilar en pacientes con LPHNS."
+
+        +
+
+        "<br><span class=\"badge-ne-moderado\">(NE: Moderado, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Siddiqui HP, Kuijpers-Jagtman AM, Sennimalai K, Meazzini MC, Selvaraj M, Machawal J. Effects of Maxillary Protraction Techniques on Maxillofacial, Dental, and Soft Tissue Outcomes in Patients With Non-Syndromic Unilateral Cleft Lip and Palate: A Systematic Review and Meta-Analysis. Vol. 28, Orthodontics and Craniofacial Research. John Wiley and Sons Inc; 2025. p. 885–906.</span>"
+
+        +
+
+        "<br>Recomendación clínica: Cuando las condiciones anatómicas permitan una adecuada inserción y estabilidad de los mini implantes, se recomienda la utilización de resortes helicoidales de níquel-titanio capaces de generar fuerzas continuas de aproximadamente 300 a 500 gramos por lado. Este protocolo puede combinarse con expansión maxilar previa, especialmente mediante expansores tipo bisagra, con el objetivo de favorecer la desarticulación de las suturas circunmaxilares y potenciar la respuesta ortopédica."
+
+        +
+        
+        "<br>Se recomienda realizar controles periódicos para evaluar la estabilidad de los mini implantes, la integridad de los tejidos periimplantarios y la respuesta clínica al tratamiento. La duración de la fase activa suele oscilar entre 5 y 8 meses, aunque deberá individualizarse según la severidad de la deficiencia maxilar, la respuesta obtenida y el patrón de crecimiento del paciente."
+
+        +
+
+        "<br><span class=\"badge-ne-moderado\">(NE: Moderado, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Siddiqui HP, Kuijpers-Jagtman AM, Sennimalai K, Meazzini MC, Selvaraj M, Machawal J. Effects of Maxillary Protraction Techniques on Maxillofacial, Dental, and Soft Tissue Outcomes in Patients With Non-Syndromic Unilateral Cleft Lip and Palate: A Systematic Review and Meta-Analysis. Vol. 28, Orthodontics and Craniofacial Research. John Wiley and Sons Inc; 2025. p. 885–906.</span>"
+
+        ,
+
+        imagen: "./image/LPH3_6.png",
+
+        siguiente: null,
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "mini",
+          }
+
+        ]
+
+      },
+
+      mascara: {
+
+        tipo: "accion",
+
+        texto: 
+        
+        "<Strong>Mascara  facial asistida por miniplacas</Strong>"
+        
+        +
+
+        "<br><br>El uso de Máscara facial asistida por miniplacas (FM-MP), produjo un desplazamiento anterior significativo del punto A y aumentos de 2,14° y 1,76° en los ángulos SNA y ANB, respectivamente . En cuanto a los efectos dentarios, la FM-MP presentó una proinclinación de los incisivos superiores considerablemente menor que la observada en los sistemas de anclaje dental, con rangos reportados entre 1,8° y 2,8°. El overjet aumentó en promedio 4,33 mm (IC 95 %: 2,93–5,73), el Wits aumentó en promedio 3.51 mm (IC 95 %: 1.44-5.58) reflejando una corrección efectiva de la discrepancia sagital. El ángulo SNB no mostró cambios significativos con un aumento de 0.35°(p=0.66), lo que sugiere un efecto principalmente maxilar. Estos hallazgos sugieren que la FM-MP permite obtener efectos esqueléticos significativos con menor rotación mandibular en sentido horario y menor compen-sación dentaria en comparación con la FM asociada a ERM convencional."
+        
+        +
+
+        "<br><span class=\"badge-ne-muy-baja\">(NE: Muy baja, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Jahanbin A, Shafaee H, Pahlavan H, Bardideh E, Entezari M. Efficacy of Different Methods of Bone-Anchored Maxillary Protraction in Cleft Lip and Palate Children: A Systematic Review and Meta-Analysis. J Craniofac Surg. 2023 May;34:875–80.</span>"
+
+        +
+
+        "<br>En comparación con pacientes no tratados, la protracción maxilar con anclaje óseo (BAMP) produjo incrementos significativos, en el ángulo SNA (1,76°), el ángulo ANB (2,08°) y la valoración de Wits (2,17 mm). A diferencia de los sistemas de anclaje dentario, la BAMP no mostró cambios significativos en la inclinación de los incisivos U1-PP (-1.51°, p=0.14), IMPA (-0.17°, p=0.91), reduciendo los efectos secundarios dentarios no deseados"
+
+        +
+
+        "<br>Además, se observó una corrección del overjet de aproximadamente 2,03 mm. No se identificaron cambios significativos en el ángulo SNB (-0.64°, p=0.12), el ángulo mandibular (-1.10°, p=0.09), ni en la sobremordida vertical (-0.45 mm, p=0.39), lo que indica una menor tendencia a inducir rotación mandibular hacia abajo y atrás."
+        
+        +
+
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Gandhi V, Fattal A, Genova G, Yadav S, Janakiraman N. Comparative Analysis of Bone vs. Tooth Anchored Maxillary Protraction in Cleft Lip and Palate Patients-A Systematic Review and Meta-Analysis. Orthod Craniofac Res. 2025 Sep;</span>"
+        
+        +
+
+        "<br>La FM-MP permite obtener una corrección esquelética eficiente de la discrepancia maxilomandibu-lar a corto plazo, esto debido a los cambios reportados en los ángulos SNA con un aumento de (4.55°), ANB con un aumento de (3.91°) y, un avance hacia adelante del punto A (3.83 mm), cambio en Wits (3.71 mm), con menor proinclinación de los incisivos superiores U1-NA (0.55°)(P= 0.59), menor extrusión molar (0.76 mm) y menor rotación horaria del plano mandibular (0.87°) (p= .29). Asimismo, se ha observado que los efectos esqueléticos medibles con BAMP son más favorables en pacientes con fisura unilateral que en aquellos con fisura bilateral"
+        
+        +
+
+        "<br><span class=\"badge-ne-moderada\">(NE: Moderada, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Dutta S, Batra P, Raghavan S, Sharma K, Talwar A, Arora A, et al. Comparative assessment of facemask therapy with and without skeletal anchorage in growing Class III patients with unilateral cleft lip and palate (UCLP): A single-center, prospective randomized clinical trial. Spec Care Dent. 2024 Mar;44:491–501.</span>"
+        
+        +
+
+        "<span class='cita-biblio'>Siddiqui HP, Kuijpers-Jagtman AM, Sennimalai K, Meazzini MC, Selvaraj M, Machawal J. Effects of Maxillary Protraction Techniques on Maxillofacial, Dental, and Soft Tissue Outcomes in Patients With Non-Syndromic Unilateral Cleft Lip and Palate: A Systematic Review and Meta-Analysis. Vol. 28, Orthodontics and Craniofacial Research. John Wiley and Sons Inc; 2025. p. 885–906. </span>"
+        
+        +
+
+        "<br>Recomendaciones de uso: Los protocolos de protracción con anclaje óseo suelen indicarse en den-tición mixta tardía o permanente temprana, cuando existe suficiente desarrollo dentoalveolar para la colocación y posterior retiro de miniplacas bajo anestesia local (65). Se recomienda esperar aproxima-damente 2 a 3 semanas después de la colocación de las miniplacas antes de iniciar la aplicación de fuerzas ortopédicas, con el fin de favorecer la cicatrización y estabilización de los tejidos."
+        
+        +
+
+        "<br>La protracción maxilar puede realizarse mediante fuerzas entre 450 y 500 gramos por lado, dirigi-das aproximadamente entre 20° y 30° por debajo del plano oclusal. Se recomienda un tiempo de uso diario de 12 a 14 horas para favorecer una respuesta ortopédica adecuada. La duración del tratamien-to debe individualizarse según la severidad de la deficiencia maxilar, la respuesta clínica observada, la cooperación del paciente y el patrón de crecimiento craneofacial. La terapia debe mantenerse hasta alcanzar una corrección o ligera sobrecorrección de la discrepancia sagital, con reevaluaciones perió-dicas para determinar la necesidad de continuar, modificar o suspender el tratamiento."
+        
+        +
+
+        "<br><span class=\"badge-ne-moderado\">(NE: Moderada, GRADE)</span>"
+
+        +
+
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span>"
+
+        +
+
+        "<br><span class=\"badge-ne-muy-baja\">(NE: Muy baja, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Siddiqui HP, Kuijpers-Jagtman AM, Sennimalai K, Meazzini MC, Selvaraj M, Machawal J. Effects of Maxillary Protraction Techniques on Maxillofacial, Dental, and Soft Tissue Outcomes in Patients With Non-Syndromic Unilateral Cleft Lip and Palate: A Systematic Review and Meta-Analysis. Vol. 28, Orthodontics and Craniofacial Research. John Wiley and Sons Inc; 2025. p. 885–906. </span>"
+        
+        +
+
+        "<span class='cita-biblio'>Gandhi V, Fattal A, Genova G, Yadav S, Janakiraman N. Comparative Analysis of Bone vs. Tooth Anchored Maxillary Protraction in Cleft Lip and Palate Patients-A Systematic Review and Meta-Analysis. Orthod Craniofac Res. 2025 Sep; </span>"
+        
+        +
+
+        "<span class='cita-biblio'>Jahanbin A, Shafaee H, Pahlavan H, Bardideh E, Entezari M. Efficacy of Different Methods of Bone-Anchored Maxillary Protraction in Cleft Lip and Palate Children: A Systematic Review and Meta-Analysis. J Craniofac Surg. 2023 May;34:875–80. </span>"
+        
+        +
+
+        "<br>Fuerza de tracción entre 450 y 500 gramos por lado"
+
+        +
+
+        "<br>Angulación de elásticos entre 20° y 30° por debajo del plano oclusal"
+
+        +
+
+        "<br>Uso entre 12 y 14 horas al día"
+
+        ,
+
+        imagen: "./image/LPH3_4.png",
+
+        siguiente: "reevaluacion",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "mini",
+          }
+
+        ]
+
+      },
+
+      reevaluacion: {
+
+        tipo: "accion",
+
+        texto: 
+        
+        "<Strong>Reevaluación de tratamiento</Strong>"
+
+        ,
+
+        imagen: "./image/LPH4_1.png",
+
+        siguiente: "correcion",
+
+        botones: [
+
+          {
+            texto: "Volver 1",
+            siguiente: "petit",
+          },
+          {
+            texto: "Volver 2",
+            siguiente: "mascara",
+          }
+
+        ]
+
+      },
+      
+      correcion: {
+
+        tipo: "decision",
+
+        texto: "¿Presenta corrección clínica de la maloclusión clase III?",
+
+        descripcion: 
+
+        "<br>La corrección clínica de la maloclusión Clase III debe evaluarse mediante criterios esqueléticos, den-tales y funcionales. Entre los signos clínicos favorables se incluyen la corrección de la mordida cruzada anterior, la obtención de un resalte horizontal positivo, la mejora de la relación sagital maxilomandibular y la normalización de las relaciones dentarias (clase I molar y canina bilateral)."
+        
+        +
+
+        "<br>Debe considerarse que algunos pacientes pueden presentar compensaciones dentoalveolares que en-mascaran una discrepancia esquelética residual; por lo tanto, la valoración clínica debe complementarse con el análisis cefalométrico correspondiente."
+
+        +
+
+        "<span class='cita-biblio'>Zere E, Chaudhari PK, Sharan J, Dhingra K, Tiwari N. Developing Class III malocclusions: challenges and solutions. Clin Cosmet Investig Dent. 2018;10:99–116.</span>"
+
+        ,
+
+        imagen: "./image/LPH4_2.png",
+
+        si: "correcion3",
+
+        no: "reevaluar",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "reevaluacion",
+          }
+
+        ]
+
+      },
+
+      reevaluar: {
+
+        tipo: "accion",
+
+        texto: 
+        
+        "<Strong>Reevaluar adherencia</Strong>"
+
+        ,
+
+        imagen: "./image/LPH4_3.png",
+
+        siguiente: "rprotraccion",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "correcion",
+          }
+        ]
+
+      },
+
+      rprotraccion: {
+
+        tipo: "accion",
+
+        texto: 
+        
+        "<Strong>Reevaluar adherencia</Strong>"
+
+        ,
+
+        imagen: "./image/LPH4_5.png",
+
+        siguiente: "aparatologia",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "correcion",
+          }
+        ]
+
+      },
+
+      aparatologia: {
+
+        tipo: "accion",
+
+        texto: 
+        
+        "<Strong>Reevaluar  cambio de aparatología</Strong>"
+
+        +
+
+        "<br>El tratamiento con FM y anclaje dental suele indicarse durante la dentición mixta temprana debido a la limitada disponibilidad de sitios anatómicos adecuados para el anclaje óseo. Las alternativas de anclaje esquelético generalmente requieren la erupción de determinadas unidades dentarias o un desarrollo óseo suficiente para la colocación segura de miniplacas o dispositivos de anclaje temporal."
+
+        +
+        
+        "<br>La magnitud de la sobrecorrección debe individualizarse según la edad del paciente, el potencial de crecimiento remanente, la severidad inicial de la discrepancia esquelética y la respuesta observada durante el tratamiento"
+
+        +
+
+        "<br><span class=\"badge-ne-muy-baja\">(NE: Muy baja, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Segal DA, Grayson BH, Shetye PR. Skeletal and dentoalveolar changes following the use of an occlusally bonded maxillary protraction headgear appliance in patients born with cleft lip and palate. Semin Orthod. 2017 Sep;23:279–94.</span>"
+
+        ,
+
+        imagen: "./image/LPH4_7.png",
+
+        siguiente: "correcion2",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "rprotraccion",
+          }
+        ]
+
+      },
+
+      correcion2: {
+
+        tipo: "decision",
+
+        texto: "¿Presenta corrección clínica de la maloclusión clase III?",
+
+        descripcion: 
+
+        "<br>La corrección clínica de la maloclusión Clase III debe evaluarse mediante criterios esqueléticos, den-tales y funcionales. Entre los signos clínicos favorables se incluyen la corrección de la mordida cruzada anterior, la obtención de un resalte horizontal positivo, la mejora de la relación sagital maxilomandibular y la normalización de las relaciones dentarias (clase I molar y canina bilateral)."
+        
+        +
+
+        "<br>Debe considerarse que algunos pacientes pueden presentar compensaciones dentoalveolares que en-mascaran una discrepancia esquelética residual; por lo tanto, la valoración clínica debe complementarse con el análisis cefalométrico correspondiente."
+
+        +
+
+        "<span class='cita-biblio'>Zere E, Chaudhari PK, Sharan J, Dhingra K, Tiwari N. Developing Class III malocclusions: challenges and solutions. Clin Cosmet Investig Dent. 2018;10:99–116.</span>"
+
+        ,
+
+        imagen: "./image/LPH4_9.png",
+
+        si: "correcion3",
+
+        no: "quirurgico",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "aparatologia",
+          }
+
+        ]
+
+      },
+
+      quirurgico: {
+
+        tipo: "accion",
+
+        texto: 
+        
+        "<Strong>Evaluación para manejo quirúrgico</Strong>"
+
+        +
+
+        "<br>A pesar de las mejoras dento esqueléticas obtenidas mediante los protocolos de protracción maxilar con anclaje dental o esquelético, una proporción de pacientes con LPHNS continuará presentando discrepancias esqueléticas significativas al finalizar el crecimiento."
+
+        +
+        
+        "<br>Por lo tanto, en aquellos pacientes que persistan con una deficiencia maxilar severa, una relación maxilomandibular desfavorable o alteraciones funcionales y estéticas importantes, debe considerarse la remisión para valoración conjunta con cirugía maxilofacial y la posible planificación de cirugía ortognática una vez completado el crecimiento craneofacial."
+
+        +
+
+        "<br>La literatura reporta que aproximadamente el 40 % de los pacientes tratados puede requerir cirugía ortognática al finalizar el crecimiento, aunque esta proporción varía según la severidad de la maloclusión y las características de la muestra estudiada. "
+
+        +
+
+        "<br><span class=\"badge-ne-moderada\">(NE: Moderada, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Siddiqui HP, Kuijpers-Jagtman AM, Sennimalai K, Meazzini MC, Selvaraj M, Machawal J. Effects of Maxillary Protraction Techniques on Maxillofacial, Dental, and Soft Tissue Outcomes in Patients With Non-Syndromic Unilateral Cleft Lip and Palate: A Systematic Review and Meta-Analysis. Vol. 28, Orthodontics and Craniofacial Research. John Wiley and Sons Inc; 2025. p. 885–906.</span>"
+
+        ,
+
+        imagen: "./image/LPH4_10.png",
+
+        siguiente: null,
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "correcion2",
+          }
+        ]
+
+      },
+
+      correcion3: {
+
+        tipo: "accion",
+
+        texto: 
+        
+        "<Strong>Realizar sobre corrección</Strong>"
+
+        +
+
+        "<br>Diversos estudios sugieren que parte de las ganancias obtenidas durante la protracción maxilar pueden disminuir con el crecimiento posterior, especialmente debido a la persistencia del crecimiento mandibular. Por esta razón, algunos autores recomiendan alcanzar una sobrecorrección clínica moderada de la relación sagital durante la fase activa del tratamiento."
+        
+        +
+
+        "<br>La magnitud de la sobrecorrección debe individualizarse según la edad del paciente, el potencial de crecimiento remanente, la severidad inicial de la discrepancia esquelética y la respuesta observada durante el tratamiento"
+
+        +
+
+        "<br><span class=\"badge-ne-muy-baja\">(NE: Muy baja, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Segal DA, Grayson BH, Shetye PR. Skeletal and dentoalveolar changes following the use of an occlusally bonded maxillary protraction headgear appliance in patients born with cleft lip and palate. Semin Orthod. 2017 Sep;23:279–94.</span>"
+
+        ,
+
+        imagen: "./image/LPH4_4.png",
+
+        siguiente: "retencion",
+
+        botones: [
+
+          {
+            texto: "Volver 1",
+            siguiente: "correcion",
+          },
+          {
+            texto: "Volver 2",
+            siguiente: "correcion2",
+          }
+
+        ]
+
+      },
+
+      retencion:{
+
+        tipo: "accion",
+
+        texto: 
+        
+        "<Strong>Etapa de retención y seguimiento</Strong>"
+
+        ,
+
+        imagen: "./image/LPH4_6.png",
+
+        siguiente: "remision",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "correcion3",
+          }
+
+        ]
+
+      },
+
+      remision:{
+
+        tipo: "accion",
+
+        texto: 
+        
+        "<Strong>Etapa de retención y seguimiento</Strong>"
+
+        ,
+
+        imagen: "./image/LPH4_8.png",
+
+        siguiente: null,
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "retencion",
+          }
+
+        ]
+
+      },
+
+    }
+  },
 
   apinamiento_mandibular_anterior: {
     

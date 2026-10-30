@@ -127,7 +127,7 @@ a{
   display:flex;
   align-items:center;
   justify-content:center;
-  text-align:center;
+  text-align:justify;
   position:relative;
   overflow:hidden;
 }
@@ -289,7 +289,7 @@ a{
   padding:18px;
   background:#fff;
   cursor:pointer;
-  text-align:left;
+  text-align:justify;
   transition:.15s ease;
 }
 
@@ -593,7 +593,7 @@ a{
   font-size:25px;
   font-weight:600;
   line-height:1.35;
-  text-align:center;
+  text-align:justify;
   box-shadow:0 10px 25px rgba(0,0,0,.10);
   white-space: pre-line;
 }
@@ -631,6 +631,12 @@ a{
   cursor:pointer;
   box-shadow:0 6px 16px rgba(0,0,0,.07);
   transition:.18s ease;
+
+  /* 🟢 Añade estas líneas para centrar el texto */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .flow-button:hover{
@@ -682,8 +688,29 @@ a{
   color:#0f7135;
   font-size: var(--font-action);
   line-height:1.45;
-  text-align: justify;
+  text-align: justify !important;
+  text-align-last: left !important;
   box-shadow:0 10px 25px rgba(0,0,0,.10);
+}
+
+/* 🟢 Forzamos el justificado en CUALQUIER elemento hijo o texto dentro de la caja de acción */
+.action-box div, 
+.action-box p, 
+.action-box span {
+  text-align: justify !important;
+  text-align-last: left !important;
+}
+
+/* =====================================================
+   JUSTIFICADO GENERAL PARA TODO EL TEXTO EN LAS TARJETAS
+===================================================== */
+.decision-card p,
+.decision-card div,
+.flow-description,
+.action-box,
+.flow-shape {
+  text-align: justify !important;
+  text-align-last: left !important;
 }
 
 .action-box strong{

@@ -289,7 +289,6 @@ function mostrarDecision(nodo) {
 
 function mostrarOpciones(nodo) {
 
-
   const contenedor =
     document.createElement("div");
 
@@ -312,6 +311,26 @@ function mostrarOpciones(nodo) {
   contenedor.appendChild(pregunta);
 
 
+  /* -----------------------------------------------
+     DESCRIPCIÓN OPCIONAL CON HTML
+  ----------------------------------------------- */
+
+  if (nodo.descripcion) {
+
+    const descripcion =
+      document.createElement("div");
+
+    descripcion.className =
+      "flow-description";
+
+    descripcion.innerHTML =
+      nodo.descripcion;
+
+    contenedor.appendChild(descripcion);
+
+  }
+
+
   /* Opciones */
 
   const opciones =
@@ -323,27 +342,22 @@ function mostrarOpciones(nodo) {
 
   nodo.opciones.forEach(opcion => {
 
-
     const boton =
       document.createElement("button");
-
 
     boton.type = "button";
 
     boton.className =
       "flow-button";
 
-
     boton.textContent =
       opcion.texto;
-
 
     boton.addEventListener("click", () => {
 
       mostrarNodo(opcion.siguiente);
 
     });
-
 
     opciones.appendChild(boton);
 
@@ -371,7 +385,6 @@ function mostrarOpciones(nodo) {
 ===================================================== */
 
 function mostrarRemision(nodo) {
-
 
   const contenedor =
     document.createElement("div");
@@ -414,7 +427,6 @@ function mostrarRemision(nodo) {
   ----------------------------------------------- */
 
   nodo.opciones.forEach(opcion => {
-
 
     const tarjeta =
       document.createElement("div");
@@ -489,7 +501,6 @@ function mostrarRemision(nodo) {
 
 function mostrarAccion(nodo) {
 
-
   const contenedor =
     document.createElement("div");
 
@@ -528,27 +539,22 @@ function mostrarAccion(nodo) {
 
   if (nodo.siguiente) {
 
-
     const continuar =
       document.createElement("button");
-
 
     continuar.type = "button";
 
     continuar.className =
       "flow-button";
 
-
     continuar.textContent =
       "Continuar";
-
 
     continuar.addEventListener("click", () => {
 
       mostrarNodo(nodo.siguiente);
 
     });
-
 
     contenedor.appendChild(continuar);
 

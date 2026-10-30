@@ -12,77 +12,37 @@ MALOCUSIONES.forEach((item, i) => {
   const article = document.createElement('article');
   article.className = 'option';
 
+  // 🟢 Quitamos el botón de la "i" y dejamos solo Letra, Título y Flecha
   article.innerHTML = `
     <div class="option-letter">${letters[i]}</div>
-
     <div class="option-title">${item.titulo}</div>
-
-    <button
-      class="definition-btn"
-      type="button"
-      aria-label="Ver información de ${item.titulo}">
-      i
-    </button>
-
-    <div class="option-arrow">›</div>
   `;
 
-  // Al hacer clic en la opción
-  article.addEventListener('click', e => {
-    if (e.target.closest('.definition-btn')) return;
-
-    window.location.href =
-        "decisiones.html?ruta=" + item.id;
-        
-  });
-
-  // Al hacer clic en "i"
-  article.querySelector('.definition-btn').addEventListener('click', () => {
-
-    modalTitle.textContent = item.titulo;
-
-    // Texto de la definición
-    modalText.innerHTML = '';
-
-    // Si existe imagen, mostrarla
-    if (item.imagen) {
-
-      const img = document.createElement('img');
-
-      img.src = item.imagen;
-      img.alt = item.titulo;
-      img.className = 'modal-image';
-
-      modalText.appendChild(img);
-    }
-
-    // Agregar la descripción
-    const descripcion = document.createElement('p');
-    descripcion.textContent = item.descripcion;
-
-    modalText.appendChild(descripcion);
-
-    modal.hidden = false;
-    modal.setAttribute('aria-hidden', 'false');
+  // Al hacer clic en la opción completa
+  article.addEventListener('click', () => {
+    window.location.href = "decisiones.html?ruta=" + item.id;
   });
 
   optionsContainer.appendChild(article);
 });
 
 
-// Cerrar ventana
+// Cerrar ventana (se mantiene por si acaso usas el modal en otra parte)
 function hideModal() {
+  if (!modal) return;
   modal.hidden = true;
   modal.setAttribute('aria-hidden', 'true');
 }
 
-closeModal.addEventListener('click', hideModal);
+if (closeModal) closeModal.addEventListener('click', hideModal);
 
-modal.addEventListener('click', e => {
-  if (e.target.dataset.closeModal !== undefined) {
-    hideModal();
-  }
-});
+if (modal) {
+  modal.addEventListener('click', e => {
+    if (e.target.dataset.closeModal !== undefined) {
+      hideModal();
+    }
+  });
+}
 
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') {
