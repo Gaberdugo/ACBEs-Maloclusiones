@@ -1768,7 +1768,7 @@ const ARBOLES = {
 
           {
             texto: "Volver",
-            siguiente: "presentacion"
+            siguiente: "resuelve"
           }
 
         ]
@@ -1833,7 +1833,7 @@ const ARBOLES = {
 
           {
             texto: "Volver",
-            siguiente: "presentacion"
+            siguiente: "tratamiento"
           }
 
         ]
