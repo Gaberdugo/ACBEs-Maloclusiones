@@ -1,5 +1,2950 @@
 const ARBOLES = {
 
+  clase_iii: {
+
+    titulo: "",
+
+    inicio: "presentacion",
+
+    nodos: {
+
+      presentacion: {
+
+        tipo: "decision_opciones",
+
+        texto: "Malocusión Clase III",
+        
+        opciones: [
+
+          {
+            texto: "Definiciones",
+
+            siguiente: "definicion"
+
+          },
+
+          {
+            texto: "Materiales e insumos",
+
+            siguiente: "materiales"
+
+          },
+
+          {
+            texto: "Arbol de decisiones",
+
+            siguiente: "modelos"
+
+          }
+
+        ]
+
+      },
+
+      definicion: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Maloclusión clase III</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im26.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        +
+
+        "<br><br><Strong>Maloclusión Clase III:</Strong>"
+
+        +
+
+        " La maloclusión Clase III se define como una alteración en la relación anteroposterior entre los arcos dentales, caracterizada por una posición adelantada de la mandíbula en relación con el maxilar superior. Este desbalance puede ser de origen esquelético, dental o funcional, y afecta la armonía facial, la masticación y la fonación."
+
+        +
+
+        "<span class='cita-biblio'>Proffit WR, Fields HW, Sarver DM. Contemporary Orthodontics. 6th ed. Elsevier; 2019. ISBN: 9780323543873</span>"
+
+        +
+
+        "En pacientes en crecimiento, esta condición puede manifestarse de manera temprana y puede agravarse si no se interviene adecuadamente"
+
+        +
+
+        "<span class='cita-biblio'>McNamara JA Jr. Orthodontic and orthopedic treatment in the mixed dentition. 3rd ed. Ann Arbor: Needham Press; 2001.</span>"
+
+        +
+
+        "<Strong>Subclasificación de la Maloclusión Clase III: </Strong>"
+
+        +
+
+        " La maloclusión Clase III puede clasificarse según su etiología y sus manifestaciones clínicas:"
+
+        +
+
+        "<br><Strong>Clasificación por Etiología:</Strong>"
+
+        +
+
+        "<br><Strong>Maloclusión Clase III Esquelética: </Strong>"
+
+        +
+
+        "Se debe a un crecimiento excesivo de la mandíbula, un subdesarrollo del maxilar superior o una combinación de ambos. Es la forma más común y frecuentemente asociada a factores genéticos."
+
+        +
+
+        "<span class='cita-biblio'>Bishara SE. Diagnostic criteria for identification of treatment strategies for malocclusions. Am J Orthod Dentofacial Orthop. 2005;127(1):23–28.</span>"
+
+        +
+
+        "<br><Strong>Maloclusión Clase III Dental: </Strong>"
+
+        +
+
+        " Resulta de la inclinación anormal de los dientes, como los incisivos superiores retroinclinados y los inferiores proinclinados, sin una alteración significativa en la estructura esquelética"
+
+        +
+
+        "<span class='cita-biblio'>Bishara SE. Diagnostic criteria for identification of treatment strategies for malocclusions. Am J Orthod Dentofacial Orthop. 2005;127(1):23–28.</span>"
+
+        +
+
+        "<br><Strong>Maloclusión Clase III Funcional: </Strong>"
+
+        +
+
+        " Ocurre cuando la relación oclusal se ve alterada por un desplazamiento mandibular funcional, debido a interferencias dentales oclusale"
+
+        +
+
+        "<span class='cita-biblio'>Bishara SE. Diagnostic criteria for identification of treatment strategies for malocclusions. Am J Orthod Dentofacial Orthop. 2005;127(1):23–28.</span>"
+
+        +
+
+        "<br><Strong>Clasificación por Severidad</Strong>"
+
+        +
+
+        "<br><Strong>Leve:</Strong> Desviación mínima de los arcos dentales sin impacto significativo en la estética facial."
+
+        +
+
+        "<br><Strong> Moderada:</Strong> Alteraciones dentales y esqueléticas evidentes que afectan la función y la apariencia facial."
+
+        +
+
+        "<br><Strong>Severa:</Strong>  Desbalance	esquelético	pronunciado	que	puede requerir intervenciones combinadas de ortodoncia y cirugía ortognática."
+
+        +
+
+        "<span class='cita-biblio'>Bishara SE. Diagnostic criteria for identification of treatment strategies for malocclusions. Am J Orthod Dentofacial Orthop. 2005;127(1):23–28.</span>"
+
+        ,
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "presentacion",
+          }
+
+        ]
+
+      },
+      
+      materiales: {
+
+        tipo: "accion",
+
+        clase: "decision-card-panoramica",
+
+        texto: "<Strong>Materiales para maloclusión clase III</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/materialesB.png' style='width: 850px; height: auto; display: block; margin: 20px auto; border-radius: 12px;'>"
+        
+        ,
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "presentacion",
+          }
+
+        ]
+
+      },
+
+      modelos: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Maloclusión clase III</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im26.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
+
+        "<br><br>La maloclusión Clase III se caracteriza por una relación anteroposterior alterada entre los maxilares; con una mandíbula adelantada o con un crecimiento excesivo respecto al maxilar superior, un subdesarrollo maxilar o ambos."
+
+        +
+
+        "<span class='cita-biblio'>Alwadei S, Ali Hattan A, Faqihi K, Alhawiatan A, Alwadei F, Alwadei A. Prevalence of malocclusion and orthodontic treatment needs among Saudi primary school male children aged 6–12 years: A cross-sectional study. J Int Oral Heal. 2023;15:106.</span>"
+
+        +
+
+        "<br>Según la literatura, los criterios diagnósticos que nos pueden determinar una maloclusión clase III en un paciente que asiste a la clínica de ortodoncia son:"
+
+        +
+
+        "<br>Relación molar y canina de Clase III, con oclusión cruzada anterior o mordida borde a borde (overjet cero o negativo)"
+
+        +
+
+        "<span class='cita-biblio'>Alwadei S, Ali Hattan A, Faqihi K, Alhawiatan A, Alwadei F, Alwadei A. Prevalence of malocclusion and orthodontic treatment needs among Saudi primary school male children aged 6–12 years: A cross-sectional study. J Int Oral Heal. 2023;15:106.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Paoloni V, De Razza FC, Franchi L, Cozza P. Stability prediction of early orthopedic treatment in Class III malocclusion: morphologic discriminant analysis. Prog Orthod. 2021 Dec;22.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Reed E, Kiebach TJ, Martin C, Razmus T, Gunel E, Ngan P. Stability of early Class III orthopedic treatment. Semin Orthod. 2014;20:114–27.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Zere E, Chaudhari PK, Sharan J, Dhingra K, Tiwari N. Developing Class III malocclusions: challenges and solutions. Clin Cosmet Investig Dent. 2018;10:99–116.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Woon SC, Thiruvenkatachari B. Early orthodontic treatment for Class III malocclusion: A systematic review and meta-analysis. Vol. 151, American Journal of Orthodontics and Dentofacial Orthopedics. Mosby Inc.; 2017. p. 28–52.</span>"
+
+        +
+
+        "<br>Perfil facial cóncavo o recto, con deficiencia maxilar, prognatismo mandibular o combinación de ambos"
+
+        +
+
+        "<span class='cita-biblio'>Alwadei S, Ali Hattan A, Faqihi K, Alhawiatan A, Alwadei F, Alwadei A. Prevalence of malocclusion and orthodontic treatment needs among Saudi primary school male children aged 6–12 years: A cross-sectional study. J Int Oral Heal. 2023;15:106.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Paoloni V, De Razza FC, Franchi L, Cozza P. Stability prediction of early orthopedic treatment in Class III malocclusion: morphologic discriminant analysis. Prog Orthod. 2021 Dec;22.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Reed E, Kiebach TJ, Martin C, Razmus T, Gunel E, Ngan P. Stability of early Class III orthopedic treatment. Semin Orthod. 2014;20:114–27.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Zere E, Chaudhari PK, Sharan J, Dhingra K, Tiwari N. Developing Class III malocclusions: challenges and solutions. Clin Cosmet Investig Dent. 2018;10:99–116.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Rutili V, Nieri M, Franceschi D, Pierleoni F, Giuntini V, Franchi L. Effects produced by the facemask with and without skeletal anchorage for the orthopaedic treatment of Class III malocclusion in growing patients: A systematic review and meta-Analysis of RCTs. Vol. 45, European Journal of Orthodontics. Oxford University Press; 2023. p. 157–68.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Sarangal H, Namdev R, Garg S, Saini N, Singhal P. Treatment Modalities for Early Management of Class III Skeletal Malocclusion: A Case Series. Contemp Clin Dent. 2020;11:91–6.</span>"
+
+        +
+
+        "<br>Características esqueléticas como ANB < 0° o ≤ 2.5°, Wits negativo (< -2 mm), y deficiencia maxilar o protrusión mandibular."
+
+        +
+
+        "<span class='cita-biblio'>Paoloni V, De Razza FC, Franchi L, Cozza P. Stability prediction of early orthopedic treatment in Class III malocclusion: morphologic discriminant analysis. Prog Orthod. 2021 Dec;22.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Reed E, Kiebach TJ, Martin C, Razmus T, Gunel E, Ngan P. Stability of early Class III orthopedic treatment. Semin Orthod. 2014;20:114–27.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Rutili V, Nieri M, Franceschi D, Pierleoni F, Giuntini V, Franchi L. Effects produced by the facemask with and without skeletal anchorage for the orthopaedic treatment of Class III malocclusion in growing patients: A systematic review and meta-Analysis of RCTs. Vol. 45, European Journal of Orthodontics. Oxford University Press; 2023. p. 157–68.</span>"
+
+        +
+
+        "<br>Puede incluir asimetrías faciales, problemas en la articulación temporomandibular, y compensaciones dentoalveolares como protrusión de incisivos maxilares o retrusión de incisivos mandibulares."
+
+        +
+
+        "<span class='cita-biblio'>Rutili V, Nieri M, Franceschi D, Pierleoni F, Giuntini V, Franchi L. Effects produced by the facemask with and without skeletal anchorage for the orthopaedic treatment of Class III malocclusion in growing patients: A systematic review and meta-Analysis of RCTs. Vol. 45, European Journal of Orthodontics. Oxford University Press; 2023. p. 157–68.</span>"
+
+        +
+
+        "<br>Características esqueléticas como ANB < 0° o ≤ 2.5°, Wits negativo (< -2 mm), y deficiencia maxilar o protrusión mandibular."
+
+        +
+        
+        "<br>Por otro lado, también se menciona que esta maloclusión es determinada por retrusión maxilar y/o prognatismo mandibular, independientemente de la relación molar establecida entre arcadas dentarias. Aunque la maloclusión tiende a presentar una relación molar de Clase III, no siempre expresa asociación con la gravedad de la relación esquelética y, en consecuencia, con el equilibrio facial."
+
+        +
+
+        "<span class='cita-biblio'>Nardoni DN, Siqueira DF, Cardoso M de A, Filho LC. Cephalometric variables used to predict the success of interceptive treatment with rapid maxillary expansion and face mask. A longitudinal study. Dental Press J Orthod. 2015;20:85–96.</span>"
+
+        ,
+
+        imagen: "./image/claseIII1_0.png",
+
+        siguiente: "crecimiento",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "presentacion",
+          }
+
+        ]
+
+      },
+
+      crecimiento: {
+
+        tipo: "decision",
+
+        texto: "¿Paciente en etapa de crecimiento?",
+
+        imagen: "./image/claseIII1_1.png",
+
+        si: "origen",
+
+        no: "postgrado",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "modelos",
+          }
+
+        ]
+
+      },
+
+      postgrado: {
+
+        tipo: "accion",
+
+        texto: "Remitir al posgrado de ortodoncia.<br><Strong>Paciente no apto para ser atendido en pregrado</Strong>",
+
+        imagen: "./image/claseIII1_2.png",
+        
+        siguiente: null,
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "crecimiento"
+          }
+
+        ]
+
+      },
+
+      origen: {
+
+        tipo: "decision_opciones",
+
+        texto: "Determinar el origen de la maloclusión",
+        
+        imagen: "./image/claseIII1_3.png",
+        
+        opciones: [
+
+          {
+            texto: "Esquelético",
+
+            siguiente: "esqueletico"
+
+          },
+
+          {
+            texto: "Dental",
+
+            siguiente: "dental"
+
+          },
+
+          {
+            texto: "Funcional",
+
+            siguiente: "funcional"
+
+          }
+
+        ],
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "crecimiento",
+          }
+
+        ]
+
+      },
+
+      esqueletico: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Maloclusión de origen esquelético</Strong>"
+        
+        +
+
+        "<br><br>Los pacientes con maloclusión resultante del desequilibrio en el plano sagital entre el maxilar y la mandíbula se consideran casos esqueléticos de Maloclusión Clase III"
+
+        +
+
+        "<span class='cita-biblio'>Nardoni DN, Siqueira DF, Cardoso M de A, Filho LC. Cephalometric variables used to predict the success of interceptive treatment with rapid maxillary expansion and face mask. A longitudinal study. Dental Press J Orthod. 2015;20:85–96.</span>"
+        
+        +
+
+        "Este tipo de maloclusión se relaciona principalmente con retrognatismo maxilar, prognatismo mandibular o ambos componentes óseos"
+
+        +
+
+        "<span class='cita-biblio'>Fareen N, Alam MK, Khamis MF, Mokhtar N. Treatment effects of Reverse Twin-Block and Reverse Pull Face Mask on craniofacial morphology in early and late mixed dentition children. Orthod Craniofacial Res. 2017 Aug;20:134–9.</span>"
+
+        +
+
+        "Es la forma más severa de este tipo de maloclusión y puede comprometer tanto la función masticatoria como la estética facial."
+
+        +
+
+        "<br>Las características de la Maloclusión Clase III esquelética se evidencian por:"
+
+        +
+
+        "<br>- Discrepancias en el crecimiento maxilar y mandibular, incluyendo retrognatismo o hipoplasia maxilar, prognatismo o hiperdesarrollo mandibular, o combinación de ambos"
+
+        +
+
+        "<span class='cita-biblio'>Alwadei S, Ali Hattan A, Faqihi K, Alhawiatan A, Alwadei F, Alwadei A. Prevalence of malocclusion and orthodontic treatment needs among Saudi primary school male children aged 6–12 years: A cross-sectional study. J Int Oral Heal. 2023;15:106.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Paoloni V, De Razza FC, Franchi L, Cozza P. Stability prediction of early orthopedic treatment in Class III malocclusion: morphologic discriminant analysis. Prog Orthod. 2021 Dec;22.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Reed E, Kiebach TJ, Martin C, Razmus T, Gunel E, Ngan P. Stability of early Class III orthopedic treatment. Semin Orthod. 2014;20:114–27.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Zere E, Chaudhari PK, Sharan J, Dhingra K, Tiwari N. Developing Class III malocclusions: challenges and solutions. Clin Cosmet Investig Dent. 2018;10:99–116. </span>"
+
+        +
+
+        "<span class='cita-biblio'>Woon SC, Thiruvenkatachari B. Early orthodontic treatment for Class III malocclusion: A systematic review and meta-analysis. Vol. 151, American Journal of Orthodontics and Dentofacial Orthopedics. Mosby Inc.; 2017. p. 28–52.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Rutili V, Nieri M, Franceschi D, Pierleoni F, Giuntini V, Franchi L. Effects produced by the facemask with and without skeletal anchorage for the orthopaedic treatment of Class III malocclusion in growing patients: A systematic review and meta-Analysis of RCTs. Vol. 45, European Journal of Orthodontics. Oxford University Press; 2023. p. 157–68.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Jamilian A, Cannavale R, Piancino MG, Eslami S, Perillo L. Methodological quality and outcome of systematic reviews reporting on orthopaedic treatment for class III malocclusion: Overview of systematic reviews. J Orthod. 2016 Jul;43:102–20.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Cordasco G, Matarese G, Rustico L, Fastuca S, Caprioglio A, Lindauer SJ, et al. Efficacy of orthopedic treatment with protraction facemask on skeletal Class III malocclusion: A systematic review and meta-analysis. Orthod Craniofacial Res. 2014;17:133–43.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Miao W, Zhou D, Li C, Chen L, Guan M, Peng Y, et al. Dental developmental stage affects the treatment outcome of maxillary protraction in skeletal class iii children: A systematic review and meta-analysis. Vol. 37, Australasian Orthodontic Journal. Australian Society of Orthodontists; 2021. p. 37–49.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Kirschneck C, Proff P, Lux C. Ideales Timing für die Behandlung kieferorthopädischer Anomalien – eine klinische S3-Praxisleitlinie. J Orofac Orthop. 2022 Jul;83:225–32.</span>"
+        
+        +
+
+        "- Características cefalométricas incluyen ANB <0° o ≤2.5°, Wits <-2 mm, SNA disminuido (deficiencia maxilar), SNB aumentado (prognatismo mandibular), este patrón sagital puede acompañarse a nivel vertical de un patrón hiperdivergente como de un patrón hipodivergente."
+
+        +
+
+        "<span class='cita-biblio'>Paoloni V, De Razza FC, Franchi L, Cozza P. Stability prediction of early orthopedic treatment in Class III malocclusion: morphologic discriminant analysis. Prog Orthod. 2021 Dec;22.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Reed E, Kiebach TJ, Martin C, Razmus T, Gunel E, Ngan P. Stability of early Class III orthopedic treatment. Semin Orthod. 2014;20:114–27.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Zere E, Chaudhari PK, Sharan J, Dhingra K, Tiwari N. Developing Class III malocclusions: challenges and solutions. Clin Cosmet Investig Dent. 2018;10:99–116. </span>"
+
+        +
+
+        "<span class='cita-biblio'>Rutili V, Nieri M, Franceschi D, Pierleoni F, Giuntini V, Franchi L. Effects produced by the facemask with and without skeletal anchorage for the orthopaedic treatment of Class III malocclusion in growing patients: A systematic review and meta-Analysis of RCTs. Vol. 45, European Journal of Orthodontics. Oxford University Press; 2023. p. 157–68.</span>"
+
+        +
+
+        "- Base craneal anterior acortada y ángulo de la silla turca reducido en algunos casos"
+
+        +
+
+        "<span class='cita-biblio'>Zere E, Chaudhari PK, Sharan J, Dhingra K, Tiwari N. Developing Class III malocclusions: challenges and solutions. Clin Cosmet Investig Dent. 2018;10:99–116. </span>"
+
+        +
+
+        "- Medidas cefalométricas de perfil de tejidos blandos incluye: ángulo nasolabial >110°, línea E (labio sup) de −5 a −7 mm, línea E (labio inf) 0 a +3 mm y ángulo de convexidad de 0° a −10°"
+        
+        +
+
+        "<span class='cita-biblio'>Paoloni V, De Razza FC, Franchi L, Cozza P. Stability prediction of early orthopedic treatment in Class III malocclusion: morphologic discriminant analysis. Prog Orthod. 2021 Dec;22.</span>"
+
+        ,
+
+        imagen: "./image/claseIII1_4.png",
+
+        siguiente: "severidad",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "origen",
+          }
+
+        ]
+
+      },
+
+      dental: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Maloclusión de origen dental</Strong>"
+        
+        +
+
+        "<br><br>La maloclusión Clase III dental ocurre en presencia de una relación esquelética adecuada, pero con alteraciones en la posición de los dientes, como la inclinación palatina de los incisivos superiores o la vestibularización de los incisivos inferiores, generando un overjet negativo. Se asocia frecuentemente con hábitos orales o pérdida prematura de dientes temporales."
+
+        +
+
+        "<span class='cita-biblio'>Alwadei S, Ali Hattan A, Faqihi K, Alhawiatan A, Alwadei F, Alwadei A. Prevalence of malocclusion and orthodontic treatment needs among Saudi primary school male children aged 6–12 years: A cross-sectional study. J Int Oral Heal. 2023;15:106.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Reed E, Kiebach TJ, Martin C, Razmus T, Gunel E, Ngan P. Stability of early Class III orthopedic treatment. Semin Orthod. 2014;20:114–27.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Zere E, Chaudhari PK, Sharan J, Dhingra K, Tiwari N. Developing Class III malocclusions: challenges and solutions. Clin Cosmet Investig Dent. 2018;10:99–116. </span>"
+
+        +
+
+        "<span class='cita-biblio'>Rutili V, Nieri M, Franceschi D, Pierleoni F, Giuntini V, Franchi L. Effects produced by the facemask with and without skeletal anchorage for the orthopaedic treatment of Class III malocclusion in growing patients: A systematic review and meta-Analysis of RCTs. Vol. 45, European Journal of Orthodontics. Oxford University Press; 2023. p. 157–68.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Sarangal H, Namdev R, Garg S, Saini N, Singhal P. Treatment Modalities for Early Management of Class III Skeletal Malocclusion: A Case Series. Contemp Clin Dent. 2020;11:91–6.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Kirschneck C, Proff P, Lux C. Ideales Timing für die Behandlung kieferorthopädischer Anomalien – eine klinische S3-Praxisleitlinie. J Orofac Orthop. 2022 Jul;83:225–32.</span>"
+        
+        +
+
+        "Las características de la Maloclusión Clase III dental se evidencian en:"
+
+        +
+
+        "<br>- Alteraciones en la posición o inclinación de los dientes sin discrepancias óseas, como apiñamiento, desplazamientos dentales, o relación incisiva inversa"
+
+        +
+
+        "<span class='cita-biblio'>Alwadei S, Ali Hattan A, Faqihi K, Alhawiatan A, Alwadei F, Alwadei A. Prevalence of malocclusion and orthodontic treatment needs among Saudi primary school male children aged 6–12 years: A cross-sectional study. J Int Oral Heal. 2023;15:106.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Paoloni V, De Razza FC, Franchi L, Cozza P. Stability prediction of early orthopedic treatment in Class III malocclusion: morphologic discriminant analysis. Prog Orthod. 2021 Dec;22.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Rutili V, Nieri M, Franceschi D, Pierleoni F, Giuntini V, Franchi L. Effects produced by the facemask with and without skeletal anchorage for the orthopaedic treatment of Class III malocclusion in growing patients: A systematic review and meta-Analysis of RCTs. Vol. 45, European Journal of Orthodontics. Oxford University Press; 2023. p. 157–68.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Sarangal H, Namdev R, Garg S, Saini N, Singhal P. Treatment Modalities for Early Management of Class III Skeletal Malocclusion: A Case Series. Contemp Clin Dent. 2020;11:91–6.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Kirschneck C, Proff P, Lux C. Ideales Timing für die Behandlung kieferorthopädischer Anomalien – eine klinische S3-Praxisleitlinie. J Orofac Orthop. 2022 Jul;83:225–32.</span>"
+        
+        +
+
+        "- Inclinación palatina de los incisivos superiores o la vestibularización de los incisivos inferiores, resultando en mordida borde a borde o cruzada anterior"
+
+        +
+
+        "<span class='cita-biblio'>Paoloni V, De Razza FC, Franchi L, Cozza P. Stability prediction of early orthopedic treatment in Class III malocclusion: morphologic discriminant analysis. Prog Orthod. 2021 Dec;22.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Reed E, Kiebach TJ, Martin C, Razmus T, Gunel E, Ngan P. Stability of early Class III orthopedic treatment. Semin Orthod. 2014;20:114–27.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Zere E, Chaudhari PK, Sharan J, Dhingra K, Tiwari N. Developing Class III malocclusions: challenges and solutions. Clin Cosmet Investig Dent. 2018;10:99–116. </span>"
+
+        +
+
+        "<span class='cita-biblio'>Sarangal H, Namdev R, Garg S, Saini N, Singhal P. Treatment Modalities for Early Management of Class III Skeletal Malocclusion: A Case Series. Contemp Clin Dent. 2020;11:91–6.</span>"
+
+        ,
+
+        imagen: "./image/claseIII1_5.png",
+
+        siguiente: "protocolo",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "origen",
+          }
+
+        ]
+
+      },
+
+      funcional: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Maloclusión de origen funcional</Strong>"
+        
+        +
+
+        "<br>Conocida como pseudoclase III, causada por desplazamiento anterior de la mandíbula debido a contactos dentales prematuros o hábitos orales como succión de pulgar o uso prolongado de chupetes<br>"
+        
+        +
+
+        "<span class='cita-biblio'>Zere E, Chaudhari PK, Sharan J, Dhingra K, Tiwari N. Developing Class III malocclusions: challenges and solutions. Clin Cosmet Investig Dent. 2018;10:99–116.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Sarangal H, Namdev R, Garg S, Saini N, Singhal P. Treatment Modalities for Early Management of Class III Skeletal Malocclusion: A Case Series. Contemp Clin Dent. 2020;11:91–6.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Pithon MM, Santos N de L, dos Santos CRB, Baião FCS, Pinheiro MCR, Matos Neto M, et al. Is alternate rapid maxillary expansion and constriction an effective protocol in the treatment of class III malocclusion? A systematic review. Dental Press J Orthod. 2016;21:34–42.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Zhou C, Duan P, He H, Song J, Hu M, Liu Y, et al. Expert consensus on pediatric orthodontic therapies of malocclusions in children. Vol. 16, International Journal of Oral Science. Springer Nature; 2024.</span>"
+
+        +
+
+        "Es causada por desviaciones mandibulares en respuesta a interferencias oclusales, generando un desplazamiento anterior de la mandíbula. Al corregir la interferencia, la relación normal puede restablecerse, siendo fundamental el diagnóstico temprano."
+
+        +
+
+        "<span class='cita-biblio'>Miao W, Zhou D, Li C, Chen L, Guan M, Peng Y, et al. Dental developmental stage affects the treatment outcome of maxillary protraction in skeletal class iii children: A systematic review and meta-analysis. Vol. 37, Australasian Orthodontic Journal. Australian Society of Orthodontists; 2021. p. 37–49.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Moyers. Handbook of Orthodntics | PDF | Orthodontics | Dentistry. https://es.scribd.com/document/379064728/Handbook-of-Orthodntics. 2021.</span>"
+
+        +
+
+        "Se ha informado que el 36% de los sujetos con mordida cruzada anterior presentan un desplazamiento funcional (estudio realizado en Suecia); es decir, el contacto interincisal es posible cuando la mandíbula está en relación céntrica, lo que implica una maloclusión de pseudoclase III sin discrepancia esquelética de clase III inherente"
+
+        +
+
+        "<span class='cita-biblio'>Wiedel AP, Bondemark L. Stability of anterior crossbite correction: A randomized controlled trial with a 2-year follow-up. Angle Orthod. 2015 Mar;85:189–95.</span>"
+        
+        ,
+
+        imagen: "./image/claseIII1_6.png",
+
+        siguiente: "protocolo",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "origen",
+          }
+
+        ]
+
+      },
+
+      severidad: {
+
+        tipo: "decision_opciones",
+
+        texto: "Evaluación de la severidad",
+        
+        descripcion: 
+        
+        "<br><br><Strong>● Leve:</Strong>"
+
+        +
+
+        " Mordida borde a borde o mordida cruzada ligera sin alteraciones faciales evidentes. En este caso, lo que se espera encontrar es:"
+
+        +
+
+        "<br>◦ Mordida borde a borde o contacto incisal ligero negativo (−1 mm)"
+
+        +
+
+        "<br>◦ Sin compromiso importante del perfil facial."
+
+        +
+
+        "<br>◦ Relación molar y canina de Clase I o tendencia a Clase III."
+
+        +
+
+        "<br>◦ Relación esquelética borderline (ANB 0° a +1°, Wits −2 mm)."
+
+        +
+
+        "<br>◦ Puede asociarse a desviaciones funcionales leves."
+
+        +
+
+        "<br>◦ Suele tratarse exitosamente con ortopedia, ortopedia funcional o aparatos removibles."
+        
+        +
+
+        "<span class='cita-biblio'>Fareen N, Alam MK, Khamis MF, Mokhtar N. Treatment effects of Reverse Twin-Block and Reverse Pull Face Mask on craniofacial morphology in early and late mixed dentition children. Orthod Craniofacial Res. 2017 Aug;20:134–9.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Fabozzi FF, Nucci L, Correra A, d’Apuzzo F, Franchi L, Perillo L. Comparison of two protocols for early treatment of dentoskeletal Class III malocclusion: Modified SEC III versus RME/FM. Orthod Craniofacial Res. 2021 Aug;24:344–50.</span>"
+        
+        +
+
+        "<br><Strong>● Moderada:</Strong>"
+
+        +
+
+        " Mordida cruzada establecida, ligero prognatismo mandibular, y alteración del perfil facial. En este caso, lo que se espera encontrar es:"
+
+        +
+
+        "<br>◦ Mordida cruzada anterior completa (overjet negativo de 1–3 mm)."
+
+        +
+
+        "<br>◦ Perfil facial recto o cóncavo con ligera proyección mandibular."
+
+        +
+
+        "<br>◦ Relación molar y canina de Clase III evidente."
+
+        +
+
+        "<br>◦ Discrepancia esquelética leve a moderada (ANB 0° a −1°, Wits −3 a −5 mm)."
+
+        +
+
+        "<br>◦ No siempre existe desplazamiento funcional."
+
+        +
+
+        "<br>◦ Se requiere intervención ortopédica interceptiva."
+        
+        +
+
+        "<span class='cita-biblio'>Reed E, Kiebach TJ, Martin C, Razmus T, Gunel E, Ngan P. Stability of early Class III orthopedic treatment. Semin Orthod. 2014;20:114–27.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Cordasco G, Matarese G, Rustico L, Fastuca S, Caprioglio A, Lindauer SJ, et al. Efficacy of orthopedic treatment with protraction facemask on skeletal Class III malocclusion: A systematic review and meta-analysis. Orthod Craniofacial Res. 2014;17:133–43.</span>"
+        
+        +
+
+        "<span class='cita-biblio'>Ly TK, Le LN, Do TT, Le KPV. Early treatment of skeletal class III malocclusion with facemask therapy in Vietnam. J Clin Pediatr Dent. 2024 Nov;48:187–96.</span>"
+        
+        +
+        
+        "<br><Strong>● Severa:</Strong>"
+
+        +
+
+        " Mordida cruzada profunda, discrepancia esquelética evidente y perfil facial marcadamente cóncavo. En este caso, lo que se espera encontrar es:"
+
+        +
+
+        "<br>◦ Mordida	cruzada	profunda	con	contacto	incisivo	invertido significativo (overjet menor o igual a -4 mm)."
+
+        +
+
+        "<br>◦ Perfil cóncavo pronunciado, hipoplasia maxilar o hiperplasia mandibular evidentes."
+
+        +
+
+        "<br>◦ Relación molar y/o canina de Clase III completa bilateral."
+
+        +
+
+        "<br>◦ Discrepancia esquelética severa (ANB menor a −1°, Wits menor a −6 mm)."
+
+        +
+
+        "<br>◦ Frecuentemente acompañada de colapso transversal maxilar."
+
+        +
+
+        "<br>◦ Alta probabilidad de necesitar tratamiento ortopédico o en su defecto, tratamiento combinado ortodóncico-quirúrgico si no se interviene tempranamente."
+        
+        +
+
+        "<span class='cita-biblio'>Paoloni V, De Razza FC, Franchi L, Cozza P. Stability prediction of early orthopedic treatment in Class III malocclusion: morphologic discriminant analysis. Prog Orthod. 2021 Dec;22.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Reed E, Kiebach TJ, Martin C, Razmus T, Gunel E, Ngan P. Stability of early Class III orthopedic treatment. Semin Orthod. 2014;20:114–27.</span>"
+        
+        +
+
+        "<span class='cita-biblio'Woon SC, Thiruvenkatachari B. Early orthodontic treatment for Class III malocclusion: A systematic review and meta-analysis. Vol. 151, American Journal of Orthodontics and Dentofacial Orthopedics. Mosby Inc.; 2017. p. 28–52.</span>"
+        
+        +
+
+        "<span class='cita-biblio'>Mandall N, Cousley R, DiBiase A, Dyer F, Littlewood S, Mattick R, et al. Early class III protraction facemask treatment reduces the need for orthognathic surgery: a multi-centre, two-arm parallel randomized, controlled trial. J Orthod. 2016 Jul;43:164–75.</span>"
+        
+
+        ,
+
+        imagen: "./image/claseIII1_7.png",
+        
+        opciones: [
+
+          {
+            texto: "Severa",
+
+            siguiente: "severa"
+
+          },
+
+          {
+            texto: "Moderada",
+
+            siguiente: "moderada"
+
+          },
+
+          {
+            texto: "Leve",
+
+            siguiente: "leve"
+
+          }
+
+        ],
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "esqueletico",
+          }
+
+        ]
+
+      },
+
+      protocolo: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Remitir a protocolo de manejo dental y funcional</Strong>",
+
+        imagen: "./image/claseIII1_8.png",
+
+        siguiente: null,
+
+        botones: [
+
+          {
+            texto: "Volver 1",
+            siguiente: "dental",
+          },
+          {
+            texto: "Volver 2",
+            siguiente: "funcional",
+          }
+
+        ]
+
+      },
+
+      severa: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Severa</Strong>",
+
+        imagen: "./image/claseIII1_9.png",
+
+        siguiente: "postgrado2",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "severidad",
+          }
+
+        ]
+
+      },
+
+      moderada: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Moderada</Strong>",
+
+        imagen: "./image/claseIII1_10.png",
+
+        siguiente: "origen2",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "severidad",
+          }
+
+        ]
+
+      },
+
+      leve: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Leve</Strong>",
+
+        imagen: "./image/claseIII1_11.png",
+
+        siguiente: "origen2",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "severidad",
+          }
+
+        ]
+
+      },
+
+      postgrado2: {
+
+        tipo: "accion",
+
+        texto: "Remitir al posgrado de ortodoncia.<br><Strong>Paciente no apto para ser atendido en pregrado</Strong>",
+
+        imagen: "./image/claseIII1_12.png",
+        
+        siguiente: null,
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "severa"
+          }
+
+        ]
+
+      },
+
+      origen2: {
+
+        tipo: "decision_opciones",
+
+        texto: "Determinar el origen",
+
+        imagen: "./image/claseIII1_13.png",
+        
+        opciones: [
+
+          {
+            texto: "Maxilar",
+
+            siguiente: "maxilar"
+
+          },
+
+          {
+            texto: "Combinada",
+
+            siguiente: "combinada"
+
+          },
+
+          {
+            texto: "Mandibular",
+
+            siguiente: "mandibular"
+
+          }
+
+        ],
+
+        botones: [
+
+          {
+            texto: "Volver 1",
+            siguiente: "moderada",
+          },
+          {
+            texto: "Volver 2",
+            siguiente: "leve",
+          }
+
+        ]
+
+      },
+
+      maxilar: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Maxilar</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im27.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        ,
+
+        imagen: "./image/claseIII1_14.png",
+
+        siguiente: "desarrollo",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "origen2",
+          }
+
+        ]
+
+      },
+
+      combinada: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Combinada</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im28.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        ,
+
+        imagen: "./image/claseIII1_15.png",
+
+        siguiente: "desarrollo",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "origen2",
+          }
+
+        ]
+
+      },
+
+      mandibular: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Mandibular</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im29.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        ,
+
+        imagen: "./image/claseIII1_16.png",
+
+        siguiente: "desarrollo",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "origen2",
+          }
+
+        ]
+
+      },
+
+      desarrollo: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Determinar el estadio de desarrollo esquelético</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im30.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        +
+
+        "<br><br>La maduración esquelética se puede evaluar mediante el método de Baccetti"
+
+        +
+
+        "<span class='cita-biblio'>Baccetti T, Franchi L, McNamara JA. The Cervical Vertebral Maturation (CVM) method for the assessment of optimal treatment timing in dentofacial orthopedics. Semin Orthod. 2005 Sep;11:119–29.</span>"
+
+        +
+
+        "basado en la morfología de las vértebras cervicales (C2, C3, C4) en radiografías cefalométricas laterales."
+
+        +
+
+        "<span class='cita-biblio'>Nardoni DN, Siqueira DF, Cardoso M de A, Filho LC. Cephalometric variables used to predict the success of interceptive treatment with rapid maxillary expansion and face mask. A longitudinal study. Dental Press J Orthod. 2015;20:85–96.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Kirschneck C, Proff P, Lux C. Ideales Timing für die Behandlung kieferorthopädischer Anomalien – eine klinische S3-Praxisleitlinie. J Orofac Orthop. 2022 Jul;83:225–32.</span>"
+        
+        +
+
+        "Etapas clave:"
+
+        +
+
+        "<br><br><Strong>● CS1-CS2:</Strong>"
+
+        +
+
+        " Prepuberal temprano, ideal para tratamientos ortopédicos como la máscara facial o expansión maxilar"
+
+        +
+
+        "<span class='cita-biblio'>Paoloni V, De Razza FC, Franchi L, Cozza P. Stability prediction of early orthopedic treatment in Class III malocclusion: morphologic discriminant analysis. Prog Orthod. 2021 Dec;22.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Reed E, Kiebach TJ, Martin C, Razmus T, Gunel E, Ngan P. Stability of early Class III orthopedic treatment. Semin Orthod. 2014;20:114–27.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Zere E, Chaudhari PK, Sharan J, Dhingra K, Tiwari N. Developing Class III malocclusions: challenges and solutions. Clin Cosmet Investig Dent. 2018;10:99–116.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Rutili V, Nieri M, Franceschi D, Pierleoni F, Giuntini V, Franchi L. Effects produced by the facemask with and without skeletal anchorage for the orthopaedic treatment of Class III malocclusion in growing patients: A systematic review and meta-Analysis of RCTs. Vol. 45, European Journal of Orthodontics. Oxford University Press; 2023. p. 157–68.</span>"
+      
+        +
+
+        "<br><br><Strong>● CS3:</Strong>"
+
+        +
+
+        " Pico puberal, aún efectivo para intervenciones ortopédicas, pero con menor plasticidad esquelética"
+
+        +
+
+        "<span class='cita-biblio'>Rutili V, Nieri M, Franceschi D, Pierleoni F, Giuntini V, Franchi L. Effects produced by the facemask with and without skeletal anchorage for the orthopaedic treatment of Class III malocclusion in growing patients: A systematic review and meta-Analysis of RCTs. Vol. 45, European Journal of Orthodontics. Oxford University Press; 2023. p. 157–68.</span>"
+
+        +
+
+        "<br><br><Strong>● CS4-CS6:</Strong>"
+
+        +
+
+        " Postpuberal, donde las opciones se limitan prácticamente a tratamiento ortopédico con anclaje esquelético, ortodóntico de compensación dental o cirugía ortognática"
+
+        +
+
+        "<span class='cita-biblio'>Zere E, Chaudhari PK, Sharan J, Dhingra K, Tiwari N. Developing Class III malocclusions: challenges and solutions. Clin Cosmet Investig Dent. 2018;10:99–116.</span>"
+
+        ,
+
+        imagen: "./image/claseIII1_17.png",
+
+        siguiente: "denticion",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "origen2",
+          }
+
+        ]
+
+      },
+
+      denticion: {
+
+        tipo: "decision_opciones",
+
+        texto: "Determinar tipo de dentición del paciente",
+        
+        descripcion: "",
+
+        imagen: "./image/claseIII2_2.png",
+        
+        opciones: [
+
+          {
+            texto: "Dentición temporal",
+
+            siguiente: "temporal"
+
+          },
+
+          {
+            texto: "Dentición mixta",
+
+            siguiente: "mixta"
+
+          }
+
+        ],
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "desarrollo",
+          }
+
+        ]
+
+      },
+
+      temporal: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Dentición temporal</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im31.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        ,
+
+        imagen: "./image/claseIII2_3.png",
+
+        siguiente: "tratar",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "denticion",
+          }
+
+        ]
+
+      },
+
+      mixta: {
+
+        tipo: "decision_opciones",
+
+        texto: "Dentición mixta",
+
+        imagen: "./image/claseIII2_4.png",
+        
+        opciones: [
+
+          {
+            texto: "Dentición mixta temprana",
+
+            siguiente: "temprana"
+
+          },
+
+          {
+            texto: "Dentición mixta tardia",
+
+            siguiente: "tardia"
+
+          },{
+            texto: "¿Es el momento adecuado para tratar al paciente?",
+
+            siguiente: "tratar"
+
+          }
+
+        ],
+        
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "denticion",
+          }
+
+        ]
+
+      },
+
+      temprana: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Dentición mixta temprana</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im32.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        ,
+
+        imagen: "./image/claseIII2_4.png",
+
+        siguiente: null,
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "mixta",
+          }
+
+        ]
+
+      },
+
+      tardia: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Dentición mixta tardia</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im33.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        ,
+
+        imagen: "./image/claseIII2_4.png",
+
+        siguiente: null,
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "mixta",
+          }
+
+        ]
+
+      },
+
+      tratar: {
+
+        tipo: "decision",
+
+        texto: "¿Paciente en etapa de crecimiento?",
+
+        descripcion: 
+        
+        "<br><Strong>Determinar momento adecuado de intervención</Strong>"
+
+        +
+
+        "<br><br><Strong>●</Strong> Intervención temprana recomendada en dentición primaria o mixta temprana, idealmente entre 6 y 8 años, antes del pico de crecimiento puberal (CS1-CS2)."
+
+        +
+
+        "<br><span class=\"badge-ne-moderado\">(NE: Moderada, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Paoloni V, De Razza FC, Franchi L, Cozza P. Stability prediction of early orthopedic treatment in Class III malocclusion: morphologic discriminant analysis. Prog Orthod. 2021 Dec;22.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Reed E, Kiebach TJ, Martin C, Razmus T, Gunel E, Ngan P. Stability of early Class III orthopedic treatment. Semin Orthod. 2014;20:114–27.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Zere E, Chaudhari PK, Sharan J, Dhingra K, Tiwari N. Developing Class III malocclusions: challenges and solutions. Clin Cosmet Investig Dent. 2018;10:99–116.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Woon SC, Thiruvenkatachari B. Early orthodontic treatment for Class III malocclusion: A systematic review and meta-analysis. Vol. 151, American Journal of Orthodontics and Dentofacial Orthopedics. Mosby Inc.; 2017. p. 28–52.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Rutili V, Nieri M, Franceschi D, Pierleoni F, Giuntini V, Franchi L. Effects produced by the facemask with and without skeletal anchorage for the orthopaedic treatment of Class III malocclusion in growing patients: A systematic review and meta-Analysis of RCTs. Vol. 45, European Journal of Orthodontics. Oxford University Press; 2023. p. 157–68.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Sarangal H, Namdev R, Garg S, Saini N, Singhal P. Treatment Modalities for Early Management of Class III Skeletal Malocclusion: A Case Series. Contemp Clin Dent. 2020;11:91–6.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Jamilian A, Cannavale R, Piancino MG, Eslami S, Perillo L. Methodological quality and outcome of systematic reviews reporting on orthopaedic treatment for class III malocclusion: Overview of systematic reviews. J Orthod. 2016 Jul;43:102–20.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Cordasco G, Matarese G, Rustico L, Fastuca S, Caprioglio A, Lindauer SJ, et al. Efficacy of orthopedic treatment with protraction facemask on skeletal Class III malocclusion: A systematic review and meta-analysis. Orthod Craniofacial Res. 2014;17:133–43.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Kirschneck C, Proff P, Lux C. Ideales Timing für die Behandlung kieferorthopädischer Anomalien – eine klinische S3-Praxisleitlinie. J Orofac Orthop. 2022 Jul;83:225–32.</span>"
+
+        +
+
+        "<Strong>●</Strong> Tratamiento más efectivo antes de los 10 años para aprovechar el crecimiento activo y maximizar efectos ortopédicos."
+      
+        +
+
+        "<br><span class=\"badge-ne-muy-baja\">(NE: Muy baja, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Zere E, Chaudhari PK, Sharan J, Dhingra K, Tiwari N. Developing Class III malocclusions: challenges and solutions. Clin Cosmet Investig Dent. 2018;10:99–116.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Sarangal H, Namdev R, Garg S, Saini N, Singhal P. Treatment Modalities for Early Management of Class III Skeletal Malocclusion: A Case Series. Contemp Clin Dent. 2020;11:91–6.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Jamilian A, Cannavale R, Piancino MG, Eslami S, Perillo L. Methodological quality and outcome of systematic reviews reporting on orthopaedic treatment for class III malocclusion: Overview of systematic reviews. J Orthod. 2016 Jul;43:102–20.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Ly TK, Le LN, Do TT, Le KPV. Early treatment of skeletal class III malocclusion with facemask therapy in Vietnam. J Clin Pediatr Dent. 2024 Nov;48:187–96.</span>"
+
+        +
+
+        "<Strong>●</Strong> En dentición mixta tardía o permanente temprana, la efectividad disminuye, pero sigue siendo viable en pacientes en crecimiento."
+      
+        +
+
+        "<span class='cita-biblio'>Miao W, Zhou D, Li C, Chen L, Guan M, Peng Y, et al. Dental developmental stage affects the treatment outcome of maxillary protraction in skeletal class iii children: A systematic review and meta-analysis. Vol. 37, Australasian Orthodontic Journal. Australian Society of Orthodontists; 2021. p. 37–49. </span>"
+
+        +
+
+        "<span class='cita-biblio'>Kirschneck C, Proff P, Lux C. Ideales Timing für die Behandlung kieferorthopädischer Anomalien – eine klinische S3-Praxisleitlinie. J Orofac Orthop. 2022 Jul;83:225–32.</span>"
+
+        +
+
+        "<Strong>●</Strong> Intervención temprana reduce la necesidad de cirugía correctiva y minimiza la complejidad del tratamiento en adultos."
+      
+        +
+
+        "<span class='cita-biblio'>Kirschneck C, Proff P, Lux C. Ideales Timing für die Behandlung kieferorthopädischer Anomalien – eine klinische S3-Praxisleitlinie. J Orofac Orthop. 2022 Jul;83:225–32.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Pithon MM, Santos N de L, dos Santos CRB, Baião FCS, Pinheiro MCR, Matos Neto M, et al. Is alternate rapid maxillary expansion and constriction an effective protocol in the treatment of class III malocclusion? A systematic review. Dental Press J Orthod. 2016;21:34–42.</span>"
+
+        +
+
+        "<Strong>●</Strong> Se recomienda una intervención temprana para evitar efectos adversos en el crecimiento y desarrollo de los maxilares y la alteración de la actividad de los músculos temporal y masetero, lo que aumentaría el riesgo de trastornos craneomandibulares durante la adolescencia"
+      
+        +
+
+        "<span class='cita-biblio'>Wiedel AP, Bondemark L. Stability of anterior crossbite correction: A randomized controlled trial with a 2-year follow-up. Angle Orthod. 2015 Mar;85:189–95.</span>"
+        
+        ,
+
+        imagen: "./image/claseIII2_6.png",
+
+        si: "tratamiento",
+
+        no: "postgrado3",
+
+        botones: [
+
+          {
+            texto: "Volver 1",
+            siguiente: "temporal",
+          },
+          {
+            texto: "Volver 2",
+            siguiente: "tardia",
+          }
+
+        ]
+
+      },
+
+      postgrado3: {
+
+        tipo: "accion",
+
+        texto: "Seguimiento ó remitir al posgrado de ortodoncia.<br><Strong>Paciente no apto para ser atendido en pregrado</Strong>",
+
+        imagen: "./image/claseIII2_5.png",
+        
+        siguiente: null,
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "tratar"
+          }
+
+        ]
+
+      },
+
+      tratamiento: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Definición de objetivos de tratamiento</Strong>"
+        
+        +
+
+        "<br>El objetivo fundamental del tratamiento ortodóntico es lograr una oclusión normal que sea morfológicamente estable a largo plazo, funcional y estéticamente aceptable."
+
+        +
+
+        "<span class='cita-biblio'>Wiedel AP, Bondemark L. Stability of anterior crossbite correction: A randomized controlled trial with a 2-year follow-up. Angle Orthod. 2015 Mar;85:189–95.</span>"
+        
+        +
+
+        "Las opciones de tratamiento para una maloclusión esquelética de Clase III dependen de la edad del paciente y del patrón y severidad de la maloclusión."
+
+        +
+
+        "<span class='cita-biblio'>Fareen N, Alam MK, Khamis MF, Mokhtar N. Treatment effects of Reverse Twin-Block and Reverse Pull Face Mask on craniofacial morphology in early and late mixed dentition children. Orthod Craniofacial Res. 2017 Aug;20:134–9.</span>"
+
+        +
+
+        "Los objetivos de tratamiento para corregir la maloclusión Clase III esquelética son:"
+
+        +
+
+        "<br><Strong>●</Strong> Mejorar la relación esquelética (aumentar ANB, SNA, reducir SNB) y dental (corregir overjet, corregir mordida cruzada anterior y lograr relación molar y/o canina de Clase I)"
+
+        +
+
+        "<span class='cita-biblio'>Paoloni V, De Razza FC, Franchi L, Cozza P. Stability prediction of early orthopedic treatment in Class III malocclusion: morphologic discriminant analysis. Prog Orthod. 2021 Dec;22.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Reed E, Kiebach TJ, Martin C, Razmus T, Gunel E, Ngan P. Stability of early Class III orthopedic treatment. Semin Orthod. 2014;20:114–27.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Woon SC, Thiruvenkatachari B. Early orthodontic treatment for Class III malocclusion: A systematic review and meta-analysis. Vol. 151, American Journal of Orthodontics and Dentofacial Orthopedics. Mosby Inc.; 2017. p. 28–52.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Rutili V, Nieri M, Franceschi D, Pierleoni F, Giuntini V, Franchi L. Effects produced by the facemask with and without skeletal anchorage for the orthopaedic treatment of Class III malocclusion in growing patients: A systematic review and meta-Analysis of RCTs. Vol. 45, European Journal of Orthodontics. Oxford University Press; 2023. p. 157–68.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Jamilian A, Cannavale R, Piancino MG, Eslami S, Perillo L. Methodological quality and outcome of systematic reviews reporting on orthopaedic treatment for class III malocclusion: Overview of systematic reviews. J Orthod. 2016 Jul;43:102–20.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Cordasco G, Matarese G, Rustico L, Fastuca S, Caprioglio A, Lindauer SJ, et al. Efficacy of orthopedic treatment with protraction facemask on skeletal Class III malocclusion: A systematic review and meta-analysis. Orthod Craniofacial Res. 2014;17:133–43.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Miao W, Zhou D, Li C, Chen L, Guan M, Peng Y, et al. Dental developmental stage affects the treatment outcome of maxillary protraction in skeletal class iii children: A systematic review and meta-analysis. Vol. 37, Australasian Orthodontic Journal. Australian Society of Orthodontists; 2021. p. 37–49.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Kirschneck C, Proff P, Lux C. Ideales Timing für die Behandlung kieferorthopädischer Anomalien – eine klinische S3-Praxisleitlinie. J Orofac Orthop. 2022 Jul;83:225–32.</span>"
+
+        +
+
+        "<Strong>●</Strong> Promover crecimiento maxilar anterior, inhibir crecimiento mandibular, y lograr rotación mandibular favorable"
+
+        +
+
+        "<span class='cita-biblio'>Jamilian A, Cannavale R, Piancino MG, Eslami S, Perillo L. Methodological quality and outcome of systematic reviews reporting on orthopaedic treatment for class III malocclusion: Overview of systematic reviews. J Orthod. 2016 Jul;43:102–20.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Cordasco G, Matarese G, Rustico L, Fastuca S, Caprioglio A, Lindauer SJ, et al. Efficacy of orthopedic treatment with protraction facemask on skeletal Class III malocclusion: A systematic review and meta-analysis. Orthod Craniofacial Res. 2014;17:133–43.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Miao W, Zhou D, Li C, Chen L, Guan M, Peng Y, et al. Dental developmental stage affects the treatment outcome of maxillary protraction in skeletal class iii children: A systematic review and meta-analysis. Vol. 37, Australasian Orthodontic Journal. Australian Society of Orthodontists; 2021. p. 37–49.</span>"
+
+        +
+
+        "<Strong>●</Strong> Mejorar función masticatoria, estética facial, y estabilidad oclusal a largo plazo"
+
+        +
+
+        "<span class='cita-biblio'>Alwadei S, Ali Hattan A, Faqihi K, Alhawiatan A, Alwadei F, Alwadei A. Prevalence of malocclusion and orthodontic treatment needs among Saudi primary school male children aged 6–12 years: A cross-sectional study. J Int Oral Heal. 2023;15:106.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Zere E, Chaudhari PK, Sharan J, Dhingra K, Tiwari N. Developing Class III malocclusions: challenges and solutions. Clin Cosmet Investig Dent. 2018;10:99–116.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Woon SC, Thiruvenkatachari B. Early orthodontic treatment for Class III malocclusion: A systematic review and meta-analysis. Vol. 151, American Journal of Orthodontics and Dentofacial Orthopedics. Mosby Inc.; 2017. p. 28–52.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Kirschneck C, Proff P, Lux C. Ideales Timing für die Behandlung kieferorthopädischer Anomalien – eine klinische S3-Praxisleitlinie. J Orofac Orthop. 2022 Jul;83:225–32.</span>"
+
+        +
+
+        "<Strong>●</Strong> Prevenir complicaciones como trauma dental, recesión gingival, o cambios irreversibles en tejidos blandos/duros"
+
+        +
+
+        "<span class='cita-biblio'>Zere E, Chaudhari PK, Sharan J, Dhingra K, Tiwari N. Developing Class III malocclusions: challenges and solutions. Clin Cosmet Investig Dent. 2018;10:99–116.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Sarangal H, Namdev R, Garg S, Saini N, Singhal P. Treatment Modalities for Early Management of Class III Skeletal Malocclusion: A Case Series. Contemp Clin Dent. 2020;11:91–6.</span>"
+
+        +
+
+        "<Strong>●</Strong> Reducir la necesidad de cirugía ortognática y simplificar tratamientos futuros"
+
+        +
+
+        "<span class='cita-biblio'>Zere E, Chaudhari PK, Sharan J, Dhingra K, Tiwari N. Developing Class III malocclusions: challenges and solutions. Clin Cosmet Investig Dent. 2018;10:99–116.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Sarangal H, Namdev R, Garg S, Saini N, Singhal P. Treatment Modalities for Early Management of Class III Skeletal Malocclusion: A Case Series. Contemp Clin Dent. 2020;11:91–6.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Kirschneck C, Proff P, Lux C. Ideales Timing für die Behandlung kieferorthopädischer Anomalien – eine klinische S3-Praxisleitlinie. J Orofac Orthop. 2022 Jul;83:225–32.</span>"
+
+        ,
+
+        imagen: "./image/claseIII2_7.png",
+
+        siguiente: "mecanicas",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "tratar",
+          }
+
+        ]
+
+      },
+
+      mecanicas: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Selección de mecánicas de tratamiento</Strong>",
+
+        imagen: "./image/claseIII3_2.png",
+
+        siguiente: "dispositivo",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "tratamiento",
+          }
+
+        ]
+
+      },
+
+      dispositivo: {
+
+        tipo: "decision_opciones",
+
+        texto: "¿Qué tipo de dispositivo usar?",
+        
+        descripcion: 
+        
+        "<br><br>Los criterios para determinar qué tipo de aparatología usar para la corrección de la Maloclusión Clase III, dependen del origen, severidad y objetivos de tratamiento:"
+
+        +
+
+        "<br><Strong>● Tipo de maloclusión (esquelética, dental o funcional):</Strong>"
+
+        +
+
+        "<br><Strong> ◦ Maloclusión esquelética:</Strong>"
+
+        +
+
+        "<br>  ■ Para deficiencia maxilar (retrognatismo o hipoplasia maxilar), se recomienda la máscara facial (con o sin expansión maxilar rápida, RME) para promover la protracción maxilar."
+        
+        +
+
+        "<br><span class=\"badge-ne-alta\">(NE: Alta y moderada, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Paoloni V, De Razza FC, Franchi L, Cozza P. Stability prediction of early orthopedic treatment in Class III malocclusion: morphologic discriminant analysis. Prog Orthod. 2021 Dec;22.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Reed E, Kiebach TJ, Martin C, Razmus T, Gunel E, Ngan P. Stability of early Class III orthopedic treatment. Semin Orthod. 2014;20:114–27.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Zere E, Chaudhari PK, Sharan J, Dhingra K, Tiwari N. Developing Class III malocclusions: challenges and solutions. Clin Cosmet Investig Dent. 2018;10:99–116.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Woon SC, Thiruvenkatachari B. Early orthodontic treatment for Class III malocclusion: A systematic review and meta-analysis. Vol. 151, American Journal of Orthodontics and Dentofacial Orthopedics. Mosby Inc.; 2017. p. 28–52.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Rutili V, Nieri M, Franceschi D, Pierleoni F, Giuntini V, Franchi L. Effects produced by the facemask with and without skeletal anchorage for the orthopaedic treatment of Class III malocclusion in growing patients: A systematic review and meta-Analysis of RCTs. Vol. 45, European Journal of Orthodontics. Oxford University Press; 2023. p. 157–68.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Sarangal H, Namdev R, Garg S, Saini N, Singhal P. Treatment Modalities for Early Management of Class III Skeletal Malocclusion: A Case Series. Contemp Clin Dent. 2020;11:91–6.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Jamilian A, Cannavale R, Piancino MG, Eslami S, Perillo L. Methodological quality and outcome of systematic reviews reporting on orthopaedic treatment for class III malocclusion: Overview of systematic reviews. J Orthod. 2016 Jul;43:102–20.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Cordasco G, Matarese G, Rustico L, Fastuca S, Caprioglio A, Lindauer SJ, et al. Efficacy of orthopedic treatment with protraction facemask on skeletal Class III malocclusion: A systematic review and meta-analysis. Orthod Craniofacial Res. 2014;17:133–43</span>"
+
+        +
+
+        "<span class='cita-biblio'>Miao W, Zhou D, Li C, Chen L, Guan M, Peng Y, et al. Dental developmental stage affects the treatment outcome of maxillary protraction in skeletal class iii children: A systematic review and meta-analysis. Vol. 37, Australasian Orthodontic Journal. Australian Society of Orthodontists; 2021. p. 37–49.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Kirschneck C, Proff P, Lux C. Ideales Timing für die Behandlung kieferorthopädischer Anomalien – eine klinische S3-Praxisleitlinie. J Orofac Orthop. 2022 Jul;83:225–32. </span>"
+
+        +
+
+        "<span class='cita-biblio'>Mandall N, Cousley R, DiBiase A, Dyer F, Littlewood S, Mattick R, et al. Early class III protraction facemask treatment reduces the need for orthognathic surgery: a multi-centre, two-arm parallel randomized, controlled trial. J Orthod. 2016 Jul;43:164–75.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Liu W, Zhou Y, Wang X, Liu D, Zhou S. Effect of maxillary protraction with alternating rapid palatal expansion and constriction vs expansion alone in maxillary retrusive patients: A single-center, randomized controlled trial. Am J Orthod Dentofac Orthop. 2015 Oct;148:641–51.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Seiryu M, Ida H, Mayama A, Sasaki S, Sasaki S, Deguchi T, et al. A comparative assessment of orthodontic treatment outcomes of mild skeletal Class III malocclusion between facemask and facemask in combination with a miniscrew for anchorage in growing patients: A single-center, prospective randomized controlled trial. Angle Orthod. 2020;90:3–12.</span>"
+
+        +
+
+        "<br>  ■ En casos de prognatismo mandibular, se utiliza la mentonera (chin cup) para redirigir o retardar el crecimiento mandibular"
+        
+        +
+
+        "<br><span class=\"badge-ne-muy-baja\">(NE: Muy baja, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Zere E, Chaudhari PK, Sharan J, Dhingra K, Tiwari N. Developing Class III malocclusions: challenges and solutions. Clin Cosmet Investig Dent. 2018;10:99–116.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Woon SC, Thiruvenkatachari B. Early orthodontic treatment for Class III malocclusion: A systematic review and meta-analysis. Vol. 151, American Journal of Orthodontics and Dentofacial Orthopedics. Mosby Inc.; 2017. p. 28–52.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Jamilian A, Cannavale R, Piancino MG, Eslami S, Perillo L. Methodological quality and outcome of systematic reviews reporting on orthopaedic treatment for class III malocclusion: Overview of systematic reviews. J Orthod. 2016 Jul;43:102–20.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Fabozzi FF, Nucci L, Correra A, d’Apuzzo F, Franchi L, Perillo L. Comparison of two protocols for early treatment of dentoskeletal Class III malocclusion: Modified SEC III versus RME/FM. Orthod Craniofacial Res. 2021 Aug;24:344–50.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Al-Khalifa HN, Hashem MI, Alanazi KJ, Anil S. Orthopedic effect of chin cup during mixed dentition stage. J Contemp Dent Pract. 2017;18:410–4.</span>"
+
+        +
+
+        "<br>  ■ Para maximizar efectos esqueléticos y minimizar compensaciones dentales, se emplean dispositivos con anclaje esquelético como miniplacas o minitornillos, especialmente en pacientes mayores (≥ 11 años) o con discrepancias severas o con poca colaboración."
+        
+        +
+
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Zere E, Chaudhari PK, Sharan J, Dhingra K, Tiwari N. Developing Class III malocclusions: challenges and solutions. Clin Cosmet Investig Dent. 2018;10:99–116.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Rutili V, Nieri M, Franceschi D, Pierleoni F, Giuntini V, Franchi L. Effects produced by the facemask with and without skeletal anchorage for the orthopaedic treatment of Class III malocclusion in growing patients: A systematic review and meta-Analysis of RCTs. Vol. 45, European Journal of Orthodontics. Oxford University Press; 2023. p. 157–68.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Jamilian A, Cannavale R, Piancino MG, Eslami S, Perillo L. Methodological quality and outcome of systematic reviews reporting on orthopaedic treatment for class III malocclusion: Overview of systematic reviews. J Orthod. 2016 Jul;43:102–20.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Kirschneck C, Proff P, Lux C. Ideales Timing für die Behandlung kieferorthopädischer Anomalien – eine klinische S3-Praxisleitlinie. J Orofac Orthop. 2022 Jul;83:225–32.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Seiryu M, Ida H, Mayama A, Sasaki S, Sasaki S, Deguchi T, et al. A comparative assessment of orthodontic treatment outcomes of mild skeletal Class III malocclusion between facemask and facemask in combination with a miniscrew for anchorage in growing patients: A single-center, prospective randomized controlled trial. Angle Orthod. 2020;90:3–12.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Miranda F, Cunha Bastos JC da, Magno Dos Santos A, Janson G, Pereira Lauris JR, Garib D. Dentoskeletal comparison of miniscrew-anchored maxillary protraction with hybrid and conventional hyrax expanders: A randomized clinical trial. Am J Orthod Dentofacial Orthop. 2021 Dec;160:774–83.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Meyns J, Thanatchaporn J, Shujaat S, Politis C, Jacobs R. Long-term three-dimensional skeletal effects of hybrid hyrax with facemask versus mentoplate in growing Class III patients: a randomized controlled trial. Prog Orthod. 2025 Dec;26.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Ragab RSE-DA, El Shennawy MI, Yousif AAEW. Comparison between maxillary skeletal expander and hybrid hyrax facemask combination in treatment of growing patients with skeletal class III malocclusion. Tanta Dent J. 2022 Oct;19:273–80.</span>"
+
+        +
+
+        "<br><Strong> ◦ Maloclusión dental:</Strong>"
+
+        +
+
+        "<br>  ■ Para correcciones dentoalveolares simples, como mordida cruzada anterior o apiñamiento leve, se usan aparatos removibles como planos inclinados, aparatos de Hawley activos con resortes o tornillos de expansión, o placas de expansión maxilar."
+        
+        +
+
+        "<span class='cita-biblio'>Zere E, Chaudhari PK, Sharan J, Dhingra K, Tiwari N. Developing Class III malocclusions: challenges and solutions. Clin Cosmet Investig Dent. 2018;10:99–116.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Zhou C, Duan P, He H, Song J, Hu M, Liu Y, et al. Expert consensus on pediatric orthodontic therapies of malocclusions in children. Vol. 16, International Journal of Oral Science. Springer Nature; 2024.</span>"
+
+        +
+
+        "<br>  ■ En dentición mixta tardía o permanente temprana, se emplean aparatos fijos como el “4 por 2” o “6 por 2” para movimientos dentales específicos (corrección de inclinaciones, rotaciones o espacios)."
+        
+        +
+
+        "<span class='cita-biblio'>Zere E, Chaudhari PK, Sharan J, Dhingra K, Tiwari N. Developing Class III malocclusions: challenges and solutions. Clin Cosmet Investig Dent. 2018;10:99–116.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Sarangal H, Namdev R, Garg S, Saini N, Singhal P. Treatment Modalities for Early Management of Class III Skeletal Malocclusion: A Case Series. Contemp Clin Dent. 2020;11:91–6.</span>"
+
+        +
+
+        "<br><Strong> ◦ Maloclusión funcional (pseudoclase III):</Strong>"
+
+        +
+
+        "<br>  ■ Para casos con desplazamiento mandibular debido a interferencias oclusales o hábitos, se recomiendan aparatos funcionales como el reverse Twin-block, Frankel appliance (FR-3), o retractor mandibular removible (RMR), que corrigen la relación oclusal y promueven un crecimiento adecuado."
+        
+        +
+
+        "<span class='cita-biblio'>Zere E, Chaudhari PK, Sharan J, Dhingra K, Tiwari N. Developing Class III malocclusions: challenges and solutions. Clin Cosmet Investig Dent. 2018;10:99–116.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Woon SC, Thiruvenkatachari B. Early orthodontic treatment for Class III malocclusion: A systematic review and meta-analysis. Vol. 151, American Journal of Orthodontics and Dentofacial Orthopedics. Mosby Inc.; 2017. p. 28–52.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Sarangal H, Namdev R, Garg S, Saini N, Singhal P. Treatment Modalities for Early Management of Class III Skeletal Malocclusion: A Case Series. Contemp Clin Dent. 2020;11:91–6.</span>"
+
+        ,
+
+        imagen: "./image/claseIII3_3.png",
+        
+        opciones: [
+
+          {
+            texto: "Mentonera",
+
+            siguiente: "mentonera"
+
+          },
+
+          {
+            texto: "Aparatos removibles",
+
+            siguiente: "removibles"
+
+          },
+
+          {
+            texto: "Mascara facial",
+
+            siguiente: "facial"
+
+          }
+
+        ],
+        
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "mecanicas",
+          }
+
+        ]
+
+      },
+
+      mentonera: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Mentonera</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im34.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        +
+
+        "<br><br>La mentonera está diseñada para suprimir y/o redirigir el crecimiento mandibular, cerrar el ángulo goniaco y remodelar la articulación mandibular y temporomandibular."
+
+        +
+
+        "<br>Según la literatura, para evidenciar resultados significativos, la mentonera se debería usar un mínimo de 12 a 14 horas por día con una fuerza de 400-600 g por lado."
+
+        +
+
+        "<br><span class=\"badge-ne-muy-baja\">(NE: Muy baja, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Seiryu M, Ida H, Mayama A, Sasaki S, Sasaki S, Deguchi T, et al. A comparative assessment of orthodontic treatment outcomes of mild skeletal Class III malocclusion between facemask and facemask in combination with a miniscrew for anchorage in growing patients: A single-center, prospective randomized controlled trial. Angle Orthod. 2020;90:3–12.</span>"
+
+        +
+        
+        "<span class='cita-biblio'>Al-Khalifa HN, Hashem MI, Alanazi KJ, Anil S. Orthopedic effect of chin cup during mixed dentition stage. J Contemp Dent Pract. 2017;18:410–4.</span>"
+        
+        ,
+
+        imagen: "./image/claseIII3_4.png",
+
+        siguiente: "seguimiento",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "dispositivo",
+          }
+
+        ]
+
+      },
+
+      removibles: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Aparatos removibles</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im35.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        +
+
+        "<br><br><Strong>● RTB (Reverse Twin-Block):</Strong> El RTB es un aparato funcional que consta de dos piezas de mordida extraíbles con planos inclinados oclusales. La pieza de mordida superior (que cubre los premolares superiores/molares deciduos) está situada por delante de la pieza de mordida inferior (que cubre los molares inferiores) y ayuda al reposicionamiento maxilomandibular junto con la corrección dentoalveolar en la relación de Clase III."
+
+        +
+
+        "<br><span class=\"badge-ne-muy-baja\">(NE: Muy baja, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Fareen N, Alam MK, Khamis MF, Mokhtar N. Treatment effects of Reverse Twin-Block and Reverse Pull Face Mask on craniofacial morphology in early and late mixed dentition children. Orthod Craniofacial Res. 2017 Aug;20:134–9.</span>"
+
+        ,
+
+        imagen: "./image/claseIII3_5.png",
+
+        siguiente: "seguimiento",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "dispositivo",
+          }
+
+        ]
+
+      },
+
+      facial: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Aparatos removibles</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im36.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        +
+
+        "<span class='cita-biblio'>Nardoni DN, Siqueira DF, Cardoso M de A, Filho LC. Cephalometric variables used to predict the success of interceptive treatment with rapid maxillary expansion and face mask. A longitudinal study. Dental Press J Orthod. 2015;20:85–96.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Fareen N, Alam MK, Khamis MF, Mokhtar N. Treatment effects of Reverse Twin-Block and Reverse Pull Face Mask on craniofacial morphology in early and late mixed dentition children. Orthod Craniofacial Res. 2017 Aug;20:134–9.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Fabozzi FF, Nucci L, Correra A, d’Apuzzo F, Franchi L, Perillo L. Comparison of two protocols for early treatment of dentoskeletal Class III malocclusion: Modified SEC III versus RME/FM. Orthod Craniofacial Res. 2021 Aug;24:344–50.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Ly TK, Le LN, Do TT, Le KPV. Early treatment of skeletal class III malocclusion with facemask therapy in Vietnam. J Clin Pediatr Dent. 2024 Nov;48:187–96.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Mandall N, Cousley R, DiBiase A, Dyer F, Littlewood S, Mattick R, et al. Early class III protraction facemask treatment reduces the need for orthognathic surgery: a multi-centre, two-arm parallel randomized, controlled trial. J Orthod. 2016 Jul;43:164–75.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Seiryu M, Ida H, Mayama A, Sasaki S, Sasaki S, Deguchi T, et al. A comparative assessment of orthodontic treatment outcomes of mild skeletal Class III malocclusion between facemask and facemask in combination with a miniscrew for anchorage in growing patients: A single-center, prospective randomized controlled trial. Angle Orthod. 2020;90:3–12.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Miranda F, Cunha Bastos JC da, Magno Dos Santos A, Janson G, Pereira Lauris JR, Garib D. Dentoskeletal comparison of miniscrew-anchored maxillary protraction with hybrid and conventional hyrax expanders: A randomized clinical trial. Am J Orthod Dentofacial Orthop. 2021 Dec;160:774–83.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Meyns J, Thanatchaporn J, Shujaat S, Politis C, Jacobs R. Long-term three-dimensional skeletal effects of hybrid hyrax with facemask versus mentoplate in growing Class III patients: a randomized controlled trial. Prog Orthod. 2025 Dec;26.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Ragab RSE-DA, El Shennawy MI, Yousif AAEW. Comparison between maxillary skeletal expander and hybrid hyrax facemask combination in treatment of growing patients with skeletal class III malocclusion. Tanta Dent J. 2022 Oct;19:273–80.</span>"
+
+        +
+
+        "Según la literatura, los protocolos de máscara facial varían según el estudio realizado y estos describen lo siguiente:"
+
+        +
+
+        "<br><Strong>● Fuerzas 400 gr/lado, vector 30°, uso de 14 a 16 horas.</Strong>"
+
+        +
+
+        "<br><span class=\"badge-ne-moderado\">(NE: Moderada, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Mandall N, Cousley R, DiBiase A, Dyer F, Littlewood S, Mattick R, et al. Early class III protraction facemask treatment reduces the need for orthognathic surgery: a multi-centre, two-arm parallel randomized, controlled trial. J Orthod. 2016 Jul;43:164–75.</span>"
+
+        +
+
+        "<br><Strong>● Los aparatos se llevaban de 12 a 14 horas al día con una magnitud de fuerza de 600 g por lado.</Strong>"
+
+        +
+
+        "<br><span class=\"badge-ne-muy-baja\">(NE: Muy baja, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Al-Khalifa HN, Hashem MI, Alanazi KJ, Anil S. Orthopedic effect of chin cup during mixed dentition stage. J Contemp Dent Pract. 2017;18:410–4.</span>"
+
+        +
+
+        "<br><Strong>● Uso de 12 horas al día con una fuerza de 500 g por lado.</Strong>"
+
+        +
+
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Seiryu M, Ida H, Mayama A, Sasaki S, Sasaki S, Deguchi T, et al. A comparative assessment of orthodontic treatment outcomes of mild skeletal Class III malocclusion between facemask and facemask in combination with a miniscrew for anchorage in growing patients: A single-center, prospective randomized controlled trial. Angle Orthod. 2020;90:3–12.</span>"
+
+        +
+
+        "<br><Strong>● Máscara con fuerzas de 300-500 g por lado durante 14h/día.</Strong>"
+
+        +
+
+        "<br><span class=\"badge-ne-muy-baja\">(NE: Muy baja, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Li Y, Alifu A, Peng Y. Is maxillary protraction the earlier the better? A retrospective study on early orthodontic treatment of Class III malocclusion with maxillary deficiency. J Clin Pediatr Dent. 2024 Nov;48:133–43.</span>"
+
+        +
+
+        "<br><Strong>● Se usó máscara facial mínimo de 12h/día, cambio de elástico cada 2-3 días, fuerzas de 300-450 g por lado.</Strong>"
+
+        +
+
+        "<br><span class=\"badge-ne-muy-baja\">(NE: Muy baja, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Ly TK, Le LN, Do TT, Le KPV. Early treatment of skeletal class III malocclusion with facemask therapy in Vietnam. J Clin Pediatr Dent. 2024 Nov;48:187–96.</span>"
+
+        +
+
+        "<br><Strong>● La dirección de los elásticos era de 15 a 30° hacia abajo desde el plano oclusal, ejerciendo una fuerza de entre 400 y 500 g por lado. Se indicó a los pacientes que llevaran la máscara al menos 14 horas al día.</Strong>"
+
+        +
+
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Liu W, Zhou Y, Wang X, Liu D, Zhou S. Effect of maxillary protraction with alternating rapid palatal expansion and constriction vs expansion alone in maxillary retrusive patients: A single-center, randomized controlled trial. Am J Orthod Dentofac Orthop. 2015 Oct;148:641–51.</span>"
+
+        +
+
+        "Haciendo un consenso de estos protocolos, en pacientes en crecimiento con maloclusión Clase III, se recomienda el uso de máscara facial con tracción antero-superior de 400 a 500 g por lado, con un vector de 30° desde el plano oclusal, por al menos 12-14 horas al día. Se aconseja el cambio de elásticos cada 2–3 días para mantener una fuerza constante. Esta recomendación se basa principalmente en estudios con nivel de evidencia alto y moderado, evaluados bajo el sistema GRADE."
+
+        +
+
+        "<span class='cita-biblio'>Mandall N, Cousley R, DiBiase A, Dyer F, Littlewood S, Mattick R, et al. Early class III protraction facemask treatment reduces the need for orthognathic surgery: a multi-centre, two-arm parallel randomized, controlled trial. J Orthod. 2016 Jul;43:164–75.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Liu W, Zhou Y, Wang X, Liu D, Zhou S. Effect of maxillary protraction with alternating rapid palatal expansion and constriction vs expansion alone in maxillary retrusive patients: A single-center, randomized controlled trial. Am J Orthod Dentofac Orthop. 2015 Oct;148:641–51.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Seiryu M, Ida H, Mayama A, Sasaki S, Sasaki S, Deguchi T, et al. A comparative assessment of orthodontic treatment outcomes of mild skeletal Class III malocclusion between facemask and facemask in combination with a miniscrew for anchorage in growing patients: A single-center, prospective randomized controlled trial. Angle Orthod. 2020;90:3–12.</span>"
+
+        ,
+
+        imagen: "./image/claseIII4_1.png",
+
+        siguiente: "discrepancia",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "dispositivo",
+          }
+
+        ]
+
+      },
+
+      discrepancia: {
+
+        tipo: "decision",
+
+        texto: "¿Existe discrepancia transversal maxilar?",
+
+        imagen: "./image/claseIII4_2.png",
+
+        si: "disyuntor",
+
+        no: "anclaje",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "facial",
+          }
+
+        ]
+
+      },
+
+      anclaje: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Definir dispositivo de anclaje para máscara.</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im37.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        ,
+
+        imagen: "./image/claseIII4_3.png",
+
+        siguiente: null,
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "discrepancia",
+          }
+
+        ]
+
+      },
+
+      disyuntor: {
+
+        tipo: "decision_opciones",
+
+        texto: "Uso de disyuntor",
+        
+        descripcion: "<br><br><img src='./image/Im38.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>",
+
+        imagen: "./image/claseIII4_4.png",
+        
+        opciones: [
+
+          {
+            texto: "Disyuntor Convencional",
+
+            siguiente: "convencional"
+
+          },
+
+          {
+            texto: "Disyuntor Híbrido",
+
+            siguiente: "hibrido"
+
+          }
+
+        ],
+        
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "discrepancia",
+          }
+
+        ]
+
+      },
+
+      convencional: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Disyuntor Convencional</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im39.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        +
+
+        "<br><br>Se refiere a un dispositivo de expansión maxilar rápida (RME), como el Hyrax o Hass, que consiste en un tornillo de expansión unido a coronas o bandas en los segundos molares primarios maxilares o primeros molares permanentes, a menudo con una placa acrílica palatina."
+
+        +
+
+        "<span class='cita-biblio'>Reed E, Kiebach TJ, Martin C, Razmus T, Gunel E, Ngan P. Stability of early Class III orthopedic treatment. Semin Orthod. 2014;20:114–27.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Rutili V, Nieri M, Franceschi D, Pierleoni F, Giuntini V, Franchi L. Effects produced by the facemask with and without skeletal anchorage for the orthopaedic treatment of Class III malocclusion in growing patients: A systematic review and meta-Analysis of RCTs. Vol. 45, European Journal of Orthodontics. Oxford University Press; 2023. p. 157–68.</span>"
+        
+        +
+
+        "Pueden existir modificaciones para mejorar la retención o estabilidad de los dispositivos"
+
+        +
+
+        "<span class='cita-biblio'>Reed E, Kiebach TJ, Martin C, Razmus T, Gunel E, Ngan P. Stability of early Class III orthopedic treatment. Semin Orthod. 2014;20:114–27.</span>"
+
+        ,
+
+        imagen: "./image/claseIII4_5.png",
+
+        siguiente: "alveolar",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "disyuntor",
+          }
+
+        ]
+
+      },
+
+      hibrido: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Disyuntor Convencional</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im39.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        +
+
+        "<br><br>Dispositivo de expansión maxilar rápida (RME) que incorpora anclaje esquelético, como minitornillos o miniplacas, para mejorar la estabilidad y maximizar los efectos esqueléticos, minimizando las compensaciones dentales. Se asocia con protocolos como el BAMP (Bone-Anchored Maxillary Protraction) o dispositivos con minitornillos insertados en la zona anterior del paladar en posición parasutural."
+
+        +
+
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Miranda F, Cunha Bastos JC da, Magno Dos Santos A, Janson G, Pereira Lauris JR, Garib D. Dentoskeletal comparison of miniscrew-anchored maxillary protraction with hybrid and conventional hyrax expanders: A randomized clinical trial. Am J Orthod Dentofacial Orthop. 2021 Dec;160:774–83.</span>"
+
+        +
+
+        "Utilizado para tratar maloclusiones Clase III esqueléticas, especialmente en pacientes mayores (≥11 años) o con discrepancias severas, para lograr mayor movimiento maxilar anterior (~4 mm) con mínima inclinación dental"
+
+        +
+
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Zere E, Chaudhari PK, Sharan J, Dhingra K, Tiwari N. Developing Class III malocclusions: challenges and solutions. Clin Cosmet Investig Dent. 2018;10:99–116.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Seiryu M, Ida H, Mayama A, Sasaki S, Sasaki S, Deguchi T, et al. A comparative assessment of orthodontic treatment outcomes of mild skeletal Class III malocclusion between facemask and facemask in combination with a miniscrew for anchorage in growing patients: A single-center, prospective randomized controlled trial. Angle Orthod. 2020;90:3–12.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Meyns J, Thanatchaporn J, Shujaat S, Politis C, Jacobs R. Long-term three-dimensional skeletal effects of hybrid hyrax with facemask versus mentoplate in growing Class III patients: a randomized controlled trial. Prog Orthod. 2025 Dec;26.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Ragab RSE-DA, El Shennawy MI, Yousif AAEW. Comparison between maxillary skeletal expander and hybrid hyrax facemask combination in treatment of growing patients with skeletal class III malocclusion. Tanta Dent J. 2022 Oct;19:273–80.</span>"
+
+        ,
+
+        imagen: "./image/claseIII4_6.png",
+
+        siguiente: "postgrado4",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "disyuntor",
+          }
+
+        ]
+
+      },
+
+      alveolar: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Mascara facial con disyuntor de anclaje dento-alveolar</Strong>"
+        
+        ,
+
+        imagen: "./image/claseIII4_7.png",
+
+        siguiente: "expansion",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "convencional",
+          }
+
+        ]
+
+      },
+
+      postgrado4: {
+
+        tipo: "accion",
+
+        texto: "Remitir al posgrado de ortodoncia.<br><Strong>Paciente no apto para ser atendido en pregrado</Strong>",
+
+        imagen: "./image/claseIII4_8.png",
+        
+        siguiente: null,
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "hibrido"
+          }
+
+        ]
+
+      },
+
+      expansion: {
+
+        tipo: "decision_opciones",
+
+        texto: "Tipo de expansión",
+        
+        descripcion: 
+        
+        "<br><Strong>● RPE (Expansión Rápida Palatina) o RME (Expansión Rápida Maxilar):</Strong>"
+
+        +
+
+        " Indicado cuando hay una deficiencia transversal maxilar que requiere corrección mediante apertura de suturas palatinas maxilares, común en maloclusiones Clase III esqueléticas. Utiliza dispositivos con anclaje dental (por ejemplo, Hyrax) y es suficiente para casos leves a moderados."
+
+        +
+
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span>"
+        
+        +
+
+        "<span class='cita-biblio'>Paoloni V, De Razza FC, Franchi L, Cozza P. Stability prediction of early orthopedic treatment in Class III malocclusion: morphologic discriminant analysis. Prog Orthod. 2021 Dec;22.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Reed E, Kiebach TJ, Martin C, Razmus T, Gunel E, Ngan P. Stability of early Class III orthopedic treatment. Semin Orthod. 2014;20:114–27.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Rutili V, Nieri M, Franceschi D, Pierleoni F, Giuntini V, Franchi L. Effects produced by the facemask with and without skeletal anchorage for the orthopaedic treatment of Class III malocclusion in growing patients: A systematic review and meta-Analysis of RCTs. Vol. 45, European Journal of Orthodontics. Oxford University Press; 2023. p. 157–68.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Miao W, Zhou D, Li C, Chen L, Guan M, Peng Y, et al. Dental developmental stage affects the treatment outcome of maxillary protraction in skeletal class iii children: A systematic review and meta-analysis. Vol. 37, Australasian Orthodontic Journal. Australian Society of Orthodontists; 2021. p. 37–49.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Kirschneck C, Proff P, Lux C. Ideales Timing für die Behandlung kieferorthopädischer Anomalien – eine klinische S3-Praxisleitlinie. J Orofac Orthop. 2022 Jul;83:225–32.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Zhou C, Duan P, He H, Song J, Hu M, Liu Y, et al. Expert consensus on pediatric orthodontic therapies of malocclusions in children. Vol. 16, International Journal of Oral Science. Springer Nature; 2024. </span>"
+
+        +
+
+        "Más común en dentición primaria o mixta temprana (6-8 años, CS1-CS2), donde el crecimiento activo facilita la expansión maxilar."
+
+        +
+
+        "<br><span class=\"badge-ne-moderado\">(NE: Moderada, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Reed E, Kiebach TJ, Martin C, Razmus T, Gunel E, Ngan P. Stability of early Class III orthopedic treatment. Semin Orthod. 2014;20:114–27.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Rutili V, Nieri M, Franceschi D, Pierleoni F, Giuntini V, Franchi L. Effects produced by the facemask with and without skeletal anchorage for the orthopaedic treatment of Class III malocclusion in growing patients: A systematic review and meta-Analysis of RCTs. Vol. 45, European Journal of Orthodontics. Oxford University Press; 2023. p. 157–68.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Miao W, Zhou D, Li C, Chen L, Guan M, Peng Y, et al. Dental developmental stage affects the treatment outcome of maxillary protraction in skeletal class iii children: A systematic review and meta-analysis. Vol. 37, Australasian Orthodontic Journal. Australian Society of Orthodontists; 2021. p. 37–49.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Kirschneck C, Proff P, Lux C. Ideales Timing für die Behandlung kieferorthopädischer Anomalien – eine klinische S3-Praxisleitlinie. J Orofac Orthop. 2022 Jul;83:225–32.</span>"
+
+        +
+
+        "<br><Strong>● RPE/C (Expansión-Constricción Rápida Alternada):</Strong>"
+
+        +
+
+        " Preferido cuando se busca maximizar la protracción maxilar mediante la apertura de suturas palatinas y circunmaxilares, especialmente en casos esqueléticos más complejos. El protocolo Alt-RAMEC puede combinarse con anclaje esquelético (TADs) para potenciar los efectos."
+        
+        +
+
+        "<span class='cita-biblio'>Pithon MM, Santos N de L, dos Santos CRB, Baião FCS, Pinheiro MCR, Matos Neto M, et al. Is alternate rapid maxillary expansion and constriction an effective protocol in the treatment of class III malocclusion? A systematic review. Dental Press J Orthod. 2016;21:34–42.</span>"
+
+        +
+
+        " Preferido cuando se busca maximizar la protracción maxilar mediante la apertura de suturas palatinas y circunmaxilares, especialmente en casos esqueléticos más complejos. El protocolo Alt-RAMEC puede combinarse con anclaje esquelético (TADs) para potenciar los efectos."
+        
+        +
+
+        "<br><span class=\"badge-ne-moderado\">(NE: Moderada, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Kirschneck C, Proff P, Lux C. Ideales Timing für die Behandlung kieferorthopädischer Anomalien – eine klinische S3-Praxisleitlinie. J Orofac Orthop. 2022 Jul;83:225–32.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Pithon MM, Santos N de L, dos Santos CRB, Baião FCS, Pinheiro MCR, Matos Neto M, et al. Is alternate rapid maxillary expansion and constriction an effective protocol in the treatment of class III malocclusion? A systematic review. Dental Press J Orthod. 2016;21:34–42.</span>"
+
+        +
+
+        "En el artículo de L, Weitao, se realizó un estudio clínico aleatorizado en el que se comparan los protocolos de RPE y RPE/C, dando como resultado que ambos grupos mostraron mejoría en la relación maxilomandibular, pero el grupo RPE/C (máscara facial combinada con expansión/constricción rápida alternada) presentó cambios significativamente más marcados. El SNA aumentó en 2.67 ± 1.31° en el grupo RPE/C frente a 1.93 ± 0.79° en el grupo RPE, indicando un mayor avance del maxilar. Además, el valor de Wits mejoró considerablemente en ambos grupos, en el grupo RPE/C (3.65 ± 1.89 mm) y RPE (3.28 ± 2.63 mm). Estos resultados evidencian una mayor efectividad del protocolo RPE/C para la corrección anteroposterior esquelética en pacientes con Clase III"
+        
+        +
+
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Liu W, Zhou Y, Wang X, Liu D, Zhou S. Effect of maxillary protraction with alternating rapid palatal expansion and constriction vs expansion alone in maxillary retrusive patients: A single-center, randomized controlled trial. Am J Orthod Dentofac Orthop. 2015 Oct;148:641–51.</span>"
+
+        ,
+
+        imagen: "./image/claseIII4_9.png",
+        
+        opciones: [
+
+          {
+            texto: "Expansión rápida (RPE)",
+
+            siguiente: "rpe"
+
+          },
+
+          {
+            texto: "Expansión constricción (RPE-C)",
+
+            siguiente: "rpec"
+
+          }
+
+        ],
+        
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "alveolar",
+          }
+
+        ]
+
+      },
+
+      rpe: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Expansión Rápida Palatina (RPE)</Strong>"
+        
+        +
+
+        "Tipo Hyrax o dispositivos con tornillo de expansión, sola o combinada con máscara facial"
+
+        +
+
+        "<span class='cita-biblio'>Paoloni V, De Razza FC, Franchi L, Cozza P. Stability prediction of early orthopedic treatment in Class III malocclusion: morphologic discriminant analysis. Prog Orthod. 2021 Dec;22.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Reed E, Kiebach TJ, Martin C, Razmus T, Gunel E, Ngan P. Stability of early Class III orthopedic treatment. Semin Orthod. 2014;20:114–27.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Rutili V, Nieri M, Franceschi D, Pierleoni F, Giuntini V, Franchi L. Effects produced by the facemask with and without skeletal anchorage for the orthopaedic treatment of Class III malocclusion in growing patients: A systematic review and meta-Analysis of RCTs. Vol. 45, European Journal of Orthodontics. Oxford University Press; 2023. p. 157–68.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Miao W, Zhou D, Li C, Chen L, Guan M, Peng Y, et al. Dental developmental stage affects the treatment outcome of maxillary protraction in skeletal class iii children: A systematic review and meta-analysis. Vol. 37, Australasian Orthodontic Journal. Australian Society of Orthodontists; 2021. p. 37–49.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Kirschneck C, Proff P, Lux C. Ideales Timing für die Behandlung kieferorthopädischer Anomalien – eine klinische S3-Praxisleitlinie. J Orofac Orthop. 2022 Jul;83:225–32.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Zhou C, Duan P, He H, Song J, Hu M, Liu Y, et al. Expert consensus on pediatric orthodontic therapies of malocclusions in children. Vol. 16, International Journal of Oral Science. Springer Nature; 2024.</span>"
+
+        +
+        
+        "<br><Strong> ● Protocolo:</Strong>"
+
+        +
+
+        " Durante 1 semana. El tornillo de expansión se activa 4 veces al día (1 mm al día) durante 7 días."
+
+        +
+
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span>"
+        
+        +
+
+        "<span class='cita-biblio'>Liu W, Zhou Y, Wang X, Liu D, Zhou S. Effect of maxillary protraction with alternating rapid palatal expansion and constriction vs expansion alone in maxillary retrusive patients: A single-center, randomized controlled trial. Am J Orthod Dentofac Orthop. 2015 Oct;148:641–51.</span>"
+        
+        ,
+
+        imagen: "./image/claseIII4_10.png",
+
+        siguiente: "seguimiento",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "expansion",
+          }
+
+        ]
+
+      },
+
+      rpec: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Expansión-Constricción Rápida Palatina (RPE-C)</Strong>"
+        
+        +
+
+        "Expansión y constricción alternadas con dispositivos intraorales o anclaje esquelético"
+
+        +
+
+        "<span class='cita-biblio'>Kirschneck C, Proff P, Lux C. Ideales Timing für die Behandlung kieferorthopädischer Anomalien – eine klinische S3-Praxisleitlinie. J Orofac Orthop. 2022 Jul;83:225–32.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Pithon MM, Santos N de L, dos Santos CRB, Baião FCS, Pinheiro MCR, Matos Neto M, et al. Is alternate rapid maxillary expansion and constriction an effective protocol in the treatment of class III malocclusion? A systematic review. Dental Press J Orthod. 2016;21:34–42.</span>"
+
+        +
+        
+        "<br><Strong> ● Protocolo:</Strong>"
+
+        +
+
+        " RPE/C durante 7 semanas (Una semana de expansión, seguida de una semana de constricción y así sucesivamente hasta completar 7 semanas). Tanto la expansión como la constricción se realizaron 4 veces al día (1 mm al día)."
+
+        +
+
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span>"
+        
+        +
+
+        "<span class='cita-biblio'>Liu W, Zhou Y, Wang X, Liu D, Zhou S. Effect of maxillary protraction with alternating rapid palatal expansion and constriction vs expansion alone in maxillary retrusive patients: A single-center, randomized controlled trial. Am J Orthod Dentofac Orthop. 2015 Oct;148:641–51.</span>"
+        
+        ,
+
+        imagen: "./image/claseIII4_11.png",
+
+        siguiente: "seguimiento",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "expansion",
+          }
+
+        ]
+
+      },
+
+      seguimiento: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Seguimiento</Strong>"
+        
+        ,
+
+        imagen: "./image/claseIII5_1.png",
+
+        siguiente: "frecuencia",
+
+        botones: [
+
+          {
+            texto: "Volver 1",
+            siguiente: "mentonera",
+          },
+          {
+            texto: "Volver 2",
+            siguiente: "removibles",
+          },
+          {
+            texto: "Volver 3",
+            siguiente: "rpe",
+          },
+          {
+            texto: "Volver 4",
+            siguiente: "rpec",
+          }
+
+        ]
+
+      },
+
+      frecuencia: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Definir frecuencia de controles</Strong>"
+
+        +
+
+        "Aunque en la literatura no se fija una periodicidad exacta, un estudio realizado en Singapur en el año 2020 describe el tiempo promedio de los tratamientos y las visitas (controles) durante el tratamiento: “La duración media del tratamiento con aparatología fija fue de 10,8 ± 6,8 meses, con un promedio de 9,8 ± 9,2 visitas, mientras que la duración media del tratamiento con aparatología removible fue de 7,5 ± 6,5 meses, con un promedio de 6,9 ± 3,4 visitas. La duración media del tratamiento con aparatología fija y removible fue de 10,8 ± 3,2 meses, con un promedio de 12,6 ± 3,3 visitas”, esto sugiere una frecuencia de controles de por lo menos 1 visita cada 4 semanas."
+
+        +
+
+        "<span class='cita-biblio'>Song YL, Tan ELY, Chua BCJ, Ng RJY, Lam NKP. Interceptive orthodontic treatment in Singapore: A descriptive study. Proc Singapore Healthc. 2020 Jun;29:113–8.</span>"
+        
+        ,
+
+        imagen: "./image/claseIII5_2.png",
+
+        siguiente: "evaluacion",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "seguimiento",
+          }
+
+        ]
+
+      },
+
+      evaluacion: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Evaluación de cambios esqueléticos, dentoalveolares y oclusales</Strong>"
+
+        +
+
+        "<br>Se reportaron mejoras significativas en la relación maxilomandibular, particularmente en:"
+
+        +
+
+        "<br><Strong>● Incrementos en SNA y ANB, indicando avance maxilar efectivo:</Strong>"
+
+        +
+        
+        " algunos cambios reportados en artículos con NE alta y moderada en la evaluación de GRADE son: +1.14° (GT) vs +0.67° (GC), +2.1° (con RPE híbrido), en un estudio: de 78.2° a 81.3° en grupo tratado."
+
+        +
+      
+        "<span class='cita-biblio'>Mandall N, Cousley R, DiBiase A, Dyer F, Littlewood S, Mattick R, et al. Early class III protraction facemask treatment reduces the need for orthognathic surgery: a multi-centre, two-arm parallel randomized, controlled trial. J Orthod. 2016 Jul;43:164–75.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Liu W, Zhou Y, Wang X, Liu D, Zhou S. Effect of maxillary protraction with alternating rapid palatal expansion and constriction vs expansion alone in maxillary retrusive patients: A single-center, randomized controlled trial. Am J Orthod Dentofac Orthop. 2015 Oct;148:641–51.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Seiryu M, Ida H, Mayama A, Sasaki S, Sasaki S, Deguchi T, et al. A comparative assessment of orthodontic treatment outcomes of mild skeletal Class III malocclusion between facemask and facemask in combination with a miniscrew for anchorage in growing patients: A single-center, prospective randomized controlled trial. Angle Orthod. 2020;90:3–12. </span>"
+
+        +
+
+        "<span class='cita-biblio'>Miranda F, Cunha Bastos JC da, Magno Dos Santos A, Janson G, Pereira Lauris JR, Garib D. Dentoskeletal comparison of miniscrew-anchored maxillary protraction with hybrid and conventional hyrax expanders: A randomized clinical trial. Am J Orthod Dentofacial Orthop. 2021 Dec;160:774–83. </span>"
+
+        +
+
+        "<span class='cita-biblio'>Miranda F, Cunha Bastos JC da, Magno Dos Santos A, Janson G, Pereira Lauris JR, Garib D. Dentoskeletal comparison of miniscrew-anchored maxillary protraction with hybrid and conventional hyrax expanders: A randomized clinical trial. Am J Orthod Dentofacial Orthop. 2021 Dec;160:774–83. </span>"
+
+        +
+
+        "<Strong>● Reducción del SNB en algunos estudios, señalando control del crecimiento mandibular:</Strong>"
+
+        +
+        
+        " algunos cambios reportados fueron: −1.5° (GT) vs −1.3° (GC) y −0.4° a −0.7° en promedio en varios estudios"
+
+        +
+
+        "<br><Strong>● ANB con cambios reportados de:</Strong>"
+
+        +
+        
+        " Mejoría de valores negativos (–1.5°) a positivos (+1.3° a +2.5°), +1.91° FM+MS vs +0.7° FM"
+
+        +
+
+        "<br><Strong>● Wits appraisal mejoró significativamente con cambios de:</Strong>"
+
+        +
+        
+        " +0.81 mm (GT) vs −0.67 mm (GC), FM+MS: +1.1 mm vs +0.3 mm (FM), otro estudio con mejoría de –4.2 mm a –2.1 mm"
+
+        +
+
+        "<br><Strong>● Cambios dentoalveolares y oclusales:</Strong>"
+
+        +
+        
+        " En estudios evaluados en GRADE con un NE alta y moderada (44,46,47,49,51), se observan compensaciones dentales controladas, con inclinación de incisivos superiores (U1–SN) y verticalización de inferiores (IMPA), corrección de overjet: de –4.7 mm a +0.09 mm, con una ganancia promedio de 4 a 5 mm y cambios en angulaciones: U1–SN pasó de 101.4° a 103.6° y L1–MPA de 96.2° a 93.2°."
+
+        ,
+
+        imagen: "./image/claseIII5_3.png",
+
+        siguiente: "perfil",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "evaluacion",
+          }
+
+        ]
+
+      },
+
+      perfil: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Evaluación de perfil de tejidos blandos</Strong>"
+        
+        +
+
+        "<br><br>Estudios clínicos reportan que los pacientes tratados con protocolos tempranos mostraron un perfil más armónico y convexo, especialmente cuando se utilizó expansión híbrida + máscara facial. También, mejoría en Ángulo facial con cambios estadísticamente significativos en algunos estudios (por ejemplo, FM+MS: +0.0° ± 1.6°, FM: +0.1° ± 1.4°)."
+
+        +
+
+        "<span class='cita-biblio'>Mandall N, Cousley R, DiBiase A, Dyer F, Littlewood S, Mattick R, et al. Early class III protraction facemask treatment reduces the need for orthognathic surgery: a multi-centre, two-arm parallel randomized, controlled trial. J Orthod. 2016 Jul;43:164–75.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Liu W, Zhou Y, Wang X, Liu D, Zhou S. Effect of maxillary protraction with alternating rapid palatal expansion and constriction vs expansion alone in maxillary retrusive patients: A single-center, randomized controlled trial. Am J Orthod Dentofac Orthop. 2015 Oct;148:641–51.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Seiryu M, Ida H, Mayama A, Sasaki S, Sasaki S, Deguchi T, et al. A comparative assessment of orthodontic treatment outcomes of mild skeletal Class III malocclusion between facemask and facemask in combination with a miniscrew for anchorage in growing patients: A single-center, prospective randomized controlled trial. Angle Orthod. 2020;90:3–12.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Miranda F, Cunha Bastos JC da, Magno Dos Santos A, Janson G, Pereira Lauris JR, Garib D. Dentoskeletal comparison of miniscrew-anchored maxillary protraction with hybrid and conventional hyrax expanders: A randomized clinical trial. Am J Orthod Dentofacial Orthop. 2021 Dec;160:774–83.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Ragab RSE-DA, El Shennawy MI, Yousif AAEW. Comparison between maxillary skeletal expander and hybrid hyrax facemask combination in treatment of growing patients with skeletal class III malocclusion. Tanta Dent J. 2022 Oct;19:273–80.</span>"
+        
+        ,
+
+        imagen: "./image/claseIII5_4.png",
+
+        siguiente: "exitoso",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "evaluacion",
+          }
+
+        ]
+
+      },
+
+      exitoso: {
+
+        tipo: "decision",
+
+        texto: "¿Tratamiento Exitoso?",
+
+        imagen: "./image/claseIII5_6.png",
+
+        si: "definir",
+
+        no: "reevaluar",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "perfil",
+          }
+
+        ]
+
+      },
+
+      reevaluar: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Esquelético</Strong>"
+        
+        ,
+
+        imagen: "./image/claseIII5_5.png",
+
+        siguiente: "crecimiento",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "exitoso",
+          }
+
+        ]
+
+      },
+
+      definir: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Definir tipo de retención, dar de alta y realizar controles periódicos</Strong>"
+        
+        +
+
+        "<br><br>Aunque existe una falta de evidencia bibliográfica sobre la retención posterior a la terapia FM, algunos estudios siguieron un protocolo de retención con Frankel III, Activador inverso, “Reverse Twin Block” o Bionator III. (29,30,34,39,54). Algunos autores utilizaron el “uso de FM antes de acostarse” sin cambiar la fuerza durante otros 2 a 3 meses como parte del protocolo de retención."
+
+        +
+
+        "<br><span class=\"badge-ne-muy-baja\">(NE: Baja, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Raghupathy Y, Ananthanarayanan V, Kailasam V, Padmanabhan S. Posttreatment Stability Following Facemask Therapy in Patients with Skeletal Class III Malocclusion: A Systematic Review. Int J Clin Pediatr Dent. 2023;16:897–907.</span>"
+        
+        +
+
+        "Los aparatos miofuncionales utilizados como dispositivo de retención podrían haber facilitado el avance continuo del punto A. Algunos pacientes también se sometieron a un tratamiento completo con aparatología fija después de la terapia FM."
+
+        +
+
+        "<span class='cita-biblio'>Raghupathy Y, Ananthanarayanan V, Kailasam V, Padmanabhan S. Posttreatment Stability Following Facemask Therapy in Patients with Skeletal Class III Malocclusion: A Systematic Review. Int J Clin Pediatr Dent. 2023;16:897–907.</span>"
+        
+        ,
+
+        imagen: "./image/claseIII5_7.png",
+
+        siguiente: null,
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "exitoso",
+          }
+
+        ]
+
+      },
+
+    }
+
+  },
+
   labio_paladar_hendido_clase_iii: {
 
     titulo: "",
@@ -74,7 +3019,7 @@ const ARBOLES = {
 
         clase: "decision-card-panoramica",
 
-        texto: "<Strong>Materiales para apiñamiento mandibular anterior</Strong>"
+        texto: "<Strong>Materiales para malocusión Clase III Labio Y/O Paladar Hendido Y Malocusión Clase III En Detición Mixta o Decidua</Strong>"
         
         +
 
