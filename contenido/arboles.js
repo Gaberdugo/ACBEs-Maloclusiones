@@ -1,5 +1,2834 @@
 const ARBOLES = {
 
+  clase_ii:{
+
+    titulo: "",
+
+    inicio: "presentacion",
+
+    nodos: {
+
+      presentacion: {
+
+        tipo: "decision_opciones",
+
+        texto: "Malocusión Clase II",
+        
+        opciones: [
+
+          {
+            texto: "Definiciones",
+
+            siguiente: "definicion"
+
+          },
+
+          {
+            texto: "Materiales e insumos",
+
+            siguiente: "materiales"
+
+          },
+
+          {
+            texto: "Arbol de decisiones",
+
+            siguiente: "modelos"
+
+          }
+
+        ]
+
+      },
+
+      definicion: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Maloclusión clase II</Strong>"
+        
+        +
+
+        "<br><br><Strong>●  Maloclusión esquelética de Clase II:</Strong>"
+
+        +
+
+        " Se caracteriza por una discrepancia en la relación anteroposterior entre el maxilar superior y la mandíbula. Generalmente, se observa un maxilar superior prognático o una mandíbula retrognática, lo que se traduce en un perfil facial convexo. La literatura sugiere que en la maloclusión de Clase II División 1, la mandíbula suele ser retrognática, mientras que en la Clase II División 2, la mandíbula puede ser ortognática."
+
+        +
+
+        "<span class='cita-biblio'>Buschang PH. Recognizing and correcting Class II malocclusions: SECTION I: The development, phenotypic characteristics, and etiology of Class II malocclusion. In: Recognizing and Correcting Developing Malocclusions: A Problem-Oriented Approach to Orthodontics. wiley; 2015. p. 90–107.</span>"
+
+        +
+
+        "<br><br><Strong>●  Maloclusión dental de Clase II:</Strong>"
+
+        +
+
+        " En este tipo, la discrepancia se limita principalmente a la posición de los dientes, sin una alteración significativa de la estructura esquelética subyacente. Los dientes superiores pueden estar más adelantados en relación con los inferiores, lo que puede ser corregido mediante tratamientos ortodónticos que no necesariamente alteran la estructura ósea."
+
+        +
+
+        "<span class='cita-biblio'>Buschang PH. Recognizing and correcting Class II malocclusions: SECTION I: The development, phenotypic characteristics, and etiology of Class II malocclusion. In: Recognizing and Correcting Developing Malocclusions: A Problem-Oriented Approach to Orthodontics. wiley; 2015. p. 90–107.</span>"
+
+        +
+
+        "<br><br><Strong>●  Maloclusión funcional de Clase II:</Strong>"
+
+        +
+
+        " En este tipo, la discrepancia se limita principalmente a la posición de los dientes, sin una alteración significativa de la estructura esquelética subyacente. Los dientes superiores pueden estar más adelantados en relación con los inferiores, lo que puede ser corregido mediante tratamientos ortodónticos que no necesariamente alteran la estructura ósea."
+
+        +
+
+        "<span class='cita-biblio'>Guía de Atención para Maloclusiones Clase II - Odontología 2016. https://www.studocu.com/co/document/universidad-nacional-de-colombia/ortodoncia/guia-ort-maloc-clase-ii/64424197?sid=6fdadec1-ddfa-450c-8029-f39c2b210a7a1787886816. 2016.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Li J, He Y, Wang Y, Chen T, Xu Y, Xu X, et al. Dental, skeletal asymmetries and functional characteristics in Class II subdivision malocclusions. J Oral Rehabil. 2015 Aug;42:588–99.</span>"
+
+        +
+
+        "<br><Strong> Presentaciones clínicas: </Strong>"
+
+        +
+
+        "<br><br><Strong>●  Clase II División 1:</Strong>"
+
+        +
+
+        " La maloclusión incluye incisivos superiores inclinados hacia vestibular, un aumento de la sobremordida horizontal con o sin un arco superior relativamente estrecho. Verticalmente, puede variar desde una sobremordida profunda hasta una mordida abierta. Sagitalmente se encuentra una relación distal de los maxilares."
+
+        +
+
+        "<span class='cita-biblio'>Buschang PH. Recognizing and correcting Class II malocclusions: SECTION I: The development, phenotypic characteristics, and etiology of Class II malocclusion. In: Recognizing and Correcting Developing Malocclusions: A Problem-Oriented Approach to Orthodontics. wiley; 2015. p. 90–107.</span>"
+
+        +
+
+        "<br><br><Strong>●  Clase II División 2:</Strong>"
+
+        +
+
+        " Este tipo de maloclusión se caracteriza por la excesiva inclinación lingual de los incisivos centrales superiores y la inclinación vestibular de los laterales. A menudo va acompañado de una mordida profunda y horizontal mínima. En casos de extrema sobremordida, los bordes incisales de los incisivos inferiores pueden ponerse en contacto con los tejidos blandos del paladar, o los tejidos gingivales labiales inferiores pueden verse también lesionados por la inclinación excesiva de los incisivos superiores. Sagitalmente se encuentra una relación distal de los maxilares."
+
+        +
+
+        "<span class='cita-biblio'>Buschang PH. Recognizing and correcting Class II malocclusions: SECTION I: The development, phenotypic characteristics, and etiology of Class II malocclusion. In: Recognizing and Correcting Developing Malocclusions: A Problem-Oriented Approach to Orthodontics. wiley; 2015. p. 90–107.</span>"
+
+        ,
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "presentacion",
+          }
+
+        ]
+
+      },
+      
+      materiales: {
+
+        tipo: "accion",
+
+        clase: "decision-card-panoramica",
+
+        texto: "<Strong>Materiales para maloclusión clase II</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/materialesA.png' style='width: 850px; height: auto; display: block; margin: 20px auto; border-radius: 12px;'>"
+        
+        ,
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "presentacion",
+          }
+
+        ]
+
+      },
+
+      modelos: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Maloclusión clase II</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im1.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
+
+        "<br><br>Discrepancia anteroposterior entre el maxilar superior y la mandíbula, expresada por una relación sagital distal de la mandíbula respecto al maxilar, que puede deberse a prognatismo maxilar, retrognatismo mandibular o a una combinación de ambos."
+
+        +
+
+        "<br>Esta condición puede acompañarse de alteraciones dentales, funcionales y faciales, por lo que su diagnóstico no debe establecerse únicamente con base en la relación molar, sino mediante una evaluación clínica, funcional, cefalométrica y de modelos"
+
+        +
+
+        "<span class='cita-biblio'>Buschang PH. Recognizing and correcting Class II malocclusions: SECTION I: The development, phenotypic characteristics, and etiology of Class II malocclusion. In: Recognizing and Correcting Developing Malocclusions: A Problem-Oriented Approach to Orthodontics. wiley; 2015. p. 90–107.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Guía de Atención para Maloclusiones Clase II - Odontología 2016. https://www.studocu.com/co/document/universidad-nacional-de-colombia/ortodoncia/guia-ort-maloc-clase-ii/64424197?sid=6fdadec1-ddfa-450c-8029-f39c2b210a7a1787886816. 2016.</span>"
+
+        +
+
+        "Para establecer el diagnóstico esquelético se deben valorar parámetros cefalométricos sagitales, verticales y dentoalveolares. Entre los parámetros mínimos sugeridos se encuentran SNA, SNB, ANB, Wits, posición del punto A respecto a N-perpendicular, posición de pogonion o punto B respecto a N-perpendicular, longitud mandibular efectiva, plano mandibular, altura facial inferior y relación maxilomandibular (1,2). Un ANB aumentado, especialmente valores iguales o superiores a 4°–4,5°, puede sugerir discrepancia esquelética de Clase II; sin embargo, este valor debe interpretarse junto con Wits, SNA, SNB, patrón vertical y análisis facial, ya que el ANB puede modificarse por la posición de nasion, la rotación de los maxilares y el patrón vertical del paciente."
+
+        +
+
+        "Además de los parámetros esqueléticos, deben registrarse variables clínicas individuales que pueden influir en la toma de decisiones terapéuticas. Estas incluyen edad cronológica, estadio de dentición, estadio de maduración esquelética, patrón vertical, severidad del overjet, competencia labial, riesgo de trauma dentoalveolar, presencia de hábitos, alteraciones respiratorias, cooperación, higiene oral, contexto psicosocial, antecedentes de tratamiento, pérdida prematura de dientes temporales, caries, alteraciones funcionales y condiciones anatómicas particulares. Estas consideraciones deben individualizarse para cada paciente y no deben interpretarse como criterios rígidos ni universales."
+
+        +
+
+        "<span class='cita-biblio'>Buschang PH. Recognizing and correcting Class II malocclusions: SECTION I: The development, phenotypic characteristics, and etiology of Class II malocclusion. In: Recognizing and Correcting Developing Malocclusions: A Problem-Oriented Approach to Orthodontics. wiley; 2015. p. 90–107.</span>"
+        
+        +
+
+        "<span class='cita-biblio'>Li J, He Y, Wang Y, Chen T, Xu Y, Xu X, et al. Dental, skeletal asymmetries and functional characteristics in Class II subdivision malocclusions. J Oral Rehabil. 2015 Aug;42:588–99.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Bidjan D, Sallmann R, Eliades T, Papageorgiou SN. Orthopedic Treatment for Class II Malocclusion with Functional Appliances and Its Effect on Upper Airways: A Systematic Review with Meta-Analysis. J Clin Med. 2020 Nov;9.</span>"
+
+        +
+
+        "Se hace énfasis en confirmar que el paciente presenta una maloclusión esquelética Clase II y, al mismo tiempo, reconocer la posible variabilidad individual que puede modificar el diagnóstico, y por ende el tratamiento."
+        
+        ,
+
+        imagen: "./image/claseII1_0.png",
+
+        siguiente: "habitos",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "presentacion",
+          }
+
+        ]
+
+      },
+
+      habitos: {
+
+        tipo: "decision",
+
+        texto: "¿Paciente presenta habitos?",
+
+        imagen: "./image/claseII1_1.png",
+
+        si: "remision",
+
+        no: "severidad",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "modelos",
+          }
+
+        ]
+
+      },
+
+      remision: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Realizar remisión</Strong>"
+        
+        +
+
+        "<br><br><Strong>Otorrinolaringología:</Strong>"
+
+        +
+
+        " si presenta problemas relacionados con nariz, garganta o estructuras adyacentes."
+        
+        +
+
+        "<br><br><Strong>Fonoaudiología:</Strong>"
+
+        +
+
+        " si presenta problemas relacionados con la deglución o con la función labial."
+        
+        ,
+
+        imagen: "./image/claseII1_2.png",
+
+        siguiente: "severidad",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "habitos",
+          }
+
+        ]
+
+      },
+
+      severidad: {
+      
+        tipo: "decision_opciones",
+
+        texto: "Evaluación de la severidad",
+
+        descripcion: 
+        
+        "La severidad de la maloclusión Clase II debe evaluarse integrando parámetros clínicos, oclusales, cefalométricos y funcionales. No debe definirse únicamente por la relación molar, ya que un paciente puede presentar una relación molar Clase II con discrepancia esquelética leve, o por el contrario, una relación dental parcialmente compensada con discrepancia esquelética importante."
+        
+        +
+
+        "<span class='cita-biblio'>Buschang PH. Recognizing and correcting Class II malocclusions: SECTION I: The development, phenotypic characteristics, and etiology of Class II malocclusion. In: Recognizing and Correcting Developing Malocclusions: A Problem-Oriented Approach to Orthodontics. wiley; 2015. p. 90–107.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Guía de Atención para Maloclusiones Clase II - Odontología 2016. https://www.studocu.com/co/document/universidad-nacional-de-colombia/ortodoncia/guia-ort-maloc-clase-ii/64424197?sid=6fdadec1-ddfa-450c-8029-f39c2b210a7a1787886816. 2016.</span>"
+
+        +
+
+        "Se clasifica, de forma operativa, en leve, moderada y severa. Esta clasificación tiene como objetivo orientar la conducta clínica inicial, definir si el caso puede continuar dentro del estándar o si requiere remisión a posgrado de ortodoncia."
+        
+        +
+
+        "<span class='cita-biblio'>Buschang PH. Recognizing and correcting Class II malocclusions: SECTION I: The development, phenotypic characteristics, and etiology of Class II malocclusion. In: Recognizing and Correcting Developing Malocclusions: A Problem-Oriented Approach to Orthodontics. wiley; 2015. p. 90–107.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Guía de Atención para Maloclusiones Clase II - Odontología 2016. https://www.studocu.com/co/document/universidad-nacional-de-colombia/ortodoncia/guia-ort-maloc-clase-ii/64424197?sid=6fdadec1-ddfa-450c-8029-f39c2b210a7a1787886816. 2016.</span>"
+
+        +
+
+        "<br><Strong>●  Maloclusión Clase II leve:</Strong>"
+
+        +
+
+        " corresponde a pacientes con discrepancia sagital discreta, compromiso facial mínimo y ausencia de alteraciones funcionales importantes. Puede observarse relación molar Clase II parcial o menor de cúspide completa, overjet aproximado de 4 a 6 mm, ANB ligeramente aumentado, alrededor de 4° a 5°, Wits levemente aumentado, perfil facial levemente convexo, competencia labial conservada o mínimamente alterada y ausencia de riesgo elevado de trauma dentoalveolar."
+
+        +
+
+        "<span class='cita-biblio'>Buschang PH. Recognizing and correcting Class II malocclusions: SECTION I: The development, phenotypic characteristics, and etiology of Class II malocclusion. In: Recognizing and Correcting Developing Malocclusions: A Problem-Oriented Approach to Orthodontics. wiley; 2015. p. 90–107.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Guía de Atención para Maloclusiones Clase II - Odontología 2016. https://www.studocu.com/co/document/universidad-nacional-de-colombia/ortodoncia/guia-ort-maloc-clase-ii/64424197?sid=6fdadec1-ddfa-450c-8029-f39c2b210a7a1787886816. 2016.</span>"
+
+        +
+
+        "<br><Strong>●  Maloclusión Clase II moderada:</Strong>"
+
+        +
+
+        " corresponde a pacientes con discrepancia sagital evidente y compromiso clínico, funcional o estético significativo. Puede observarse relación molar Clase II cúspide a cúspide o Clase II completa, overjet aproximado de 6 a 9 mm, ANB aproximado entre 6° y 7°, Wits moderadamente aumentado, perfil convexo evidente, incompetencia labial leve o moderada, alteración de la relación canina, posible sobremordida aumentada o mordida abierta, y presencia de factores funcionales asociados."
+
+        +
+
+        "<span class='cita-biblio'>Buschang PH. Recognizing and correcting Class II malocclusions: SECTION I: The development, phenotypic characteristics, and etiology of Class II malocclusion. In: Recognizing and Correcting Developing Malocclusions: A Problem-Oriented Approach to Orthodontics. wiley; 2015. p. 90–107.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Guía de Atención para Maloclusiones Clase II - Odontología 2016. https://www.studocu.com/co/document/universidad-nacional-de-colombia/ortodoncia/guia-ort-maloc-clase-ii/64424197?sid=6fdadec1-ddfa-450c-8029-f39c2b210a7a1787886816. 2016.</span>"
+
+        +
+
+        "<br><Strong>●  Maloclusión Clase II severa:</Strong>"
+
+        +
+
+        " corresponde a pacientes con discrepancia sagital marcada, compromiso facial evidente, alteración funcional importante o riesgo clínico aumentado. Puede observarse relación molar Clase II completa marcada, overjet mayor de 9 mm, ANB mayor de 7° como criterio orientativo, perfil facial muy convexo, retrognatismo mandibular evidente o prognatismo maxilar marcada, incompetencia labial importante, riesgo aumentado de trauma dentoalveolar, alteraciones respiratorias o funcionales relevantes, asimetrías, compromiso psicosocial o sospecha de discrepancia esquelética compleja. En estos casos, se recomienda la remisión o el manejo conjunto con el posgrado de ortodoncia."
+
+        +
+
+        "<span class='cita-biblio'>Buschang PH. Recognizing and correcting Class II malocclusions: SECTION I: The development, phenotypic characteristics, and etiology of Class II malocclusion. In: Recognizing and Correcting Developing Malocclusions: A Problem-Oriented Approach to Orthodontics. wiley; 2015. p. 90–107.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Guía de Atención para Maloclusiones Clase II - Odontología 2016. https://www.studocu.com/co/document/universidad-nacional-de-colombia/ortodoncia/guia-ort-maloc-clase-ii/64424197?sid=6fdadec1-ddfa-450c-8029-f39c2b210a7a1787886816. 2016.</span>"
+
+        +
+
+        "Para definir el origen del componente esquelético, se recomienda diferenciar entre componente maxilar, mandibular o combinado. El componente maxilar puede sospecharse cuando existen SNA aumentado, convexidad facial aumentada y relación sagital alterada con mandíbula dentro de parámetros aceptables."
+
+        +
+
+        "<span class='cita-biblio'>Buschang PH. Recognizing and correcting Class II malocclusions: SECTION I: The development, phenotypic characteristics, and etiology of Class II malocclusion. In: Recognizing and Correcting Developing Malocclusions: A Problem-Oriented Approach to Orthodontics. wiley; 2015. p. 90–107.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Guía de Atención para Maloclusiones Clase II - Odontología 2016. https://www.studocu.com/co/document/universidad-nacional-de-colombia/ortodoncia/guia-ort-maloc-clase-ii/64424197?sid=6fdadec1-ddfa-450c-8029-f39c2b210a7a1787886816. 2016.</span>"
+
+        +
+
+        "El componente mandibular puede sospecharse cuando existe SNB disminuido, pogonion o punto B retruido respecto a N-perpendicular, longitud mandibular efectiva disminuida para la edad, perfil convexo por deficiencia mandibular y aumento de ANB o Wits."
+
+        +
+
+        "<span class='cita-biblio'>Buschang PH. Recognizing and correcting Class II malocclusions: SECTION I: The development, phenotypic characteristics, and etiology of Class II malocclusion. In: Recognizing and Correcting Developing Malocclusions: A Problem-Oriented Approach to Orthodontics. wiley; 2015. p. 90–107.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Guía de Atención para Maloclusiones Clase II - Odontología 2016. https://www.studocu.com/co/document/universidad-nacional-de-colombia/ortodoncia/guia-ort-maloc-clase-ii/64424197?sid=6fdadec1-ddfa-450c-8029-f39c2b210a7a1787886816. 2016.</span>"
+
+        +
+
+        "El componente combinado se presenta cuando coexisten signos de prognatismo maxilar y retrognatismo mandibular, con un aumento de la discrepancia sagital maxilomandibular."
+
+        +
+
+        "<span class='cita-biblio'>Buschang PH. Recognizing and correcting Class II malocclusions: SECTION I: The development, phenotypic characteristics, and etiology of Class II malocclusion. In: Recognizing and Correcting Developing Malocclusions: A Problem-Oriented Approach to Orthodontics. wiley; 2015. p. 90–107.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Guía de Atención para Maloclusiones Clase II - Odontología 2016. https://www.studocu.com/co/document/universidad-nacional-de-colombia/ortodoncia/guia-ort-maloc-clase-ii/64424197?sid=6fdadec1-ddfa-450c-8029-f39c2b210a7a1787886816. 2016.</span>"
+
+        ,
+
+        imagen: "./image/claseII1_3.png",
+        
+        opciones: [
+
+          {
+            texto: "Severa",
+
+            siguiente: "severa"
+
+          },
+
+          {
+            texto: "Moderada",
+
+            siguiente: "moderada"
+
+          },
+
+          {
+            texto: "Leve",
+
+            siguiente: "leve"
+
+          }
+
+        ],
+        
+        botones: [
+
+          {
+            texto: "Volver 1",
+            siguiente: "habitos",
+          },
+          {
+            texto: "Volver 2",
+            siguiente: "remision",
+          }
+
+        ]
+
+      },
+
+      severa: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Severa</Strong>"
+        
+        ,
+
+        imagen: "./image/claseII1_4.png",
+
+        siguiente: "postgrado",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "origen",
+          }
+
+        ]
+
+      },
+
+      moderada: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Moderada</Strong>"
+
+        ,
+
+        imagen: "./image/claseII1_5.png",
+
+        siguiente: "origen",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "severidad",
+          }
+
+        ]
+
+      },
+
+      leve: {
+
+        tipo: "accion",
+
+        texto: "<Strong>leve</Strong>"
+
+        ,
+
+        imagen: "./image/claseII1_6.png",
+
+        siguiente: "origen",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "severidad",
+          }
+
+        ]
+
+      },
+
+      postgrado: {
+
+        tipo: "accion",
+
+        texto: "Remitir al posgrado de ortodoncia.<br><Strong>Paciente no apto para ser atendido en pregrado</Strong>",
+
+        imagen: "./image/claseII1_7.png",
+        
+        siguiente: null,
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "severa"
+          }
+
+        ]
+
+      },
+
+      origen: {
+
+        tipo: "decision_opciones",
+
+        texto: "Definir el origen",
+
+        imagen: "./image/claseII1_8.png",
+        
+        opciones: [
+
+          {
+            texto: "Maxilar",
+
+            siguiente: "maxilar"
+
+          },
+
+          {
+            texto: "Combinada",
+
+            siguiente: "combinada"
+
+          },
+
+          {
+            texto: "Mandibular",
+
+            siguiente: "mandibular"
+
+          }
+
+        ],
+        
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "crecimiento",
+          }
+
+        ]
+
+      },
+
+      maxilar:{
+
+        tipo: "accion",
+
+        texto: "<Strong>Maxilar</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im2.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        ,
+
+        imagen: "./image/claseII1_9.png",
+
+        siguiente: "evaluar",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "origen",
+          }
+
+        ]
+
+      },
+
+      combinada:{
+
+        tipo: "accion",
+
+        texto: "<Strong>Combinada</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im3.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        ,
+
+        imagen: "./image/claseII1_10.png",
+
+        siguiente: "evaluar",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "origen",
+          }
+
+        ]
+
+      },
+
+      mandibular:{
+
+        tipo: "accion",
+
+        texto: "<Strong>Mandibular</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im4.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        ,
+
+        imagen: "./image/claseII1_11.png",
+
+        siguiente: "evaluar",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "origen",
+          }
+
+        ]
+
+      },
+
+      evaluar: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Evaluar y definir estadio de desarrollo esquelético</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im5.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        +
+
+        "<br><br><br><span class=\"badge-ne-moderado\">(NE: Moderada, GRADE)</span>"
+
+        +
+
+        "<br>El estado de maduración es determinado mediante el método de maduración vertebral cervical modificado por Baccetti, clasificando como prepuberales a los pacientes en CVMS I y CVMS II, y como postpuberales a los pacientes en CVMS IV y CVMS V."
+
+        +
+
+        "<span class='cita-biblio'>Farouk K, Eissa O, Ghoneima A, El-Bedwehi A, Abdel-Fattah E, Hussein F, et al. Treatment effects of Herbst appliance in skeletal Class II cases during pre-pubertal and post-pubertal periods: a cone-beam computed tomographic study. Sci Rep. 2023 Dec;13.</span>"
+        
+        +
+
+        "En términos clínicos, los estadios CVMS I–II indican un paciente con un crecimiento remanente importante. Los estadios cercanos a CVMS II–III se consideran más favorables para obtener una respuesta ortopédica mandibular, especialmente cuando el objetivo terapéutico es avance mandibular"
+
+        +
+
+        "<span class='cita-biblio'>Farouk K, Eissa O, Ghoneima A, El-Bedwehi A, Abdel-Fattah E, Hussein F, et al. Treatment effects of Herbst appliance in skeletal Class II cases during pre-pubertal and post-pubertal periods: a cone-beam computed tomographic study. Sci Rep. 2023 Dec;13.</span>"
+        
+        +
+
+        "Se hace necesario determinar si el paciente tiene potencial de crecimiento suficiente para beneficiarse de una intervención ortopédica. Por tanto, antes de seleccionar aparatología funcional, tracción extraoral o manejo combinado, se debe definir el estadio de desarrollo esquelético e interpretarlo junto con el diagnóstico sagital, la severidad, el patrón vertical y el riesgo individual del paciente."
+
+        ,
+
+        imagen: "./image/claseII2_1.png",
+
+        siguiente: "adecuado",
+
+        botones: [
+
+          {
+            texto: "Volver Maxilar",
+            siguiente: "maxilar",
+          },
+          {
+            texto: "Volver Combinada",
+            siguiente: "combinada",
+          },
+          {
+            texto: "Volver Mandibular",
+            siguiente: "mandobular",
+          }
+
+        ]
+
+      },
+
+      adecuado: {
+
+        tipo: "decision",
+
+        texto: "¿Es el momento adecuado para la intervención?",
+
+        descripcion: 
+        
+        "<br><Strong>Determinar si es el momento adecuado para la intervención:</Strong>"
+
+        +
+
+        "<br><span class=\"badge-ne-moderado\">(NE: Moderada, GRADE)</span>"
+
+        +
+
+        "<br>El momento de intervención debe individualizarse según el objetivo. Para el avance mandibular, el tratamiento debe priorizarse en pacientes con crecimiento remanente y cercanos al pico puberal, porque la respuesta esquelética mandibular tiende a ser mayor."
+
+        +
+
+        "<span class='cita-biblio'>Farouk K, Eissa O, Ghoneima A, El-Bedwehi A, Abdel-Fattah E, Hussein F, et al. Treatment effects of Herbst appliance in skeletal Class II cases during pre-pubertal and post-pubertal periods: a cone-beam computed tomographic study. Sci Rep. 2023 Dec;13.</span>"
+
+        +
+
+        "Para la tracción extraoral, el inicio temprano puede generar cambios favorables; sin embargo, la evidencia no demuestra una superioridad clínicamente significativa frente a un inicio más tardío en la dentición mixta"
+
+        +
+
+        "<span class='cita-biblio'>Julku J, Pirilä-Parkkinen K, Tolvanen M, Pirttiniemi P. Comparison of effects of cervical headgear treatment on skeletal facial changes when the treatment time is altered: A randomized controlled trial. Eur J Orthod. 2019 Dec;41:631–40.</span>"
+
+        +
+
+        "Por tanto, si el paciente no se encuentra en un momento favorable y no presenta factores de riesgo adicionales, se puede indicar seguimiento periódico o remisión según la complejidad del caso."
+        
+        ,
+
+        imagen: "./image/claseII2_4.png",
+
+        si: "definir",
+
+        no: "riesgo",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "evaluar",
+          }
+
+        ]
+
+      },
+
+      riesgo: {
+
+        tipo: "decision",
+
+        texto: "¿Existe riesgo de trauma dentoalveolar?",
+
+        descripcion: 
+        
+        "<br><Strong>Riesgo de trauma dentoalveolar:</Strong>"
+        
+        +
+        
+        "<br>El riesgo de trauma dentoalveolar debe evaluarse en pacientes con maloclusión Clase II, especialmente cuando existe overjet aumentado, incompetencia labial, proinclinación incisiva, antecedentes de trauma dental o participación en actividades con mayor riesgo de impacto facial. Este punto es importante porque el trauma incisivo puede justificar una intervención temprana incluso cuando el paciente aún no se encuentra en el momento ideal de crecimiento para obtener el máximo efecto ortopédico. Se evidencia que la reducción del riesgo de trauma puede alcanzar hasta el 41% en pacientes tratados tempranamente."
+
+        +
+
+        "<span class='cita-biblio'>Thiruvenkatachari B, Harrison J, Worthington H, O’Brien K. Early orthodontic treatment for Class II malocclusion reduces the chance of incisal trauma: Results of a Cochrane systematic review. Vol. 148, American Journal of Orthodontics and Dentofacial Orthopedics. Mosby Inc.; 2015. p. 47–59.</span>"
+
+        ,
+
+        imagen: "./image/claseII2_3.png",
+
+        si: "definir",
+
+        no: "postgrado2",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "adecuado",
+          }
+
+        ]
+
+      },
+
+      postgrado2: {
+
+        tipo: "accion",
+
+        texto: "Seguimiento ó remitir al posgrado de ortodoncia.<br><Strong>Paciente no apto para ser atendido en pregrado</Strong>",
+
+        imagen: "./image/claseII2_2.png",
+        
+        siguiente: null,
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "riesgo"
+          }
+
+        ]
+
+      },
+
+      definir: {
+
+        tipo: "decision_opciones",
+
+        texto: "Definir el objetivo de tratamiento",
+        
+        descripcion: 
+        
+        "<br>La selección del tratamiento en pacientes con maloclusión esquelética Clase II debe realizarse a partir del objetivo terapéutico principal y no únicamente por el nombre del aparato. La Clase II no corresponde a una alteración única, sino a una discrepancia que puede involucrar componentes maxilares, mandibulares, transversales, dentoalveolares y funcionales."
+
+        +
+
+        "<span class='cita-biblio'>Farret MMB, de Lima EM, Farret MM, de Araújo LL. Dental and skeletal effects of combined headgear used alone or in association with rapid maxillary expansion. Dental Press J Orthod. 2015 Sep;20:43–9.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Erin Bilbo E, Marshall SD, Southard KA, Allareddy V, Holton N, Thames AM, et al. Long-term skeletal effects of high-pull headgear followed by fixed appliances for the treatment of Class II malocclusions. Angle Orthod. 2018 Sep;88:530–7.</span>"
+        
+        +
+
+        "Por esta razón, después de confirmar el diagnóstico, establecer la severidad y definir el momento de intervención, el clínico debe identificar el componente predominante que se busca corregir."
+
+        +
+
+        "<br>Los signos clínicos de Clase II pueden estar presentes desde la dentición decidua y persistir hasta la dentición mixta, incluyendo escalón distal, relación canina de Clase II, overjet aumentado y discrepancia transversal interarcada por estrechez maxilar."
+
+        +
+
+        "<span class='cita-biblio'>Baccetti T, Franchi L, McNamara JA, Tollaro I. Early dentofacial features of Class II malocclusion: a longitudinal study from the deciduous through the mixed dentition. Am J Orthod Dentofacial Orthop. 1997;111:502–9.</span>"
+
+        +
+
+        "Además, señalaron que el tratamiento puede iniciarse en los tres planos del espacio mediante expansión rápida maxilar, tracción extraoral o aparatología funcional, siempre considerando la cooperación, el manejo del paciente y el beneficio clínico real."
+
+        +
+
+        "<span class='cita-biblio'>Baccetti T, Franchi L, McNamara JA, Tollaro I. Early dentofacial features of Class II malocclusion: a longitudinal study from the deciduous through the mixed dentition. Am J Orthod Dentofacial Orthop. 1997;111:502–9.</span>"
+
+        +
+
+        "Es importante tener en cuenta que la Clase II no tratada no tiende a autocorregirse durante el crecimiento circumpuberal, especialmente debido a una deficiencia progresiva de las dimensiones mandibulares"
+
+        +
+
+        "<span class='cita-biblio'>Stahl F, Baccetti T, Franchi L, McNamara JA. Longitudinal growth changes in untreated subjects with Class II Division 1 malocclusion. Am J Orthod Dentofac Orthop. 2008 Jul;134:125–37.</span>"
+
+        ,
+
+        imagen: "./image/claseII3_1.png",
+        
+        opciones: [
+
+          {
+            texto: "Expansión transversal maxilar",
+
+            siguiente: "transversal"
+
+          },
+
+          {
+            texto: "Restricción del crecimiento maxilar anteroposterior",
+
+            siguiente: "anteroposterior"
+
+          },
+
+          {
+            texto: "Avance mandibular",
+
+            siguiente: "avance"
+
+          }
+
+        ],
+        
+        botones: [
+
+          {
+            texto: "Volver 1",
+            siguiente: "riesgo",
+          },
+          {
+            texto: "Volver 2",
+            siguiente: "adecuado",
+          }
+
+        ]
+
+      },
+
+      transversal: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Expansión transversal maxilar</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im6.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        +
+
+        "<br><br>La expansión transversal maxilar debe considerarse cuando el paciente con maloclusión Clase II presenta una deficiencia transversal maxilar diagnosticada clínicamente o instrumentalmente. Esta indicación no debe asumirse en todos los pacientes Clase II, sino únicamente cuando exista evidencia de discrepancia transversal interarcada, estrechez maxilar, mordida cruzada posterior, tendencia a interferencias oclusales, desviación funcional o discrepancia transversal entre los arcos."
+
+        +
+
+        "<span class='cita-biblio'>Baccetti T, Franchi L, McNamara JA, Tollaro I. Early dentofacial features of Class II malocclusion: a longitudinal study from the deciduous through the mixed dentition. Am J Orthod Dentofacial Orthop. 1997;111:502–9.</span>"
+        
+        ,
+
+        imagen: "./image/claseII4a_1.png",
+
+        siguiente: "tipo",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "definir",
+          }
+
+        ]
+
+      },
+
+      tipo: {
+
+        tipo: "decision_opciones",
+
+        texto: "Definir el tipo de expansión",
+
+        imagen: "./image/claseII4a_2.png",
+        
+        opciones: [
+
+          {
+            texto: "Expansión rápida",
+
+            siguiente: "rapida"
+
+          },
+
+          {
+            texto: "Expansión lenta",
+
+            siguiente: "lenta"
+
+          }
+
+        ],
+        
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "crecimiento",
+          }
+
+        ]
+
+      },
+
+      rapida: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Expansión rápida</Strong>"
+        
+        +
+
+        "<br><Strong>Expansión rápida maxilar:</Strong>"
+
+        +
+
+        "<br><span class=\"badge-ne-moderado\">(NE: Moderada, GRADE)</span>"
+        
+        +
+
+        "<br>La expansión rápida maxilar se considera cuando se requiere una corrección ortopédica transversal, especialmente en pacientes en crecimiento con dentición mixta y una discrepancia transversal maxilar clínicamente significativa de ≥4 mm."
+
+        +
+
+        "<span class='cita-biblio'>Lione R, Brunelli V, Franchi L, Pavoni C, Quiroga Souki B, Cozza P. Mandibular response after rapid maxillary expansion in class II growing patients: a pilot randomized controlled trial. Prog Orthod. 2017 Dec;18.</span>"
+
+        ,
+
+        imagen: "./image/claseII4a_3.png",
+
+        siguiente: "disyuntor",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "tipo",
+          }
+
+        ]
+
+      },
+
+      disyuntor: {
+
+        tipo: "decision_opciones",
+
+        texto: "Disyuntor palatal rápido",
+        
+        descripcion: 
+        
+        "<br><br><img src='./image/Im9.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        +
+
+        "<Strong>● 1K1: Disyuntor palatino rápido:</Strong>"
+        
+        +
+
+        " Los aparatos evaluados fueron un expansor palatino rápido con planos de mordida posteriores y un expansor palatino rápido tipo mariposa sin planos de mordida posteriores, ambos con tornillo de 13 mm y activación de 0,25 mm/día."
+
+        +
+
+        "<span class='cita-biblio'>Lione R, Brunelli V, Franchi L, Pavoni C, Quiroga Souki B, Cozza P. Mandibular response after rapid maxillary expansion in class II growing patients: a pilot randomized controlled trial. Prog Orthod. 2017 Dec;18.</span>"
+
+        ,
+
+        imagen: "./image/claseII4a_5.png",
+        
+        opciones: [
+
+          {
+            texto: "Con planos de mordida posterior",
+
+            siguiente: "cplanos"
+
+          },
+
+          {
+            texto: "Sin planos de mordida posterior",
+
+            siguiente: "splanos"
+
+          }
+
+        ],
+        
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "crecimiento",
+          }
+
+        ]
+
+      },
+
+      cplanos: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Con planos de mordida posterior</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im10.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        +
+
+        "<Strong>● 1K2: Expansión rápida con planos de mordida posteriores:</Strong>"
+        
+        +
+
+        "<br><span class=\"badge-ne-moderado\">(NE: Moderada, GRADE)</span>"
+
+        +
+
+        "En este estudio se presentaron cambios sagitales no significativos frente al grupo control: SNA 0,0°, SNB +0,5°, ANB −0,7°, Pg a N-perpendicular +0,8 mm, Co-Gn +0,6 mm, overjet −0,7 mm y relación molar +1,1 mm (13). Por tanto, no se debe afirmar que mejora de forma significativa la Clase II en el plano sagital. El hallazgo clínicamente más relevante fue el de tipo vertical. El RME con planos acrílicos mostró una mayor reducción de la divergencia facial y del ángulo gonial que el expansor palatal rápido tipo mariposa y el grupo control: los autores interpretaron que la cobertura acrílica actúa como bloque de mordida, inhibiendo la extrusión posterior y favoreciendo el control vertical."
+
+        +
+
+        "<span class='cita-biblio'>Lione R, Brunelli V, Franchi L, Pavoni C, Quiroga Souki B, Cozza P. Mandibular response after rapid maxillary expansion in class II growing patients: a pilot randomized controlled trial. Prog Orthod. 2017 Dec;18.</span>"
+        
+        ,
+
+        imagen: "./image/claseII4a_7.png",
+
+        siguiente: "corrige",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "disyuntor",
+          }
+
+        ]
+
+      },
+
+      corrige: {
+
+        tipo: "accion",
+
+        texto: 
+        
+        "- Corrige deficiencia transversal."
+        
+        +
+        
+        "<br>- No mejora sagitalmente clase II (SNB +0.5°, ANB -0.7°)"
+
+        +
+
+        "<br>- Mayor control del patrón de crecimiento vertical."
+        
+        ,
+
+        imagen: "./image/claseII4a_7.png",
+
+        siguiente: "objetivos",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "cplanos",
+          }
+
+        ]
+
+      },
+
+      splanos: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Sin planos de mordida posterior</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im11.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        +
+
+        "<Strong>● 1K3: Expansión rápida sin planos de mordida posteriores:</Strong>"
+        
+        +
+
+        "<br><span class=\"badge-ne-moderado\">(NE: Moderada, GRADE)</span>"
+
+        +
+
+        "La expansión rápida sin planos acrílicos posteriores corresponde al RME anclado a bandas. Este aparato corrigió la dimensión transversal, pero no produjo una mejoría sagital significativa de Clase II frente al control. Los cambios reportados fueron SNA +0,4°, SNB +0,2°, ANB −0,2°, Pg a N-perpendicular +0,4 mm, Co-Gn +0,7 mm, overjet −0,8 mm y relación molar +0,7 mm. Estos resultados fueron similares a los del grupo control en términos sagitales, sin embargo, no presenta control vertical como en el caso de RME con planos de mordida posterior."
+
+        +
+
+        "<span class='cita-biblio'>Lione R, Brunelli V, Franchi L, Pavoni C, Quiroga Souki B, Cozza P. Mandibular response after rapid maxillary expansion in class II growing patients: a pilot randomized controlled trial. Prog Orthod. 2017 Dec;18.</span>"
+
+        ,
+
+        imagen: "./image/claseII4a_8.png",
+
+        siguiente: "corrige2",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "disyuntor",
+          }
+
+        ]
+
+      },
+
+      corrige2: {
+
+        tipo: "accion",
+
+        texto: 
+        
+        "- Corrige deficiencia transversal."
+        
+        +
+        
+        "<br>- No mejora sagitalmente clase II (SNB +0.2°, ANB -0.2°)"
+        
+        ,
+
+        imagen: "./image/claseII4a_8.png",
+
+        siguiente: "objetivos",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "cplanos",
+          }
+
+        ]
+
+      },
+
+      lenta: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Expansión lenta maxilar:</Strong>"
+        
+        +
+
+        "<br><span class=\"badge-ne-muy-baja\">(NE: Muy baja, GRADE)</span>"
+
+        +
+
+        "<br>La expansión lenta maxilar se considera cuando la deficiencia transversal puede corregirse de manera progresiva mediante fuerzas ligeras y continuas."
+
+        +
+
+        "<span class='cita-biblio'>Revankar AV, Bhat SS, Rozario JE. A comparison of the quadhelix and the nickel-titanium palatal expander in the treatment of narrow maxillary arches: A prospective clinical study. J Orthod Sci. 2023;12:8.</span>"
+        
+        ,
+
+        imagen: "./image/claseII4a_6.png",
+
+        siguiente: "quad",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "splanos",
+          }
+
+        ]
+
+      },
+
+      quad: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Quad Helix</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im12.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        +
+
+        "<br><br><Strong>1L1:Quad-Helix:</Strong>"
+
+        +
+
+        "<br><span class=\"badge-ne-muy-baja\">(NE: Muy baja, GRADE)</span>"
+
+        +
+
+        "<br>El Quad-Helix tiene un efecto principalmente dentoalveolar y transversal. Revankar et al. refieren que los efectos sagitales mandibulares no son significativos en comparación con los pacientes Clase II no tratados, aunque la deficiencia transversal sí se corrige."
+
+        +
+
+        "<span class='cita-biblio'>Revankar AV, Bhat SS, Rozario JE. A comparison of the quadhelix and the nickel-titanium palatal expander in the treatment of narrow maxillary arches: A prospective clinical study. J Orthod Sci. 2023;12:8.</span>"
+        
+        ,
+
+        imagen: "./image/claseII4a_6.png",
+
+        siguiente: "objetivos",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "lenta",
+          }
+
+        ]
+
+      },
+
+      corrige3: {
+
+        tipo: "accion",
+
+        texto: 
+        
+        "- Corrige deficiencia transversal."
+
+        +
+
+        "<br>-Overjet disminuye 1.69 mm Vs control"
+
+        +
+
+        "<br>-ANB: -1.51°"
+
+        +
+
+        "<br>-SNB: +0.83°"
+
+        +
+
+        "<br>-Co-Gn: +5.41mm"
+        
+        ,
+
+        imagen: "./image/claseIII1_5.png",
+
+        siguiente: "objetivos",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "quad",
+          }
+
+        ]
+
+      },
+
+      anteroposterior: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Restricción del crecimiento maxilar anteroposterior</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im7.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        +
+
+        "<br><Strong>Restricción del crecimiento maxilar anteroposterior:</Strong>"
+
+        +
+
+        "<br>Se considera cuando el análisis clínico y cefalométrico sugiere un componente maxilar aumentado en la maloclusión Clase II. Este componente puede expresarse mediante SNA aumentado, punto A adelantado respecto de referencias craneales, convexidad facial aumentada, prognatismo maxilar relativo o relación maxilomandibular alterada, con mandíbula dentro de parámetros aceptables, por lo que el objetivo terapéutico en estos casos se orienta a limitar o controlar el crecimiento anterior del maxilar."
+
+        +
+
+        "<span class='cita-biblio'>Baccetti T, Franchi L, McNamara JA, Tollaro I. Early dentofacial features of Class II malocclusion: a longitudinal study from the deciduous through the mixed dentition. Am J Orthod Dentofacial Orthop. 1997;111:502–9.</span>"
+        
+        ,
+
+        imagen: "./image/claseII4b_1.png",
+
+        siguiente: "tipo2",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "origen",
+          }
+
+        ]
+
+      },
+
+      tipo2: {
+
+        tipo: "decision_opciones",
+
+        texto: "Definir el tipo de Patrón de crecimiento",
+
+        imagen: "./image/claseII4b_2.png",
+        
+        opciones: [
+
+          {
+            texto: "Patrón de crecimiento hipodivergente o normodivergente",
+
+            siguiente: "normodivergente"
+
+          },
+
+          {
+            texto: "Patrón de crecimiento hiperdivergente",
+
+            siguiente: "hiperdivergente"
+
+          }
+
+        ],
+        
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "anteroposterior",
+          }
+
+        ]
+
+      },
+
+      normodivergente: {
+
+        tipo: "decision_opciones",
+
+        texto: "Patrón de crecimiento hipodivergente o normodivergente",
+        
+        descripcion: "<br><br><img src='./image/Im13.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>",
+
+        imagen: "./image/claseII4b_3.png",
+        
+        opciones: [
+
+          {
+            texto: "Tracción extraoral combinada (Parietal)",
+
+            siguiente: "parietal"
+
+          },
+
+          {
+            texto: "Tracción extraoral cervical",
+
+            siguiente: "extraoral"
+
+          }
+
+        ],
+        
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "tipo2",
+          }
+
+        ]
+
+      },
+
+      parietal: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Tracción extraoral combinada (Parietal)</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im14.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
+
+        "<br><Strong>Tracción extraoral combinada (Parietal):</Strong>"
+
+        +
+
+        "<br><span class=\"badge-ne-muy-baja\">(NE: Muy baja, GRADE)</span>"
+
+        +
+
+        "<br>La tracción extraoral combinada se indica cuando se busca un efecto de restricción del crecimiento maxilar anterior y distalización de molares superiores con un vector intermedio. Esta opción puede considerarse en pacientes con patrón hipodivergente o normodivergente, cuando se requiere control anteroposterior del maxilar sin una necesidad marcada de control vertical."
+
+        +
+
+        "<span class='cita-biblio'>Farret MMB, de Lima EM, Farret MM, de Araújo LL. Dental and skeletal effects of combined headgear used alone or in association with rapid maxillary expansion. Dental Press J Orthod. 2015 Sep;20:43–9.</span>"
+
+        +
+
+        "La tracción combinada produjo principalmente efectos dentoalveolares, también se observó distalización molar superior, inclinación distal molar y rotación horaria maxilar, sin reducción significativa de SNA."
+
+        +
+
+        "<span class='cita-biblio'>Farret MMB, de Lima EM, Farret MM, de Araújo LL. Dental and skeletal effects of combined headgear used alone or in association with rapid maxillary expansion. Dental Press J Orthod. 2015 Sep;20:43–9.</span>"
+
+        +
+
+        "- Distalización molar Superior"
+
+        +
+
+        "-Rotación horaria maxilar"
+
+        +
+
+        "-Sin reducción significativa de SNA"
+
+        +
+
+        "-Sin extrusión molar significativa"
+
+        ,
+
+        imagen: "./image/claseII4b_5.png",
+
+        siguiente: "objetivos",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "normodivergente",
+          }
+
+        ]
+
+      },
+
+      extraoral: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Tracción extraoral cervical</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im15.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
+
+        "<br><Strong>Tracción extraoral cervical:</Strong>"
+
+        +
+
+        "<br><span class=\"badge-ne-moderada\">(NE: Baja, GRADE)</span>"
+
+        +
+
+        "<br>La tracción extraoral cervical se indica cuando el objetivo es restringir el avance anterior del maxilar y distalizar molares superiores, en pacientes hipodivergentes o normodivergentes, debido a la posibilidad de efectos verticales como extrusión molar, aumento de la altura facial inferior o rotación mandibular horaria. Efectos dependientes del diseño del aparato, la dirección de la fuerza, el patrón facial y del control clínico. "
+
+        +
+
+        "La tracción cervical produjo restricción del avance maxilar, distalización de molares superiores y mejoría de la relación sagital, con disminución de ANB y Wits."
+
+        +
+
+        "<span class='cita-biblio'>Julku J, Pirilä-Parkkinen K, Tolvanen M, Pirttiniemi P. Comparison of effects of cervical headgear treatment on skeletal facial changes when the treatment time is altered: A randomized controlled trial. Eur J Orthod. 2019 Dec;41:631–40.</span>"
+
+        +
+
+        "Además, no se observó un aumento significativo del plano mandibular, lo que sugiere que, bajo un protocolo controlado, la tracción cervical puede utilizarse sin inducir necesariamente cambios verticales"
+
+        +
+
+        "<span class='cita-biblio'>Julku J, Pirilä-Parkkinen K, Tolvanen M, Pirttiniemi P. Comparison of effects of cervical headgear treatment on skeletal facial changes when the treatment time is altered: A randomized controlled trial. Eur J Orthod. 2019 Dec;41:631–40.</span>"
+
+        +
+
+        "- Restricción del avance maxilar"
+
+        +
+
+        "- Distalización molares superiores"
+
+        +
+
+        "- ANB disminuye/ Witts disminuye"
+
+        +
+
+        "-Aumento significativo del componente vertical"
+
+        ,
+
+        imagen: "./image/claseII4b_6.png",
+
+        siguiente: "objetivos",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "normodivergente",
+          }
+
+        ]
+
+      },
+
+      hiperdivergente: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Patrón de crecimiento hiperdivergente</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im17.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        ,
+
+        imagen: "./image/claseII4b_4.png",
+
+        siguiente: "alta",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "tipo2",
+          }
+
+        ]
+
+      },
+
+      alta: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Tracción extraoral alta</Strong>"
+        
+        +
+
+        "<br><br><Strong>Tracción extraoral alta:</Strong>"
+        
+        +
+
+        "<br><span class=\"badge-ne-moderado\">(NE: Moderada, GRADE)</span>"
+
+        +
+
+        "<br>La tracción extraoral alta se considera cuando el paciente presenta componente maxilar de Clase II asociado a patrón hiperdivergente, tendencia a aumento de la altura facial inferior o necesidad de mayor control vertical. Su vector de fuerza busca restringir el crecimiento anterior del maxilar con menor riesgo de efectos verticales desfavorables sobre molares superiores y rotación mandibular."
+
+        +
+
+        "<span class='cita-biblio'>Erin Bilbo E, Marshall SD, Southard KA, Allareddy V, Holton N, Thames AM, et al. Long-term skeletal effects of high-pull headgear followed by fixed appliances for the treatment of Class II malocclusions. Angle Orthod. 2018 Sep;88:530–7.</span>"
+
+        +
+
+        "<br>Se reportó reducción de SNA, disminución de ANB y reducción del overjet, sin efecto vertical significativo a largo plazo."
+
+        +
+
+        "<span class='cita-biblio'>Erin Bilbo E, Marshall SD, Southard KA, Allareddy V, Holton N, Thames AM, et al. Long-term skeletal effects of high-pull headgear followed by fixed appliances for the treatment of Class II malocclusions. Angle Orthod. 2018 Sep;88:530–7.</span>"
+
+        +
+
+        "- Disminuye  SNA"
+
+        +
+
+        "-Disminuye ovejet"
+
+        +
+
+        "-Disminuye ANB"
+
+        +
+
+        "-Sin efecto vertical significativo"
+
+        ,
+
+        imagen: "./image/claseIIab_7.png",
+
+        siguiente: "hiperdivergente",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "origen",
+          }
+
+        ]
+
+      },
+
+      avance: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Avance mandibular</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im8.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        +
+
+        "<br><br>El avance mandibular se selecciona como objetivo principal cuando la maloclusión Clase II se asocia predominantemente a retrognatismo mandibular, deficiencia en la longitud mandibular o posición mandibular posterior. Este diagnóstico debe apoyarse en parámetros como SNB disminuido, pogonion o punto B retruido respecto a referencias cefalométricas, perfil convexo por deficiencia mandibular, aumento de ANB o Wits, y evaluación clínica del tercio inferior facial. Además, durante la transición a la dentición mixta, los sujetos Clase II presentaron menores incrementos en la longitud mandibular total y en el cuerpo mandibular, junto con una tendencia a la rotación mandibular posterior y a un menor crecimiento mandibular durante el pico puberal."
+
+        +
+
+        "<span class='cita-biblio'>Baccetti T, Franchi L, McNamara JA, Tollaro I. Early dentofacial features of Class II malocclusion: a longitudinal study from the deciduous through the mixed dentition. Am J Orthod Dentofacial Orthop. 1997;111:502–9.</span>"
+
+        +
+
+        "<Strong>Objetivos terapéuticos combinados:</Strong>"
+
+        +
+
+        " Cuando coexisten dos o más componentes diagnósticos relevantes, el paciente no debe dirigirse exclusivamente a una única ruta terapéutica. En estos casos, el algoritmo debe conducir a la sección de manejo de alteraciones combinadas. Esta decisión se justifica porque la Clase II puede implicar simultáneamente una deficiencia transversal maxilar, un componente anteroposterior maxilar y un retrognatismo mandibular."
+        
+        +
+
+        "<span class='cita-biblio'>Baccetti T, Franchi L, McNamara JA, Tollaro I. Early dentofacial features of Class II malocclusion: a longitudinal study from the deciduous through the mixed dentition. Am J Orthod Dentofacial Orthop. 1997;111:502–9.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Stahl F, Baccetti T, Franchi L, McNamara JA. Longitudinal growth changes in untreated subjects with Class II Division 1 malocclusion. Am J Orthod Dentofac Orthop. 2008 Jul;134:125–37.</span>"
+
+        ,
+
+        imagen: "./image/claseII4c_1.png",
+
+        siguiente: "apinamiento",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "definir",
+          }
+
+        ]
+
+      },
+
+      apinamiento: {
+
+        tipo: "decision",
+
+        texto: "¿Existe apiñamiento mandibular anterior?",
+
+        imagen: "./image/claseII4c_2.png",
+
+        si: "eseveridad",
+
+        no: "aparato",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "avance",
+          }
+
+        ]
+
+      },
+
+      eseveridad: {
+
+        tipo: "decision_opciones",
+
+        texto: "Evaluar severidad",
+        
+        descripcion: 
+        
+        "<br><br><Strong>Evaluación de la severidad del apiñamiento mandibular anterior:</Strong>"
+
+        +
+
+        "<br>Antes de seleccionar la aparatología de avance mandibular, se debe evaluar la presencia de apiñamiento mandibular anterior. Esta valoración es necesaria porque los aparatos funcionales utilizados para la corrección de la maloclusión Clase II pueden generar cambios dentoalveolares asociados, incluyendo la modificación de la posición e inclinación de los incisivos inferiores."
+
+        +
+
+        "<br>Si el apiñamiento es leve o ausente, puede continuar con la selección de aparatología de avance mandibular, siempre que no exista riesgo de compensación dentoalveolar desfavorable. Si el apiñamiento es moderado o severo, se debe valorar si requiere manejo previo antes de iniciar la mecánica de avance mandibular"
+
+        +
+
+        "<span class='cita-biblio'>Farouk K, Eissa O, Ghoneima A, El-Bedwehi A, Abdel-Fattah E, Hussein F, et al. Treatment effects of Herbst appliance in skeletal Class II cases during pre-pubertal and post-pubertal periods: a cone-beam computed tomographic study. Sci Rep. 2023 Dec;13.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Cukaj Ademi H, Zigante M, Premaraj Thyagaseely S, Tudor V, Palomo JM, Spalj S. Mandibular Advancement in Dentofacial Orthopaedics: Effects on Pharyngeal Airway, Dentoskeletal Characteristics and Quality of Life: A Randomised Controlled Trial. Orthod Craniofacial Res. 2026 Feb;29:122–33.</span>"
+        
+        ,
+
+        imagen: "./image/claseII4c_3.png",
+        
+        opciones: [
+
+          {
+            texto: "Moderada ó severa",
+
+            siguiente: "asevera"
+
+          },
+
+          {
+            texto: "Leve",
+
+            siguiente: "aleve"
+
+          }
+
+        ],
+        
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "apinamiento",
+          }
+
+        ]
+
+      },
+
+      asevera: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Moderada ó severa</Strong>"
+        
+        +
+
+        "<br><br>Salida a ACBE para manejo de apañamiento mandibular anterior"
+        
+        ,
+
+        imagen: "./image/claseII4c_4.png",
+
+        siguiente: null,
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "eseveridad",
+          }
+
+        ]
+
+      },
+
+      aparato: {
+
+        tipo: "decision_opciones",
+
+        texto: "Seleccionar tipo de aparato",
+
+        imagen: "./image/claseII4c_6.png",
+        
+        opciones: [
+
+          {
+            texto: "Twin Block",
+
+            siguiente: "twin"
+
+          },
+
+          {
+            texto: "Herbs",
+
+            siguiente: "herbs"
+
+          },
+
+          {
+            texto: "Activador de Andresen",
+
+            siguiente: "andresen"
+
+          },
+
+          {
+            texto: "Bionator",
+
+            siguiente: "bionator"
+
+          },
+
+          {
+            texto: "Frankel II",
+
+            siguiente: "frankel"
+
+          }
+
+        ],
+        
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "crecimiento",
+          }
+
+        ]
+
+      },
+
+      twin: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Twin Block</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im18.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        +
+
+        "<br><br><Strong>1Q1 Twin Block:</Strong>"
+
+        +
+
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span>"
+
+        +
+
+        "<br>El Twin Block se considera una de las principales alternativas removibles para el avance mandibular en pacientes en crecimiento con maloclusión esquelética Clase II por retrognatismo mandibular. Su mecanismo se basa en dos placas acrílicas independientes, superior e inferior, con planos inclinados que guían la mandíbula hacia una posición protrusiva durante la función. Esta configuración permite modificar la postura mandibular, favorecer la corrección del overjet y mejorar la relación sagital maxilomandibular en pacientes con crecimiento remanente."
+
+        +
+
+        "<span class='cita-biblio'>Cukaj Ademi H, Zigante M, Premaraj Thyagaseely S, Tudor V, Palomo JM, Spalj S. Mandibular Advancement in Dentofacial Orthopaedics: Effects on Pharyngeal Airway, Dentoskeletal Characteristics and Quality of Life: A Randomised Controlled Trial. Orthod Craniofacial Res. 2026 Feb;29:122–33.</span>"
+      
+        +
+
+        "El Twin Block es uno de los aparatos funcionales removibles más estudiados en la literatura reciente y clásica. Desde el punto de vista clínico, se indica principalmente en pacientes con maloclusión Clase II división 1 o Clase II esquelética asociada a retrognatismo mandibular, overjet aumentado y potencial de crecimiento activo."
+
+        +
+
+        "<br>El protocolo del Twin Block incorporó arcos vestibulares en las placas superior e inferior, elaborado mediante una mordida constructiva que permite el avance mandibular."
+
+        +
+
+        "<br>Se evidencian cambios clínicamente relevantes de avance mandibular, con el aumento de la longitud mandibular +6,3 ± 2,7 mm, reducción del overjet −7,0 ± 2,3 mm, aumento de SNB de +2,1°, reducción de ANB de −2,2°, incremento de la altura facial anterior total de +6,0 mm y proinclinación de incisivos inferiores de +5,3°. Estos hallazgos indican que la corrección producida por Twin Block incluye un componente esquelético mandibular, y también un componente dentoalveolar y vertical que debe ser controlado durante el tratamiento."
+
+        +
+
+        "<span class='cita-biblio'>DiBiase AT, Lucchesi L, Qureshi U, Lee RT. Post-treatment cephalometric changes in adolescent patients with Class II malocclusion treated using two different functional appliance systems for an extended time period: A randomized clinical trial. Eur J Orthod. 2021;42:135–43.</span>"
+
+        +
+
+        "La cooperación del paciente y la adherencia al tratamiento son factores esenciales para obtener resultados satisfactorios con el uso del Twin Block"
+
+        +
+
+        "<span class='cita-biblio'>Pacha MM, Fleming PS, Shagmani M, Johal A. The skeletal and dental effects of Hanks Herbst versus twin block appliances for class II correction in growing patients: a randomized clinical trial. Eur J Orthod. 2024 Jan;46.</span>"
+
+        +
+
+        "<br>-Mayor efecto  esquelético (SNB aumenta y ANB disminuye)"
+        
+        +
+        
+        "<br>-Mayor control vertical"
+
+        +
+
+        "<br>-Overjet disminuye"
+
+        ,
+
+        imagen: "./image/claseII4c_7.png",
+
+        siguiente: "objetivos",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "apinamiento",
+          }
+
+        ]
+
+      },
+
+      herbs: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Herbs</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im19.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        +
+
+        "<br><br><Strong>1Q2 Herbs:</Strong>"
+
+        +
+
+        "<br><span class=\"badge-ne-moderado\">(NE: Moderada, GRADE)</span>"
+
+        +
+
+        "<br><br>El Herbst es un aparato funcional fijo que mantiene la mandíbula en posición adelantada mediante un sistema telescópico bilateral. Su principal ventaja clínica es que reduce la dependencia de cooperación del paciente."
+
+        +
+
+        "<span class='cita-biblio'>Farouk K, Eissa O, Ghoneima A, El-Bedwehi A, Abdel-Fattah E, Hussein F, et al. Treatment effects of Herbst appliance in skeletal Class II cases during pre-pubertal and post-pubertal periods: a cone-beam computed tomographic study. Sci Rep. 2023 Dec;13.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Cirgić E, Kjellberg H, Hansen K. Treatment of large overjet in Angle Class II: Division 1 malocclusion with Andresen activators versus prefabricated functional appliances- A multicenter, randomized, controlled trial. Eur J Orthod. 2016 Oct;38:516–24.</span>"
+        
+        +
+
+        "Los resultados reportados fueron los siguientes: SNB aumentó aproximadamente +1,53° y el punto B avanzó +2,13 mm."
+
+        +
+
+        "<br>El Herbst se ubica como la principal opción fija para avance mandibular en pacientes con baja cooperación o cuando se requiere una alternativa menos dependiente del uso voluntario."
+
+        +
+
+        "<span class='cita-biblio'Pacha MM, Fleming PS, Shagmani M, Johal A. The skeletal and dental effects of Hanks Herbst versus twin block appliances for class II correction in growing patients: a randomized clinical trial. Eur J Orthod. 2024 Jan;46.</span>"
+
+        +
+
+        "Cambios esqueléticos favorables, pero su corrección incluye un componente dentoalveolar importante. Principal opción en casos de baja cooperación."
+
+        ,
+
+        imagen: "./image/claseII4c_8.png",
+
+        siguiente: "objetivos",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "apinamiento",
+          }
+
+        ]
+
+      },
+
+      andresen: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Activador de Andresen</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im20.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        +
+        
+        "<br><br><Strong>Activador de Andresen:</Strong>"
+        
+        +
+
+        "<br><span class=\"badge-ne-moderado\">(NE: Baja, GRADE)</span>"
+
+        +
+
+        "<br>El Activador de Andresen es un aparato funcional de una sola pieza removible utilizado para el manejo temprano de pacientes con maloclusión Clase II división 1 y overjet aumentado. Su principio biomecánico consiste en posicionar la mandíbula hacia anterior mediante una mordida constructiva, impidiendo su desplazamiento posterior y generando fuerzas musculares que contribuyen a la corrección de la relación incisiva y molar."
+
+        +
+
+        "<span class='cita-biblio'>Cirgić E, Kjellberg H, Hansen K. Treatment of large overjet in Angle Class II: Division 1 malocclusion with Andresen activators versus prefabricated functional appliances- A multicenter, randomized, controlled trial. Eur J Orthod. 2016 Oct;38:516–24.</span>"
+
+        +
+
+        "El Activador de Andresen produce una reducción del overjet durante la fase activa del tratamiento, sin embargo aumenta en el año posterior al tratamiento."
+      
+        +
+
+        "Cambios favorables en SNB, ANB y longitud mandibular, aunque con evidencia limitada y efecto esquelético limitado por cooperación."
+    
+        ,
+
+        imagen: "./image/claseII4c_9.png",
+
+        siguiente: "objetivos",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "apinamiento",
+          }
+
+        ]
+
+      },
+
+      bionator: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Bionator</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im21.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        +
+
+        "<br><br><Strong>Bionator:</Strong>"
+
+        +
+
+        "<br><span class=\"badge-ne-moderado\">(NE: Baja, GRADE)</span>"
+
+        +
+
+        "<br>El Bionator es un aparato funcional removible de una sola pieza, utilizado para el manejo de pacientes en crecimiento con maloclusión Clase II asociada a retrognatismo mandibular. Su mecanismo terapéutico se basa en posicionar la mandíbula hacia adelante mediante una mordida constructiva, buscando favorecer cambios en la relación maxilomandibular, reducción del overjet y mejoría de la relación oclusal. Al igual que otros aparatos removibles, su efectividad depende de la cooperación del paciente y del uso constante durante el periodo activo de tratamiento."
+
+        +
+
+        "<span class='cita-biblio'>Sakai N, Miyazawa K, Tsutsui T, Tabuchi M, Shibata M, Goto S. Comparative study of the treatment effects of bionator and bite jumping appliances on Class II malocclusions. Orthod Waves. 2016 Mar;75:1–9.</span>"
+
+        +
+        
+        "Se presentan cambios en SNB de 74,10° a 75,10°, equivalente a +1,00°, y una disminución de ANB de 4,67° a 3,67°, equivalente a −1,00°. Estos resultados sugieren una mejoría sagital principalmente asociada al componente mandibular."
+
+        +
+
+        "<span class='cita-biblio'>Sakai N, Miyazawa K, Tsutsui T, Tabuchi M, Shibata M, Goto S. Comparative study of the treatment effects of bionator and bite jumping appliances on Class II malocclusions. Orthod Waves. 2016 Mar;75:1–9.</span>"
+
+        +
+
+        "Cambios favorables en SNB, ANB (Resultados limitados por poca cooperación)."
+
+        ,
+
+        imagen: "./image/claseII4c_10.png",
+
+        siguiente: "objetivos",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "apinamiento",
+          }
+
+        ]
+
+      },
+
+      frankel: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Frankel II</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im26.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        +
+
+        "<br><br><Strong>Frankel II:</Strong>"
+
+        +
+
+        "<br><span class=\"badge-ne-muy-baja\">(NE: Muy baja, GRADE)</span>"
+
+        +
+
+        "<br>El Frankel II es un aparato funcional removible de soporte principalmente tisular, diseñado para modificar el ambiente muscular perioral en pacientes con maloclusión Clase II división 1. Su acción se basa en el uso de escudos vestibulares y almohadillas labiales que separan la musculatura de los procesos dentoalveolares, disminuyendo presiones restrictivas y favoreciendo un entorno funcional más adecuado para el desarrollo mandibular y la corrección dentoalveolar."
+
+        +
+
+        "<span class='cita-biblio'>Campbell C, Millett D, Kelly N, Cooke M, Cronin M. Frankel 2 appliance versus the modified twin block appliance for phase 1 treatment of class II division 1 malocclusion in children and adolescents: A randomized clinical trial. Angle Orthod. 2020 Mar;90:202–8.</span>"
+
+        +
+
+        "Se evidencian cambios cefalométricos como: SNA −1,32 ± 2,99°, SNB +0,57 ± 2,53°, ANB −2,71 ± 1,70°, Wits −3,09 ± 2,23 mm, longitud mandibular efectiva +8,90 ± 7,24 mm y altura facial anterior inferior +5,81 ± 3,86 mm. A nivel dentoalveolar, se observó overjet −3,88 ± 2,58 mm, overbite −0,71 ± 2,44 mm. En tejidos blandos, se reportó labio superior a plano E −3,09 ± 0,19 mm, labio inferior a plano E +1,77 ± 5,81 mm y ángulo nasolabial +0,63 ± 7,97°."
+
+        +
+
+        "<span class='cita-biblio'>Acharya S, Sriwastva G, Bai PM, Gautam N, Panda S, Pani S. Radiographic assessment of skeletal and soft tissue parameters in class II malocclusion cases with frankel appliance (FR II), twin block (TB), and forsus FRD: A comparative study. J Contemp Orthod. 2025 Apr;9:252–7.</span>"
+
+        +
+
+        "Estos resultados sugieren que el Frankel II puede producir mejoría sagital, reducción del overjet y cambios favorables en tejidos blandos. Puede considerarse en casos seleccionados donde se priorice la acción muscular, la modificación del entorno perioral y la reeducación funcional."
+
+        +
+
+        "<br><span class=\"badge-ne-muy-baja\">(NE: Muy baja, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Acharya S, Sriwastva G, Bai PM, Gautam N, Panda S, Pani S. Radiographic assessment of skeletal and soft tissue parameters in class II malocclusion cases with frankel appliance (FR II), twin block (TB), and forsus FRD: A comparative study. J Contemp Orthod. 2025 Apr;9:252–7.</span>"
+        
+        +
+
+        "Menor tasa de adherencia, evidencia limitada y alternativa funcional cuando se prioriza acción muscular."
+        ,
+
+        imagen: "./image/claseII4c_11.png",
+
+        siguiente: "objetivos",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "apinamiento",
+          }
+
+        ]
+
+      },
+
+      objetivos: {
+
+        tipo: "decision_opciones",
+
+        texto: "¿Que objetivos terapéuticos coexisten?",
+
+        imagen: "./image/claseII4d_1.png",
+        
+        opciones: [
+
+          {
+            texto: "Avance mandibular + expansión transversal maxilar",
+
+            siguiente: "transversal"
+
+          },
+
+          {
+            texto: "Expansión transversal maxilar + restricción del crecimiento maxilar anteroposterior",
+
+            siguiente: "crecimientoM"
+
+          },
+
+          {
+            texto: "Restricción del crecimiento maxilar anteroposterior + avance mandibular",
+
+            siguiente: "restriccion"
+
+          }
+
+        ]
+
+      },
+
+      transversal: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Avance mandibular + expansión transversal maxilar</Strong>"
+        
+        +
+
+        "<br><span class=\"badge-ne-moderado\">(NE: Moderada, GRADE)</span>"
+
+        +
+
+        "<br>La combinación de avance mandibular y expansión maxilar se considera cuando el paciente presenta maloclusión Clase II división 1, asociada a retrognatismo mandibular y deficiencia transversal maxilar. Esta combinación busca adelantar funcionalmente la mandíbula y, al mismo tiempo, eliminar restricciones transversales del arco superior que puedan limitar la coordinación interarco o interferir con una posición mandibular más favorable."
+
+        +
+
+        "<span class='cita-biblio'>Cukaj Ademi H, Zigante M, Premaraj Thyagaseely S, Tudor V, Palomo JM, Spalj S. Mandibular Advancement in Dentofacial Orthopaedics: Effects on Pharyngeal Airway, Dentoskeletal Characteristics and Quality of Life: A Randomised Controlled Trial. Orthod Craniofacial Res. 2026 Feb;29:122–33.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Zhao H, Sun R, Cao S, Han J. Clinical effects of twin-block combined with maxillary expansion on the upper airway in adolescents with Class II malocclusion. Clin Oral Investig. 2024 Aug;28.</span>"
+        
+
+        ,
+
+        imagen: "./image/claseII4d_2.png",
+
+        siguiente: "tornillo",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "objetivos",
+          }
+
+        ]
+
+      },
+
+      tornillo: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Twin Block + Tornillo de expansión transversal:</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im23.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        +
+
+        "<br><span class=\"badge-ne-moderado\">(NE: Moderada, GRADE)</span>"
+
+        +
+
+        "<br>El protocolo terapéutico combinado presenta una disminución de SNA y ANB, junto con un aumento de SNB. Sugiere una mejoría de la relación sagital maxilomandibular, probablemente asociada a la combinación entre avance funcional mandibular, corrección transversal del arco superior y reducción de la discrepancia sagital."
+
+        +
+
+        "<span class='cita-biblio'>Cukaj Ademi H, Zigante M, Premaraj Thyagaseely S, Tudor V, Palomo JM, Spalj S. Mandibular Advancement in Dentofacial Orthopaedics: Effects on Pharyngeal Airway, Dentoskeletal Characteristics and Quality of Life: A Randomised Controlled Trial. Orthod Craniofacial Res. 2026 Feb;29:122–33.</span>"
+        
+        +
+
+        "Los cambios esqueléticos reportados para Twin Block fueron: SNB +0,7°, ANB −0,7°, Wits −2,0 mm, NAPg −2,1° y Co-Gn +6,0 mm. Estos resultados evidencian una mejoría de la posición sagital mandibular, reducción de la discrepancia maxilomandibular, disminución de la convexidad esquelética y aumento de la longitud mandibular."
+
+        +
+
+        "<span class='cita-biblio'>Cukaj Ademi H, Zigante M, Premaraj Thyagaseely S, Tudor V, Palomo JM, Spalj S. Mandibular Advancement in Dentofacial Orthopaedics: Effects on Pharyngeal Airway, Dentoskeletal Characteristics and Quality of Life: A Randomised Controlled Trial. Orthod Craniofacial Res. 2026 Feb;29:122–33.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Zhao H, Sun R, Cao S, Han J. Clinical effects of twin-block combined with maxillary expansion on the upper airway in adolescents with Class II malocclusion. Clin Oral Investig. 2024 Aug;28.</span>"
+
+        +
+
+        "- Disminuye  SNA<br>- Aumenta SNB<br>- Disminuye ANB<br>- Disminuye el Overjet"
+
+        ,
+
+        imagen: "./image/claseII4d_5.png",
+
+        siguiente: "controles",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "transversal",
+          }
+
+        ]
+
+      },
+
+      crecimientoM: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Expansión transversal maxilar + restricción del crecimiento maxilar anteroposterior</Strong>"
+        
+        +
+
+        "<br><span class=\"badge-ne-muy-baja\">(NE: Muy baja, GRADE)</span>"
+
+        +
+
+        "<br>Indicada en maloclusión Clase II con deficiencia transversal maxilar asociada a la necesidad de restricción del avance maxilar anteroposterior."
+
+        +
+
+        "<span class='cita-biblio'>Farret MMB, de Lima EM, Farret MM, de Araújo LL. Dental and skeletal effects of combined headgear used alone or in association with rapid maxillary expansion. Dental Press J Orthod. 2015 Sep;20:43–9.</span>"
+        
+        ,
+
+        imagen: "./image/claseII4d_3.png",
+
+        siguiente: "hass",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "objetivos",
+          }
+
+        ]
+
+      },
+
+      hass: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Disyuntor de Hass modificado + Tracción extraoral combinada</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im26.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        +
+
+        "<br><span class=\"badge-ne-muy-baja\">(NE: Muy baja, GRADE)</span>"
+
+        +
+
+        "<br><br>La combinación de expansión rápida maxilar y tracción extraoral combinada produjo desplazamiento distal de molares superiores de +1,4 mm, sin inclinación distal significativa de los molares (+1,4°; p no significativo) y sin extrusión molar significativa (+0,4 mm; p no significativo). A nivel maxilar, el grupo combinado presentó una reducción significativa de SNA de −0,6° y no mostró rotación horaria maxilar significativa."
+
+        +
+
+        "<span class='cita-biblio'>Farret MMB, de Lima EM, Farret MM, de Araújo LL. Dental and skeletal effects of combined headgear used alone or in association with rapid maxillary expansion. Dental Press J Orthod. 2015 Sep;20:43–9.</span>"
+        
+        +
+
+        "- Disminuye  SNA<br>- Menor rotación horaria maxilar<br>- Distalización molar superior<br>- Menor inclinación distal molar"
+        
+        ,
+
+        imagen: "./image/claseII4d_6.png",
+
+        siguiente: "controles",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "crecimientoM",
+          }
+
+        ]
+
+      },
+
+      restriccion: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Restricción del crecimiento maxilar anteroposterior + avance mandibular</Strong>"
+        
+        +
+
+        "<br><span class=\"badge-ne-moderado\">(NE: Moderada, GRADE)</span>"
+
+        +
+
+        "La combinación de tracción extraoral alta con activador funcional se considera cuando el paciente presenta maloclusión Clase II con overjet aumentado, necesidad de restricción maxilar y avance mandibular."
+
+        +
+
+        "<span class='cita-biblio'>Kallunki J, Bondemark L, Paulsson L. Early headgear activator treatment of Class II malocclusion with excessive overjet: A randomized controlled trial. Eur J Orthod. 2021 Dec;43:639–47.</span>"
+        
+        ,
+
+        imagen: "./image/claseII4d_4.png",
+
+        siguiente: "textraoral",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "objetivos",
+          }
+
+        ]
+
+      },
+
+      textraoral: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Tracción extraoral alta  + Activador funcional</Strong>"
+        
+        +
+
+        "<br><br><img src='./image/Im26.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        +
+
+        "<br><span class=\"badge-ne-moderado\">(NE: Moderada, GRADE)</span>"
+
+        +
+
+        "<br>El aparato utilizado fue un activador modificado con mordida constructiva en posición borde a borde"
+
+        +
+
+        "<span class='cita-biblio'>Kallunki J, Bondemark L, Paulsson L. Early headgear activator treatment of Class II malocclusion with excessive overjet: A randomized controlled trial. Eur J Orthod. 2021 Dec;43:639–47.</span>"
+        
+        +
+
+        "Los resultados mostraron una reducción significativa del overjet en el grupo tratado con un cambio promedio de −3,5 mm, mientras que el grupo control permaneció prácticamente sin cambios. La relación molar mejoró significativamente; el overbite se mantuvo estable en el grupo tratado, mientras que aumentó en el grupo control. A nivel cefalométrico, el grupo tratado presentó una reducción de SNA de −1,2°, una reducción de ANB de −1,6° y una retroinclinación de los incisivos superiores de −4,6°. El cambio en SNB fue pequeño, de +0,3°, y no mostró un aumento mandibular significativo frente al grupo control."
+
+        +
+
+        "Estos resultados indican que el efecto principal de la tracción extraoral + activador fue la reducción del overjet y la mejoría de la relación molar, con cambios principalmente dentoalveolares y restricción maxilar, más que un aumento esquelético mandibular significativo."
+
+        +
+
+        "<span class='cita-biblio'>Kallunki J, Bondemark L, Paulsson L. Early headgear activator treatment of Class II malocclusion with excessive overjet: A randomized controlled trial. Eur J Orthod. 2021 Dec;43:639–47.</span>"
+        
+        +
+
+        "- Postura mandibular adelantada por mordida constructiva<br>- Sin aumento significativo de SNB<br>- Mejoría de ANB principalmente por restricción maxilar<br>- Mayormente efectos dentoalveolares"
+
+        ,
+
+        imagen: "./image/claseII4d_7.png",
+
+        siguiente: "controles",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "restriccion",
+          }
+
+        ]
+
+      },
+
+      controles: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Controles y seguimiento</Strong>"
+        
+        ,
+
+        imagen: "./image/claseII5_1.png",
+
+        siguiente: "frecuencia",
+
+      },
+
+      frecuencia: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Definir frecuencia de controles</Strong>"
+        
+        +
+
+        "<br><br>La frecuencia de controles debe establecerse según el tipo de aparatología empleada, el objetivo terapéutico y la fase activa del tratamiento. En los protocolos revisados, los controles se realizaron generalmente entre 4 y 8 semanas, aunque algunos aparatos requieren controles más cercanos durante la fase inicial de adaptación."
+
+        +
+
+        "<br>En aparatología funcional removible, como Twin Block, Bionator, Activador de Andresen o Frankel II, los controles permiten verificar adaptación, uso adecuado del aparato, reducción progresiva del overjet, relación molar y estabilidad de la mordida constructiva(15–18,21). En los estudios revisados, los activadores fueron controlados cada 6 a 8 semanas en varios protocolos. En el caso de la tracción extraoral + activador, se realizó un primer control a la 1 o 2 semanas para valorar adaptación, seguido de controles cada 8 semanas. En protocolos combinados de Twin Block con expansión, se reportaron controles mensuales para ajustar el aparato y supervisar el progreso transversal y sagital."
+
+        +
+
+        "<span class='cita-biblio'>Cukaj Ademi H, Zigante M, Premaraj Thyagaseely S, Tudor V, Palomo JM, Spalj S. Mandibular Advancement in Dentofacial Orthopaedics: Effects on Pharyngeal Airway, Dentoskeletal Characteristics and Quality of Life: A Randomised Controlled Trial. Orthod Craniofacial Res. 2026 Feb;29:122–33.</span>"
+
+        +
+
+        "<span class='cita-biblio'>DiBiase AT, Lucchesi L, Qureshi U, Lee RT. Post-treatment cephalometric changes in adolescent patients with Class II malocclusion treated using two different functional appliance systems for an extended time period: A randomized clinical trial. Eur J Orthod. 2021;42:135–43.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Pacha MM, Fleming PS, Shagmani M, Johal A. The skeletal and dental effects of Hanks Herbst versus twin block appliances for class II correction in growing patients: a randomized clinical trial. Eur J Orthod. 2024 Jan;46.</span>"
+
+        +
+
+        "En los aparatos de expansión, la frecuencia depende del tipo de expansión. En expansión rápida, el seguimiento debe ser más cercano durante la fase activa, debido a la velocidad de activación y a la necesidad de controlar la sobrecorrección transversal. En expansión lenta con Quad-Helix, el protocolo reportó activaciones cada 40 días y una estabilización posterior durante 3 meses."
+
+        +
+
+        "<span class='cita-biblio'>Revankar AV, Bhat SS, Rozario JE. A comparison of the quadhelix and the nickel-titanium palatal expander in the treatment of narrow maxillary arches: A prospective clinical study. J Orthod Sci. 2023;12:8.</span>"
+
+        +
+
+        "En tracción extraoral, los controles deben verificar el uso indicado, la adaptación del arco facial, la fuerza aplicada, la relación molar, la distalización molar y el control vertical. En la tracción extraoral combinada asociada o no a expansión rápida, el protocolo se realizó durante aproximadamente 6 meses."
+
+        +
+
+        "<span class='cita-biblio'>Farret MMB, de Lima EM, Farret MM, de Araújo LL. Dental and skeletal effects of combined headgear used alone or in association with rapid maxillary expansion. Dental Press J Orthod. 2015 Sep;20:43–9.</span>"
+
+        +
+
+        "La frecuencia de control debe individualizarse según el aparato, la fase activa y la respuesta clínica, pero se recomienda mantener intervalos aproximados de 4 a 8 semanas, con controles iniciales más próximos cuando se instalen aparatos funcionales o extraorales."
+
+        ,
+
+        imagen: "./image/claseII5_2.png",
+
+        siguiente: "cambios",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "controles",
+          }
+
+        ]
+
+      },
+
+      cambios: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Evaluación de cambios dentoalveolares, oclusales y esqueléticos</Strong>"
+        
+        +
+
+        "<br><br>En cada control se deben registrar los cambios clínicos y esqueléticos relacionados con el objetivo terapéutico seleccionado. La evaluación dentoalveolar debe incluir el overjet, el overbite, las relaciones molar y canina, e inclinación de los incisivos superiores e inferiores. Esto es especialmente importante porque varios aparatos funcionales no producen efectos exclusivamente esqueléticos, sino también compensaciones dentoalveolares."
+        
+        +
+
+        "En la expansión transversal, se debe comprobar si la deficiencia transversal fue corregida y si existe una sobrecorrección adecuada. En los protocolos de expansión rápida, el éxito no debe medirse únicamente al finalizar la activación, sino también durante las fases de retención y adaptación funcional."
+
+        +
+
+        "<span class='cita-biblio'>Lione R, Brunelli V, Franchi L, Pavoni C, Quiroga Souki B, Cozza P. Mandibular response after rapid maxillary expansion in class II growing patients: a pilot randomized controlled trial. Prog Orthod. 2017 Dec;18.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Revankar AV, Bhat SS, Rozario JE. A comparison of the quadhelix and the nickel-titanium palatal expander in the treatment of narrow maxillary arches: A prospective clinical study. J Orthod Sci. 2023;12:8.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Nagrik AP, Bhad WA, Chavan SJ, Doshi UH. A randomized clinical trial to assess the sagittal effects of Transforce transverse appliance (TTA) and NiTi palatal expander (NPE) on skeletal class II malocclusion in growing patients during retention phase – A cephalometric study using a historical control group. Int Orthod. 2020 Dec;18:722–31.</span>"
+
+        ,
+
+        imagen: "./image/claseII5_3.png",
+
+        siguiente: "perfil",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "frecuencia",
+          }
+
+        ]
+
+      },
+
+      perfil: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Evaluación de  perfil de tejidos blandos</Strong>"
+        
+        +
+
+        "<br><br>Evaluación del perfil de tejidos blandos: La evaluación del perfil de tejidos blandos debe incluir el análisis clínico facial, la competencia labial, la convexidad facial, la proyección del mentón, la exposición dental y la armonía del tercio inferior. Esta valoración es importante porque la maloclusión Clase II no solo produce alteraciones oclusales y cefalométricas, sino también cambios en el perfil facial, especialmente cuando existe overjet aumentado, retrognatismo mandibular o incompetencia labial."
+
+        +
+
+        "<span class='cita-biblio'>Acharya S, Sriwastva G, Bai PM, Gautam N, Panda S, Pani S. Radiographic assessment of skeletal and soft tissue parameters in class II malocclusion cases with frankel appliance (FR II), twin block (TB), and forsus FRD: A comparative study. J Contemp Orthod. 2025 Apr;9:252–7.</span>"
+        
+        ,
+
+        imagen: "./image/claseII5_4.png",
+
+        siguiente: "traexitoso",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "cambios",
+          }
+
+        ]
+
+      },
+
+      traexitoso: {
+
+        tipo: "decision",
+
+        texto: "¿Paciente en etapa de crecimiento?",
+
+        imagen: "./image/claseII5_6.png",
+
+        si: "pendientes",
+
+        no: "habitos2",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "perfil",
+          }
+
+        ]
+
+      },
+
+      habitos2: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Reevaluar el caso</Strong>",
+
+        imagen: "./image/claseII5_5.png",
+
+        siguiente: "habitos",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "traexitoso",
+          }
+
+        ]
+
+      },
+
+      pendientes: {
+
+        tipo: "decision",
+
+        texto: "¿Existen objetivos pendientes por cumplir?",
+
+        imagen: "./image/claseII5_7.png",
+
+        si: "continuar",
+
+        no: "retencion",
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "traexitoso",
+          }
+
+        ]
+
+      },
+
+      continuar: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Continuar tratamiento, definir frecuencia de controles periodicos</Strong>"
+        
+        +
+
+        "<br><br>Si el tratamiento muestra mejoría, pero aún existen objetivos pendientes, se debe continuar la fase activa y ajustar la frecuencia de controles según la evolución. Esta situación puede presentarse cuando existe una reducción parcial del overjet, una mejoría incompleta de la relación molar, una expansión transversal aún en progreso, la necesidad de mantener la sobrecorrección o el requerimiento de vigilancia vertical."
+
+        +
+
+        "<br>En estos casos, los controles deben mantenerse con intervalos periódicos de 4 a 8 semanas, según el aparato y la fase clínica. También se debe definir si el paciente continúa con el mismo protocolo, si requiere ajustes en la activación, si debe pasar a una fase de retención activa o si necesita una segunda fase de tratamiento dentoalveolar. La continuidad del tratamiento debe justificarse por la presencia de objetivos pendientes y no por la prolongación indefinida del uso del aparato."
+
+        +
+
+        "<span class='cita-biblio'>Cukaj Ademi H, Zigante M, Premaraj Thyagaseely S, Tudor V, Palomo JM, Spalj S. Mandibular Advancement in Dentofacial Orthopaedics: Effects on Pharyngeal Airway, Dentoskeletal Characteristics and Quality of Life: A Randomised Controlled Trial. Orthod Craniofacial Res. 2026 Feb;29:122–33.</span>"
+
+        +
+
+        "<span class='cita-biblio'>DiBiase AT, Lucchesi L, Qureshi U, Lee RT. Post-treatment cephalometric changes in adolescent patients with Class II malocclusion treated using two different functional appliance systems for an extended time period: A randomized clinical trial. Eur J Orthod. 2021;42:135–43.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Pacha MM, Fleming PS, Shagmani M, Johal A. The skeletal and dental effects of Hanks Herbst versus twin block appliances for class II correction in growing patients: a randomized clinical trial. Eur J Orthod. 2024 Jan;46.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Cirgić E, Kjellberg H, Hansen K. Treatment of large overjet in Angle Class II: Division 1 malocclusion with Andresen activators versus prefabricated functional appliances- A multicenter, randomized, controlled trial. Eur J Orthod. 2016 Oct;38:516–24.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Acharya S, Sriwastva G, Bai PM, Gautam N, Panda S, Pani S. Radiographic assessment of skeletal and soft tissue parameters in class II malocclusion cases with frankel appliance (FR II), twin block (TB), and forsus FRD: A comparative study. J Contemp Orthod. 2025 Apr;9:252–7.</span>"
+        
+        ,
+
+        imagen: "./image/claseII5_8.png",
+
+        siguiente: null,
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "origen",
+          }
+
+        ]
+
+      },
+
+      retencion: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Definir tipo de retención , remitir al posgrado para manejo dentoalveolar</Strong>"
+        
+        +
+
+        "<br><br>Cuando los objetivos terapéuticos principales se han cumplido y no existen objetivos pendientes, se debe definir el tipo de retención. La retención dependerá del aparato utilizado y del objetivo corregido. En algunos protocolos funcionales, el aparato se mantuvo como retenedor nocturno durante 6 meses tras alcanzar los objetivos. Con expansión lenta con Quad-Helix, se reportó estabilización durante 3 meses tras la expansión(14). En protocolos con Frankel II, la retención fue más prolongada, con uso en tarde/noche y posteriormente uso nocturno exclusivo."
+
+        +
+
+        "<span class='cita-biblio'>Acharya S, Sriwastva G, Bai PM, Gautam N, Panda S, Pani S. Radiographic assessment of skeletal and soft tissue parameters in class II malocclusion cases with frankel appliance (FR II), twin block (TB), and forsus FRD: A comparative study. J Contemp Orthod. 2025 Apr;9:252–7.</span>"
+
+        +
+
+        "Si después de la fase ortopédica persisten problemas dentoalveolares, apiñamiento o malposiciones dentales, el paciente debe ser remitido a posgrado de ortodoncia para manejo complementario, teniendo en cuenta que el estándar se enfoca en el manejo interceptivo y ortopédico de la maloclusión Clase II en pacientes en crecimiento, mientras que la finalización dentoalveolar puede requerir aparatología fija, alineación, nivelación y control más avanzado."
+        
+        ,
+
+        imagen: "./image/claseII5_9.png",
+
+        siguiente: null,
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "pendientes",
+          }
+
+        ]
+
+      },
+
+    }
+
+  },
+
   clase_iii: {
 
     titulo: "",
