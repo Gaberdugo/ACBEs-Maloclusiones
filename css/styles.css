@@ -11,9 +11,10 @@
   --dark:#20282d;
   --shadow:0 14px 40px rgba(26,48,38,.10);
 
-  /* CONSTANTES DE TAMAÑO DE LETRA */
+  /* CONSTANTES DE TAMAÑO Y ESPACIADO */
   --font-action: 14px;  
   --font-cita: 8px;    
+  --text-line-height: 1.45; /* 👈 Controla el interlineado globalmente para textos y descripciones */
 }
 
 
@@ -379,12 +380,12 @@ a{
   max-height: 40px;
   width: auto;
   object-fit: contain;
-  cursor: pointer; /* Muestra la manita al pasar el mouse por encima */
+  cursor: pointer;
   transition: opacity 0.2s ease;
 }
 
 .footer-img:hover {
-  opacity: 0.85; /* Da un efecto sutil al pasar el mouse */
+  opacity: 0.85;
 }
 
 
@@ -545,16 +546,16 @@ a{
   justify-content: center;
 }
 
-/* 👈 IZQUIERDA MÁS PEQUEÑA Y COMPACTA (Ancho más reducido) */
+/* Izquierda: Ancho reducido a 670px */
 .decision-page-layout .decision-card {
   flex: 0 0 670px !important; 
   max-width: 670px !important;
   width: 100% !important;
 }
 
-/* 👈 DERECHA MUCHO MÁS GRANDE Y ESPACIOSA */
+/* Derecha: Espacio para la imagen externa a 740px */
 #externalImageContainer {
-  flex: 0 0 740px !important; /* Ampliamos el espacio para el diagrama de la derecha */
+  flex: 0 0 740px !important;
   position: sticky;
   top: 20px;
 }
@@ -592,8 +593,6 @@ a{
   color:#0f7135;
   font-size:25px;
   font-weight:600;
-  line-height:1.35;
-  text-align:justify;
   box-shadow:0 10px 25px rgba(0,0,0,.10);
   white-space: pre-line;
 }
@@ -615,7 +614,7 @@ a{
 
 
 /* =====================================================
-   BOTONES DEL FLUJO
+   BOTONES DEL FLUJO (Textos centrados)
 ===================================================== */
 
 .flow-button{
@@ -632,7 +631,7 @@ a{
   box-shadow:0 6px 16px rgba(0,0,0,.07);
   transition:.18s ease;
 
-  /* 🟢 Añade estas líneas para centrar el texto */
+  /* Centrado perfecto de texto en botones */
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -687,30 +686,7 @@ a{
   border:2px solid #0f7135;
   color:#0f7135;
   font-size: var(--font-action);
-  line-height:1.45;
-  text-align: justify !important;
-  text-align-last: left !important;
   box-shadow:0 10px 25px rgba(0,0,0,.10);
-}
-
-/* 🟢 Forzamos el justificado en CUALQUIER elemento hijo o texto dentro de la caja de acción */
-.action-box div, 
-.action-box p, 
-.action-box span {
-  text-align: justify !important;
-  text-align-last: left !important;
-}
-
-/* =====================================================
-   JUSTIFICADO GENERAL PARA TODO EL TEXTO EN LAS TARJETAS
-===================================================== */
-.decision-card p,
-.decision-card div,
-.flow-description,
-.action-box,
-.flow-shape {
-  text-align: justify !important;
-  text-align-last: left !important;
 }
 
 .action-box strong{
@@ -719,6 +695,20 @@ a{
   color:#114706;
   font-size: calc(var(--font-action) + 1px);
   font-weight: bold;
+}
+
+
+/* =====================================================
+   JUSTIFICADO E INTERLINEADO GLOBAL PARA TEXTOS Y DESCRIPCIONES
+===================================================== */
+.decision-card p,
+.decision-card div,
+.flow-description,
+.action-box,
+.flow-shape {
+  text-align: justify !important;
+  text-align-last: left !important;
+  line-height: var(--text-line-height) !important;
 }
 
 

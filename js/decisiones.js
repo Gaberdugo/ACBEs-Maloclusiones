@@ -575,60 +575,44 @@ function mostrarAccion(nodo) {
 
 
 /* =====================================================
-   BOTONES PERSONALIZADOS (MODIFICADO PARA "VOLVER")
+   BOTONES PERSONALIZADOS (AGRUPADOS ARRIBA A LA DERECHA)
 ===================================================== */
 
-function agregarBotonesPersonalizados(
-  contenedor,
-  nodo
-) {
-
-  /* Si el nodo no tiene botones, no hacemos nada */
-  if (!nodo.botones) {
-    const btnFlotanteExistente = document.querySelector('.decision-card > .flow-button.back-btn');
-    if (btnFlotanteExistente) {
-      btnFlotanteExistente.style.display = 'none';
+function agregarBotonesPersonalizados(contenedor, nodo) {
+  // Buscamos o creamos un contenedor flotante para los botones en la esquina superior derecha de la tarjeta
+  let wrapperFlotante = document.querySelector('.decision-card > .custom-buttons-wrapper');
+  
+  if (!nodo.botones || nodo.botones.length === 0) {
+    if (wrapperFlotante) {
+      wrapperFlotante.style.display = 'none';
     }
     return;
   }
 
-  let btnVolverFlotante = document.querySelector('.decision-card > .flow-button.back-btn');
-  if (!btnVolverFlotante) {
-    btnVolverFlotante = document.createElement("button");
-    btnVolverFlotante.type = "button";
-    btnVolverFlotante.className = "flow-button back-btn";
-    document.querySelector('.decision-card').appendChild(btnVolverFlotante);
+  if (!wrapperFlotante) {
+    wrapperFlotante = document.createElement("div");
+    wrapperFlotante.className = "custom-buttons-wrapper";
+    // Estilos inline para asegurar que se posicionen juntos arriba a la derecha ordenados en fila
+    wrapperFlotante.style.cssText = "position: absolute; top: 30px; right: 30px; display: flex; gap: 10px; z-index: 10;";
+    document.querySelector('.decision-card').appendChild(wrapperFlotante);
+  } else {
+    wrapperFlotante.innerHTML = ""; // Limpiamos los botones anteriores
+    wrapperFlotante.style.display = "flex";
   }
-
-  let tieneVolver = false;
 
   nodo.botones.forEach(botonData => {
+    const boton = document.createElement("button");
+    boton.type = "button";
+    boton.className = "flow-button back-btn"; // Mantiene tus estilos de botón flotante
+    boton.style.position = "static"; // Para que fluyan horizontalmente dentro del flex wrapper
+    boton.style.top = "auto";
+    boton.style.right = "auto";
+    boton.textContent = botonData.texto;
 
-    if (botonData.texto.toLowerCase() === "volver") {
-      tieneVolver = true;
-      btnVolverFlotante.textContent = botonData.texto;
-      btnVolverFlotante.style.display = "block";
-      
-      btnVolverFlotante.onclick = () => {
-        mostrarNodo(botonData.siguiente);
-      };
-    } else {
-      const boton = document.createElement("button");
-      boton.type = "button";
-      boton.className = "flow-button";
-      boton.textContent = botonData.texto;
+    boton.addEventListener("click", () => {
+      mostrarNodo(botonData.siguiente);
+    });
 
-      boton.addEventListener("click", () => {
-        mostrarNodo(botonData.siguiente);
-      });
-
-      contenedor.appendChild(boton);
-    }
-
+    wrapperFlotante.appendChild(boton);
   });
-
-  if (!tieneVolver) {
-    btnVolverFlotante.style.display = "none";
-  }
-
 }

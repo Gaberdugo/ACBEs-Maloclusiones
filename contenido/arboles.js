@@ -57,7 +57,7 @@ const ARBOLES = {
 
         +
 
-        "<span class='cita-biblio'>Buschang PH. Recognizing and correcting Class II malocclusions: SECTION I: The development, phenotypic characteristics, and etiology of Class II malocclusion. In: Recognizing and Correcting Developing Malocclusions: A Problem-Oriented Approach to Orthodontics. wiley; 2015. p. 90–107.</span>"
+        "<span class='cita-biblio'>Uzuner FD, Aslan BI, Dinçer M. Dentoskeletal morphology in adults with Class I, Class II Division 1, or Class II Division 2 malocclusion with increased overbite. Am J Orthod Dentofac Orthop Off Publ Am Assoc Orthod Its Const Soc Am Board Orthod. agosto de 2019;156(2):248-256.e2. doi:10.1016/J.AJODO.2019.03.006</span>"
 
         +
 
@@ -69,7 +69,7 @@ const ARBOLES = {
 
         +
 
-        "<span class='cita-biblio'>Buschang PH. Recognizing and correcting Class II malocclusions: SECTION I: The development, phenotypic characteristics, and etiology of Class II malocclusion. In: Recognizing and Correcting Developing Malocclusions: A Problem-Oriented Approach to Orthodontics. wiley; 2015. p. 90–107.</span>"
+        "<span class='cita-biblio'>Uzuner FD, Aslan BI, Dinçer M. Dentoskeletal morphology in adults with Class I, Class II Division 1, or Class II Division 2 malocclusion with increased overbite. Am J Orthod Dentofac Orthop Off Publ Am Assoc Orthod Its Const Soc Am Board Orthod. agosto de 2019;156(2):248-256.e2. doi:10.1016/J.AJODO.2019.03.006</span>"
 
         +
 
@@ -77,11 +77,11 @@ const ARBOLES = {
 
         +
 
-        " En este tipo, la discrepancia se limita principalmente a la posición de los dientes, sin una alteración significativa de la estructura esquelética subyacente. Los dientes superiores pueden estar más adelantados en relación con los inferiores, lo que puede ser corregido mediante tratamientos ortodónticos que no necesariamente alteran la estructura ósea."
+        " Este tipo se refiere a una maloclusión que resulta de hábitos o patrones funcionales, como una posición mandibular alterada durante la función. Puede no haber una discrepancia esquelética o dental significativa, pero la función mandibular puede estar afectada, lo que lleva a una posición mandibular retruida durante la oclusión."
 
         +
 
-        "<span class='cita-biblio'>Guía de Atención para Maloclusiones Clase II - Odontología 2016. https://www.studocu.com/co/document/universidad-nacional-de-colombia/ortodoncia/guia-ort-maloc-clase-ii/64424197?sid=6fdadec1-ddfa-450c-8029-f39c2b210a7a1787886816. 2016.</span>"
+        "<span class='cita-biblio'>Saadia M, Valencia R. Dentofacial Orthopedics in the Growing Child: Understanding Craniofacial Growth in the Management of Malocclusions. 2022. 1 p. (Dentofacial Orthopedics in the Growing Child: Understanding Craniofacial Growth in the Management of Malocclusions). doi:10.1002/9781119720218</span>"
 
         +
 
@@ -101,7 +101,7 @@ const ARBOLES = {
 
         +
 
-        "<span class='cita-biblio'>Buschang PH. Recognizing and correcting Class II malocclusions: SECTION I: The development, phenotypic characteristics, and etiology of Class II malocclusion. In: Recognizing and Correcting Developing Malocclusions: A Problem-Oriented Approach to Orthodontics. wiley; 2015. p. 90–107.</span>"
+        "<span class='cita-biblio'>Uzuner FD, Aslan BI, Dinçer M. Dentoskeletal morphology in adults with Class I, Class II Division 1, or Class II Division 2 malocclusion with increased overbite. Am J Orthod Dentofac Orthop Off Publ Am Assoc Orthod Its Const Soc Am Board Orthod. agosto de 2019;156(2):248-256.e2. doi:10.1016/J.AJODO.2019.03.006</span>"
 
         +
 
@@ -113,7 +113,7 @@ const ARBOLES = {
 
         +
 
-        "<span class='cita-biblio'>Buschang PH. Recognizing and correcting Class II malocclusions: SECTION I: The development, phenotypic characteristics, and etiology of Class II malocclusion. In: Recognizing and Correcting Developing Malocclusions: A Problem-Oriented Approach to Orthodontics. wiley; 2015. p. 90–107.</span>"
+        "<span class='cita-biblio'>Uzuner FD, Aslan BI, Dinçer M. Dentoskeletal morphology in adults with Class I, Class II Division 1, or Class II Division 2 malocclusion with increased overbite. Am J Orthod Dentofac Orthop Off Publ Am Assoc Orthod Its Const Soc Am Board Orthod. agosto de 2019;156(2):248-256.e2. doi:10.1016/J.AJODO.2019.03.006</span>"
 
         ,
 
@@ -134,7 +134,7 @@ const ARBOLES = {
 
         clase: "decision-card-panoramica",
 
-        texto: "<Strong>Materiales para maloclusión clase II</Strong>"
+        texto: "<Strong>Materiales e insumos para maloclusión clase II</Strong>"
         
         +
 
@@ -165,6 +165,10 @@ const ARBOLES = {
         
         +
 
+        "<br><br><img src='./image/Im1_2.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
+
         "<br><br>Discrepancia anteroposterior entre el maxilar superior y la mandíbula, expresada por una relación sagital distal de la mandíbula respecto al maxilar, que puede deberse a prognatismo maxilar, retrognatismo mandibular o a una combinación de ambos."
 
         +
@@ -181,11 +185,19 @@ const ARBOLES = {
 
         +
 
-        "Para establecer el diagnóstico esquelético se deben valorar parámetros cefalométricos sagitales, verticales y dentoalveolares. Entre los parámetros mínimos sugeridos se encuentran SNA, SNB, ANB, Wits, posición del punto A respecto a N-perpendicular, posición de pogonion o punto B respecto a N-perpendicular, longitud mandibular efectiva, plano mandibular, altura facial inferior y relación maxilomandibular (1,2). Un ANB aumentado, especialmente valores iguales o superiores a 4°–4,5°, puede sugerir discrepancia esquelética de Clase II; sin embargo, este valor debe interpretarse junto con Wits, SNA, SNB, patrón vertical y análisis facial, ya que el ANB puede modificarse por la posición de nasion, la rotación de los maxilares y el patrón vertical del paciente."
+        "Para establecer el diagnóstico esquelético se deben valorar parámetros cefalométricos sagitales, verticales y dentoalveolares. Entre los parámetros mínimos sugeridos se encuentran SNA, SNB, ANB, Wits, posición del punto A respecto a N-perpendicular, posición de pogonion o punto B respecto a N-perpendicular, longitud mandibular efectiva, plano mandibular, altura facial inferior y relación maxilomandibular. Un ANB aumentado, especialmente valores iguales o superiores a 4°–4,5°, puede sugerir discrepancia esquelética de Clase II; sin embargo, este valor debe interpretarse junto con Wits, SNA, SNB, patrón vertical y análisis facial, ya que el ANB puede modificarse por la posición de nasion, la rotación de los maxilares y el patrón vertical del paciente."
 
         +
 
-        "Además de los parámetros esqueléticos, deben registrarse variables clínicas individuales que pueden influir en la toma de decisiones terapéuticas. Estas incluyen edad cronológica, estadio de dentición, estadio de maduración esquelética, patrón vertical, severidad del overjet, competencia labial, riesgo de trauma dentoalveolar, presencia de hábitos, alteraciones respiratorias, cooperación, higiene oral, contexto psicosocial, antecedentes de tratamiento, pérdida prematura de dientes temporales, caries, alteraciones funcionales y condiciones anatómicas particulares. Estas consideraciones deben individualizarse para cada paciente y no deben interpretarse como criterios rígidos ni universales."
+        "<span class='cita-biblio'>Buschang PH. Recognizing and correcting Class II malocclusions: SECTION I: The development, phenotypic characteristics, and etiology of Class II malocclusion. In: Recognizing and Correcting Developing Malocclusions: A Problem-Oriented Approach to Orthodontics. wiley; 2015. p. 90–107.</span>"
+        
+        +
+
+        "<span class='cita-biblio'>Guía de Atención para Maloclusiones Clase II - Odontología 2016. https://www.studocu.com/co/document/universidad-nacional-de-colombia/ortodoncia/guia-ort-maloc-clase-ii/64424197?sid=6fdadec1-ddfa-450c-8029-f39c2b210a7a1787886816. 2016. </span>"
+
+        +
+
+        "Además de los parámetros esqueléticos, deben registrarse variables clínicas individuales que pueden influir en la toma de decisiones terapéuticas. Estas incluyen edad cronológica, estadio de dentición, estadio de maduración esquelética, patrón vertical, severidad del overjet, competencia labial, riesgo de trauma dentoalveolar, presencia de hábitos, alteraciones respiratorias, cooperación, higiene oral, contexto psicosocial, antecedentes de tratamiento, pérdida prematura de dientes temporales, caries, alteraciones funcionales y condiciones anatómicas particulares."
 
         +
 
@@ -201,7 +213,11 @@ const ARBOLES = {
 
         +
 
-        "Se hace énfasis en confirmar que el paciente presenta una maloclusión esquelética Clase II y, al mismo tiempo, reconocer la posible variabilidad individual que puede modificar el diagnóstico, y por ende el tratamiento."
+        "Estas consideraciones deben individualizarse para cada paciente y no deben interpretarse como criterios rígidos ni universales."
+        
+        +
+
+        "<br>Se hace énfasis en confirmar que el paciente presenta una maloclusión esquelética Clase II y, al mismo tiempo, reconocer la posible variabilidad individual que puede modificar el diagnóstico, y por ende el tratamiento."
         
         ,
 
@@ -225,6 +241,28 @@ const ARBOLES = {
         tipo: "decision",
 
         texto: "¿Paciente presenta habitos?",
+
+        descripcion: 
+        
+        "<Strong>Presencia de hábitos:</Strong>"
+
+        +
+
+        "<br><span class=\"badge-ne-moderado\">(NE: Moderada, GRADE)</span>"
+
+        +
+
+        "La respiración oral y los hábitos orales, como la succión digital y la interposición lingual, pueden actuar como factores etiológicos asociados al desarrollo y al agravamiento de maloclusiones durante el crecimiento. La respiración oral altera el equilibrio muscular orofacial y puede favorecer el retrognatismo mandibular, la rotación mandibular posterior y el aumento del overjet, características frecuentemente observadas en pacientes con maloclusión de Clase II. La comunidad científica reconoce que los malos hábitos y la respiración bucal influyen en la etiopatogenia de las maloclusiones, y esta asociación se confirma en este estudio."
+
+        +
+
+        "<span class='cita-biblio'>Grippaudo C, Paolantonio EG, Antonini G, Saulle R, La Torre G, Deli R. Associazione fra abitudini viziate, respirazione orale e malocclusione. Acta Otorhinolaryngol Ital. 2016 Oct;36:386–94.</span>"
+
+        +
+
+        "La respiración bucal y los malos hábitos pueden considerarse factores de riesgo de maloclusión, ya que alteran el equilibrio fisiológico del crecimiento. Sin embargo, si bien la respiración bucal siempre se asocia significativamente con todos los problemas oclusales estudiados, los malos hábitos sólo desempeñan un papel significativo en algunos de ellos, probablemente debido a su menor relevancia en comparación con otros factores implicados en la etiopatogenia de las maloclusiones. Por lo tanto, podemos suponer que el riesgo de desarrollar maloclusión relacionado con malos hábitos se manifestaría en individuos más susceptibles a causas genéticas y a patrones de crecimiento desfavorables. No obstante, para este tipo de problemas se requiere una estrecha colaboración entre diferentes especialistas (pediatra, alergólogo, otorrinolaringólogo, ortodoncista, logopeda), y que las visitas y el tratamiento ortodóncico tempranos, cuando sean necesarios en niños con hábitos o con rinitis alérgica y/o hipertrofia adenoamigdalina, permitan la detección precoz y el tratamiento oportuno de las disfunciones, evitando así el empeoramiento de las maloclusiones ya existentes. Este punto tiene como propósito evitar que el tratamiento ortopédico u ortodóncico se indique sin controlar factores funcionales que pueden interferir con la estabilidad o limitar la respuesta clínica. Por tanto, si el paciente presenta hábitos o alteraciones funcionales relevantes, se debe realizar remisión o manejo interdisciplinario antes o durante la intervención ortopédica u ortodóntica."
+
+        ,
 
         imagen: "./image/claseII1_1.png",
 
@@ -294,24 +332,8 @@ const ARBOLES = {
         
         +
 
-        "<span class='cita-biblio'>Buschang PH. Recognizing and correcting Class II malocclusions: SECTION I: The development, phenotypic characteristics, and etiology of Class II malocclusion. In: Recognizing and Correcting Developing Malocclusions: A Problem-Oriented Approach to Orthodontics. wiley; 2015. p. 90–107.</span>"
-
-        +
-
-        "<span class='cita-biblio'>Guía de Atención para Maloclusiones Clase II - Odontología 2016. https://www.studocu.com/co/document/universidad-nacional-de-colombia/ortodoncia/guia-ort-maloc-clase-ii/64424197?sid=6fdadec1-ddfa-450c-8029-f39c2b210a7a1787886816. 2016.</span>"
-
-        +
-
-        "Se clasifica, de forma operativa, en leve, moderada y severa. Esta clasificación tiene como objetivo orientar la conducta clínica inicial, definir si el caso puede continuar dentro del estándar o si requiere remisión a posgrado de ortodoncia."
+        "<br>Se clasifica, de forma operativa, en leve, moderada y severa. Esta clasificación tiene como objetivo orientar la conducta clínica inicial, definir si el caso puede continuar dentro del estándar o si requiere remisión a posgrado de ortodoncia."
         
-        +
-
-        "<span class='cita-biblio'>Buschang PH. Recognizing and correcting Class II malocclusions: SECTION I: The development, phenotypic characteristics, and etiology of Class II malocclusion. In: Recognizing and Correcting Developing Malocclusions: A Problem-Oriented Approach to Orthodontics. wiley; 2015. p. 90–107.</span>"
-
-        +
-
-        "<span class='cita-biblio'>Guía de Atención para Maloclusiones Clase II - Odontología 2016. https://www.studocu.com/co/document/universidad-nacional-de-colombia/ortodoncia/guia-ort-maloc-clase-ii/64424197?sid=6fdadec1-ddfa-450c-8029-f39c2b210a7a1787886816. 2016.</span>"
-
         +
 
         "<br><Strong>●  Maloclusión Clase II leve:</Strong>"
@@ -319,14 +341,6 @@ const ARBOLES = {
         +
 
         " corresponde a pacientes con discrepancia sagital discreta, compromiso facial mínimo y ausencia de alteraciones funcionales importantes. Puede observarse relación molar Clase II parcial o menor de cúspide completa, overjet aproximado de 4 a 6 mm, ANB ligeramente aumentado, alrededor de 4° a 5°, Wits levemente aumentado, perfil facial levemente convexo, competencia labial conservada o mínimamente alterada y ausencia de riesgo elevado de trauma dentoalveolar."
-
-        +
-
-        "<span class='cita-biblio'>Buschang PH. Recognizing and correcting Class II malocclusions: SECTION I: The development, phenotypic characteristics, and etiology of Class II malocclusion. In: Recognizing and Correcting Developing Malocclusions: A Problem-Oriented Approach to Orthodontics. wiley; 2015. p. 90–107.</span>"
-
-        +
-
-        "<span class='cita-biblio'>Guía de Atención para Maloclusiones Clase II - Odontología 2016. https://www.studocu.com/co/document/universidad-nacional-de-colombia/ortodoncia/guia-ort-maloc-clase-ii/64424197?sid=6fdadec1-ddfa-450c-8029-f39c2b210a7a1787886816. 2016.</span>"
 
         +
 
@@ -338,14 +352,6 @@ const ARBOLES = {
 
         +
 
-        "<span class='cita-biblio'>Buschang PH. Recognizing and correcting Class II malocclusions: SECTION I: The development, phenotypic characteristics, and etiology of Class II malocclusion. In: Recognizing and Correcting Developing Malocclusions: A Problem-Oriented Approach to Orthodontics. wiley; 2015. p. 90–107.</span>"
-
-        +
-
-        "<span class='cita-biblio'>Guía de Atención para Maloclusiones Clase II - Odontología 2016. https://www.studocu.com/co/document/universidad-nacional-de-colombia/ortodoncia/guia-ort-maloc-clase-ii/64424197?sid=6fdadec1-ddfa-450c-8029-f39c2b210a7a1787886816. 2016.</span>"
-
-        +
-
         "<br><Strong>●  Maloclusión Clase II severa:</Strong>"
 
         +
@@ -354,39 +360,15 @@ const ARBOLES = {
 
         +
 
-        "<span class='cita-biblio'>Buschang PH. Recognizing and correcting Class II malocclusions: SECTION I: The development, phenotypic characteristics, and etiology of Class II malocclusion. In: Recognizing and Correcting Developing Malocclusions: A Problem-Oriented Approach to Orthodontics. wiley; 2015. p. 90–107.</span>"
+        "<br>Para definir el origen del componente esquelético, se recomienda diferenciar entre componente maxilar, mandibular o combinado. El componente maxilar puede sospecharse cuando existen SNA aumentado, convexidad facial aumentada y relación sagital alterada con mandíbula dentro de parámetros aceptables."
 
         +
 
-        "<span class='cita-biblio'>Guía de Atención para Maloclusiones Clase II - Odontología 2016. https://www.studocu.com/co/document/universidad-nacional-de-colombia/ortodoncia/guia-ort-maloc-clase-ii/64424197?sid=6fdadec1-ddfa-450c-8029-f39c2b210a7a1787886816. 2016.</span>"
+        "<br>El componente mandibular puede sospecharse cuando existe SNB disminuido, pogonion o punto B retruido respecto a N-perpendicular, longitud mandibular efectiva disminuida para la edad, perfil convexo por deficiencia mandibular y aumento de ANB o Wits."
 
         +
 
-        "Para definir el origen del componente esquelético, se recomienda diferenciar entre componente maxilar, mandibular o combinado. El componente maxilar puede sospecharse cuando existen SNA aumentado, convexidad facial aumentada y relación sagital alterada con mandíbula dentro de parámetros aceptables."
-
-        +
-
-        "<span class='cita-biblio'>Buschang PH. Recognizing and correcting Class II malocclusions: SECTION I: The development, phenotypic characteristics, and etiology of Class II malocclusion. In: Recognizing and Correcting Developing Malocclusions: A Problem-Oriented Approach to Orthodontics. wiley; 2015. p. 90–107.</span>"
-
-        +
-
-        "<span class='cita-biblio'>Guía de Atención para Maloclusiones Clase II - Odontología 2016. https://www.studocu.com/co/document/universidad-nacional-de-colombia/ortodoncia/guia-ort-maloc-clase-ii/64424197?sid=6fdadec1-ddfa-450c-8029-f39c2b210a7a1787886816. 2016.</span>"
-
-        +
-
-        "El componente mandibular puede sospecharse cuando existe SNB disminuido, pogonion o punto B retruido respecto a N-perpendicular, longitud mandibular efectiva disminuida para la edad, perfil convexo por deficiencia mandibular y aumento de ANB o Wits."
-
-        +
-
-        "<span class='cita-biblio'>Buschang PH. Recognizing and correcting Class II malocclusions: SECTION I: The development, phenotypic characteristics, and etiology of Class II malocclusion. In: Recognizing and Correcting Developing Malocclusions: A Problem-Oriented Approach to Orthodontics. wiley; 2015. p. 90–107.</span>"
-
-        +
-
-        "<span class='cita-biblio'>Guía de Atención para Maloclusiones Clase II - Odontología 2016. https://www.studocu.com/co/document/universidad-nacional-de-colombia/ortodoncia/guia-ort-maloc-clase-ii/64424197?sid=6fdadec1-ddfa-450c-8029-f39c2b210a7a1787886816. 2016.</span>"
-
-        +
-
-        "El componente combinado se presenta cuando coexisten signos de prognatismo maxilar y retrognatismo mandibular, con un aumento de la discrepancia sagital maxilomandibular."
+        "<br>El componente combinado se presenta cuando coexisten signos de prognatismo maxilar y retrognatismo mandibular, con un aumento de la discrepancia sagital maxilomandibular."
 
         +
 
@@ -428,11 +410,11 @@ const ARBOLES = {
         botones: [
 
           {
-            texto: "Volver 1",
+            texto: "Volver habitos",
             siguiente: "habitos",
           },
           {
-            texto: "Volver 2",
+            texto: "Volver remisión",
             siguiente: "remision",
           }
 
@@ -566,8 +548,12 @@ const ARBOLES = {
         botones: [
 
           {
-            texto: "Volver",
-            siguiente: "crecimiento",
+            texto: "Volver moderada",
+            siguiente: "moderada",
+          },
+          {
+            texto: "Volver leve",
+            siguiente: "leve",
           }
 
         ]
@@ -637,6 +623,10 @@ const ARBOLES = {
         +
 
         "<br><br><img src='./image/Im4.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
+
+        "<br><br><img src='./image/Im4_2.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
 
         ,
 
@@ -903,11 +893,11 @@ const ARBOLES = {
         botones: [
 
           {
-            texto: "Volver 1",
+            texto: "Volver riesgo",
             siguiente: "riesgo",
           },
           {
-            texto: "Volver 2",
+            texto: "Volver adecuado",
             siguiente: "adecuado",
           }
 
@@ -1357,6 +1347,10 @@ const ARBOLES = {
         +
 
         "<br><br><img src='./image/Im7.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
+
+        "<br><br><img src='./image/Im7_2.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
 
         +
 
@@ -1499,19 +1493,19 @@ const ARBOLES = {
 
         +
 
-        "- Distalización molar Superior"
+        "● Distalización molar Superior"
 
         +
 
-        "-Rotación horaria maxilar"
+        "● Rotación horaria maxilar"
 
         +
 
-        "-Sin reducción significativa de SNA"
+        "● Sin reducción significativa de SNA"
 
         +
 
-        "-Sin extrusión molar significativa"
+        "● Sin extrusión molar significativa"
 
         ,
 
@@ -1546,7 +1540,7 @@ const ARBOLES = {
 
         +
 
-        "<br><span class=\"badge-ne-moderada\">(NE: Baja, GRADE)</span>"
+        "<br><span class=\"badge-ne-moderado\">(NE: Baja, GRADE)</span>"
 
         +
 
@@ -1570,19 +1564,19 @@ const ARBOLES = {
 
         +
 
-        "- Restricción del avance maxilar"
+        "● Restricción del avance maxilar"
 
         +
 
-        "- Distalización molares superiores"
+        "● Distalización molares superiores"
 
         +
 
-        "- ANB disminuye/ Witts disminuye"
+        "● ANB disminuye/ Witts disminuye"
 
         +
 
-        "-Aumento significativo del componente vertical"
+        "● Aumento significativo del componente vertical"
 
         ,
 
@@ -1609,7 +1603,7 @@ const ARBOLES = {
         
         +
 
-        "<br><br><img src='./image/Im17.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        "<br><br><img src='./image/Im16.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
         
         ,
 
@@ -1636,7 +1630,7 @@ const ARBOLES = {
         
         +
 
-        "<br><br><Strong>Tracción extraoral alta:</Strong>"
+        "<br><br><img src='./image/Im17.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
         
         +
 
@@ -1660,25 +1654,25 @@ const ARBOLES = {
 
         +
 
-        "- Disminuye  SNA"
+        "● Disminuye  SNA"
 
         +
 
-        "-Disminuye ovejet"
+        "● Disminuye ovejet"
 
         +
 
-        "-Disminuye ANB"
+        "● Disminuye ANB"
 
         +
 
-        "-Sin efecto vertical significativo"
+        "● Sin efecto vertical significativo"
 
         ,
 
-        imagen: "./image/claseIIab_7.png",
+        imagen: "./image/claseII4b_7.png",
 
-        siguiente: "hiperdivergente",
+        siguiente: "objetivos",
 
         botones: [
 
@@ -1707,7 +1701,7 @@ const ARBOLES = {
 
         +
 
-        "<span class='cita-biblio'>Baccetti T, Franchi L, McNamara JA, Tollaro I. Early dentofacial features of Class II malocclusion: a longitudinal study from the deciduous through the mixed dentition. Am J Orthod Dentofacial Orthop. 1997;111:502–9.</span>"
+        "<span class='cita-biblio'>Stahl F, Baccetti T, Franchi L, McNamara JA. Longitudinal growth changes in untreated subjects with Class II Division 1 malocclusion. Am J Orthod Dentofac Orthop. 2008 Jul;134:125–37.</span>"
 
         +
 
@@ -1807,7 +1801,7 @@ const ARBOLES = {
           {
             texto: "Leve",
 
-            siguiente: "aleve"
+            siguiente: "aparato"
 
           }
 
@@ -2028,7 +2022,7 @@ const ARBOLES = {
 
         +
 
-        "<span class='cita-biblio'Pacha MM, Fleming PS, Shagmani M, Johal A. The skeletal and dental effects of Hanks Herbst versus twin block appliances for class II correction in growing patients: a randomized clinical trial. Eur J Orthod. 2024 Jan;46.</span>"
+        "<span class='cita-biblio'>Pacha MM, Fleming PS, Shagmani M, Johal A. The skeletal and dental effects of Hanks Herbst versus twin block appliances for class II correction in growing patients: a randomized clinical trial. Eur J Orthod. 2024 Jan;46.</span>"
 
         +
 
@@ -2083,7 +2077,7 @@ const ARBOLES = {
       
         +
 
-        "Cambios favorables en SNB, ANB y longitud mandibular, aunque con evidencia limitada y efecto esquelético limitado por cooperación."
+        "<br>Cambios favorables en SNB, ANB y longitud mandibular, aunque con evidencia limitada y efecto esquelético limitado por cooperación."
     
         ,
 
@@ -2165,7 +2159,7 @@ const ARBOLES = {
         
         +
 
-        "<br><br><img src='./image/Im26.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        "<br><br><img src='./image/Im22.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
 
         +
 
@@ -2236,7 +2230,7 @@ const ARBOLES = {
           {
             texto: "Avance mandibular + expansión transversal maxilar",
 
-            siguiente: "transversal"
+            siguiente: "transversal2"
 
           },
 
@@ -2254,11 +2248,60 @@ const ARBOLES = {
 
           }
 
+        ],
+
+        botones: [
+
+          {
+            texto: "Volver con planos de mordida",
+            siguiente: "cplanos",
+          },
+          {
+            texto: "Volver sin planos de mordida",
+            siguiente: "splanos",
+          },
+          {
+            texto: "Volver Quad Helix",
+            siguiente: "quad",
+          },
+          {
+            texto: "Volver tracción extraoral combinada (Parietal)",
+            siguiente: "parietal",
+          },
+          {
+            texto: "Volver tracción extraoral cervical",
+            siguiente: "extraoral",
+          },
+          {
+            texto: "Volver tracción extraoral alta",
+            siguiente: "alta",
+          },
+          {
+            texto: "Volver Twin Block",
+            siguiente: "twin",
+          },
+          {
+            texto: "Volver Herbs",
+            siguiente: "herbs",
+          },
+          {
+            texto: "Volver Andresen",
+            siguiente: "andresen",
+          },
+          {
+            texto: "Volver Bionator",
+            siguiente: "bionator",
+          },
+          {
+            texto: "Volver Frankel II",
+            siguiente: "frankel",
+          },
+
         ]
 
       },
 
-      transversal: {
+      transversal2: {
 
         tipo: "accion",
 
@@ -2307,6 +2350,10 @@ const ARBOLES = {
         +
 
         "<br><br><img src='./image/Im23.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
+
+        "<br><br><img src='./image/Im23_2.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
 
         +
 
@@ -2396,7 +2443,7 @@ const ARBOLES = {
         
         +
 
-        "<br><br><img src='./image/Im26.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        "<br><br><img src='./image/Im24.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
 
         +
 
@@ -2494,7 +2541,7 @@ const ARBOLES = {
 
         +
 
-        "Estos resultados indican que el efecto principal de la tracción extraoral + activador fue la reducción del overjet y la mejoría de la relación molar, con cambios principalmente dentoalveolares y restricción maxilar, más que un aumento esquelético mandibular significativo."
+        "<br>Estos resultados indican que el efecto principal de la tracción extraoral + activador fue la reducción del overjet y la mejoría de la relación molar, con cambios principalmente dentoalveolares y restricción maxilar, más que un aumento esquelético mandibular significativo."
 
         +
 
@@ -2610,7 +2657,7 @@ const ARBOLES = {
         
         +
 
-        "En la expansión transversal, se debe comprobar si la deficiencia transversal fue corregida y si existe una sobrecorrección adecuada. En los protocolos de expansión rápida, el éxito no debe medirse únicamente al finalizar la activación, sino también durante las fases de retención y adaptación funcional."
+        "<br>En la expansión transversal, se debe comprobar si la deficiencia transversal fue corregida y si existe una sobrecorrección adecuada. En los protocolos de expansión rápida, el éxito no debe medirse únicamente al finalizar la activación, sino también durante las fases de retención y adaptación funcional."
 
         +
 
@@ -2676,7 +2723,7 @@ const ARBOLES = {
 
         tipo: "decision",
 
-        texto: "¿Paciente en etapa de crecimiento?",
+        texto: "¿Tratamiento exitoso o mejoría evidente?",
 
         imagen: "./image/claseII5_6.png",
 
@@ -2699,7 +2746,15 @@ const ARBOLES = {
 
         tipo: "accion",
 
-        texto: "<Strong>Reevaluar el caso</Strong>",
+        texto: 
+        
+        "<Strong>Reevaluar el caso</Strong>"
+        
+        +
+        
+        "Si no existe mejoría evidente, el caso debe reevaluarse. Esta reevaluación debe redirigirse al diagnóstico inicial y, de ahí en adelante, revisar qué factores no se tuvieron en cuenta."
+
+        ,
 
         imagen: "./image/claseII5_5.png",
 
@@ -2721,6 +2776,12 @@ const ARBOLES = {
         tipo: "decision",
 
         texto: "¿Existen objetivos pendientes por cumplir?",
+
+        descripcion: 
+        
+        "<br>Si existe mejoría evidente entonces debe evaluarse si existen objetivos terapéuticos pendientes, si aún existen se procede a continuar tratamiento y si no, se define el tipo de retención y se realiza la remisión al posgrado para manejo dentoalveolar."
+
+        ,
 
         imagen: "./image/claseII5_7.png",
 
@@ -2783,7 +2844,7 @@ const ARBOLES = {
 
           {
             texto: "Volver",
-            siguiente: "origen",
+            siguiente: "pendientes",
           }
 
         ]
@@ -2798,11 +2859,15 @@ const ARBOLES = {
         
         +
 
-        "<br><br>Cuando los objetivos terapéuticos principales se han cumplido y no existen objetivos pendientes, se debe definir el tipo de retención. La retención dependerá del aparato utilizado y del objetivo corregido. En algunos protocolos funcionales, el aparato se mantuvo como retenedor nocturno durante 6 meses tras alcanzar los objetivos. Con expansión lenta con Quad-Helix, se reportó estabilización durante 3 meses tras la expansión(14). En protocolos con Frankel II, la retención fue más prolongada, con uso en tarde/noche y posteriormente uso nocturno exclusivo."
+        "<br><br>Cuando los objetivos terapéuticos principales se han cumplido y no existen objetivos pendientes, se debe definir el tipo de retención. La retención dependerá del aparato utilizado y del objetivo corregido. En algunos protocolos funcionales, el aparato se mantuvo como retenedor nocturno durante 6 meses tras alcanzar los objetivos. Con expansión lenta con Quad-Helix, se reportó estabilización durante 3 meses tras la expansión. En protocolos con Frankel II, la retención fue más prolongada, con uso en tarde/noche y posteriormente uso nocturno exclusivo."
 
         +
 
         "<span class='cita-biblio'>Acharya S, Sriwastva G, Bai PM, Gautam N, Panda S, Pani S. Radiographic assessment of skeletal and soft tissue parameters in class II malocclusion cases with frankel appliance (FR II), twin block (TB), and forsus FRD: A comparative study. J Contemp Orthod. 2025 Apr;9:252–7.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Revankar AV, Bhat SS, Rozario JE. A comparison of the quadhelix and the nickel-titanium palatal expander in the treatment of narrow maxillary arches: A prospective clinical study. J Orthod Sci. 2023;12:8. </span>"
 
         +
 
@@ -2882,7 +2947,7 @@ const ARBOLES = {
 
         +
 
-        "<br><br><Strong>Maloclusión Clase III:</Strong>"
+        "<br><br><Strong>● Maloclusión Clase III:</Strong>"
 
         +
 
@@ -2902,7 +2967,7 @@ const ARBOLES = {
 
         +
 
-        "<Strong>Subclasificación de la Maloclusión Clase III: </Strong>"
+        "<Strong>● Subclasificación de la Maloclusión Clase III: </Strong>"
 
         +
 
@@ -2910,11 +2975,11 @@ const ARBOLES = {
 
         +
 
-        "<br><Strong>Clasificación por Etiología:</Strong>"
+        "<br><Strong> ◦ Clasificación por Etiología:</Strong>"
 
         +
 
-        "<br><Strong>Maloclusión Clase III Esquelética: </Strong>"
+        "<br><Strong>- Maloclusión Clase III Esquelética: </Strong>"
 
         +
 
@@ -2926,7 +2991,7 @@ const ARBOLES = {
 
         +
 
-        "<br><Strong>Maloclusión Clase III Dental: </Strong>"
+        "<br><Strong>- Maloclusión Clase III Dental: </Strong>"
 
         +
 
@@ -2938,11 +3003,11 @@ const ARBOLES = {
 
         +
 
-        "<br><Strong>Maloclusión Clase III Funcional: </Strong>"
+        "<br><Strong>- Maloclusión Clase III Funcional: </Strong>"
 
         +
 
-        " Ocurre cuando la relación oclusal se ve alterada por un desplazamiento mandibular funcional, debido a interferencias dentales oclusale"
+        " Ocurre cuando la relación oclusal se ve alterada por un desplazamiento mandibular funcional, debido a interferencias dentales oclusales."
 
         +
 
@@ -2950,19 +3015,19 @@ const ARBOLES = {
 
         +
 
-        "<br><Strong>Clasificación por Severidad</Strong>"
+        "<br><Strong> ◦ Clasificación por Severidad</Strong>"
 
         +
 
-        "<br><Strong>Leve:</Strong> Desviación mínima de los arcos dentales sin impacto significativo en la estética facial."
+        "<br><Strong>- Leve:</Strong> Desviación mínima de los arcos dentales sin impacto significativo en la estética facial."
 
         +
 
-        "<br><Strong> Moderada:</Strong> Alteraciones dentales y esqueléticas evidentes que afectan la función y la apariencia facial."
+        "<br><Strong>- Moderada:</Strong> Alteraciones dentales y esqueléticas evidentes que afectan la función y la apariencia facial."
 
         +
 
-        "<br><Strong>Severa:</Strong>  Desbalance	esquelético	pronunciado	que	puede requerir intervenciones combinadas de ortodoncia y cirugía ortognática."
+        "<br><Strong>- Severa:</Strong>  Desbalance	esquelético	pronunciado	que	puede requerir intervenciones combinadas de ortodoncia y cirugía ortognática."
 
         +
 
@@ -2987,7 +3052,7 @@ const ARBOLES = {
 
         clase: "decision-card-panoramica",
 
-        texto: "<Strong>Materiales para maloclusión clase III</Strong>"
+        texto: "<Strong>Materiales e insumos para tratamiento de maloclusión clase III</Strong>"
         
         +
 
@@ -3022,7 +3087,7 @@ const ARBOLES = {
 
         +
 
-        "<span class='cita-biblio'>Alwadei S, Ali Hattan A, Faqihi K, Alhawiatan A, Alwadei F, Alwadei A. Prevalence of malocclusion and orthodontic treatment needs among Saudi primary school male children aged 6–12 years: A cross-sectional study. J Int Oral Heal. 2023;15:106.</span>"
+        "<span class='cita-biblio'>Nardoni DN, Siqueira DF, Cardoso M de A, Filho LC. Cephalometric variables used to predict the success of interceptive treatment with rapid maxillary expansion and face mask. A longitudinal study. Dental Press J Orthod. 2015;20:85–96.</span>"
 
         +
 
@@ -3030,7 +3095,7 @@ const ARBOLES = {
 
         +
 
-        "<br>Relación molar y canina de Clase III, con oclusión cruzada anterior o mordida borde a borde (overjet cero o negativo)"
+        "<br>● Relación molar y canina de Clase III, con oclusión cruzada anterior o mordida borde a borde (overjet cero o negativo)"
 
         +
 
@@ -3054,7 +3119,7 @@ const ARBOLES = {
 
         +
 
-        "<br>Perfil facial cóncavo o recto, con deficiencia maxilar, prognatismo mandibular o combinación de ambos"
+        "<br>● Perfil facial cóncavo o recto, con deficiencia maxilar, prognatismo mandibular o combinación de ambos"
 
         +
 
@@ -3082,7 +3147,7 @@ const ARBOLES = {
 
         +
 
-        "<br>Características esqueléticas como ANB < 0° o ≤ 2.5°, Wits negativo (< -2 mm), y deficiencia maxilar o protrusión mandibular."
+        "<br>● Características esqueléticas como ANB < 0° o ≤ 2.5°, Wits negativo (< -2 mm), y deficiencia maxilar o protrusión mandibular."
 
         +
 
@@ -3098,15 +3163,15 @@ const ARBOLES = {
 
         +
 
-        "<br>Puede incluir asimetrías faciales, problemas en la articulación temporomandibular, y compensaciones dentoalveolares como protrusión de incisivos maxilares o retrusión de incisivos mandibulares."
+        "<br>● Puede incluir asimetrías faciales, problemas en la articulación temporomandibular, y compensaciones dentoalveolares como protrusión de incisivos maxilares o retrusión de incisivos mandibulares."
 
         +
 
-        "<span class='cita-biblio'>Rutili V, Nieri M, Franceschi D, Pierleoni F, Giuntini V, Franchi L. Effects produced by the facemask with and without skeletal anchorage for the orthopaedic treatment of Class III malocclusion in growing patients: A systematic review and meta-Analysis of RCTs. Vol. 45, European Journal of Orthodontics. Oxford University Press; 2023. p. 157–68.</span>"
+        "<span class='cita-biblio'>Zere E, Chaudhari PK, Sharan J, Dhingra K, Tiwari N. Developing Class III malocclusions: challenges and solutions. Clin Cosmet Investig Dent. 2018;10:99-116. doi: 10.2147/CCIDE.S134303.</span>"
 
         +
 
-        "<br>Características esqueléticas como ANB < 0° o ≤ 2.5°, Wits negativo (< -2 mm), y deficiencia maxilar o protrusión mandibular."
+        "<span class='cita-biblio'>Sarangal H, Namdev R, Garg S, Saini N, Singhal P. Treatment modalities for early management of Class III skeletal malocclusion: a case series. Contemp Clin Dent. 2020;11(1):91-6. doi: 10.4103/ccd.ccd_393_19.</span>"
 
         +
         
@@ -3253,7 +3318,7 @@ const ARBOLES = {
 
         +
 
-        "<br>- Discrepancias en el crecimiento maxilar y mandibular, incluyendo retrognatismo o hipoplasia maxilar, prognatismo o hiperdesarrollo mandibular, o combinación de ambos"
+        "<br>● Discrepancias en el crecimiento maxilar y mandibular, incluyendo retrognatismo o hipoplasia maxilar, prognatismo o hiperdesarrollo mandibular, o combinación de ambos"
 
         +
 
@@ -3297,7 +3362,7 @@ const ARBOLES = {
         
         +
 
-        "- Características cefalométricas incluyen ANB <0° o ≤2.5°, Wits <-2 mm, SNA disminuido (deficiencia maxilar), SNB aumentado (prognatismo mandibular), este patrón sagital puede acompañarse a nivel vertical de un patrón hiperdivergente como de un patrón hipodivergente."
+        "● Características cefalométricas incluyen ANB <0° o ≤2.5°, Wits <-2 mm, SNA disminuido (deficiencia maxilar), SNB aumentado (prognatismo mandibular), este patrón sagital puede acompañarse a nivel vertical de un patrón hiperdivergente como de un patrón hipodivergente."
 
         +
 
@@ -3317,7 +3382,7 @@ const ARBOLES = {
 
         +
 
-        "- Base craneal anterior acortada y ángulo de la silla turca reducido en algunos casos"
+        "● Base craneal anterior acortada y ángulo de la silla turca reducido en algunos casos"
 
         +
 
@@ -3325,7 +3390,7 @@ const ARBOLES = {
 
         +
 
-        "- Medidas cefalométricas de perfil de tejidos blandos incluye: ángulo nasolabial >110°, línea E (labio sup) de −5 a −7 mm, línea E (labio inf) 0 a +3 mm y ángulo de convexidad de 0° a −10°"
+        "● Medidas cefalométricas de perfil de tejidos blandos incluye: ángulo nasolabial >110°, línea E (labio sup) de −5 a −7 mm, línea E (labio inf) 0 a +3 mm y ángulo de convexidad de 0° a −10°"
         
         +
 
@@ -3388,7 +3453,7 @@ const ARBOLES = {
 
         +
 
-        "<br>- Alteraciones en la posición o inclinación de los dientes sin discrepancias óseas, como apiñamiento, desplazamientos dentales, o relación incisiva inversa"
+        "<br>● Alteraciones en la posición o inclinación de los dientes sin discrepancias óseas, como apiñamiento, desplazamientos dentales, o relación incisiva inversa"
 
         +
 
@@ -3412,7 +3477,7 @@ const ARBOLES = {
         
         +
 
-        "- Inclinación palatina de los incisivos superiores o la vestibularización de los incisivos inferiores, resultando en mordida borde a borde o cruzada anterior"
+        "● Inclinación palatina de los incisivos superiores o la vestibularización de los incisivos inferiores, resultando en mordida borde a borde o cruzada anterior"
 
         +
 
@@ -3526,27 +3591,27 @@ const ARBOLES = {
 
         +
 
-        "<br>◦ Mordida borde a borde o contacto incisal ligero negativo (−1 mm)"
+        "<br> ◦ Mordida borde a borde o contacto incisal ligero negativo (−1 mm)"
 
         +
 
-        "<br>◦ Sin compromiso importante del perfil facial."
+        "<br> ◦ Sin compromiso importante del perfil facial."
 
         +
 
-        "<br>◦ Relación molar y canina de Clase I o tendencia a Clase III."
+        "<br> ◦ Relación molar y canina de Clase I o tendencia a Clase III."
 
         +
 
-        "<br>◦ Relación esquelética borderline (ANB 0° a +1°, Wits −2 mm)."
+        "<br> ◦ Relación esquelética borderline (ANB 0° a +1°, Wits −2 mm)."
 
         +
 
-        "<br>◦ Puede asociarse a desviaciones funcionales leves."
+        "<br> ◦ Puede asociarse a desviaciones funcionales leves."
 
         +
 
-        "<br>◦ Suele tratarse exitosamente con ortopedia, ortopedia funcional o aparatos removibles."
+        "<br> ◦ Suele tratarse exitosamente con ortopedia, ortopedia funcional o aparatos removibles."
         
         +
 
@@ -3566,27 +3631,27 @@ const ARBOLES = {
 
         +
 
-        "<br>◦ Mordida cruzada anterior completa (overjet negativo de 1–3 mm)."
+        "<br> ◦ Mordida cruzada anterior completa (overjet negativo de 1–3 mm)."
 
         +
 
-        "<br>◦ Perfil facial recto o cóncavo con ligera proyección mandibular."
+        "<br> ◦ Perfil facial recto o cóncavo con ligera proyección mandibular."
 
         +
 
-        "<br>◦ Relación molar y canina de Clase III evidente."
+        "<br> ◦ Relación molar y canina de Clase III evidente."
 
         +
 
-        "<br>◦ Discrepancia esquelética leve a moderada (ANB 0° a −1°, Wits −3 a −5 mm)."
+        "<br> ◦ Discrepancia esquelética leve a moderada (ANB 0° a −1°, Wits −3 a −5 mm)."
 
         +
 
-        "<br>◦ No siempre existe desplazamiento funcional."
+        "<br> ◦ No siempre existe desplazamiento funcional."
 
         +
 
-        "<br>◦ Se requiere intervención ortopédica interceptiva."
+        "<br> ◦ Se requiere intervención ortopédica interceptiva."
         
         +
 
@@ -3610,27 +3675,27 @@ const ARBOLES = {
 
         +
 
-        "<br>◦ Mordida	cruzada	profunda	con	contacto	incisivo	invertido significativo (overjet menor o igual a -4 mm)."
+        "<br> ◦ Mordida	cruzada	profunda	con	contacto	incisivo	invertido significativo (overjet menor o igual a -4 mm)."
 
         +
 
-        "<br>◦ Perfil cóncavo pronunciado, hipoplasia maxilar o hiperplasia mandibular evidentes."
+        "<br> ◦ Perfil cóncavo pronunciado, hipoplasia maxilar o hiperplasia mandibular evidentes."
 
         +
 
-        "<br>◦ Relación molar y/o canina de Clase III completa bilateral."
+        "<br> ◦ Relación molar y/o canina de Clase III completa bilateral."
 
         +
 
-        "<br>◦ Discrepancia esquelética severa (ANB menor a −1°, Wits menor a −6 mm)."
+        "<br> ◦ Discrepancia esquelética severa (ANB menor a −1°, Wits menor a −6 mm)."
 
         +
 
-        "<br>◦ Frecuentemente acompañada de colapso transversal maxilar."
+        "<br> ◦ Frecuentemente acompañada de colapso transversal maxilar."
 
         +
 
-        "<br>◦ Alta probabilidad de necesitar tratamiento ortopédico o en su defecto, tratamiento combinado ortodóncico-quirúrgico si no se interviene tempranamente."
+        "<br> ◦ Alta probabilidad de necesitar tratamiento ortopédico o en su defecto, tratamiento combinado ortodóncico-quirúrgico si no se interviene tempranamente."
         
         +
 
@@ -3702,11 +3767,11 @@ const ARBOLES = {
         botones: [
 
           {
-            texto: "Volver 1",
+            texto: "Volver Dental",
             siguiente: "dental",
           },
           {
-            texto: "Volver 2",
+            texto: "Volver Funcional",
             siguiente: "funcional",
           }
 
@@ -3834,11 +3899,11 @@ const ARBOLES = {
         botones: [
 
           {
-            texto: "Volver 1",
+            texto: "Volver moderada",
             siguiente: "moderada",
           },
           {
-            texto: "Volver 2",
+            texto: "Volver leve",
             siguiente: "leve",
           }
 
@@ -4009,6 +4074,27 @@ const ARBOLES = {
 
         "<span class='cita-biblio'>Zere E, Chaudhari PK, Sharan J, Dhingra K, Tiwari N. Developing Class III malocclusions: challenges and solutions. Clin Cosmet Investig Dent. 2018;10:99–116.</span>"
 
+        +
+
+        "Según la literatura, la etapa CS1-CS3 es óptima para maximizar los efectos de la protracción maxilar y controlar el crecimiento mandibular"
+
+        +
+
+        "<br><span class=\"badge-ne-moderado\">(NE: Moderada, GRADE)</span>"
+
+        +
+
+        "<span class='cita-biblio'>Alwadei S, Ali Hattan A, Faqihi K, Alhawiatan A, Alwadei F, Alwadei A. Prevalence of malocclusion and orthodontic treatment needs among Saudi primary school male children aged 6–12 years: A cross-sectional study. J Int Oral Heal. 2023;15:106.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Kirschneck C, Proff P, Lux C. Ideales Timing für die Behandlung kieferorthopädischer Anomalien – eine klinische S3-Praxisleitlinie. J Orofac Orthop. 2022 Jul;83:225–32</span>"
+
+
+        +
+
+        "<span class='cita-biblio'>Liu W, Zhou Y, Wang X, Liu D, Zhou S. Effect of maxillary protraction with alternating rapid palatal expansion and constriction vs expansion alone in maxillary retrusive patients: A single-center, randomized controlled trial. Am J Orthod Dentofac Orthop. 2015 Oct;148:641–51.</span>"
+
         ,
 
         imagen: "./image/claseIII1_17.png",
@@ -4144,6 +4230,10 @@ const ARBOLES = {
 
         "<br><br><img src='./image/Im32.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
         
+        +
+
+        "<br><br><img src='./image/Im32_2.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
         ,
 
         imagen: "./image/claseIII2_4.png",
@@ -4171,6 +4261,10 @@ const ARBOLES = {
 
         "<br><br><img src='./image/Im33.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
         
+        +
+
+        "<br><br><img src='./image/Im33_2.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
         ,
 
         imagen: "./image/claseIII2_4.png",
@@ -4192,7 +4286,7 @@ const ARBOLES = {
 
         tipo: "decision",
 
-        texto: "¿Paciente en etapa de crecimiento?",
+        texto: "¿Es el momento adecuado para tratar al paciente?",
 
         descripcion: 
         
@@ -4309,11 +4403,11 @@ const ARBOLES = {
         botones: [
 
           {
-            texto: "Volver 1",
+            texto: "Volver temporal",
             siguiente: "temporal",
           },
           {
-            texto: "Volver 2",
+            texto: "Volver tardia",
             siguiente: "tardia",
           }
 
@@ -4522,11 +4616,11 @@ const ARBOLES = {
 
         +
 
-        "<br><Strong> ◦ Maloclusión esquelética:</Strong>"
+        "<br><Strong>  ◦ Maloclusión esquelética:</Strong>"
 
         +
 
-        "<br>  ■ Para deficiencia maxilar (retrognatismo o hipoplasia maxilar), se recomienda la máscara facial (con o sin expansión maxilar rápida, RME) para promover la protracción maxilar."
+        "<br>   ■ Para deficiencia maxilar (retrognatismo o hipoplasia maxilar), se recomienda la máscara facial (con o sin expansión maxilar rápida, RME) para promover la protracción maxilar."
         
         +
 
@@ -4654,7 +4748,7 @@ const ARBOLES = {
 
         +
 
-        "<br><Strong> ◦ Maloclusión dental:</Strong>"
+        "<br><Strong>  ◦ Maloclusión dental:</Strong>"
 
         +
 
@@ -4682,7 +4776,7 @@ const ARBOLES = {
 
         +
 
-        "<br><Strong> ◦ Maloclusión funcional (pseudoclase III):</Strong>"
+        "<br><Strong>  ◦ Maloclusión funcional (pseudoclase III):</Strong>"
 
         +
 
@@ -4749,6 +4843,11 @@ const ARBOLES = {
         +
 
         "<br><br><img src='./image/Im34.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
+
+        "<br><br><img src='./image/Im34_2.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
 
         +
 
@@ -4764,7 +4863,7 @@ const ARBOLES = {
 
         +
 
-        "<span class='cita-biblio'>Seiryu M, Ida H, Mayama A, Sasaki S, Sasaki S, Deguchi T, et al. A comparative assessment of orthodontic treatment outcomes of mild skeletal Class III malocclusion between facemask and facemask in combination with a miniscrew for anchorage in growing patients: A single-center, prospective randomized controlled trial. Angle Orthod. 2020;90:3–12.</span>"
+        "<span class='cita-biblio'>Fabozzi FF, Nucci L, Correra A, d’Apuzzo F, Franchi L, Perillo L. Comparison of two protocols for early treatment of dentoskeletal Class III malocclusion: Modified SEC III versus RME/FM. Orthod Craniofacial Res. 2021 Aug;24:344–50. </span>"
 
         +
         
@@ -4830,11 +4929,15 @@ const ARBOLES = {
 
         tipo: "accion",
 
-        texto: "<Strong>Aparatos removibles</Strong>"
+        texto: "<Strong>Mascara facial</Strong>"
         
         +
 
         "<br><br><img src='./image/Im36.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        +
+
+        "<br>La protracción maxilar con máscara facial produce una combinación de efectos esqueléticos y dentales. Tras la terapia con máscara facial se observa un movimiento hacia delante y hacia abajo del maxilar, la extrusión de los dientes maxilares posteriores y una rotación del plano palatino en sentido contrario a las agujas del reloj. Como consecuencia, la mandíbula rota hacia abajo y hacia atrás, aumentando la altura facial anterior inferior."
 
         +
 
@@ -4878,7 +4981,7 @@ const ARBOLES = {
 
         +
 
-        "<br><Strong>● Fuerzas 400 gr/lado, vector 30°, uso de 14 a 16 horas.</Strong>"
+        "<br>● Fuerzas 400 gr/lado, vector 30°, uso de 14 a 16 horas."
 
         +
 
@@ -4890,7 +4993,7 @@ const ARBOLES = {
 
         +
 
-        "<br><Strong>● Los aparatos se llevaban de 12 a 14 horas al día con una magnitud de fuerza de 600 g por lado.</Strong>"
+        "<br>● Los aparatos se llevaban de 12 a 14 horas al día con una magnitud de fuerza de 600 g por lado."
 
         +
 
@@ -4902,7 +5005,7 @@ const ARBOLES = {
 
         +
 
-        "<br><Strong>● Uso de 12 horas al día con una fuerza de 500 g por lado.</Strong>"
+        "<br>● Uso de 12 horas al día con una fuerza de 500 g por lado."
 
         +
 
@@ -4914,7 +5017,7 @@ const ARBOLES = {
 
         +
 
-        "<br><Strong>● Máscara con fuerzas de 300-500 g por lado durante 14h/día.</Strong>"
+        "<br>● Máscara con fuerzas de 300-500 g por lado durante 14h/día."
 
         +
 
@@ -4926,7 +5029,7 @@ const ARBOLES = {
 
         +
 
-        "<br><Strong>● Se usó máscara facial mínimo de 12h/día, cambio de elástico cada 2-3 días, fuerzas de 300-450 g por lado.</Strong>"
+        "<br>● Se usó máscara facial mínimo de 12h/día, cambio de elástico cada 2-3 días, fuerzas de 300-450 g por lado."
 
         +
 
@@ -4938,7 +5041,7 @@ const ARBOLES = {
 
         +
 
-        "<br><Strong>● La dirección de los elásticos era de 15 a 30° hacia abajo desde el plano oclusal, ejerciendo una fuerza de entre 400 y 500 g por lado. Se indicó a los pacientes que llevaran la máscara al menos 14 horas al día.</Strong>"
+        "<br>● La dirección de los elásticos era de 15 a 30° hacia abajo desde el plano oclusal, ejerciendo una fuerza de entre 400 y 500 g por lado. Se indicó a los pacientes que llevaran la máscara al menos 14 horas al día."
 
         +
 
@@ -5121,11 +5224,11 @@ const ARBOLES = {
 
         tipo: "accion",
 
-        texto: "<Strong>Disyuntor Convencional</Strong>"
+        texto: "<Strong>Disyuntor hibrido</Strong>"
         
         +
 
-        "<br><br><img src='./image/Im39.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        "<br><br><img src='./image/Im39_2.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
 
         +
 
@@ -5304,7 +5407,7 @@ const ARBOLES = {
 
         +
 
-        " Preferido cuando se busca maximizar la protracción maxilar mediante la apertura de suturas palatinas y circunmaxilares, especialmente en casos esqueléticos más complejos. El protocolo Alt-RAMEC puede combinarse con anclaje esquelético (TADs) para potenciar los efectos."
+        "Indicado en dentición mixta (8-12 años), especialmente en pacientes cercanos al pico puberal, para optimizar el movimiento esquelético. Puede incluir anclaje esquelético para mayor eficacia."
         
         +
 
@@ -5496,19 +5599,19 @@ const ARBOLES = {
         botones: [
 
           {
-            texto: "Volver 1",
+            texto: "Volver mentonera",
             siguiente: "mentonera",
           },
           {
-            texto: "Volver 2",
+            texto: "Volver revercibles",
             siguiente: "removibles",
           },
           {
-            texto: "Volver 3",
+            texto: "Volver RPE",
             siguiente: "rpe",
           },
           {
-            texto: "Volver 4",
+            texto: "Volver RPEC",
             siguiente: "rpec",
           }
 
@@ -5524,7 +5627,7 @@ const ARBOLES = {
 
         +
 
-        "Aunque en la literatura no se fija una periodicidad exacta, un estudio realizado en Singapur en el año 2020 describe el tiempo promedio de los tratamientos y las visitas (controles) durante el tratamiento: “La duración media del tratamiento con aparatología fija fue de 10,8 ± 6,8 meses, con un promedio de 9,8 ± 9,2 visitas, mientras que la duración media del tratamiento con aparatología removible fue de 7,5 ± 6,5 meses, con un promedio de 6,9 ± 3,4 visitas. La duración media del tratamiento con aparatología fija y removible fue de 10,8 ± 3,2 meses, con un promedio de 12,6 ± 3,3 visitas”, esto sugiere una frecuencia de controles de por lo menos 1 visita cada 4 semanas."
+        "<br>Aunque en la literatura no se fija una periodicidad exacta, un estudio realizado en Singapur en el año 2020 describe el tiempo promedio de los tratamientos y las visitas (controles) durante el tratamiento: “La duración media del tratamiento con aparatología fija fue de 10,8 ± 6,8 meses, con un promedio de 9,8 ± 9,2 visitas, mientras que la duración media del tratamiento con aparatología removible fue de 7,5 ± 6,5 meses, con un promedio de 6,9 ± 3,4 visitas. La duración media del tratamiento con aparatología fija y removible fue de 10,8 ± 3,2 meses, con un promedio de 12,6 ± 3,3 visitas”, esto sugiere una frecuencia de controles de por lo menos 1 visita cada 4 semanas."
 
         +
 
@@ -5583,7 +5686,7 @@ const ARBOLES = {
 
         +
 
-        "<span class='cita-biblio'>Miranda F, Cunha Bastos JC da, Magno Dos Santos A, Janson G, Pereira Lauris JR, Garib D. Dentoskeletal comparison of miniscrew-anchored maxillary protraction with hybrid and conventional hyrax expanders: A randomized clinical trial. Am J Orthod Dentofacial Orthop. 2021 Dec;160:774–83. </span>"
+        "<span class='cita-biblio'>Ragab RS, El Shennawy MI, Yousif AA. Comparison between maxillary skeletal expander and hybrid hyrax facemask combination in treatment of growing patients with skeletal class III malocclusion: a randomized clinical trial. Tanta Dent J. 2022;19(4):273-80. doi: 10.4103/tdj.tdj_30_22.</span>"
 
         +
 
@@ -5615,7 +5718,27 @@ const ARBOLES = {
 
         +
         
-        " En estudios evaluados en GRADE con un NE alta y moderada (44,46,47,49,51), se observan compensaciones dentales controladas, con inclinación de incisivos superiores (U1–SN) y verticalización de inferiores (IMPA), corrección de overjet: de –4.7 mm a +0.09 mm, con una ganancia promedio de 4 a 5 mm y cambios en angulaciones: U1–SN pasó de 101.4° a 103.6° y L1–MPA de 96.2° a 93.2°."
+        " En estudios evaluados en GRADE con un <span class=\"badge-ne-alta\">(NE: Alta y moderada, GRADE)</span>, se observan compensaciones dentales controladas, con inclinación de incisivos superiores (U1–SN) y verticalización de inferiores (IMPA), corrección de overjet: de –4.7 mm a +0.09 mm, con una ganancia promedio de 4 a 5 mm y cambios en angulaciones: U1–SN pasó de 101.4° a 103.6° y L1–MPA de 96.2° a 93.2°."
+
+        +
+
+        "<span class='cita-biblio'>Mandall N, Cousley R, DiBiase A, Dyer F, Littlewood S, Mattick R, et al. Early class III protraction facemask treatment reduces the need for orthognathic surgery: a multi-centre, two-arm parallel randomized, controlled trial. J Orthod. 2016 Jul;43:164–75.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Liu W, Zhou Y, Wang X, Liu D, Zhou S. Effect of maxillary protraction with alternating rapid palatal expansion and constriction vs expansion alone in maxillary retrusive patients: A single-center, randomized controlled trial. Am J Orthod Dentofac Orthop. 2015 Oct;148:641–51.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Seiryu M, Ida H, Mayama A, Sasaki S, Sasaki S, Deguchi T, et al. A comparative assessment of orthodontic treatment outcomes of mild skeletal Class III malocclusion between facemask and facemask in combination with a miniscrew for anchorage in growing patients: A single-center, prospective randomized controlled trial. Angle Orthod. 2020;90:3–12.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Miranda F, Cunha Bastos JC da, Magno Dos Santos A, Janson G, Pereira Lauris JR, Garib D. Dentoskeletal comparison of miniscrew-anchored maxillary protraction with hybrid and conventional hyrax expanders: A randomized clinical trial. Am J Orthod Dentofacial Orthop. 2021 Dec;160:774–83.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Ragab RSE-DA, El Shennawy MI, Yousif AAEW. Comparison between maxillary skeletal expander and hybrid hyrax facemask combination in treatment of growing patients with skeletal class III malocclusion. Tanta Dent J. 2022 Oct;19:273–80.</span>"
 
         ,
 
@@ -5708,7 +5831,7 @@ const ARBOLES = {
 
         tipo: "accion",
 
-        texto: "<Strong>Esquelético</Strong>"
+        texto: "<Strong>Reevaluar caso</Strong>"
         
         ,
 
@@ -5827,7 +5950,19 @@ const ARBOLES = {
 
         +
 
-        "Corresponde a una discrepancia dento esquelética sagital, caracterizada por una posición relativa-mente adelantada de la mandíbula respecto al maxilar. La maloclusión clase III esquelética presenta una etiología multifactorial, aunque con una marcada influencia genética y la participación de factores ambientales y funcionales. Su origen puede estar asociado a una deficiencia del crecimiento maxilar,un exceso del crecimiento mandibular o una combinación de ambos factores. En términos oclusales, esta maloclusión puede manifestarse con una relación molar y canina de clase III esquelética, aunque en algunos casos pueden desarrollar compensaciones dentales que enmascaran la discrepancia esquelética y generar relaciones oclusales cercanas a Clase I. La compensación dental más frecuente se manifiesta como una protrusión de los incisivos maxilares y una retrusión de los incisivos mandibulares, lo que se traduce clínicamente en una mordida borde a borde o en una mordida cruzada anterior. El diagnóstico de la Clase III esquelética requiere una evaluación clínica y cefalometrica, mediante la identificación de características esqueléticas comunes, como el acortamiento de la base craneal anterior (NS) y posterior (S-Ar/Ba), la disminución del ángulo de la silla turca (NS-Ar) y el aumento del ángulo gonial (Ar-Go-Gn), que conducen a una posición más anterior de la fosa glenoidea, lo que resulta en maloclusión de clase III esquelética. Otras medidas en las que se correlacionan el maxilar con la mandíbula y cada uno de ellos con la base craneal anterior, (ANB) y (Wits) con valores menores o negativos; alteración de la diferencia maxilomandibular; nasion perpendicular al punto A (+2,3 mm) y nasion perpendicular al pogonion (0 mm), ambos alterados [7, 8, 9]."
+        "Corresponde a una discrepancia dento esquelética sagital, caracterizada por una posición relativa-mente adelantada de la mandíbula respecto al maxilar. La maloclusión clase III esquelética presenta una etiología multifactorial, aunque con una marcada influencia genética y la participación de factores ambientales y funcionales. Su origen puede estar asociado a una deficiencia del crecimiento maxilar,un exceso del crecimiento mandibular o una combinación de ambos factores. En términos oclusales, esta maloclusión puede manifestarse con una relación molar y canina de clase III esquelética, aunque en algunos casos pueden desarrollar compensaciones dentales que enmascaran la discrepancia esquelética y generar relaciones oclusales cercanas a Clase I. La compensación dental más frecuente se manifiesta como una protrusión de los incisivos maxilares y una retrusión de los incisivos mandibulares, lo que se traduce clínicamente en una mordida borde a borde o en una mordida cruzada anterior. El diagnóstico de la Clase III esquelética requiere una evaluación clínica y cefalometrica, mediante la identificación de características esqueléticas comunes, como el acortamiento de la base craneal anterior (NS) y posterior (S-Ar/Ba), la disminución del ángulo de la silla turca (NS-Ar) y el aumento del ángulo gonial (Ar-Go-Gn), que conducen a una posición más anterior de la fosa glenoidea, lo que resulta en maloclusión de clase III esquelética. Otras medidas en las que se correlacionan el maxilar con la mandíbula y cada uno de ellos con la base craneal anterior, (ANB) y (Wits) con valores menores o negativos; alteración de la diferencia maxilomandibular; nasion perpendicular al punto A (+2,3 mm) y nasion perpendicular al pogonion (0 mm), ambos alterados."
+
+        +
+
+        "<span class='cita-biblio'>Zere E, Chaudhari PK, Sharan J, Dhingra K, Tiwari N. Developing Class III malocclusions: challenges and solutions. Clin Cosmet Investig Dent. 2018;10:99–116</span>"
+
+        +
+
+        "<span class='cita-biblio'>Alhammadi MS, Halboub E, Fayed MS, Labib A, El-Saaidi C. Global distribution of malocclusion traits: A systematic review. 2018.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Institución Universitaria Colegios de Colombia — UNICOC. Maloclusión de la población atendida en la red de clínicas del Colegio Odontológico – UNICOC. Observatorio Epidemiológico en Salud Oral. Boletín Vol. 2, No. 3. Bogotá (Colombia): UNICOC; agosto de 2014.</span>"
         
         ,
 
@@ -5848,7 +5983,7 @@ const ARBOLES = {
 
         clase: "decision-card-panoramica",
 
-        texto: "<Strong>Materiales para malocusión Clase III Labio Y/O Paladar Hendido Y Malocusión Clase III En Detición Mixta o Decidua</Strong>"
+        texto: "<Strong>Materiales e insumos para tratamiento de maloclusión clase III esquelética en pacientes con Labio y/o paladar hendido en dentición mixta o decidua</Strong>"
         
         +
 
@@ -5875,7 +6010,7 @@ const ARBOLES = {
         
         +
 
-        "<br><br>Los pacientes con LPHNS presentan con frecuencia una deficiencia del tercio medio facial caracte-rizada por retrusión maxilar, perfil facial cóncavo y tendencia al desarrollo de una maloclusión Clase III. Esta alteración tiene un origen multifactorial y se relaciona tanto con factores intrínsecos del desa-rrollo craneofacial como con los efectos derivados de las cirugías tempranas a los que estos pacientes son sometidos. Además de la deficiencia sagital, el maxilar suele presentar compromiso transversal y vertical, favoreciendo la presencia de mordidas cruzadas anteriores y posteriores (55). Los objetivos del tratamiento incluyen mejorar la relación maxilo mandibular, corregir las mordidas cruzadas, op-timizar la estética facial y establecer condiciones más favorables para el desarrollo oclusal durante el crecimiento"
+        "<br><br>Los pacientes con LPHNS presentan con frecuencia una deficiencia del tercio medio facial caracte-rizada por retrusión maxilar, perfil facial cóncavo y tendencia al desarrollo de una maloclusión Clase III. Esta alteración tiene un origen multifactorial y se relaciona tanto con factores intrínsecos del desa-rrollo craneofacial como con los efectos derivados de las cirugías tempranas a los que estos pacientes son sometidos. Además de la deficiencia sagital, el maxilar suele presentar compromiso transversal y vertical, favoreciendo la presencia de mordidas cruzadas anteriores y posteriores. Los objetivos del tratamiento incluyen mejorar la relación maxilo mandibular, corregir las mordidas cruzadas, op-timizar la estética facial y establecer condiciones más favorables para el desarrollo oclusal durante el crecimiento"
 
         +
 
@@ -6101,11 +6236,11 @@ const ARBOLES = {
         botones: [
 
           {
-            texto: "Volver 1",
+            texto: "Volver Dentinción",
             siguiente: "mixtatardia",
           },
           {
-            texto: "Volver 2",
+            texto: "Volver Crecimiento",
             siguiente: "crecimiento",
           }
 
@@ -6227,7 +6362,7 @@ const ARBOLES = {
 
         tipo: "accion",
 
-        texto: "<Strong>Remitir al protocolo de ortodoncia correctiva</Strong>",
+        texto: "<Strong>Selección del mecanismo de anclaje</Strong>",
 
         imagen: "./image/LPH2_1.png",
 
@@ -6248,7 +6383,7 @@ const ARBOLES = {
 
         tipo: "decision",
 
-        texto: "¿Ha sido  realizado un  injerto alveolar secundario?",
+        texto: "¿Paciente necesita expansión maxilar?",
 
         descripcion: 
 
@@ -6302,7 +6437,7 @@ const ARBOLES = {
 
         tipo: "decision",
 
-        texto: "¿Ha sido  realizado un  injerto alveolar secundario?",
+        texto: "¿Paciente se encuentra cercano al pico de crecimiento?",
 
         descripcion: 
 
@@ -6339,7 +6474,7 @@ const ARBOLES = {
 
         tipo: "decision",
 
-        texto: "¿Ha sido  realizado un  injerto alveolar secundario?",
+        texto: "¿Paciente se encuentra cercano al pico de crecimiento?",
 
         descripcion: 
 
@@ -6351,7 +6486,7 @@ const ARBOLES = {
 
         +
 
-        "<span class='cita-biblio'>S V, Chavan SJ, Manchanda JS, Zanwar VS, Jain SS, Arya R, et al. Skeletal Changes After Alt-RAMEC Protocol in Cleft Lip and Palate: A Systematic Review and Meta-Analysis. Cleft Palate Craniofacial J. 2025 Sep; </span>"
+        "<span class='cita-biblio'>Vedant S, Chavan SJ, Manchanda JS, Zanwar VS, Jain SS, Arya R, et al. Skeletal Changes After Alt-RAMEC Protocol in Cleft Lip and Palate: A Systematic Review and Meta-Analysis. Cleft Palate Craniofac J. 2025. doi: 10.1177/10556656251403647.</span>"
 
         ,
 
@@ -6410,7 +6545,7 @@ const ARBOLES = {
 
         +
 
-        "<span class='cita-biblio'>S V, Chavan SJ, Manchanda JS, Zanwar VS, Jain SS, Arya R, et al. Skeletal Changes After Alt-RAMEC Protocol in Cleft Lip and Palate: A Systematic Review and Meta-Analysis. Cleft Palate Craniofacial J. 2025 Sep; </span>"
+        "<span class='cita-biblio'>Vedant S, Chavan SJ, Manchanda JS, Zanwar VS, Jain SS, Arya R, et al. Skeletal Changes After Alt-RAMEC Protocol in Cleft Lip and Palate: A Systematic Review and Meta-Analysis. Cleft Palate Craniofac J. 2025. doi: 10.1177/10556656251403647.</span>"
 
         +
 
@@ -6422,7 +6557,7 @@ const ARBOLES = {
 
         +
 
-        "<span class='cita-biblio'>S V, Chavan SJ, Manchanda JS, Zanwar VS, Jain SS, Arya R, et al. Skeletal Changes After Alt-RAMEC Protocol in Cleft Lip and Palate: A Systematic Review and Meta-Analysis. Cleft Palate Craniofacial J. 2025 Sep; </span>"
+        "<span class='cita-biblio'>Vedant S, Chavan SJ, Manchanda JS, Zanwar VS, Jain SS, Arya R, et al. Skeletal Changes After Alt-RAMEC Protocol in Cleft Lip and Palate: A Systematic Review and Meta-Analysis. Cleft Palate Craniofac J. 2025. doi: 10.1177/10556656251403647.</span>"
 
         ,
 
@@ -6489,6 +6624,10 @@ const ARBOLES = {
         +
 
         "<br><br><img src='./image/Im45.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        +
+
+        "<br>El HY es un aparato dentosoportado utilizado para realizar ERM. Su empleo se recomienda princi-palmente durante la dentición decidua tardía y la dentición mixta temprana, etapas en las que la menor maduración de las suturas maxilares favorece una respuesta ortopédica más eficiente. Los protocolos de activación descritos en la literatura incluyen entre una y dos activaciones diarias, con una dura-ción habitual de 7 a 14 días, dependiendo de la magnitud de la expansión requerida. En pacientes con LPHNS, el HY produce incrementos significativos en el ancho intercanino (5.25 mm)(SD 2.45), ancho intermolar(5,0 mm)(SD 1.5), rotación molar(1.60°)(SD 2.70) e inclinación molar(6.5°)(SD 2.5)."
 
         +
 
@@ -6650,15 +6789,15 @@ const ARBOLES = {
     
         +
 
-        "<br>Fuerza de tracción entre 400 y 500 gramos por lado"
+        "<br>- Fuerza de tracción entre 400 y 500 gramos por lado"
 
         +
 
-        "<br>Angulación de elasticos entre 10° y 30° por debajo del plano oclusal"
+        "<br>- Angulación de elasticos entre 10° y 30° por debajo del plano oclusal"
         
         +
 
-        "Uso mínimo de 14 horas al dia"
+        "<br>- Uso mínimo de 14 horas al dia"
 
         ,
 
@@ -6669,19 +6808,19 @@ const ARBOLES = {
         botones: [
 
           {
-            texto: "Volver 1",
+            texto: "Volver Quadhelix",
             siguiente: "quadhelix",
           },
           {
-            texto: "Volver 2",
+            texto: "Volver Hyrax",
             siguiente: "hyrax",
           },
           {
-            texto: "Volver 3",
+            texto: "Volver RAMEC",
             siguiente: "ramec",
           },
           {
-            texto: "Volver 4",
+            texto: "Volver Pico crecimiento",
             siguiente: "picocrecimiento2",
           }
 
@@ -6738,7 +6877,7 @@ const ARBOLES = {
           },
 
           {
-            texto: "Mascara  facial asistida por miniplacas",
+            texto: "Mascara facial asistida por miniplacas",
 
             siguiente: "mascara"
 
@@ -6847,7 +6986,7 @@ const ARBOLES = {
         
         +
 
-        "<br><span class=\"badge-ne-moderada\">(NE: Moderada, GRADE)</span>"
+        "<br><span class=\"badge-ne-moderado\">(NE: Moderada, GRADE)</span>"
 
         +
 
@@ -6935,11 +7074,11 @@ const ARBOLES = {
         botones: [
 
           {
-            texto: "Volver 1",
+            texto: "Volver Petit",
             siguiente: "petit",
           },
           {
-            texto: "Volver 2",
+            texto: "Volver Mascara",
             siguiente: "mascara",
           }
 
@@ -7014,7 +7153,7 @@ const ARBOLES = {
 
         texto: 
         
-        "<Strong>Reevaluar adherencia</Strong>"
+        "<Strong>Reevaluar  protocolo de protracción</Strong>"
 
         ,
 
@@ -7038,7 +7177,7 @@ const ARBOLES = {
 
         texto: 
         
-        "<Strong>Reevaluar  cambio de aparatología</Strong>"
+        "<Strong>Reevaluar cambio de aparatología</Strong>"
 
         +
 
@@ -7046,7 +7185,7 @@ const ARBOLES = {
 
         +
         
-        "<br>La magnitud de la sobrecorrección debe individualizarse según la edad del paciente, el potencial de crecimiento remanente, la severidad inicial de la discrepancia esquelética y la respuesta observada durante el tratamiento"
+        "<br>En pacientes que inician tratamiento en dentición decidua o mixta temprana con FM de anclaje dental, se puede considerar la transición hacia protocolos con anclaje óseo durante la dentición mixta tardía o permanente temprana cuando exista persistencia de la discrepancia esquelética o se considere necesario optimizar los efectos ortopédicos del tratamiento."
 
         +
 
@@ -7054,7 +7193,7 @@ const ARBOLES = {
 
         +
 
-        "<span class='cita-biblio'>Segal DA, Grayson BH, Shetye PR. Skeletal and dentoalveolar changes following the use of an occlusally bonded maxillary protraction headgear appliance in patients born with cleft lip and palate. Semin Orthod. 2017 Sep;23:279–94.</span>"
+        "<span class='cita-biblio'>Jahanbin A, Shafaee H, Pahlavan H, Bardideh E, Entezari M. Efficacy of Different Methods of Bone-Anchored Maxillary Protraction in Cleft Lip and Palate Children: A Systematic Review and Meta-Analysis. J Craniofac Surg. 2023 May;34:875–80. </span>"
 
         ,
 
@@ -7131,7 +7270,7 @@ const ARBOLES = {
 
         +
 
-        "<br><span class=\"badge-ne-moderada\">(NE: Moderada, GRADE)</span>"
+        "<br><span class=\"badge-ne-moderado\">(NE: Moderada, GRADE)</span>"
 
         +
 
@@ -7186,11 +7325,11 @@ const ARBOLES = {
         botones: [
 
           {
-            texto: "Volver 1",
+            texto: "Volver corrección arriba",
             siguiente: "correcion",
           },
           {
-            texto: "Volver 2",
+            texto: "Volver corrección abajo",
             siguiente: "correcion2",
           }
 
@@ -7229,7 +7368,7 @@ const ARBOLES = {
 
         texto: 
         
-        "<Strong>Etapa de retención y seguimiento</Strong>"
+        "<Strong>Remisión a tratamiento ortodóntico</Strong>"
 
         ,
 
