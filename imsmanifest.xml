@@ -14,10 +14,12 @@
     <resource identifier="RES-1" type="webcontent" adlcp:scormType="asset" href="index.html">
       <file href="index.html"/>
       <file href="seleccion.html"/>
+      <file href="decisiones.html"/>
       <file href="css/styles.css"/>
       <file href="js/seleccion.js"/>
       <file href="contenido/definiciones.js"/>
       <file href="README.txt"/>
+      <!-- Asegura la lectura de recursos si están en carpetas -->
     </resource>
   </resources>
 </manifest>
