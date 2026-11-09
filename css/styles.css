@@ -14,7 +14,7 @@
   /* CONSTANTES DE TAMAÑO Y ESPACIADO */
   --font-action: 14px;  
   --font-cita: 8px;    
-  --text-line-height: 1.45; /* 👈 Controla el interlineado globalmente para textos y descripciones */
+  --text-line-height: 1.45; /* 👈 Controla el interlineado globalmente */
 }
 
 
@@ -699,7 +699,7 @@ a{
 
 
 /* =====================================================
-   JUSTIFICADO E INTERLINEADO GLOBAL PARA TEXTOS Y DESCRIPCIONES
+   ESTILO UNIFICADO (Las descripciones adoptan el estilo de las cajas de acción)
 ===================================================== */
 .decision-card p,
 .decision-card div,
@@ -709,6 +709,42 @@ a{
   text-align: justify !important;
   text-align-last: left !important;
   line-height: var(--text-line-height) !important;
+}
+
+.flow-description {
+  width: 100%;
+  max-width: 1200px;
+  padding: 28px 38px;
+  border-radius: 20px;
+  background: #ffffff;
+  border: 2px solid #0f7135;
+  color: #0f7135;
+  font-size: var(--font-action);
+  box-shadow: 0 10px 25px rgba(0,0,0,.10);
+  margin-top: 15px;
+}
+
+
+/* =====================================================
+   ESTILO PARA IMÁGENES GEMELAS / COMPARATIVAS
+===================================================== */
+.image-comparison-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 15px 0;
+}
+
+.img-gemela {
+  width: 100%;
+  max-width: 280px;
+  height: 220px;
+  object-fit: contain;
+  border-radius: 12px;
+  background: #fff;
+  border: 2px solid var(--green);
 }
 
 
@@ -744,7 +780,7 @@ a{
 .img-tabla-grande {
   width: 100% !important;
   max-width: 1115px !important;
-  height: auto !important;
+  height: calc(100% - 100px) !important;
   display: block !important;
   margin: 15px auto !important;
   border-radius: 12px !important;
@@ -760,7 +796,8 @@ a{
   width: 100% !important;
 }
 
-.decision-card-panoramica .action-box {
+.decision-card-panoramica .action-box,
+.decision-card-panoramica .flow-description {
   max-width: 100% !important;
   padding: 24px !important;
 }

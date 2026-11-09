@@ -1,6 +1,7 @@
 const params = new URLSearchParams(window.location.search);
 
 const ruta = params.get("ruta");
+const nodoUrl = params.get("nodo"); // Captura si especificamos un nodo de inicio al cambiar de árbol
 
 const flow = document.getElementById("flow");
 
@@ -25,7 +26,9 @@ if (!arbol) {
 
   treeTitle.textContent = arbol.titulo;
 
-  mostrarNodo(arbol.inicio);
+  // Si viene un nodo en la URL lo usa, de lo contrario arranca en el inicio por defecto
+  const nodoInicio = nodoUrl || arbol.inicio;
+  mostrarNodo(nodoInicio);
 
 }
 
@@ -158,8 +161,6 @@ function actualizarLayoutGeneral(nodo) {
 /* =====================================================
    DECISIÓN SÍ / NO
 ===================================================== */
-
-
 
 function mostrarDecision(nodo) {
 
@@ -456,30 +457,35 @@ function mostrarRemision(nodo) {
 
 
   /* -----------------------------------------------
-     CONTINUAR
+     CONTINUAR (Soporta siguiente y cambio de árbol con siguienteArbol)
   ----------------------------------------------- */
 
-  const continuar =
-    document.createElement("button");
+  if (nodo.siguienteArbol || nodo.siguiente) {
 
-  continuar.type = "button";
+    const continuar =
+      document.createElement("button");
 
-  continuar.className =
-    "flow-button";
+    continuar.type = "button";
 
+    continuar.className =
+      "flow-button";
 
-  continuar.textContent =
-    "Continuar";
+    continuar.textContent =
+      "Continuar";
 
+    continuar.addEventListener("click", () => {
+      if (nodo.siguienteArbol) {
+        const destinoRuta = nodo.siguienteArbol.ruta;
+        const destinoNodo = nodo.siguienteArbol.nodo || "";
+        window.location.href = `?ruta=${destinoRuta}${destinoNodo ? '&nodo=' + destinoNodo : ''}`;
+      } else {
+        mostrarNodo(nodo.siguiente);
+      }
+    });
 
-  continuar.addEventListener("click", () => {
+    contenedor.appendChild(continuar);
 
-    mostrarNodo(nodo.siguiente);
-
-  });
-
-
-  contenedor.appendChild(continuar);
+  }
 
 
   /* BOTONES PERSONALIZADOS */
@@ -534,10 +540,10 @@ function mostrarAccion(nodo) {
 
 
   /* -----------------------------------------------
-     SI HAY SIGUIENTE NODO
+     SI HAY SIGUIENTE NODO O SALTO DE ÁRBOL
   ----------------------------------------------- */
 
-  if (nodo.siguiente) {
+  if (nodo.siguienteArbol || nodo.siguiente) {
 
     const continuar =
       document.createElement("button");
@@ -551,9 +557,14 @@ function mostrarAccion(nodo) {
       "Continuar";
 
     continuar.addEventListener("click", () => {
-
-      mostrarNodo(nodo.siguiente);
-
+      // Verificamos si hay salto a otro árbol
+      if (nodo.siguienteArbol) {
+        const destinoRuta = nodo.siguienteArbol.ruta;
+        const destinoNodo = nodo.siguienteArbol.nodo || "";
+        window.location.href = `?ruta=${destinoRuta}${destinoNodo ? '&nodo=' + destinoNodo : ''}`;
+      } else {
+        mostrarNodo(nodo.siguiente);
+      }
     });
 
     contenedor.appendChild(continuar);
@@ -575,44 +586,73 @@ function mostrarAccion(nodo) {
 
 
 /* =====================================================
-   BOTONES PERSONALIZADOS (AGRUPADOS ARRIBA A LA DERECHA)
+   BOTONES PERSONALIZADOS (VOLVER ARRIBA, OTROS ORDENADOS)
 ===================================================== */
 
 function agregarBotonesPersonalizados(contenedor, nodo) {
-  // Buscamos o creamos un contenedor flotante para los botones en la esquina superior derecha de la tarjeta
-  let wrapperFlotante = document.querySelector('.decision-card > .custom-buttons-wrapper');
-  
+  let btnVolverFlotante = document.querySelector('.decision-card > .flow-button.back-btn');
+  let wrapperExtras = document.querySelector('.decision-card > .extra-buttons-wrapper');
+
   if (!nodo.botones || nodo.botones.length === 0) {
-    if (wrapperFlotante) {
-      wrapperFlotante.style.display = 'none';
-    }
+    if (btnVolverFlotante) btnVolverFlotante.style.display = 'none';
+    if (wrapperExtras) wrapperExtras.remove();
     return;
   }
 
-  if (!wrapperFlotante) {
-    wrapperFlotante = document.createElement("div");
-    wrapperFlotante.className = "custom-buttons-wrapper";
-    // Estilos inline para asegurar que se posicionen juntos arriba a la derecha ordenados en fila
-    wrapperFlotante.style.cssText = "position: absolute; top: 30px; right: 30px; display: flex; gap: 10px; z-index: 10;";
-    document.querySelector('.decision-card').appendChild(wrapperFlotante);
-  } else {
-    wrapperFlotante.innerHTML = ""; // Limpiamos los botones anteriores
-    wrapperFlotante.style.display = "flex";
+  // Creamos el botón "Volver" flotante si no existe
+  if (!btnVolverFlotante) {
+    btnVolverFlotante = document.createElement("button");
+    btnVolverFlotante.type = "button";
+    btnVolverFlotante.className = "flow-button back-btn";
+    document.querySelector('.decision-card').appendChild(btnVolverFlotante);
   }
 
+  // Creamos un contenedor limpio para los botones adicionales (si hay más de uno o son largos)
+  if (!wrapperExtras) {
+    wrapperExtras = document.createElement("div");
+    wrapperExtras.className = "extra-buttons-wrapper";
+    wrapperExtras.style.cssText = "display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-bottom: 25px; width: 100%;";
+  } else {
+    wrapperExtras.innerHTML = "";
+  }
+
+  let tieneVolver = false;
+  let tieneExtras = false;
+
   nodo.botones.forEach(botonData => {
-    const boton = document.createElement("button");
-    boton.type = "button";
-    boton.className = "flow-button back-btn"; // Mantiene tus estilos de botón flotante
-    boton.style.position = "static"; // Para que fluyan horizontalmente dentro del flex wrapper
-    boton.style.top = "auto";
-    boton.style.right = "auto";
-    boton.textContent = botonData.texto;
+    if (botonData.texto.toLowerCase() === "volver") {
+      tieneVolver = true;
+      btnVolverFlotante.textContent = botonData.texto;
+      btnVolverFlotante.style.display = "block";
+      
+      btnVolverFlotante.onclick = () => {
+        mostrarNodo(botonData.siguiente);
+      };
+    } else {
+      tieneExtras = true;
+      const boton = document.createElement("button");
+      boton.type = "button";
+      boton.className = "flow-button";
+      boton.textContent = botonData.texto;
 
-    boton.addEventListener("click", () => {
-      mostrarNodo(botonData.siguiente);
-    });
+      boton.addEventListener("click", () => {
+        mostrarNodo(botonData.siguiente);
+      });
 
-    wrapperFlotante.appendChild(boton);
+      wrapperExtras.appendChild(boton);
+    }
   });
+
+  if (!tieneVolver) {
+    btnVolverFlotante.style.display = "none";
+  }
+
+  // Si hay botones extra (como los nombres de los aparatos), los insertamos al inicio del flujo dentro de la tarjeta
+  if (tieneExtras) {
+    const decisionCard = document.querySelector('.decision-card');
+    // Los insertamos antes de que empiece el contenido de flujo para que queden organizados arriba de todo
+    decisionCard.insertBefore(wrapperExtras, flow);
+  } else {
+    wrapperExtras.remove();
+  }
 }

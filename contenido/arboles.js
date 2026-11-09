@@ -169,6 +169,10 @@ const ARBOLES = {
         
         +
 
+        "<span class='cita-biblio'>(Gemini AI)</span>"
+
+        +
+
         "<br><br>Discrepancia anteroposterior entre el maxilar superior y la mandíbula, expresada por una relación sagital distal de la mandíbula respecto al maxilar, que puede deberse a prognatismo maxilar, retrognatismo mandibular o a una combinación de ambos."
 
         +
@@ -438,7 +442,7 @@ const ARBOLES = {
 
           {
             texto: "Volver",
-            siguiente: "origen",
+            siguiente: "severidad",
           }
 
         ]
@@ -569,6 +573,10 @@ const ARBOLES = {
         +
 
         "<br><br><img src='./image/Im2.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
+
+        "<span class='cita-biblio'>Tekale, P. D., Vakil, K. K., Vakil, J. K., & Gore, K. A. (2015). Distalization of maxillary arch and correction of Class II with mini-implants: A report of two cases. Contemporary clinical dentistry, 6(2), 226–232. https://doi.org/10.4103/0976-237X.156052</span>"
 
         ,
 
@@ -596,6 +604,10 @@ const ARBOLES = {
         +
 
         "<br><br><img src='./image/Im3.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
+
+        "<span class='cita-biblio'>Orrego, H., & Buendía, E. (2026). Severe class ii malocclusion in a growing patient treated with functional orthopedics and fixed appliances. Revista cientifica odontologica (Universidad Cientifica del Sur), 14(3), e305. https://doi.org/10.21142/2523-2754-1403-2026-305</span>"
 
         ,
 
@@ -626,6 +638,10 @@ const ARBOLES = {
         
         +
 
+        "<span class='cita-biblio'>(Gemini AI)</span>"
+
+        +
+
         "<br><br><img src='./image/Im4_2.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
 
         ,
@@ -654,6 +670,10 @@ const ARBOLES = {
         +
 
         "<br><br><img src='./image/Im5.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
+
+        "<span class='cita-biblio'>(Baccetti T, Franchi L, McNamara JA Jr. The cervical vertebral maturation (CVM) method for the assessment of optimal treatment timing in dentofacial orthopedics. Semin Orthod. 2005;11(3):119-129. doi:10.1053/j.sodo.2005.04.005.)</span>"
 
         +
 
@@ -893,11 +913,11 @@ const ARBOLES = {
         botones: [
 
           {
-            texto: "Volver riesgo",
+            texto: "Volver ¿Existe riesgo de trauma dentoalveolar?",
             siguiente: "riesgo",
           },
           {
-            texto: "Volver adecuado",
+            texto: "Volver ¿Es el momento adecuado para la intervención?",
             siguiente: "adecuado",
           }
 
@@ -914,6 +934,10 @@ const ARBOLES = {
         +
 
         "<br><br><img src='./image/Im6.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
+
+        "<span class='cita-biblio'>Franco FAC, Martínez BG, Araujo AC. Tratamiento ortodóncico-ortopédico del colapso del maxilar, mordida cruzada anterior y posterior mediante expansor Hyrax. Reporte de caso. . 2019;Año 2019(Número 1). https://www.ortodoncia.ws/publicaciones/2019/art-10</span>"
 
         +
 
@@ -981,11 +1005,7 @@ const ARBOLES = {
 
         tipo: "accion",
 
-        texto: "<Strong>Expansión rápida</Strong>"
-        
-        +
-
-        "<br><Strong>Expansión rápida maxilar:</Strong>"
+        texto: "<br><Strong>Expansión rápida maxilar:</Strong>"
 
         +
 
@@ -1028,7 +1048,7 @@ const ARBOLES = {
 
         +
 
-        "<Strong>● 1K1: Disyuntor palatino rápido:</Strong>"
+        "<br><Strong>● 1K1: Disyuntor palatino rápido:</Strong>"
         
         +
 
@@ -1064,7 +1084,7 @@ const ARBOLES = {
 
           {
             texto: "Volver",
-            siguiente: "crecimiento",
+            siguiente: "rapida",
           }
 
         ]
@@ -1091,7 +1111,7 @@ const ARBOLES = {
 
         +
 
-        "En este estudio se presentaron cambios sagitales no significativos frente al grupo control: SNA 0,0°, SNB +0,5°, ANB −0,7°, Pg a N-perpendicular +0,8 mm, Co-Gn +0,6 mm, overjet −0,7 mm y relación molar +1,1 mm (13). Por tanto, no se debe afirmar que mejora de forma significativa la Clase II en el plano sagital. El hallazgo clínicamente más relevante fue el de tipo vertical. El RME con planos acrílicos mostró una mayor reducción de la divergencia facial y del ángulo gonial que el expansor palatal rápido tipo mariposa y el grupo control: los autores interpretaron que la cobertura acrílica actúa como bloque de mordida, inhibiendo la extrusión posterior y favoreciendo el control vertical."
+        "En este estudio se presentaron cambios sagitales no significativos frente al grupo control: SNA 0,0°, SNB +0,5°, ANB −0,7°, Pg a N-perpendicular +0,8 mm, Co-Gn +0,6 mm, overjet −0,7 mm y relación molar +1,1 mm. Por tanto, no se debe afirmar que mejora de forma significativa la Clase II en el plano sagital. El hallazgo clínicamente más relevante fue el de tipo vertical. El RME con planos acrílicos mostró una mayor reducción de la divergencia facial y del ángulo gonial que el expansor palatal rápido tipo mariposa y el grupo control: los autores interpretaron que la cobertura acrílica actúa como bloque de mordida, inhibiendo la extrusión posterior y favoreciendo el control vertical."
 
         +
 
@@ -1239,7 +1259,7 @@ const ARBOLES = {
         
         ,
 
-        imagen: "./image/claseII4a_6.png",
+        imagen: "./image/claseII4a_4.png",
 
         siguiente: "quad",
 
@@ -1247,7 +1267,7 @@ const ARBOLES = {
 
           {
             texto: "Volver",
-            siguiente: "splanos",
+            siguiente: "tipo",
           }
 
         ]
@@ -1350,7 +1370,15 @@ const ARBOLES = {
         
         +
 
+        "<span class='cita-biblio'>Sfondrini, M. F., Pascadopoli, M., Nardi, M. G., Cardarelli, F., Zampetti, P., Viola, A., Labadze, S., & Scribante, A. (2026). Evaluation of an Elastodontic Bioactivator Versus High-Pull Headgear for the Treatment of Skeletal Class II Hyperdivergent Pediatric Patients: A Retrospective Study. Journal of clinical medicine, 15(2), 804. https://doi.org/10.3390/jcm15020804</span>"
+        
+        +
+
         "<br><br><img src='./image/Im7_2.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
+
+        "<span class='cita-biblio'>Yoshida, N., Jost-Brinkmann, P. G., & Yamada, Y. (1995). Initial tooth movement under extraoral force and considerations for controlled molar movement. The Angle orthodontist, 65(3), 199–208. https://doi.org/10.1043/0003-3219(1995)065<0199:ITMUEF>2.0.CO;2</span>"
 
         +
 
@@ -1358,7 +1386,7 @@ const ARBOLES = {
 
         +
 
-        "<br>Se considera cuando el análisis clínico y cefalométrico sugiere un componente maxilar aumentado en la maloclusión Clase II. Este componente puede expresarse mediante SNA aumentado, punto A adelantado respecto de referencias craneales, convexidad facial aumentada, prognatismo maxilar relativo o relación maxilomandibular alterada, con mandíbula dentro de parámetros aceptables, por lo que el objetivo terapéutico en estos casos se orienta a limitar o controlar el crecimiento anterior del maxilar."
+        "<br>La restricción del crecimiento anteroposterior maxilar se considera cuando el paciente con maloclusión esquelética de Clase II presenta un componente maxilar clínicamente relevante, expresado por prognatismo maxilar. Antes de seleccionar el tipo de tracción, se debe definir el patrón de crecimiento vertical. Esta decisión es determinante porque cada vector de tracción puede producir efectos distintos en el maxilar, los molares superiores y la rotación mandibular."
 
         +
 
@@ -1469,6 +1497,10 @@ const ARBOLES = {
         
         +
 
+        "<span class='cita-biblio'>Silva-Esteves Raffo, J. F., Aliaga Del Castillo, R., & Aliaga Del Castillo, A. (2013). Tratamiento de una maloclusión Clase II División 1 en dentición mixta: Reporte de un caso. Odontología Pediátrica, 12(1), 76-84</span>"
+        
+        +
+
         "<br><Strong>Tracción extraoral combinada (Parietal):</Strong>"
 
         +
@@ -1533,6 +1565,10 @@ const ARBOLES = {
         +
 
         "<br><br><img src='./image/Im15.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
+
+        "<span class='cita-biblio'>Isaza Saldarriaga, J. F., Correa Vélez, S., & Roldán Restrepo, S. (2011). Simulación numérica por el método de elementos finitos del comportamiento de una mandíbula ante un dispositivo de tracción cervical mandibular. Revista Brasileira de Engenharia Biomédica, 27(3), 135-146. https://doi.org/10.4322/rbeb.2011.011</span>"
         
         +
 
@@ -1634,6 +1670,10 @@ const ARBOLES = {
         
         +
 
+        "<span class='cita-biblio'>Sfondrini, M. F., Pascadopoli, M., Nardi, M. G., Cardarelli, F., Zampetti, P., Viola, A., Labadze, S., & Scribante, A. (2026). Evaluation of an Elastodontic Bioactivator Versus High-Pull Headgear for the Treatment of Skeletal Class II Hyperdivergent Pediatric Patients: A Retrospective Study. Journal of clinical medicine, 15(2), 804. https://doi.org/10.3390/jcm15020804</span>"
+        
+        +
+
         "<br><span class=\"badge-ne-moderado\">(NE: Moderada, GRADE)</span>"
 
         +
@@ -1697,28 +1737,16 @@ const ARBOLES = {
 
         +
 
-        "<br><br>El avance mandibular se selecciona como objetivo principal cuando la maloclusión Clase II se asocia predominantemente a retrognatismo mandibular, deficiencia en la longitud mandibular o posición mandibular posterior. Este diagnóstico debe apoyarse en parámetros como SNB disminuido, pogonion o punto B retruido respecto a referencias cefalométricas, perfil convexo por deficiencia mandibular, aumento de ANB o Wits, y evaluación clínica del tercio inferior facial. Además, durante la transición a la dentición mixta, los sujetos Clase II presentaron menores incrementos en la longitud mandibular total y en el cuerpo mandibular, junto con una tendencia a la rotación mandibular posterior y a un menor crecimiento mandibular durante el pico puberal."
-
-        +
-
-        "<span class='cita-biblio'>Stahl F, Baccetti T, Franchi L, McNamara JA. Longitudinal growth changes in untreated subjects with Class II Division 1 malocclusion. Am J Orthod Dentofac Orthop. 2008 Jul;134:125–37.</span>"
-
-        +
-
-        "<Strong>Objetivos terapéuticos combinados:</Strong>"
-
-        +
-
-        " Cuando coexisten dos o más componentes diagnósticos relevantes, el paciente no debe dirigirse exclusivamente a una única ruta terapéutica. En estos casos, el algoritmo debe conducir a la sección de manejo de alteraciones combinadas. Esta decisión se justifica porque la Clase II puede implicar simultáneamente una deficiencia transversal maxilar, un componente anteroposterior maxilar y un retrognatismo mandibular."
-        
+        "<br><br>El avance mandibular se considera cuando el paciente con maloclusión esquelética Clase II presenta un componente mandibular predominante, expresado por retrognatismo mandibular. La selección del aparato funcional debe basarse en el estadio de desarrollo esquelético, la magnitud de la discrepancia sagital, el patrón vertical, la presencia o ausencia de apiñamiento mandibular anterior y la cooperación del paciente."
+      
         +
 
         "<span class='cita-biblio'>Baccetti T, Franchi L, McNamara JA, Tollaro I. Early dentofacial features of Class II malocclusion: a longitudinal study from the deciduous through the mixed dentition. Am J Orthod Dentofacial Orthop. 1997;111:502–9.</span>"
 
         +
 
-        "<span class='cita-biblio'>Stahl F, Baccetti T, Franchi L, McNamara JA. Longitudinal growth changes in untreated subjects with Class II Division 1 malocclusion. Am J Orthod Dentofac Orthop. 2008 Jul;134:125–37.</span>"
-
+        "En términos generales, los aparatos funcionales buscan posicionar la mandíbula anterior durante el crecimiento, favoreciendo cambios en la relación sagital maxilomandibular y reduciendo el overjet."
+        
         ,
 
         imagen: "./image/claseII4c_1.png",
@@ -1801,7 +1829,7 @@ const ARBOLES = {
           {
             texto: "Leve",
 
-            siguiente: "aparato"
+            siguiente: "aleve"
 
           }
 
@@ -1832,7 +1860,33 @@ const ARBOLES = {
 
         imagen: "./image/claseII4c_4.png",
 
-        siguiente: null,
+        siguienteArbol: {
+
+          ruta: "apinamiento_mandibular_anterior",
+          nodo: "presentacion" 
+        
+        },
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "eseveridad",
+          }
+
+        ]
+
+      },
+
+      aleve: {
+
+        tipo: "accion",
+
+        texto: "<Strong>Leve</Strong>",
+
+        imagen: "./image/claseII4c_5.png",
+
+        siguiente: "aparato",
 
         botones: [
 
@@ -1895,8 +1949,12 @@ const ARBOLES = {
         botones: [
 
           {
-            texto: "Volver",
-            siguiente: "crecimiento",
+            texto: "Volver ¿Existe apiñamiento mandibular anterior?",
+            siguiente: "apinamiento",
+          },
+          {
+            texto: "Volver leve",
+            siguiente: "aleve",
           }
 
         ]
@@ -2054,7 +2112,15 @@ const ARBOLES = {
         +
 
         "<br><br><img src='./image/Im20.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
 
+        "<span class='cita-biblio'>Farronato, G., Giannini, L., Galbiati, G., Grillo, E., & Maspero, C. (2013). Occlus-o-Guide® versus Andresen activator appliance: neuromuscular evaluation. Progress in orthodontics, 14(1), 4.</span>"
+
+        +
+
+        "<br><br><img src='./image/Im20_2.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
         +
         
         "<br><br><Strong>Activador de Andresen:</Strong>"
@@ -2105,6 +2171,10 @@ const ARBOLES = {
         +
 
         "<br><br><img src='./image/Im21.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
+
+        "<span class='cita-biblio'>Jungbauer, R., Koretsi, V., Proff, P., Rudzki, I., & Kirschneck, C. (2020). Twenty-year follow-up of functional treatment with a bionator appliance: A retrospective dental cast analysis. The Angle orthodontist, 90(2), 209–215. https://doi.org/10.2319/042419-292.1</span>"
 
         +
 
@@ -2160,6 +2230,10 @@ const ARBOLES = {
         +
 
         "<br><br><img src='./image/Im22.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
+
+        "<span class='cita-biblio'>Shihabi, R., Liu, Y., Kusaibati, A. M., Maraabeh, F., Zhan, J., Zhang, J., & Hu, L. (2025). Three-dimensional analysis of mandibular and condylar growth using artificial intelligence tools: a comparison of twin-block and Frankel II Appliances. BMC oral health, 25(1), 254. https://doi.org/10.1186/s12903-025-05624-z</span>"
 
         +
 
@@ -2210,7 +2284,7 @@ const ARBOLES = {
 
           {
             texto: "Volver",
-            siguiente: "apinamiento",
+            siguiente: "aparato",
           }
 
         ]
@@ -2393,7 +2467,7 @@ const ARBOLES = {
 
           {
             texto: "Volver",
-            siguiente: "transversal",
+            siguiente: "transversal2",
           }
 
         ]
@@ -2444,6 +2518,10 @@ const ARBOLES = {
         +
 
         "<br><br><img src='./image/Im24.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
+
+        "<span class='cita-biblio'>Silva-Esteves Raffo, J. F., Aliaga Del Castillo, R., & Aliaga Del Castillo, A. (2013). Tratamiento de una maloclusión Clase II División 1 en dentición mixta: Reporte de un caso. Odontología Pediátrica, 12(1), 76-84</span>"
 
         +
 
@@ -2521,7 +2599,11 @@ const ARBOLES = {
         
         +
 
-        "<br><br><img src='./image/Im26.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        "<br><br><img src='./image/Im25.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
+
+        "<span class='cita-biblio'>Sfondrini, M. F., Pascadopoli, M., Nardi, M. G., Cardarelli, F., Zampetti, P., Viola, A., Labadze, S., & Scribante, A. (2026). Evaluation of an Elastodontic Bioactivator Versus High-Pull Headgear for the Treatment of Skeletal Class II Hyperdivergent Pediatric Patients: A Retrospective Study. Journal of clinical medicine, 15(2), 804. https://doi.org/10.3390/jcm15020804</span>"
 
         +
 
@@ -2580,6 +2662,15 @@ const ARBOLES = {
 
         siguiente: "frecuencia",
 
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "textraoral",
+          }
+
+        ]
+
       },
 
       frecuencia: {
@@ -2594,7 +2685,31 @@ const ARBOLES = {
 
         +
 
-        "<br>En aparatología funcional removible, como Twin Block, Bionator, Activador de Andresen o Frankel II, los controles permiten verificar adaptación, uso adecuado del aparato, reducción progresiva del overjet, relación molar y estabilidad de la mordida constructiva(15–18,21). En los estudios revisados, los activadores fueron controlados cada 6 a 8 semanas en varios protocolos. En el caso de la tracción extraoral + activador, se realizó un primer control a la 1 o 2 semanas para valorar adaptación, seguido de controles cada 8 semanas. En protocolos combinados de Twin Block con expansión, se reportaron controles mensuales para ajustar el aparato y supervisar el progreso transversal y sagital."
+        "<br>En aparatología funcional removible, como Twin Block, Bionator, Activador de Andresen o Frankel II, los controles permiten verificar adaptación, uso adecuado del aparato, reducción progresiva del overjet, relación molar y estabilidad de la mordida constructiva." 
+        
+        +
+
+        "<span class='cita-biblio'>Cukaj Ademi H, Zigante M, Premaraj Thyagaseely S, Tudor V, Palomo JM, Spalj S. Mandibular Advancement in Dentofacial Orthopaedics: Effects on Pharyngeal Airway, Dentoskeletal Characteristics and Quality of Life: A Randomised Controlled Trial. Orthod Craniofacial Res. 2026 Feb;29:122–33.</span>"
+
+        +
+
+        "<span class='cita-biblio'>DiBiase AT, Lucchesi L, Qureshi U, Lee RT. Post-treatment cephalometric changes in adolescent patients with Class II malocclusion treated using two different functional appliance systems for an extended time period: A randomized clinical trial. Eur J Orthod. 2021;42:135–43.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Pacha MM, Fleming PS, Shagmani M, Johal A. The skeletal and dental effects of Hanks Herbst versus twin block appliances for class II correction in growing patients: a randomized clinical trial. Eur J Orthod. 2024 Jan;46.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Cirgić E, Kjellberg H, Hansen K. Treatment of large overjet in Angle Class II: Division 1 malocclusion with Andresen activators versus prefabricated functional appliances- A multicenter, randomized, controlled trial. Eur J Orthod. 2016 Oct;38:516–24.</span>"
+
+        +
+
+        "<span class='cita-biblio'>Acharya S, Sriwastva G, Bai PM, Gautam N, Panda S, Pani S. Radiographic assessment of skeletal and soft tissue parameters in class II malocclusion cases with frankel appliance (FR II), twin block (TB), and forsus FRD: A comparative study. J Contemp Orthod. 2025 Apr;9:252–7.</span>"
+
+        +
+        
+        "En los estudios revisados, los activadores fueron controlados cada 6 a 8 semanas en varios protocolos. En el caso de la tracción extraoral + activador, se realizó un primer control a la 1 o 2 semanas para valorar adaptación, seguido de controles cada 8 semanas. En protocolos combinados de Twin Block con expansión, se reportaron controles mensuales para ajustar el aparato y supervisar el progreso transversal y sagital."
 
         +
 
@@ -3707,7 +3822,7 @@ const ARBOLES = {
         
         +
 
-        "<span class='cita-biblio'Woon SC, Thiruvenkatachari B. Early orthodontic treatment for Class III malocclusion: A systematic review and meta-analysis. Vol. 151, American Journal of Orthodontics and Dentofacial Orthopedics. Mosby Inc.; 2017. p. 28–52.</span>"
+        "<span class='cita-biblio'>Woon SC, Thiruvenkatachari B. Early orthodontic treatment for Class III malocclusion: A systematic review and meta-analysis. Vol. 151, American Journal of Orthodontics and Dentofacial Orthopedics. Mosby Inc.; 2017. p. 28–52.</span>"
         
         +
 
@@ -4001,6 +4116,10 @@ const ARBOLES = {
         +
 
         "<br><br><img src='./image/Im30.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
+
+        "<span class='cita-biblio'>(Baccetti T, Franchi L, McNamara JA Jr. The cervical vertebral maturation (CVM) method for the assessment of optimal treatment timing in dentofacial orthopedics. Semin Orthod. 2005;11(3):119-129. doi:10.1053/j.sodo.2005.04.005.)</span>"
 
         +
 
@@ -4160,6 +4279,10 @@ const ARBOLES = {
         +
 
         "<br><br><img src='./image/Im31.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
+
+        "<br><br><img src='./image/Im31_2.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
         
         ,
 
@@ -4407,8 +4530,8 @@ const ARBOLES = {
             siguiente: "temporal",
           },
           {
-            texto: "Volver tardia",
-            siguiente: "tardia",
+            texto: "Volver dentición mixta",
+            siguiente: "mixta",
           }
 
         ]
@@ -4842,12 +4965,15 @@ const ARBOLES = {
         
         +
 
-        "<br><br><img src='./image/Im34.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        "<br><br><img src='./image/Im34.png' style='width: 280px; height: 220px; object-fit: contain; border-radius: 12px; margin: 10px auto; display: block;'>"
+
+        +
+
+        "<br><br><img src='./image/Im34_2.png' style='width: 280px; height: 220px; object-fit: contain; border-radius: 12px; margin: 10px auto; display: block;'>"
         
         +
 
-        "<br><br><img src='./image/Im34_2.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
-
+        "<span class='cita-biblio'>(Gemini IA)</span>"
 
         +
 
@@ -4895,6 +5021,14 @@ const ARBOLES = {
         +
 
         "<br><br><img src='./image/Im35.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
+
+        "<br><br><img src='./image/Im35_2.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
+
+        "<span class='cita-biblio'>Singh, H., Kapoor, P., Sharma, P., Maurya, R. K., & Mittal, T. (2018). Skeletal Class III correction in permanent dentition using reverse twin block appliance and fixed mechanotherapy. The Saudi dental journal, 30(4), 379–388. https://doi.org/10.1016/j.sdentj.2018.05.009</span>"
 
         +
 
@@ -4934,6 +5068,10 @@ const ARBOLES = {
         +
 
         "<br><br><img src='./image/Im36.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
+
+        "<span class='cita-biblio'>Ramos A. L. (2014). Class III treatment using facial mask: stability after 10 years. Dental press journal of orthodontics, 19(5), 123–135. https://doi.org/10.1590/2176-9451.19.5.123-135.bbo</span>"
 
         +
 
@@ -5182,6 +5320,10 @@ const ARBOLES = {
         +
 
         "<br><br><img src='./image/Im39.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
+
+        "<span class='cita-biblio'>Feldmann, I., & Bazargani, F. (2016, December 28). Pain and discomfort during the first week of rapid maxillary expansion (RME) using two different RME... The Angle Orthodontist (EH Angle Education & Research Foundation). https://doi.org/10.2319/091216-686.1Autores</span>"
 
         +
 
@@ -5225,10 +5367,6 @@ const ARBOLES = {
         tipo: "accion",
 
         texto: "<Strong>Disyuntor hibrido</Strong>"
-        
-        +
-
-        "<br><br><img src='./image/Im39_2.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
 
         +
 
@@ -5858,7 +5996,31 @@ const ARBOLES = {
         
         +
 
-        "<br><br>Aunque existe una falta de evidencia bibliográfica sobre la retención posterior a la terapia FM, algunos estudios siguieron un protocolo de retención con Frankel III, Activador inverso, “Reverse Twin Block” o Bionator III. (29,30,34,39,54). Algunos autores utilizaron el “uso de FM antes de acostarse” sin cambiar la fuerza durante otros 2 a 3 meses como parte del protocolo de retención."
+        "<br><br>Aunque existe una falta de evidencia bibliográfica sobre la retención posterior a la terapia FM, algunos estudios siguieron un protocolo de retención con Frankel III, Activador inverso, “Reverse Twin Block” o Bionator III."
+        
+        +
+
+        "<span class='cita-biblio'>Zere E, Chaudhari PK, Sharan J, Dhingra K, Tiwari N. Developing Class III malocclusions: challenges and solutions. Clin Cosmet Investig Dent. 2018;10:99–116.</span>"
+        
+        +
+
+        "<span class='cita-biblio'>Woon SC, Thiruvenkatachari B. Early orthodontic treatment for Class III malocclusion: A systematic review and meta-analysis. Vol. 151, American Journal of Orthodontics and Dentofacial Orthopedics. Mosby Inc.; 2017. p. 28–52.</span>"
+        
+        +
+
+        "<span class='cita-biblio'>Jamilian A, Cannavale R, Piancino MG, Eslami S, Perillo L. Methodological quality and outcome of systematic reviews reporting on orthopaedic treatment for class III malocclusion: Overview of systematic reviews. J Orthod. 2016 Jul;43:102–20.</span>"
+        
+        +
+
+        "<span class='cita-biblio'>Zhou C, Duan P, He H, Song J, Hu M, Liu Y, et al. Expert consensus on pediatric orthodontic therapies of malocclusions in children. Vol. 16, International Journal of Oral Science. Springer Nature; 2024.</span>"
+        
+        +
+
+        "<span class='cita-biblio'>Raghupathy Y, Ananthanarayanan V, Kailasam V, Padmanabhan S. Posttreatment Stability Following Facemask Therapy in Patients with Skeletal Class III Malocclusion: A Systematic Review. Int J Clin Pediatr Dent. 2023;16:897–907.</span>"
+        
+        +
+
+        "Algunos autores utilizaron el “uso de FM antes de acostarse” sin cambiar la fuerza durante otros 2 a 3 meses como parte del protocolo de retención."
 
         +
 
@@ -6254,7 +6416,7 @@ const ARBOLES = {
 
         texto: "<Strong>Priorizar la realización del injerto</Strong>",
 
-        imagen: "./image/LPH1_11.png",
+        imagen: "./image/LPH1_10.png",
 
         siguiente: null,
 
@@ -6455,7 +6617,7 @@ const ARBOLES = {
 
         imagen: "./image/LPH2_8.png",
 
-        si: "mini",
+        si: "mini2",
 
         no: "petit",
 
@@ -6518,6 +6680,10 @@ const ARBOLES = {
         +
 
         "<br><br><img src='./image/Im46.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
+
+        "<span class='cita-biblio'>Façanha, A. J., Lara, T. S., Garib, D. G., & da Silva Filho, O. G. (2014). Transverse effect of Haas and Hyrax appliances on the upper dental arch in patients with unilateral complete cleft lip and palate: a comparative study. Dental press journal of orthodontics, 19(2), 39–45. https://doi.org/10.1590/2176-9451.19.2.039-045.oar</span>"
 
         +
 
@@ -6569,7 +6735,7 @@ const ARBOLES = {
 
           {
             texto: "Volver",
-            siguiente: "expansion",
+            siguiente: "picocercimiento",
           }
 
         ]
@@ -6582,7 +6748,7 @@ const ARBOLES = {
 
         texto: "Elección",
 
-        imagen: "./image/LPH2_4.png",
+        imagen: "./image/LPH2_3.png",
         
         opciones: [
 
@@ -6635,7 +6801,7 @@ const ARBOLES = {
         
         +
         
-        "<br><span class=\"badge-ne-muy-baja\">(NE: Muy baja, GRADE)</span>"
+        "<br><span class=\"badge-ne-muy-baja\">(NE: Baja, GRADE)</span>"
         
         +
 
@@ -6651,7 +6817,7 @@ const ARBOLES = {
         
         +
         
-        "<br><span class=\"badge-ne-muy-baja\">(NE: Muy baja, GRADE)</span>"
+        "<br><span class=\"badge-ne-muy-baja\">(NE: Baja, GRADE)</span>"
         
         +
 
@@ -6667,7 +6833,7 @@ const ARBOLES = {
 
           {
             texto: "Volver",
-            siguiente: "QuaHy",
+            siguiente: "picocercimiento",
           }
 
         ]
@@ -6685,6 +6851,10 @@ const ARBOLES = {
         +
 
         "<br><br><img src='./image/Im44.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
+
+        "<span class='cita-biblio'>Fahim, F. H., Othman, A., & von See, C. (2023). F-quad helix for simultaneous maxillary expansion and tooth alignment in patients with unilateral cleft lip and/or palate. Clinical case reports, 11(6), e7572. https://doi.org/10.1002/ccr3.7572</span>"
 
         +
 
@@ -6692,7 +6862,7 @@ const ARBOLES = {
         
         +
         
-        "<br><span class=\"badge-ne-muy-baja\">(NE: Muy baja, GRADE)</span>"
+        "<br><span class=\"badge-ne-muy-baja\">(NE: Baja, GRADE)</span>"
         
         +
 
@@ -6730,6 +6900,10 @@ const ARBOLES = {
         +
 
         "<br><br><img src='./image/Im47.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
+
+        "<span class='cita-biblio'>Ponglertnapakorn AA, Burak MY, Barrios JCQ. Cambios maxilares en sentido anteroposterior y vertical con el uso de máscara facial en pacientes con secuela de labio y paladar hendidos unilaterales del Hospital General «Dr. Manuel Gea González». Revista Mexicana de Ortodoncia. 2014;2:174-82</span>"
 
         +
 
@@ -6816,11 +6990,48 @@ const ARBOLES = {
             siguiente: "hyrax",
           },
           {
-            texto: "Volver RAMEC",
+            texto: "Volver a protocolo Alt-RAMEC",
             siguiente: "ramec",
           },
           {
             texto: "Volver Pico crecimiento",
+            siguiente: "picocrecimiento2",
+          }
+
+        ]
+
+      },
+
+      mini2: {
+
+        tipo: "decision_opciones",
+
+        texto: "<Strong>Elección</Strong>",
+
+        imagen: "./image/LPH2_8.png",
+        
+        opciones: [
+
+          {
+            texto: "Mini placas con elásticos ",
+
+            siguiente: "mini"
+
+          },
+
+          {
+            texto: "Mascara facial asistida por miniplacas",
+
+            siguiente: "mascara"
+
+          }
+
+        ],
+
+        botones: [
+
+          {
+            texto: "Volver",
             siguiente: "picocrecimiento2",
           }
 
@@ -6881,6 +7092,15 @@ const ARBOLES = {
 
             siguiente: "mascara"
 
+          }
+
+        ],
+
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "mini2",
           }
 
         ]
@@ -6998,7 +7218,15 @@ const ARBOLES = {
         
         +
 
-        "<br>Recomendaciones de uso: Los protocolos de protracción con anclaje óseo suelen indicarse en den-tición mixta tardía o permanente temprana, cuando existe suficiente desarrollo dentoalveolar para la colocación y posterior retiro de miniplacas bajo anestesia local (65). Se recomienda esperar aproxima-damente 2 a 3 semanas después de la colocación de las miniplacas antes de iniciar la aplicación de fuerzas ortopédicas, con el fin de favorecer la cicatrización y estabilización de los tejidos."
+        "<br>Recomendaciones de uso: Los protocolos de protracción con anclaje óseo suelen indicarse en den-tición mixta tardía o permanente temprana, cuando existe suficiente desarrollo dentoalveolar para la colocación y posterior retiro de miniplacas bajo anestesia local."
+        
+        +
+
+        "<span class='cita-biblio'>Jahanbin A, Shafaee H, Pahlavan H, Bardideh E, Entezari M. Efficacy of Different Methods of Bone-Anchored Maxillary Protraction in Cleft Lip and Palate Children: A Systematic Review and Meta-Analysis. J Craniofac Surg. 2023 May;34:875–80.</span>"
+
+        +
+        
+        "Se recomienda esperar aproxima-damente 2 a 3 semanas después de la colocación de las miniplacas antes de iniciar la aplicación de fuerzas ortopédicas, con el fin de favorecer la cicatrización y estabilización de los tejidos."
         
         +
 
@@ -7030,15 +7258,15 @@ const ARBOLES = {
         
         +
 
-        "<br>Fuerza de tracción entre 450 y 500 gramos por lado"
+        "<br>• Fuerza de tracción entre 450 y 500 gramos por lado"
 
         +
 
-        "<br>Angulación de elásticos entre 20° y 30° por debajo del plano oclusal"
+        "<br>• Angulación de elásticos entre 20° y 30° por debajo del plano oclusal"
 
         +
 
-        "<br>Uso entre 12 y 14 horas al día"
+        "<br>• Uso entre 12 y 14 horas al día"
 
         ,
 
@@ -7078,7 +7306,7 @@ const ARBOLES = {
             siguiente: "petit",
           },
           {
-            texto: "Volver Mascara",
+            texto: "Volver Mascara asistida",
             siguiente: "mascara",
           }
 
@@ -7165,7 +7393,7 @@ const ARBOLES = {
 
           {
             texto: "Volver",
-            siguiente: "correcion",
+            siguiente: "reevaluar",
           }
         ]
 
@@ -7459,11 +7687,11 @@ const ARBOLES = {
 
         +
 
-        "<br><br><Strong>Tipos de Apiñamiento Dental</Strong>"
+        "<br><br><Strong>• Tipos de Apiñamiento Dental</Strong>"
 
         +
 
-        "<br><br><Strong>Apiñamiento leve (hasta 3mm):</Strong> Se observa en la dentición mixta temprana cuando los incisivos permanentes erupcionan dentro de parámetros normales. En muchos casos, este apiñamiento se resuelve espontáneamente entre los 7 y 9 años, gracias al crecimiento natural de los arcos, el aumento en la distancia intercanina y la inclinación de los incisivos en su proceso eruptivo."
+        "<br><br><Strong>◦ Apiñamiento leve (hasta 3mm):</Strong> Se observa en la dentición mixta temprana cuando los incisivos permanentes erupcionan dentro de parámetros normales. En muchos casos, este apiñamiento se resuelve espontáneamente entre los 7 y 9 años, gracias al crecimiento natural de los arcos, el aumento en la distancia intercanina y la inclinación de los incisivos en su proceso eruptivo."
 
         +
 
@@ -7475,7 +7703,7 @@ const ARBOLES = {
 
         +
 
-        "<br><br><Strong>Apiñamiento moderado (3-5 mm):</Strong> Si la falta de espacio es entre 3-5 mm, pueden presentarse alteraciones en la posición de los incisivos, como rotaciones o tendencia a mordida cruzada. En estos casos, no siempre se resuelve el apiñamiento de forma espontánea, y se puede optar por técnicas conservadoras como el desgaste mesial de los caninos temporales para generar espacio adicional y favorecer una alineación más armónica de los incisivos. Si el apiñamiento persiste, el procedimiento puede extenderse a los segundos molares temporales para continuar guiando la erupción de los dientes permanentes. Además, en casos seleccionados, se pueden emplear aparatos removibles para optimizar la alineación sin necesidad de tratamientos más invasivos."
+        "<br><br><Strong>◦ Apiñamiento moderado (3-5 mm):</Strong> Si la falta de espacio es entre 3-5 mm, pueden presentarse alteraciones en la posición de los incisivos, como rotaciones o tendencia a mordida cruzada. En estos casos, no siempre se resuelve el apiñamiento de forma espontánea, y se puede optar por técnicas conservadoras como el desgaste mesial de los caninos temporales para generar espacio adicional y favorecer una alineación más armónica de los incisivos. Si el apiñamiento persiste, el procedimiento puede extenderse a los segundos molares temporales para continuar guiando la erupción de los dientes permanentes. Además, en casos seleccionados, se pueden emplear aparatos removibles para optimizar la alineación sin necesidad de tratamientos más invasivos."
 
         +
 
@@ -7483,7 +7711,7 @@ const ARBOLES = {
 
         +
 
-        "<br><br><Strong>Apiñamiento severo (más de 5 mm):</Strong> En estos casos, la discrepancia de espacio es significativa, por lo cual suelen observarse inclinaciones o versiones marcadas y rotaciones dentarias. Para su diagnóstico preciso, se recomienda un análisis detallado mediante modelos de estudio, radiografías intraorales y cefalometría. Dependiendo del grado de discrepancia, puede ser necesario considerar medidas interceptivas como la extracción seriada, con el fin de redirigir la erupción dentaria y evitar la necesidad de tratamientos más complejos en la dentición permanente."
+        "<br><br><Strong>◦ Apiñamiento severo (más de 5 mm):</Strong> En estos casos, la discrepancia de espacio es significativa, por lo cual suelen observarse inclinaciones o versiones marcadas y rotaciones dentarias. Para su diagnóstico preciso, se recomienda un análisis detallado mediante modelos de estudio, radiografías intraorales y cefalometría. Dependiendo del grado de discrepancia, puede ser necesario considerar medidas interceptivas como la extracción seriada, con el fin de redirigir la erupción dentaria y evitar la necesidad de tratamientos más complejos en la dentición permanente."
 
         +
 
@@ -7495,7 +7723,7 @@ const ARBOLES = {
 
         +
 
-        "<br><br><Strong>Apiñamiento mandibular anterior:</Strong>Es una condición que resulta de una compleja interacción de factores genéticos, de desarrollo, funcionales y ambientales. Por ello es importante que el clínico tenga una comprensión detallada de la etiología del apiñamiento y así lograr un diagnóstico adecuado y un tratamiento ortodóntico efectivo."
+        "<br><br><Strong>• Apiñamiento mandibular anterior:</Strong>Es una condición que resulta de una compleja interacción de factores genéticos, de desarrollo, funcionales y ambientales. Por ello es importante que el clínico tenga una comprensión detallada de la etiología del apiñamiento y así lograr un diagnóstico adecuado y un tratamiento ortodóntico efectivo."
 
         ,
 
@@ -7567,6 +7795,64 @@ const ARBOLES = {
 
         texto: "Evaluación de severidad de apiñamiento",
 
+        descripcion: 
+        
+        "<br><br>La clasificación del apiñamiento mandibular anterior suele establecerse a partir de la discrepancia medida en milímetros, y aunque los rangos pueden variar ligeramente entre autores, la literatura ofrece parámetros comunes que permiten unificar criterios. Con ello, se considera apiñamiento leve cuando la discrepancia es menor a 3 mm, moderado cuando se encuentra entre 3 y 5 mm, y severo cuando supera los 5 mm."
+
+        +
+
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> Estos valores se adoptan porque coinciden con los rangos reportados en estudios clave: <span class=\"badge-ne-alta\">Owais et al. (2011)</span> describieron el apiñamiento leve como menor a 2 mm."
+
+        +
+
+        "<span class='cita-biblio'>Owais AI, Rousan ME, Badran SA, Abu Alhaija ES. Effectiveness of a lower lingual arch as a space holding device. Eur J Orthod. 2011 Feb;33:37–42.</span>"
+
+        +
+        
+        "<br><span class=\"badge-ne-moderado\">(NE: Moderado, GRADE) Davidovitch et al. (1997)</span> incluyeron discrepancias entre 3 y 8 mm dentro de categorías leves a moderadas;"
+
+        +
+
+        "<span class='cita-biblio'>Davidovitch M, McInnis D, Lindauer SJ. The effects of lip bumper therapy in the mixed dentition. Am J Orthod Dentofacial Orthop. 1997;111:52–8.</span>"
+
+        +
+
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE) y Kau et al. (2004)</span> identificaron rangos de 4 a 9 mm al clasificar distintos grados de severidad."
+
+        +
+
+        "<span class='cita-biblio'>Kau CH, Durning P, Richmond S, Miotti FA, Harzer W. Extractions as a form of interception in the developing dentition: a randomized controlled trial. J Orthod. 2004 Jun;31:107–14.</span>"
+
+        +
+
+        "Por su parte, <span class=\"badge-ne-alta\">(NE: Alta, GRADE) Chen et al. (2019)</span> registraron reducciones promedio cercanas a 5 mm, lo que sitúa este valor como un límite clínicamente relevante;"
+
+        +
+        
+        "<span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22.</span>"
+
+        +
+
+        "y <span class=\"badge-ne-alta\">(NE: Alta, GRADE) Oliveira dos Santos et al. (2023)</span> Oliveira dos Santos observaron mejorías espontáneas de hasta 4,62 mm en apiñamientos leves a moderado"
+
+        +
+
+        "<span class='cita-biblio'>dos Santos CCO, da Rosa Moreira Bastos RT, Bellini-Pereira SA, Garib D, Normando D. Spontaneous changes in mandibular incisor crowding from mixed to permanent dentition: a systematic review. Vol. 24, Progress in Orthodontics. Springer Science and Business Media Deutschland GmbH; 2023.</span>"
+
+        +
+
+        "Así mismo, <span class=\"badge-ne-alta\">(NE: Alta, GRADE)  Khalaf et al. (2021)</span> también utilizaron este mismo intervalo para describir los grados de apiñamiento leve y moderado."
+
+        +
+
+        "<br>Con ello, los rangos adoptados (< 3 mm, 3–5 mm y > 5 mm) se fundamentan en patrones consistentes dentro de la literatura y permiten describir la severidad del apiñamiento con criterios claros y comparables entre estudios."
+
+        +
+
+        "<span class='cita-biblio'>Khalaf K, Mustafa A, Wazzan M, Omar M, Estaitia M, El-Kishawi M. Clinical effectiveness of space maintainers and space regainers in the mixed dentition: A systematic review. Vol. 34, Saudi Dental Journal. 2022.</span>"
+        
+        ,
+
         imagen: "./image/Apiñamiento1_2.png",
         
         opciones: [
@@ -7604,65 +7890,7 @@ const ARBOLES = {
 
         texto: 
         
-        "<Strong>Severo</Strong> >5mm"
-        
-        +
-        
-        "<br><br>La clasificación del apiñamiento mandibular anterior suele establecerse a partir de la discrepancia medida en milímetros, y aunque los rangos pueden variar ligeramente entre autores, la literatura ofrece parámetros comunes que permiten unificar criterios. Con ello, se considera apiñamiento leve cuando la discrepancia es menor a 3 mm, moderado cuando se encuentra entre 3 y 5 mm, y severo cuando supera los 5 mm."
-
-        +
-
-        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> Estos valores se adoptan porque coinciden con los rangos reportados en estudios clave: <span class=\"badge-ne-alta\">Owais et al. (2011)</span> describieron el apiñamiento leve como menor a 2 mm."
-
-        +
-
-        "<span class='cita-biblio'>Owais AI, Rousan ME, Badran SA, Abu Alhaija ES. Effectiveness of a lower lingual arch as a space holding device. Eur J Orthod. 2011 Feb;33:37–42.</span>"
-
-        +
-        
-        "<br><span class=\"badge-ne-moderado\">(NE: Moderado, GRADE) Davidovitch et al. (1997)</span> incluyeron discrepancias entre 3 y 8 mm dentro de categorías leves a moderadas;"
-
-        +
-
-        "<span class='cita-biblio'>Davidovitch M, McInnis D, Lindauer SJ. The effects of lip bumper therapy in the mixed dentition. Am J Orthod Dentofacial Orthop. 1997;111:52–8.</span>"
-
-        +
-
-        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE) y Kau et al. (2004)</span> identificaron rangos de 4 a 9 mm al clasificar distintos grados de severidad."
-
-        +
-
-        "<span class='cita-biblio'>Kau CH, Durning P, Richmond S, Miotti FA, Harzer W. Extractions as a form of interception in the developing dentition: a randomized controlled trial. J Orthod. 2004 Jun;31:107–14.</span>"
-
-        +
-
-        "Por su parte, <span class=\"badge-ne-alta\">(NE: Alta, GRADE) Chen et al. (2019)</span> registraron reducciones promedio cercanas a 5 mm, lo que sitúa este valor como un límite clínicamente relevante;"
-
-        +
-        
-        "<span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22.</span>"
-
-        +
-
-        "y <span class=\"badge-ne-alta\">(NE: Alta, GRADE) Oliveira dos Santos et al. (2023)</span> Oliveira dos Santos observaron mejorías espontáneas de hasta 4,62 mm en apiñamientos leves a moderado"
-
-        +
-
-        "<span class='cita-biblio'>dos Santos CCO, da Rosa Moreira Bastos RT, Bellini-Pereira SA, Garib D, Normando D. Spontaneous changes in mandibular incisor crowding from mixed to permanent dentition: a systematic review. Vol. 24, Progress in Orthodontics. Springer Science and Business Media Deutschland GmbH; 2023.</span>"
-
-        +
-
-        "Así mismo, <span class=\"badge-ne-alta\">(NE: Alta, GRADE)  Khalaf et al. (2021)</span> también utilizaron este mismo intervalo para describir los grados de apiñamiento leve y moderado."
-
-        +
-
-        "<br>Con ello, los rangos adoptados (< 3 mm, 3–5 mm y > 5 mm) se fundamentan en patrones consistentes dentro de la literatura y permiten describir la severidad del apiñamiento con criterios claros y comparables entre estudios."
-
-        +
-
-        "<span class='cita-biblio'>Khalaf K, Mustafa A, Wazzan M, Omar M, Estaitia M, El-Kishawi M. Clinical effectiveness of space maintainers and space regainers in the mixed dentition: A systematic review. Vol. 34, Saudi Dental Journal. 2022.</span>"
-
-        ,
+        "<Strong>Severo</Strong> >5mm",
 
         imagen: "./image/Apiñamiento1_3.png",
 
@@ -7693,7 +7921,7 @@ const ARBOLES = {
 
           {
             texto: "Volver",
-            siguiente: "presentacion"
+            siguiente: "severo"
           }
 
         ]
@@ -7706,63 +7934,11 @@ const ARBOLES = {
 
         texto: 
         
-        "<Strong>Severo</Strong> >5mm"
-        
-        +
-        
-        "<br><br>La clasificación del apiñamiento mandibular anterior suele establecerse a partir de la discrepancia medida en milímetros, y aunque los rangos pueden variar ligeramente entre autores, la literatura ofrece parámetros comunes que permiten unificar criterios. Con ello, se considera apiñamiento leve cuando la discrepancia es menor a 3 mm, moderado cuando se encuentra entre 3 y 5 mm, y severo cuando supera los 5 mm."
+        "<Strong>Leve:</Strong> menor de 3mm"
 
         +
 
-        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> Estos valores se adoptan porque coinciden con los rangos reportados en estudios clave: <span class=\"badge-ne-alta\">Owais et al. (2011)</span> describieron el apiñamiento leve como menor a 2 mm."
-
-        +
-
-        "<span class='cita-biblio'>Owais AI, Rousan ME, Badran SA, Abu Alhaija ES. Effectiveness of a lower lingual arch as a space holding device. Eur J Orthod. 2011 Feb;33:37–42.</span>"
-
-        +
-        
-        "<br><span class=\"badge-ne-moderado\">(NE: Moderado, GRADE) Davidovitch et al. (1997)</span> incluyeron discrepancias entre 3 y 8 mm dentro de categorías leves a moderadas;"
-
-        +
-
-        "<span class='cita-biblio'>Davidovitch M, McInnis D, Lindauer SJ. The effects of lip bumper therapy in the mixed dentition. Am J Orthod Dentofacial Orthop. 1997;111:52–8.</span>"
-
-        +
-
-        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE) y Kau et al. (2004)</span> identificaron rangos de 4 a 9 mm al clasificar distintos grados de severidad."
-
-        +
-
-        "<span class='cita-biblio'>Kau CH, Durning P, Richmond S, Miotti FA, Harzer W. Extractions as a form of interception in the developing dentition: a randomized controlled trial. J Orthod. 2004 Jun;31:107–14.</span>"
-
-        +
-
-        "Por su parte, <span class=\"badge-ne-alta\">(NE: Alta, GRADE) Chen et al. (2019)</span> registraron reducciones promedio cercanas a 5 mm, lo que sitúa este valor como un límite clínicamente relevante;"
-
-        +
-        
-        "<span class='cita-biblio'>Chen CY, Hsu KLC, Marghalani AA, Dhar V, Coll JA. Systematic Review and Meta-Analysis of Passive Lower Lingual Arch for Resolving Mandibular Incisor Crowding and Effects on Arch Dimension. Pediatr Dent. 2019 Jan;41:9–22.</span>"
-
-        +
-
-        "y <span class=\"badge-ne-alta\">(NE: Alta, GRADE) Oliveira dos Santos et al. (2023)</span> Oliveira dos Santos observaron mejorías espontáneas de hasta 4,62 mm en apiñamientos leves a moderado"
-
-        +
-
-        "<span class='cita-biblio'>dos Santos CCO, da Rosa Moreira Bastos RT, Bellini-Pereira SA, Garib D, Normando D. Spontaneous changes in mandibular incisor crowding from mixed to permanent dentition: a systematic review. Vol. 24, Progress in Orthodontics. Springer Science and Business Media Deutschland GmbH; 2023.</span>"
-
-        +
-
-        "Así mismo, <span class=\"badge-ne-alta\">(NE: Alta, GRADE)  Khalaf et al. (2021)</span> también utilizaron este mismo intervalo para describir los grados de apiñamiento leve y moderado."
-
-        +
-
-        "<br>Con ello, los rangos adoptados (< 3 mm, 3–5 mm y > 5 mm) se fundamentan en patrones consistentes dentro de la literatura y permiten describir la severidad del apiñamiento con criterios claros y comparables entre estudios."
-
-        +
-
-        "<span class='cita-biblio'>Khalaf K, Mustafa A, Wazzan M, Omar M, Estaitia M, El-Kishawi M. Clinical effectiveness of space maintainers and space regainers in the mixed dentition: A systematic review. Vol. 34, Saudi Dental Journal. 2022.</span>"
+        "<br>o <Strong>Moderado:</Strong> 3mm - 5mm"
 
         ,
 
@@ -7817,23 +7993,19 @@ const ARBOLES = {
         
         +
 
-        "<span class='cita-biblio'>Davidovitch M, McInnis D, Lindauer SJ. The effects of lip bumper therapy in the mixed dentition. Am J Orthod Dentofacial Orthop. 1997;111(1).</span>"
+        "<span class='cita-biblio'>dos Santos CCO, da Rosa Moreira Bastos RT, Bellini-Pereira SA, Garib D, Normando D. Spontaneous changes in mandibular incisor crowding from mixed to permanent dentition: a systematic review. Vol. 24, Progress in Orthodontics. 2023.</span>"
         
         +
 
-        "<span class='cita-biblio'>Kau CH, Durning P, Richmond S, Miotti FA, Harzer W. Extractions as a form of interception in the developing dentition: A randomized controlled trial. J Orthod. 2004;31(2).</span>"
+        "<span class='cita-biblio'>Arslan SG, Kama JD, Şahin S, Hamamci O. Longitudinal changes in dental arches from mixed to permanent dentition in a Turkish population. American Journal of Orthodontics and Dentofacial Orthopedics. 2007;132(5).</span>"
 
         +
 
-        "<span class='cita-biblio'>Tai K, Hotokezaka H, Park JH, Tai H, Miyajima K, Choi M, et al. Preliminary cone-beam computed tomography study evaluating dental and skeletal changes after treatment with a mandibular Schwarz appliance. American Journal of Orthodontics and Dentofacial Orthopedics. 2010;138(3).</span>"
+        "<span class='cita-biblio'>Ciftci V, Uzel A, Dogan MC. Evaluation of skeletal and dental effects of lower lingual arches. Journal of Clinical Pediatric Dentistry. 2018;42(6).</span>"
 
         +
 
-        "<span class='cita-biblio'>Raucci G, Pacheĉo-Pereira C, Elyasi M, D’Apuzzo F, Flores-Mir C, Perillo L. Short-and long-Term evaluation of mandibular dental arch dimensional changes in patients treated with a lip bumper during mixed dentition followed by fixed appliances. Angle Orthodontist. 2016;86(5).</span>"
-
-        +
-
-        "<span class='cita-biblio'>Hagberg C. The alignment of permanent mandibular incisors in children. A longitudinal prospective study. Eur J Orthod. 1994;16(2).</span>"
+        "<span class='cita-biblio'>Sinclair PM, Little RM. Maturation of untreated normal occlusions. Am J Orthod. 1983;83(2).<<</span>"
 
         +
 
@@ -7873,7 +8045,7 @@ const ARBOLES = {
 
         +
 
-        "<span class='cita-biblio'>Raucci G, Pacheĉo-Pereira C, Elyasi M, D’Apuzzo F, Flores-Mir C, Perillo L. Short-and long-Term evaluation of mandibular dental arch dimensional changes in patients treated with a lip bumper during mixed dentition followed by fixed appliances. Angle Orthodontist. 2016;86(5).</span>"
+        "<span class='cita-biblio'>Nevant CT, Buschang PH, Alexander RG, Steffen JM. Lip bumper therapy for gaining arch length. American Journal of Orthodontics and Dentofacial Orthopedics. 1991;100(4).</span>"
 
         ,
 
@@ -7927,7 +8099,7 @@ const ARBOLES = {
         
         +
 
-        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> Una de las modalidades terapéuticas más conservadoras para manejar el apiñamiento mandibular anterior en dentición mixta es la supervisión de espacios, entendida como un seguimiento clínico periódico sin el uso de aparatología activa. Con ello, el objetivo es acompañar el proceso natural de recambio dentario y permitir que los cambios fisiológicos propios de esta etapa favorezcan una mejoría espontánea de la alineación incisiva. Esta conducta expectante ha sido ampliamente documentada en estudios longitudinales y revisiones sistemáticas, los cuales muestran que, durante la transición de dentición mixta a permanente, se presenta una reducción espontánea del apiñamiento con valores que pueden oscilar entre 0,17 y 4,62 mm (71) cerca de 1,27 mm en grupos control sin intervenciones y hasta 2-3 mm en poblaciones no tratadas<br><span class=\"badge-ne-moderado\">(NE: Moderado, GRADE)</span>"
+        "<br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> Una de las modalidades terapéuticas más conservadoras para manejar el apiñamiento mandibular anterior en dentición mixta es la supervisión de espacios, entendida como un seguimiento clínico periódico sin el uso de aparatología activa. Con ello, el objetivo es acompañar el proceso natural de recambio dentario y permitir que los cambios fisiológicos propios de esta etapa favorezcan una mejoría espontánea de la alineación incisiva. Esta conducta expectante ha sido ampliamente documentada en estudios longitudinales y revisiones sistemáticas, los cuales muestran que, durante la transición de dentición mixta a permanente, se presenta una reducción espontánea del apiñamiento con valores que pueden oscilar entre 0,17 y 4,62 mm cerca de 1,27 mm en grupos control sin intervenciones y hasta 2-3 mm en poblaciones no tratadas<br><span class=\"badge-ne-moderado\">(NE: Moderado, GRADE)</span>"
 
         +
 
@@ -8083,15 +8255,15 @@ const ARBOLES = {
 
         texto: 
         
-        "Cambio en cantidad de apiñamiento +1.94 mm."
+        "• Cambio en cantidad de apiñamiento +1.94 mm."
 
         +
 
-        "<br> Disminución de longitud de arco: -2.18 mm."
+        "<br>• Disminución de longitud de arco: -2.18 mm."
 
         +
 
-        "<br> Aumento leve  de anchura intercanina: +0.4 mm."
+        "<br>• Aumento leve  de anchura intercanina: +0.4 mm."
         
         ,
 
@@ -8117,10 +8289,6 @@ const ARBOLES = {
         texto: 
         
         "<Strong>Mantenedor de espacios</Strong>"
-        
-        +
-
-        "<br><br><img src='./image/im55.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
 
         +
 
@@ -8213,7 +8381,7 @@ const ARBOLES = {
 
         texto: 
         
-        "<Strong>Mantenedor de espacios</Strong>"
+        "<Strong>Arco lingual pasivo</Strong>"
         
         +
 
@@ -8407,7 +8575,7 @@ const ARBOLES = {
 
         +
 
-        "<br><span class=\"badge-ne-moderado\">(NE: Moderado, GRADE)</span> El ensayo clínico aleatorizado de <span class=\"badge-ne-moderado\">Myrlund et al. (2015)</span> aplicó esta combinación de manera sistemática: todos los pacientes tratados con guía de erupción recibieron también un arco lingual pasivo, justamente para garantizar la preservación del E-space mientras se corregían las relaciones sagitales, el overjet y la mordida profunda."
+        "<br><span class=\"badge-ne-moderado\">(NE: Moderado, GRADE)</span> El ensayo clínico aleatorizado de <br><span class=\"badge-ne-moderado\">Myrlund et al. (2015)</span> aplicó esta combinación de manera sistemática: todos los pacientes tratados con guía de erupción recibieron también un arco lingual pasivo, justamente para garantizar la preservación del E-space mientras se corregían las relaciones sagitales, el overjet y la mordida profunda."
 
         +
 
@@ -8710,7 +8878,7 @@ const ARBOLES = {
 
         +
 
-        "<span class='cita-biblio'>Moshkelgosha V, Khosravifard N, Golkari A. Tooth eruption sequence and dental crowding: a case-control study. F1000Research. 2014;3:122.</span>"
+        "<span class='cita-biblio'>Nevant CT, Buschang PH, Alexander RG, Steffen JM. Lip bumper therapy for gaining arch length. American Journal of Orthodontics and Dentofacial Orthopedics. 1991;100(4).</span>"
 
         +
 
@@ -8939,7 +9107,7 @@ const ARBOLES = {
 
           {
             texto: "Volver",
-            siguiente: "presentacion"
+            siguiente: "transversales"
           }
 
         ]
@@ -8956,7 +9124,11 @@ const ARBOLES = {
         
         +
 
-        "<br><br><img src='./image/im53.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        "<br><br><img src='./image/Im52.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
+
+        "<span class='cita-biblio'>Quinzi, V., Caruso, S., Mummolo, S., Nota, A., Angelone, A. M., Mattei, A., Gatto, R., & Marzo, G. (2020). Evaluation of Lower Dental Arch Crowding and Dimension after Treatment with Lip Bumper versus Schwarz Appliance. A Prospective Pilot Study. Dentistry journal, 8(2), 34. https://doi.org/10.3390/dj8020034</span>"
 
         +
 
@@ -8964,11 +9136,15 @@ const ARBOLES = {
 
         +
 
+        "<span class=\"badge-ne-moderado\">(Tai et al., 2010)</span>"
+
+        +
+
         "<span class='cita-biblio'>Tai K, Hotokezaka H, Park JH, Tai H, Miyajima K, Choi M, et al. Preliminary cone-beam computed tomography study evaluating dental and skeletal changes after treatment with a mandibular Schwarz appliance. Am J Orthod Dentofac Orthop. 2010;138:262.e1-262.e11.</span>"
 
         +
 
-        "<br><span class=\"badge-ne-moderado\">(NE: Moderado, GRADE)</span> Cuando un paciente presenta de manera simultánea pérdida de longitud de arco (por migración mesial de los molares y reducción del perímetro disponible) y estrechez transversal del arco mandibular (ya sea a nivel intercanino, interpremolar o intermolar), el aparato de Schwarz se convierte en una opción terapéutica especialmente indicada. Su acción abarca ambas dimensiones, lo que permite abordar de forma integral los dos factores que contribuyen al apiñamiento mandibular anterior. El estudio de Tai et al. (2010), realizado con tomografía de haz cónico, demostró que este aparato genera una expansión significativa del complejo dentoalveolar, incluyendo movimientos a nivel radicular, con incrementos estadísticamente significativos en las anchuras intercanina, interpremolar e intermolar, además de una ganancia efectiva de perímetro de arco y mejora del apiñamiento."
+        "<br><span class=\"badge-ne-moderado\">(NE: Moderado, GRADE)</span> Cuando un paciente presenta de manera simultánea pérdida de longitud de arco (por migración mesial de los molares y reducción del perímetro disponible) y estrechez transversal del arco mandibular (ya sea a nivel intercanino, interpremolar o intermolar), el aparato de Schwarz se convierte en una opción terapéutica especialmente indicada. Su acción abarca ambas dimensiones, lo que permite abordar de forma integral los dos factores que contribuyen al apiñamiento mandibular anterior. El estudio de <span class=\"badge-ne-moderado\">(Tai et al., 2010)</span>, realizado con tomografía de haz cónico, demostró que este aparato genera una expansión significativa del complejo dentoalveolar, incluyendo movimientos a nivel radicular, con incrementos estadísticamente significativos en las anchuras intercanina, interpremolar e intermolar, además de una ganancia efectiva de perímetro de arco y mejora del apiñamiento."
 
         +
 
@@ -9111,8 +9287,20 @@ const ARBOLES = {
         botones: [
 
           {
-            texto: "Volver",
-            siguiente: "asociacion",
+            texto: "Volver Supervisión de espacios",
+            siguiente: "cambio",
+          },
+          {
+            texto: "Volver Arco lingual pasivo",
+            siguiente: "resolucion",
+          },
+          {
+            texto: "Volver Lip Bumper",
+            siguiente: "lip",
+          },
+          {
+            texto: "Volver Aparato de Schwarz mandibular",
+            siguiente: "descrip2",
           }
 
         ]
@@ -9282,6 +9470,10 @@ const ARBOLES = {
         +
 
         "<br><br><img src='./image/Im53.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
+
+        "<span class='cita-biblio'>Ponglertnapakorn AA, Burak MY, Barrios JCQ. Cambios maxilares en sentido anteroposterior y vertical con el uso de máscara facial en pacientes con secuela de labio y paladar hendidos unilaterales del Hospital General «Dr. Manuel Gea González». Revista Mexicana de Ortodoncia. 2014;2:174-82</span>"
 
         +
 
@@ -9650,7 +9842,7 @@ const ARBOLES = {
 
           {
             texto: "Volver",
-            siguiente: "presentacion"
+            siguiente: "mandibula"
           }
 
         ]
@@ -9667,7 +9859,24 @@ const ARBOLES = {
         
         si: "plan_aceptado",
 
-        no: "no_acepta_plan"
+        no: "no_acepta_plan",
+
+        botones: [
+
+          {
+            texto: "Volver dental",
+            siguiente: "dental"
+          },
+          {
+            texto: "Volver dentoalveolar",
+            siguiente: "dentoalveolar"
+          },
+          {
+            texto: "Volver maxilar",
+            siguiente: "maxilar"
+          }
+
+        ]
 
       },
 
@@ -9676,10 +9885,6 @@ const ARBOLES = {
         tipo: "accion",
 
         texto: "<strong>Informar que la mordida cruzada posterior no se autocorrige</strong> <span class=\"badge-ne-muy-baja\">(NE: baja, GRADE)</span>"
-
-        +
-
-        "<br><br><Strong>Paciente no apto para ser atendido en pregrado por decisión propia</Strong>"
         
         + 
         
@@ -9794,7 +9999,7 @@ const ARBOLES = {
 
         +
         
-        "<br>Es un procedimiento ortodóncico para corregir deficiencias transversales en la arcada superior, aumentando el perímetro maxilar mediante la ruptura de la sutura palatina media utilizando fuerzas intensas aplicadas rápidamente con el fin de superar la resistencia de la sutura, mediante activaciones diarias que varían de 0,2 a 0,5 mm, buscando aproximadamente 7 mm de sobrecorrección en la región molar y un tiempo de tratamiento que varía entre 1 a 2 semanas dependendiendo de la necesidad de expansión deseada, junto con 6 meses de retención. Está indicado su uso durante la dentición mixta debido a la mayor elasticidad ósea, menor resistencia y menor dolor. <span class=\"badge-ne-muy-baja\">(NE: baja, GRADE)</span>"
+        "<br>Es un procedimiento ortodóncico para corregir deficiencias transversales en la arcada superior, aumentando el perímetro maxilar mediante la ruptura de la sutura palatina media utilizando fuerzas intensas aplicadas rápidamente con el fin de superar la resistencia de la sutura, mediante activaciones diarias que varían de 0,2 a 0,5 mm, buscando aproximadamente 7 mm de sobrecorrección en la región molar y un tiempo de tratamiento que varía entre 1 a 2 semanas dependendiendo de la necesidad de expansión deseada, junto con 6 meses de retención. Está indicado su uso durante la dentición mixta debido a la mayor elasticidad ósea, menor resistencia y menor dolor."
         
         +
         
@@ -9802,7 +10007,7 @@ const ARBOLES = {
         
         +
         
-        "<br><br>Logrando una expansión intermolar de 4.3 - 6.4 mm y una expansión intercanina de 2.8 - 5.1 mm."
+        "<br><br><span class=\"badge-ne-muy-baja\">(NE: baja, GRADE)</span>Logrando una expansión intermolar de 4.3 - 6.4 mm y una expansión intercanina de 2.8 - 5.1 mm."
         
         +
 
@@ -9887,13 +10092,13 @@ const ARBOLES = {
 
         texto: "<strong>Quadhelix</strong>"
         
+        + 
+        
+        "<br><br><img src='./image/Im54.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
         +
 
         "<br><span class=\"badge-ne-muy-baja\">(NE: baja, GRADE)</span>" 
-        
-        + 
-        
-        "<br><br><img src='./image/Im54.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>" 
         
         +
         
@@ -9942,13 +10147,13 @@ const ARBOLES = {
 
         texto: "<strong>Placas de expansión</strong>"
         
-        +
-        
-        "<br><span class=\"badge-ne-muy-baja\">(NE: baja, GRADE)</span>" 
-        
         + 
         
         "<br><br><img src='./image/Im55.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>" 
+        
+        +
+        
+        "<br><span class=\"badge-ne-muy-baja\">(NE: baja, GRADE)</span>" 
         
         +
         
@@ -9964,7 +10169,11 @@ const ARBOLES = {
         
         +
 
-        "<br><br> El aparato puede presentar complicaciones como pérdida, rotura, o falta de cooperación del paciente, pero estas complicaciones son generalmente evitables con un manejo adecuado en el consultorio y el laboratorio. <span class=\"badge-ne-muy-baja\">(NE: baja, GRADE)</span>"
+        "<br><br> El aparato puede presentar complicaciones como pérdida, rotura, o falta de cooperación del paciente, pero estas complicaciones son generalmente evitables con un manejo adecuado en el consultorio y el laboratorio."
+        
+        +
+
+        "<br><span class=\"badge-ne-muy-baja\">(NE: baja, GRADE)</span>"
 
         +
 
@@ -10028,11 +10237,15 @@ const ARBOLES = {
 
         tipo: "accion",
 
-        texto: "<strong>Hyrax</strong><br><span class=\"badge-ne-muy-baja\">(NE: baja, GRADE)</span>" 
+        texto: "<strong>Hyrax</strong>" 
         
         + 
         
-        "<br><br><img src='./image/Im56.png' alt='Imagen a cambiar' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>" 
+        "<br><br><img src='./image/Im56.png' alt='Imagen a cambiar' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
+
+        "<span class='cita-biblio'>Feldmann, I., & Bazargani, F. (2016, December 28). Pain and discomfort during the first week of rapid maxillary expansion (RME) using two different RME... The Angle Orthodontist (EH Angle Education & Research Foundation). https://doi.org/10.2319/091216-686.1Autores</span>"
         
         +
         
@@ -10040,7 +10253,7 @@ const ARBOLES = {
 
         +
 
-        "<br><br>Expansor dentosoportado de estructura rígida en acero inoxidable, lo que permite mayores ganancias transversales. Produce un aumento del grosor óseo lingual, ancho maxilar, cresta alveolar, y arco respecto a la activación total del tornillo de 7 mm. Adicionalmente, presenta un mayor efecto ortopédico en el suelo de la cavidad nasal y cavidad nasal posterior al compararse con disyuntores tipo Haas. Se referencia un alcance en el nivel de expansión del tornillo de 6.04 +/- 1.07mm con un rango de 5 - 8 mm, evidenciando una expansión intercanina de 3.8 mm ± 2.2 mm y una expansión intermolar de 6.2 mm ± 2.9 mm.<br><span class=\"badge-ne-muy-baja\">(NE: baja, GRADE)</span>"
+        "<br><br><span class=\"badge-ne-muy-baja\">(NE: baja, GRADE)</span>Expansor dentosoportado de estructura rígida en acero inoxidable, lo que permite mayores ganancias transversales. Produce un aumento del grosor óseo lingual, ancho maxilar, cresta alveolar, y arco respecto a la activación total del tornillo de 7 mm. Adicionalmente, presenta un mayor efecto ortopédico en el suelo de la cavidad nasal y cavidad nasal posterior al compararse con disyuntores tipo Haas. Se referencia un alcance en el nivel de expansión del tornillo de 6.04 +/- 1.07mm con un rango de 5 - 8 mm, evidenciando una expansión intercanina de 3.8 mm ± 2.2 mm y una expansión intermolar de 6.2 mm ± 2.9 mm."
         
         +
         
@@ -10048,7 +10261,7 @@ const ARBOLES = {
         
         +
 
-        "<br><br>Tiene mayor facilidad de higiene, comodidad, prevención de lesiones en tejidos blandos comparado con otros expansores como el Haas."
+        "<br><span class=\"badge-ne-muy-baja\">(NE: baja, GRADE)</span>Tiene mayor facilidad de higiene, comodidad, prevención de lesiones en tejidos blandos comparado con otros expansores como el Haas."
 
         +
 
@@ -10075,7 +10288,7 @@ const ARBOLES = {
 
         tipo: "accion",
 
-        texto: "<strong>Disyuntor de Hass</strong><br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span>" 
+        texto: "<strong>Disyuntor de Hass</strong>" 
         
         + 
         
@@ -10087,7 +10300,7 @@ const ARBOLES = {
 
         +
 
-        "<br><br>Expansor dento-tejido soportado con almohadilla acrílica cerca del paladar. Es menos rígido que el Hyrax, lo que puede limitar las ganancias transversales. Se realiza la activación dando 1 vuelta por día hasta lograr sobrecorrección molar (cúspide palatina del molar maxilar en contacto con la cúspide vestibular del molar mandibular), y llega a una fase activa seguida de 6 meses de retención con el aparato como retenedor. La cooperación del paciente es clave, por eso se sugiere el envío de recordatorios vía WhatsApp para realizar las activaciones. Presenta un menor aumento del grosor óseo lingual, aumento del ancho maxilar, cresta alveolar y arco al compararse con el disyuntor Hyrax; adicionalmente tiene menor efecto ortopédico en el suelo de la cavidad nasal y cavidad nasal posterior al compararse con este mismo disyuntor. Se evidencia un promedio de expansión intermolar de 6.7 mm y un promedio de expansión intercanina de 5.3 mm al anclarse a primeros molares permanentes, por otro lado, presenta una expansión intermolar de 5.1 mm ± 3.4 mm y una expansión intercanina de 3,2 mm ± 2.7 mm cementando el aparato en los quintos. <br><span class=\"badge-ne-muy-baja\">(NE: baja, GRADE)</span>"
+        "<br><br><span class=\"badge-ne-alta\">(NE: Alta, GRADE)</span> Expansor dento-tejido soportado con almohadilla acrílica cerca del paladar. Es menos rígido que el Hyrax, lo que puede limitar las ganancias transversales. Se realiza la activación dando 1 vuelta por día hasta lograr sobrecorrección molar (cúspide palatina del molar maxilar en contacto con la cúspide vestibular del molar mandibular), y llega a una fase activa seguida de 6 meses de retención con el aparato como retenedor. La cooperación del paciente es clave, por eso se sugiere el envío de recordatorios vía WhatsApp para realizar las activaciones. Presenta un menor aumento del grosor óseo lingual, aumento del ancho maxilar, cresta alveolar y arco al compararse con el disyuntor Hyrax; adicionalmente tiene menor efecto ortopédico en el suelo de la cavidad nasal y cavidad nasal posterior al compararse con este mismo disyuntor. Se evidencia un promedio de expansión intermolar de 6.7 mm y un promedio de expansión intercanina de 5.3 mm al anclarse a primeros molares permanentes, por otro lado, presenta una expansión intermolar de 5.1 mm ± 3.4 mm y una expansión intercanina de 3,2 mm ± 2.7 mm cementando el aparato en los quintos. <br><span class=\"badge-ne-muy-baja\">(NE: baja, GRADE)</span>"
         
         +
         
@@ -10126,7 +10339,28 @@ const ARBOLES = {
 
         imagen: "./image/mordida2_14.png",
         
-        siguiente: "inclinacion"
+        siguiente: "inclinacion",
+
+        botones: [
+
+          {
+            texto: "Volver quadhelix",
+            siguiente: "quadhelix"
+          },
+          {
+            texto: "Volver placas de expansion",
+            siguiente: "placas_de_expansion"
+          },
+          {
+            texto: "Volver hyrax",
+            siguiente: "hyrax"
+          },
+          {
+            texto: "Volver disyuntor de hass",
+            siguiente: "disyuntor_de_hass"
+          },
+
+        ]
 
       },
 
@@ -10138,7 +10372,11 @@ const ARBOLES = {
 
         + 
         
-        "<br><br><img src='./image/Im58.png' alt='Imagen a cambiar' style='max-width:50%; height:auto; border-radius:12px; margin: 10px 0;'>" 
+        "<br><br><img src='./image/Im58.png' alt='Imagen a cambiar' style='max-width:50%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
+
+        "<span class='cita-biblio'>tecnicas expansion maxilar [PDF]. (2024). https://www.lorenteortodoncia.com/wp-content/uploads/2024/09/tecnicas-expansion-maxilar.pdf</span>"
         
         ,
 
@@ -10221,11 +10459,13 @@ const ARBOLES = {
 
         tipo: "accion",
 
-        texto: "<br><br><img src='./image/Im60.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>" 
+        texto: 
+        
+        "<Strong>Cementar en primer molar superior</Strong>"
         
         +
         
-        "Cementar en primer molar superior"
+        "<br><br><img src='./image/Im60.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>" 
         
         +
         
@@ -10272,7 +10512,11 @@ const ARBOLES = {
 
         tipo: "accion",
 
-        texto:"<br><br><img src='./image/Im59.jpg' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>" 
+        texto:"<br><br><img src='./image/Im59.jpg' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
+        +
+
+        "<span class='cita-biblio'>Muradova, N., & Özçırpıcı, A. A. (2019). Modified Haas Expander for the Treatment of Anterior Openbite and Posterior Crossbite Associated with Thumb Sucking-A Case Report: 3-Years Follow-Up. Turkish journal of orthodontics, 32(4), 247–252. https://doi.org/10.5152/TurkJOrthod.2019.19070</span>"
         
         +
         
@@ -10323,7 +10567,20 @@ const ARBOLES = {
 
         imagen: "./image/mordida3_6.png",
         
-        siguiente: "correcion_clinica"
+        siguiente: "correcion_clinica",
+
+        botones: [
+
+          {
+            texto: "Volver no incluye molar superior",
+            siguiente: "n_molar_superior"
+          },
+          {
+            texto: "Volver incluye molar superior",
+            siguiente: "s_molar_superior"
+          }
+
+        ]
 
       },
 
@@ -10461,7 +10718,7 @@ const ARBOLES = {
 
         tipo: "accion",
 
-        texto: "Realizar retención durante 6 meses más<br><span class=\"badge-ne-muy-baja\">(NE: baja, GRADE)</span>"
+        texto: "<Strong>Realizar retención durante 6 meses más</Strong><br><span class=\"badge-ne-muy-baja\">(NE: baja, GRADE)</span>"
         
         +
 
@@ -10496,7 +10753,16 @@ const ARBOLES = {
 
         imagen: "./image/mordida4_8.png",
         
-        siguiente: "presentacion"
+        siguiente: "presentacion",
+        
+        botones: [
+
+          {
+            texto: "Volver",
+            siguiente: "s_correcion_clinica"
+          }
+
+        ]
 
       },
 
