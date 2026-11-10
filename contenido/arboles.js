@@ -6412,7 +6412,7 @@ const ARBOLES = {
         botones: [
 
           {
-            texto: "Volver Dentinción",
+            texto: "Volver dentición mixta tardia",
             siguiente: "mixtatardia",
           },
           {
@@ -6547,7 +6547,11 @@ const ARBOLES = {
         botones: [
 
           {
-            texto: "Volver",
+            texto: "Volver dentición decidua",
+            siguiente: "mixtatemprana",
+          },
+          {
+            texto: "Volver a injerti alveolar secundario",
             siguiente: "alveolar",
           }
 
@@ -7170,8 +7174,11 @@ const ARBOLES = {
         botones: [
 
           {
-            texto: "Volver",
+            texto: "Volver miniplacas con elastico",
             siguiente: "mini",
+          },{
+            texto: "Volver pico de crecimiento",
+            siguiente: "picocrecimiento2",
           }
 
         ]
@@ -7859,12 +7866,12 @@ const ARBOLES = {
 
         +
 
-        "<br>Con ello, los rangos adoptados (< 3 mm, 3–5 mm y > 5 mm) se fundamentan en patrones consistentes dentro de la literatura y permiten describir la severidad del apiñamiento con criterios claros y comparables entre estudios."
-
-        +
-
         "<span class='cita-biblio'>Khalaf K, Mustafa A, Wazzan M, Omar M, Estaitia M, El-Kishawi M. Clinical effectiveness of space maintainers and space regainers in the mixed dentition: A systematic review. Vol. 34, Saudi Dental Journal. 2022.</span>"
         
+        +
+
+        "<br>Con ello, los rangos adoptados (< 3 mm, 3–5 mm y > 5 mm) se fundamentan en patrones consistentes dentro de la literatura y permiten describir la severidad del apiñamiento con criterios claros y comparables entre estudios."
+
         ,
 
         imagen: "./image/Apiñamiento1_2.png",
@@ -7948,11 +7955,11 @@ const ARBOLES = {
 
         texto: 
         
-        "<Strong>Leve:</Strong> menor de 3mm"
+        "<Strong>• Leve:</Strong> menor de 3mm"
 
         +
 
-        "<br>o <Strong>Moderado:</Strong> 3mm - 5mm"
+        "<br><Strong>• Moderado:</Strong> 3mm - 5mm"
 
         ,
 
@@ -8860,7 +8867,7 @@ const ARBOLES = {
         
         +
 
-        "<br><br><img src='./image/im51.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        "<br><br><img src='./image/Im51.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
 
         +
 
@@ -8918,92 +8925,29 @@ const ARBOLES = {
 
         "<span class='cita-biblio'>Turner S, Harrison JE, Sharif FNJ, Owens D, Millett DT. Orthodontic treatment for crowded teeth in children. Vol. 2021, Cochrane Database of Systematic Reviews. John Wiley and Sons Ltd; 2021.</span>"
         
-        ,
+        +
 
-        imagen: "./image/Apiñamiento2c_3.png",
-
-        siguiente: "tiempo3",
-
-        botones: [
-
-          {
-            texto: "Volver",
-            siguiente: "perdida",
-          }
-
-        ]
-
-      },
-
-      tiempo3: {
-
-        tipo: "accion",
-
-        texto: 
-        
-        "Mantener durante 6-12 meses."
+        "• Mantener durante 6-12 meses."
         
         +
 
-        "<br>Se posiciona a 2 mm de separación de las superficies vestibulares de los incisivos inferiores."
-
-        ,
-
-        imagen: "./image/Apiñamiento2c_3.png",
-
-        siguiente: "control2",
-
-        botones: [
-
-          {
-            texto: "Volver",
-            siguiente: "lip",
-          }
-
-        ]
-
-      },
-    
-      control2: {
-
-        tipo: "accion",
-
-        texto: 
-        
-        "<Strong>Controles clínicos cada 4-6 semanas.</Strong>"
-
-        ,
-
-        imagen: "./image/Apiñamiento2c_3.png",
-
-        siguiente: "descrip",
-
-        botones: [
-
-          {
-            texto: "Volver",
-            siguiente: "tiempo3",
-          }
-
-        ]
-
-      },
-
-      descrip: {
-
-        tipo: "accion",
-
-        texto: 
-        
-        "-Disminución de cantidad de apiñamiento: -4.41mm (IC 95% -5.2 a -3.6 mm)."
+        "<br>• Se posiciona a 2 mm de separación de las superficies vestibulares de los incisivos inferiores."
 
         +
 
-        "<br>-Aumento de longitud de arco: +4.89 mm."
+        "<br>• Controles clínicos cada 4-6 semanas."
 
         +
 
-        "<br>-Aumento de anchura Inter canina +2.2 mm."
+        "<br>• Disminución de cantidad de apiñamiento: -4.41mm (IC 95% -5.2 a -3.6 mm)."
+
+        +
+
+        "<br>• Aumento de longitud de arco: +4.89 mm."
+
+        +
+
+        "<br>•Aumento de anchura Inter canina +2.2 mm."
 
         ,
 
@@ -9015,7 +8959,7 @@ const ARBOLES = {
 
           {
             texto: "Volver",
-            siguiente: "control2",
+            siguiente: "perdida",
           }
 
         ]
@@ -9184,11 +9128,31 @@ const ARBOLES = {
 
         "<span class='cita-biblio'>Turner S, Harrison JE, Sharif FNJ, Owens D, Millett DT. Orthodontic treatment for crowded teeth in children. Vol. 2021, Cochrane Database of Systematic Reviews. 2021.</span>"
         
+        +
+
+        "• Mantener durante 6-12 meses. Activación 2 veces por semana."
+
+        +
+
+        "<br>• Controles clínicos cada 2-4 semanas. "
+
+        +
+
+        "<br>• Reducción de apiñamiento: -2.8 mm"
+
+        +
+
+        "<br>• Aumento de longitud de arco: +3.76 mm."
+
+        +
+
+        "<br>• Aumento de anchura Inter canina +4.38 mm."
+
         ,
 
         imagen: "./image/Apiñamiento2c_5.png",
 
-        siguiente: "tiempo4",
+        siguiente: "reevaluacion",
 
         botones: [
 
@@ -9201,96 +9165,13 @@ const ARBOLES = {
 
       },
 
-      tiempo4: {
-
-        tipo: "accion",
-
-        texto: 
-        
-        "Mantener durante 6-12 meses. Activación 2 veces por semana."
-
-        ,
-
-        imagen: "./image/Apiñamiento2c_5.png",
-
-        siguiente: "control3",
-
-        botones: [
-
-          {
-            texto: "Volver",
-            siguiente: "schwarz",
-          }
-
-        ]
-
-      },
-
-      control3: {
-
-        tipo: "accion",
-
-        texto: 
-        
-        "Controles clínicos cada 2-4 semanas. "
-
-        ,
-
-        imagen: "./image/Apiñamiento2c_5.png",
-
-        siguiente: "descrip2",
-
-        botones: [
-
-          {
-            texto: "Volver",
-            siguiente: "tiempo4",
-          }
-
-        ]
-
-      },
-
-      descrip2: {
-
-        tipo: "accion",
-
-        texto: 
-        
-        "- Reducción de apiñamiento: -2.8 mm"
-
-        +
-
-        "<br>-Aumento de longitud de arco: +3.76 mm."
-
-        +
-
-        "<br>-Aumento de anchura Inter canina +4.38 mm."
-
-        ,
-
-        imagen: "./image/Apiñamiento2c_5.png",
-
-        siguiente: "reevaluacion",
-
-        botones: [
-
-          {
-            texto: "Volver",
-            siguiente: "control3",
-          }
-
-        ]
-
-      },
-
       reevaluacion: {
         
         tipo: "accion",
 
         texto: 
         
-        "Reevaluación"
+        "<Strong>Reevaluación</Strong>"
 
         ,
 
@@ -9314,7 +9195,7 @@ const ARBOLES = {
           },
           {
             texto: "Volver Aparato de Schwarz mandibular",
-            siguiente: "descrip2",
+            siguiente: "schwarz",
           }
 
         ]
@@ -10112,11 +9993,7 @@ const ARBOLES = {
         
         +
 
-        "<br><span class=\"badge-ne-muy-baja\">(NE: baja, GRADE)</span>" 
-        
-        +
-        
-        "<br><br>Expansión intermolar de 3.7 a 5.7 mm y expansión intercanina de 2.0 a 3.5 mm"
+        "<br><span class=\"badge-ne-muy-baja\">(NE: baja, GRADE)</span>"
 
         +
 
@@ -10136,7 +10013,11 @@ const ARBOLES = {
 
         +
 
-        "<span class='cita-biblio'>Caroccia F, Moscagiuri F, Falconio L, Festa F, D’attilio M. Early orthodontic treatments of unilateral posterior crossbite: A systematic review. Vol. 10, Journal of Clinical Medicine. MDPI; 2021. p. 1–13.</span>"
+        "<span class='cita-biblio'>Caroccia F, Moscagiuri F, Falconio L, Festa F, D’attilio M. Early orthodontic treatments of unilateral posterior crossbite: A systematic review. Vol. 10, Journal of Clinical Medicine. MDPI; 2021. p. 1–13.</span>" 
+        
+        +
+        
+        "Expansión intermolar de 3.7 a 5.7 mm y expansión intercanina de 2.0 a 3.5 mm"
 
         ,
 
@@ -10167,11 +10048,7 @@ const ARBOLES = {
         
         +
         
-        "<br><span class=\"badge-ne-muy-baja\">(NE: baja, GRADE)</span>" 
-        
-        +
-        
-        "<br><br>Expansión intermolar de 3.0 a 4.6 mm y expansión intercanina de 1.8 a 3.6 mm"
+        "<br><span class=\"badge-ne-muy-baja\">(NE: baja, GRADE)</span>"
 
         +
 
@@ -10191,7 +10068,11 @@ const ARBOLES = {
 
         +
 
-        "<span class='cita-biblio'>Caroccia F, Moscagiuri F, Falconio L, Festa F, D’attilio M. Early orthodontic treatments of unilateral posterior crossbite: A systematic review. Vol. 10, Journal of Clinical Medicine. MDPI; 2021. p. 1–13.</span>"
+        "<span class='cita-biblio'>Caroccia F, Moscagiuri F, Falconio L, Festa F, D’attilio M. Early orthodontic treatments of unilateral posterior crossbite: A systematic review. Vol. 10, Journal of Clinical Medicine. MDPI; 2021. p. 1–13.</span>" 
+        
+        +
+        
+        "Expansión intermolar de 3.0 a 4.6 mm y expansión intercanina de 1.8 a 3.6 mm"
 
         ,
 
@@ -10260,10 +10141,6 @@ const ARBOLES = {
         +
 
         "<span class='cita-biblio-img'>Feldmann, I., & Bazargani, F. (2016, December 28). Pain and discomfort during the first week of rapid maxillary expansion (RME) using two different RME... The Angle Orthodontist (EH Angle Education & Research Foundation). https://doi.org/10.2319/091216-686.1Autores</span>"
-        
-        +
-        
-        "<br><br>Expansión intermolar de 6.2 +/-2.9 4.6 mm y expansión intercanina de 3.8 +/- 2.2 mm"
 
         +
 
@@ -10280,6 +10157,10 @@ const ARBOLES = {
         +
 
         "<span class='cita-biblio'>Lorente C, Lorente P, Perez-Vela M, Esquinas C, Lorente T. Quad-helix compression to decompensate molar inclination prior to skeletal expansion. J Orofac Orthop. 2020 Mar;81:142–9.</span>"
+        
+        +
+        
+        "Expansión intermolar de 6.2 +/-2.9 4.6 mm y expansión intercanina de 3.8 +/- 2.2 mm"
 
         ,
 
@@ -10306,11 +10187,7 @@ const ARBOLES = {
         
         + 
         
-        "<br><br><img src='./image/Im57.png' alt='Imagen a cambiar' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>" 
-        
-        +
-        
-        "<br><br>Expansión intermolar de 6.7 mm y expansión intercanina de 5.3 mm "
+        "<br><br><img src='./image/Im57.png' alt='Imagen a cambiar' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
 
         +
 
@@ -10326,7 +10203,11 @@ const ARBOLES = {
 
         +
 
-        "<span class='cita-biblio'>Micheletti KR, Iwaki LCV, Provenzano MGA, Cuoghi OA, Ramos AL, Micheletti KR, et al. Effects of rapid maxillary expansion with six months of retention and no further orthodontic treatment. https://www.redalyc.org/journal/3072/307245984012/html/. 2015.</span>"
+        "<span class='cita-biblio'>Micheletti KR, Iwaki LCV, Provenzano MGA, Cuoghi OA, Ramos AL, Micheletti KR, et al. Effects of rapid maxillary expansion with six months of retention and no further orthodontic treatment. https://www.redalyc.org/journal/3072/307245984012/html/. 2015.</span>" 
+        
+        +
+        
+        "Expansión intermolar de 6.7 mm y expansión intercanina de 5.3 mm "
 
         ,
 
@@ -10382,16 +10263,16 @@ const ARBOLES = {
 
         tipo: "decision",
 
-        texto: "¿Se presenta inclinación molar hacia vestibular?" 
+        texto: "<br><br><Strong>¿Se presenta inclinación molar hacia vestibular?</Strong>",
 
-        + 
+        descripcion: 
         
-        "<br><br><img src='./image/Im58.png' alt='Imagen a cambiar' style='max-width:50%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        "<img src='./image/Im58.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
         
         +
 
         "<span class='cita-biblio-img'>tecnicas expansion maxilar [PDF]. (2024). https://www.lorenteortodoncia.com/wp-content/uploads/2024/09/tecnicas-expansion-maxilar.pdf</span>"
-        
+
         ,
 
         imagen: "./image/mordida3_1.png",
@@ -10526,7 +10407,7 @@ const ARBOLES = {
 
         tipo: "accion",
 
-        texto:"<br><br><img src='./image/Im59.jpg' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        texto:"<br><br><img src='./image/Im59.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
         
         +
 
@@ -10751,8 +10632,12 @@ const ARBOLES = {
         botones: [
 
           {
-            texto: "Volver",
+            texto: "Volver arriba",
             siguiente: "correcion_clinica"
+          },
+          {
+            texto: "Volver abajo",
+            siguiente: "correcion_clinica2"
           }
 
         ]
@@ -10794,7 +10679,7 @@ const ARBOLES = {
 
           {
             texto: "Volver",
-            siguiente: "presentacion"
+            siguiente: "correcion_clinica2"
           }
 
         ]
