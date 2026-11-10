@@ -161,7 +161,11 @@ const ARBOLES = {
         
         +
 
-        "<br><br><img src='./image/Im1.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        "<br><br><img src='./image/Im1.png' style='max-width:50%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
+        + 
+        
+        "<span class='cita-biblio-img'>(Gemini AI)</span>"
         
         +
 
@@ -169,7 +173,7 @@ const ARBOLES = {
         
         +
 
-        "<span class='cita-biblio'>(Gemini AI)</span>"
+        "<span class='cita-biblio-img'>(Gemini AI)</span>"
 
         +
 
@@ -576,7 +580,7 @@ const ARBOLES = {
         
         +
 
-        "<span class='cita-biblio'>Tekale, P. D., Vakil, K. K., Vakil, J. K., & Gore, K. A. (2015). Distalization of maxillary arch and correction of Class II with mini-implants: A report of two cases. Contemporary clinical dentistry, 6(2), 226–232. https://doi.org/10.4103/0976-237X.156052</span>"
+        "<span class='cita-biblio-img'>Tekale, P. D., Vakil, K. K., Vakil, J. K., & Gore, K. A. (2015). Distalization of maxillary arch and correction of Class II with mini-implants: A report of two cases. Contemporary clinical dentistry, 6(2), 226–232. https://doi.org/10.4103/0976-237X.156052</span>"
 
         ,
 
@@ -607,7 +611,7 @@ const ARBOLES = {
         
         +
 
-        "<span class='cita-biblio'>Orrego, H., & Buendía, E. (2026). Severe class ii malocclusion in a growing patient treated with functional orthopedics and fixed appliances. Revista cientifica odontologica (Universidad Cientifica del Sur), 14(3), e305. https://doi.org/10.21142/2523-2754-1403-2026-305</span>"
+        "<span class='cita-biblio-img'>Orrego, H., & Buendía, E. (2026). Severe class ii malocclusion in a growing patient treated with functional orthopedics and fixed appliances. Revista cientifica odontologica (Universidad Cientifica del Sur), 14(3), e305. https://doi.org/10.21142/2523-2754-1403-2026-305</span>"
 
         ,
 
@@ -638,7 +642,7 @@ const ARBOLES = {
         
         +
 
-        "<span class='cita-biblio'>(Gemini AI)</span>"
+        "<span class='cita-biblio-img'>(Gemini AI)</span>"
 
         +
 
@@ -673,7 +677,7 @@ const ARBOLES = {
         
         +
 
-        "<span class='cita-biblio'>(Baccetti T, Franchi L, McNamara JA Jr. The cervical vertebral maturation (CVM) method for the assessment of optimal treatment timing in dentofacial orthopedics. Semin Orthod. 2005;11(3):119-129. doi:10.1053/j.sodo.2005.04.005.)</span>"
+        "<span class='cita-biblio-img'>(Baccetti T, Franchi L, McNamara JA Jr. The cervical vertebral maturation (CVM) method for the assessment of optimal treatment timing in dentofacial orthopedics. Semin Orthod. 2005;11(3):119-129. doi:10.1053/j.sodo.2005.04.005.)</span>"
 
         +
 
@@ -717,7 +721,7 @@ const ARBOLES = {
           },
           {
             texto: "Volver Mandibular",
-            siguiente: "mandobular",
+            siguiente: "mandibular",
           }
 
         ]
@@ -835,7 +839,7 @@ const ARBOLES = {
 
       },
 
-      definir: {
+      definir: {  
 
         tipo: "decision_opciones",
 
@@ -913,11 +917,11 @@ const ARBOLES = {
         botones: [
 
           {
-            texto: "Volver ¿Existe riesgo de trauma dentoalveolar?",
+            texto: "Volver riesgo de trauma dentoalveolar",
             siguiente: "riesgo",
           },
           {
-            texto: "Volver ¿Es el momento adecuado para la intervención?",
+            texto: "Volver momento adecuado intervención",
             siguiente: "adecuado",
           }
 
@@ -937,7 +941,7 @@ const ARBOLES = {
         
         +
 
-        "<span class='cita-biblio'>Franco FAC, Martínez BG, Araujo AC. Tratamiento ortodóncico-ortopédico del colapso del maxilar, mordida cruzada anterior y posterior mediante expansor Hyrax. Reporte de caso. . 2019;Año 2019(Número 1). https://www.ortodoncia.ws/publicaciones/2019/art-10</span>"
+        "<span class='cita-biblio-img'>Franco FAC, Martínez BG, Araujo AC. Tratamiento ortodóncico-ortopédico del colapso del maxilar, mordida cruzada anterior y posterior mediante expansor Hyrax. Reporte de caso. . 2019;Año 2019(Número 1). https://www.ortodoncia.ws/publicaciones/2019/art-10</span>"
 
         +
 
@@ -994,7 +998,7 @@ const ARBOLES = {
 
           {
             texto: "Volver",
-            siguiente: "crecimiento",
+            siguiente: "transversal",
           }
 
         ]
@@ -1117,29 +1121,8 @@ const ARBOLES = {
 
         "<span class='cita-biblio'>Lione R, Brunelli V, Franchi L, Pavoni C, Quiroga Souki B, Cozza P. Mandibular response after rapid maxillary expansion in class II growing patients: a pilot randomized controlled trial. Prog Orthod. 2017 Dec;18.</span>"
         
-        ,
+        +
 
-        imagen: "./image/claseII4a_7.png",
-
-        siguiente: "corrige",
-
-        botones: [
-
-          {
-            texto: "Volver",
-            siguiente: "disyuntor",
-          }
-
-        ]
-
-      },
-
-      corrige: {
-
-        tipo: "accion",
-
-        texto: 
-        
         "- Corrige deficiencia transversal."
         
         +
@@ -1160,7 +1143,7 @@ const ARBOLES = {
 
           {
             texto: "Volver",
-            siguiente: "cplanos",
+            siguiente: "disyuntor",
           }
 
         ]
@@ -1193,29 +1176,8 @@ const ARBOLES = {
 
         "<span class='cita-biblio'>Lione R, Brunelli V, Franchi L, Pavoni C, Quiroga Souki B, Cozza P. Mandibular response after rapid maxillary expansion in class II growing patients: a pilot randomized controlled trial. Prog Orthod. 2017 Dec;18.</span>"
 
-        ,
+        +
 
-        imagen: "./image/claseII4a_8.png",
-
-        siguiente: "corrige2",
-
-        botones: [
-
-          {
-            texto: "Volver",
-            siguiente: "disyuntor",
-          }
-
-        ]
-
-      },
-
-      corrige2: {
-
-        tipo: "accion",
-
-        texto: 
-        
         "- Corrige deficiencia transversal."
         
         +
@@ -1232,7 +1194,7 @@ const ARBOLES = {
 
           {
             texto: "Volver",
-            siguiente: "cplanos",
+            siguiente: "disyuntor",
           }
 
         ]
@@ -1300,6 +1262,26 @@ const ARBOLES = {
 
         "<span class='cita-biblio'>Revankar AV, Bhat SS, Rozario JE. A comparison of the quadhelix and the nickel-titanium palatal expander in the treatment of narrow maxillary arches: A prospective clinical study. J Orthod Sci. 2023;12:8.</span>"
         
+        +
+
+        "<br>• Corrige deficiencia transversal."
+
+        +
+
+        "<br>• Overjet disminuye 1.69 mm Vs control"
+
+        +
+
+        "<br>• ANB: -1.51°"
+
+        +
+
+        "<br>• SNB: +0.83°"
+
+        +
+
+        "<br>• Co-Gn: +5.41mm"
+
         ,
 
         imagen: "./image/claseII4a_6.png",
@@ -1370,7 +1352,7 @@ const ARBOLES = {
         
         +
 
-        "<span class='cita-biblio'>Sfondrini, M. F., Pascadopoli, M., Nardi, M. G., Cardarelli, F., Zampetti, P., Viola, A., Labadze, S., & Scribante, A. (2026). Evaluation of an Elastodontic Bioactivator Versus High-Pull Headgear for the Treatment of Skeletal Class II Hyperdivergent Pediatric Patients: A Retrospective Study. Journal of clinical medicine, 15(2), 804. https://doi.org/10.3390/jcm15020804</span>"
+        "<span class='cita-biblio-img'>Sfondrini, M. F., Pascadopoli, M., Nardi, M. G., Cardarelli, F., Zampetti, P., Viola, A., Labadze, S., & Scribante, A. (2026). Evaluation of an Elastodontic Bioactivator Versus High-Pull Headgear for the Treatment of Skeletal Class II Hyperdivergent Pediatric Patients: A Retrospective Study. Journal of clinical medicine, 15(2), 804. https://doi.org/10.3390/jcm15020804</span>"
         
         +
 
@@ -1378,7 +1360,7 @@ const ARBOLES = {
         
         +
 
-        "<span class='cita-biblio'>Yoshida, N., Jost-Brinkmann, P. G., & Yamada, Y. (1995). Initial tooth movement under extraoral force and considerations for controlled molar movement. The Angle orthodontist, 65(3), 199–208. https://doi.org/10.1043/0003-3219(1995)065<0199:ITMUEF>2.0.CO;2</span>"
+        "<span class='cita-biblio-img'>Yoshida, N., Jost-Brinkmann, P. G., & Yamada, Y. (1995). Initial tooth movement under extraoral force and considerations for controlled molar movement. The Angle orthodontist, 65(3), 199–208. https://doi.org/10.1043/0003-3219(1995)065<0199:ITMUEF>2.0.CO;2</span>"
 
         +
 
@@ -1402,7 +1384,7 @@ const ARBOLES = {
 
           {
             texto: "Volver",
-            siguiente: "origen",
+            siguiente: "definir",
           }
 
         ]
@@ -1497,7 +1479,7 @@ const ARBOLES = {
         
         +
 
-        "<span class='cita-biblio'>Silva-Esteves Raffo, J. F., Aliaga Del Castillo, R., & Aliaga Del Castillo, A. (2013). Tratamiento de una maloclusión Clase II División 1 en dentición mixta: Reporte de un caso. Odontología Pediátrica, 12(1), 76-84</span>"
+        "<span class='cita-biblio-img'>Silva-Esteves Raffo, J. F., Aliaga Del Castillo, R., & Aliaga Del Castillo, A. (2013). Tratamiento de una maloclusión Clase II División 1 en dentición mixta: Reporte de un caso. Odontología Pediátrica, 12(1), 76-84</span>"
         
         +
 
@@ -1529,15 +1511,15 @@ const ARBOLES = {
 
         +
 
-        "● Rotación horaria maxilar"
+        "<br>● Rotación horaria maxilar"
 
         +
 
-        "● Sin reducción significativa de SNA"
+        "<br>● Sin reducción significativa de SNA"
 
         +
 
-        "● Sin extrusión molar significativa"
+        "<br>● Sin extrusión molar significativa"
 
         ,
 
@@ -1568,7 +1550,7 @@ const ARBOLES = {
         
         +
 
-        "<span class='cita-biblio'>Isaza Saldarriaga, J. F., Correa Vélez, S., & Roldán Restrepo, S. (2011). Simulación numérica por el método de elementos finitos del comportamiento de una mandíbula ante un dispositivo de tracción cervical mandibular. Revista Brasileira de Engenharia Biomédica, 27(3), 135-146. https://doi.org/10.4322/rbeb.2011.011</span>"
+        "<span class='cita-biblio-img'>Isaza Saldarriaga, J. F., Correa Vélez, S., & Roldán Restrepo, S. (2011). Simulación numérica por el método de elementos finitos del comportamiento de una mandíbula ante un dispositivo de tracción cervical mandibular. Revista Brasileira de Engenharia Biomédica, 27(3), 135-146. https://doi.org/10.4322/rbeb.2011.011</span>"
         
         +
 
@@ -1604,15 +1586,15 @@ const ARBOLES = {
 
         +
 
-        "● Distalización molares superiores"
+        "<br>● Distalización molares superiores"
 
         +
 
-        "● ANB disminuye/ Witts disminuye"
+        "<br>● ANB disminuye/ Witts disminuye"
 
         +
 
-        "● Aumento significativo del componente vertical"
+        "<br>● Aumento significativo del componente vertical"
 
         ,
 
@@ -1670,7 +1652,7 @@ const ARBOLES = {
         
         +
 
-        "<span class='cita-biblio'>Sfondrini, M. F., Pascadopoli, M., Nardi, M. G., Cardarelli, F., Zampetti, P., Viola, A., Labadze, S., & Scribante, A. (2026). Evaluation of an Elastodontic Bioactivator Versus High-Pull Headgear for the Treatment of Skeletal Class II Hyperdivergent Pediatric Patients: A Retrospective Study. Journal of clinical medicine, 15(2), 804. https://doi.org/10.3390/jcm15020804</span>"
+        "<span class='cita-biblio-img'>Sfondrini, M. F., Pascadopoli, M., Nardi, M. G., Cardarelli, F., Zampetti, P., Viola, A., Labadze, S., & Scribante, A. (2026). Evaluation of an Elastodontic Bioactivator Versus High-Pull Headgear for the Treatment of Skeletal Class II Hyperdivergent Pediatric Patients: A Retrospective Study. Journal of clinical medicine, 15(2), 804. https://doi.org/10.3390/jcm15020804</span>"
         
         +
 
@@ -1698,15 +1680,15 @@ const ARBOLES = {
 
         +
 
-        "● Disminuye ovejet"
+        "<br>● Disminuye ovejet"
 
         +
 
-        "● Disminuye ANB"
+        "<br>● Disminuye ANB"
 
         +
 
-        "● Sin efecto vertical significativo"
+        "<br>● Sin efecto vertical significativo"
 
         ,
 
@@ -2033,7 +2015,7 @@ const ARBOLES = {
 
           {
             texto: "Volver",
-            siguiente: "apinamiento",
+            siguiente: "aparato",
           }
 
         ]
@@ -2096,7 +2078,7 @@ const ARBOLES = {
 
           {
             texto: "Volver",
-            siguiente: "apinamiento",
+            siguiente: "aparato",
           }
 
         ]
@@ -2115,7 +2097,7 @@ const ARBOLES = {
         
         +
 
-        "<span class='cita-biblio'>Farronato, G., Giannini, L., Galbiati, G., Grillo, E., & Maspero, C. (2013). Occlus-o-Guide® versus Andresen activator appliance: neuromuscular evaluation. Progress in orthodontics, 14(1), 4.</span>"
+        "<span class='cita-biblio-img'>Farronato, G., Giannini, L., Galbiati, G., Grillo, E., & Maspero, C. (2013). Occlus-o-Guide® versus Andresen activator appliance: neuromuscular evaluation. Progress in orthodontics, 14(1), 4.</span>"
 
         +
 
@@ -2155,7 +2137,7 @@ const ARBOLES = {
 
           {
             texto: "Volver",
-            siguiente: "apinamiento",
+            siguiente: "aparato",
           }
 
         ]
@@ -2174,7 +2156,7 @@ const ARBOLES = {
         
         +
 
-        "<span class='cita-biblio'>Jungbauer, R., Koretsi, V., Proff, P., Rudzki, I., & Kirschneck, C. (2020). Twenty-year follow-up of functional treatment with a bionator appliance: A retrospective dental cast analysis. The Angle orthodontist, 90(2), 209–215. https://doi.org/10.2319/042419-292.1</span>"
+        "<span class='cita-biblio-img'>Jungbauer, R., Koretsi, V., Proff, P., Rudzki, I., & Kirschneck, C. (2020). Twenty-year follow-up of functional treatment with a bionator appliance: A retrospective dental cast analysis. The Angle orthodontist, 90(2), 209–215. https://doi.org/10.2319/042419-292.1</span>"
 
         +
 
@@ -2214,7 +2196,7 @@ const ARBOLES = {
 
           {
             texto: "Volver",
-            siguiente: "apinamiento",
+            siguiente: "aparato",
           }
 
         ]
@@ -2233,7 +2215,7 @@ const ARBOLES = {
         
         +
 
-        "<span class='cita-biblio'>Shihabi, R., Liu, Y., Kusaibati, A. M., Maraabeh, F., Zhan, J., Zhang, J., & Hu, L. (2025). Three-dimensional analysis of mandibular and condylar growth using artificial intelligence tools: a comparison of twin-block and Frankel II Appliances. BMC oral health, 25(1), 254. https://doi.org/10.1186/s12903-025-05624-z</span>"
+        "<span class='cita-biblio-img'>Shihabi, R., Liu, Y., Kusaibati, A. M., Maraabeh, F., Zhan, J., Zhang, J., & Hu, L. (2025). Three-dimensional analysis of mandibular and condylar growth using artificial intelligence tools: a comparison of twin-block and Frankel II Appliances. BMC oral health, 25(1), 254. https://doi.org/10.1186/s12903-025-05624-z</span>"
 
         +
 
@@ -2295,7 +2277,7 @@ const ARBOLES = {
 
         tipo: "decision_opciones",
 
-        texto: "¿Que objetivos terapéuticos coexisten?",
+        texto: "<Strong>¿Que objetivos terapéuticos coexisten?</Strong>",
 
         imagen: "./image/claseII4d_1.png",
         
@@ -2521,8 +2503,12 @@ const ARBOLES = {
         
         +
 
-        "<span class='cita-biblio'>Silva-Esteves Raffo, J. F., Aliaga Del Castillo, R., & Aliaga Del Castillo, A. (2013). Tratamiento de una maloclusión Clase II División 1 en dentición mixta: Reporte de un caso. Odontología Pediátrica, 12(1), 76-84</span>"
+        "<span class='cita-biblio-img'>Silva-Esteves Raffo, J. F., Aliaga Del Castillo, R., & Aliaga Del Castillo, A. (2013). Tratamiento de una maloclusión Clase II División 1 en dentición mixta: Reporte de un caso. Odontología Pediátrica, 12(1), 76-84</span>"
 
+        +
+
+        "<br><br><img src='./image/Im24_2.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        
         +
 
         "<br><span class=\"badge-ne-muy-baja\">(NE: Muy baja, GRADE)</span>"
@@ -2595,7 +2581,7 @@ const ARBOLES = {
 
         tipo: "accion",
 
-        texto: "<Strong>Tracción extraoral alta  + Activador funcional</Strong>"
+        texto: "<Strong>Tracción extraoral alta + Activador funcional</Strong>"
         
         +
 
@@ -2603,7 +2589,7 @@ const ARBOLES = {
         
         +
 
-        "<span class='cita-biblio'>Sfondrini, M. F., Pascadopoli, M., Nardi, M. G., Cardarelli, F., Zampetti, P., Viola, A., Labadze, S., & Scribante, A. (2026). Evaluation of an Elastodontic Bioactivator Versus High-Pull Headgear for the Treatment of Skeletal Class II Hyperdivergent Pediatric Patients: A Retrospective Study. Journal of clinical medicine, 15(2), 804. https://doi.org/10.3390/jcm15020804</span>"
+        "<span class='cita-biblio-img'>Sfondrini, M. F., Pascadopoli, M., Nardi, M. G., Cardarelli, F., Zampetti, P., Viola, A., Labadze, S., & Scribante, A. (2026). Evaluation of an Elastodontic Bioactivator Versus High-Pull Headgear for the Treatment of Skeletal Class II Hyperdivergent Pediatric Patients: A Retrospective Study. Journal of clinical medicine, 15(2), 804. https://doi.org/10.3390/jcm15020804</span>"
 
         +
 
@@ -2665,7 +2651,15 @@ const ARBOLES = {
         botones: [
 
           {
-            texto: "Volver",
+            texto: "Volver Twin Block + Tornillo",
+            siguiente: "tornillo",
+          },
+          {
+            texto: "Volver Hass modificado + Tracción extraoral",
+            siguiente: "hass",
+          },
+          {
+            texto: "Volver tracción extraoral alta + Activador funcional",
             siguiente: "textraoral",
           }
 
@@ -3196,6 +3190,10 @@ const ARBOLES = {
 
         "<br><br><img src='./image/Im26.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
         
+        +
+
+        "<span class='cita-biblio-img'>(Gemini IA)</span>"
+
         +
 
         "<br><br>La maloclusión Clase III se caracteriza por una relación anteroposterior alterada entre los maxilares; con una mandíbula adelantada o con un crecimiento excesivo respecto al maxilar superior, un subdesarrollo maxilar o ambos."
@@ -4119,7 +4117,7 @@ const ARBOLES = {
         
         +
 
-        "<span class='cita-biblio'>(Baccetti T, Franchi L, McNamara JA Jr. The cervical vertebral maturation (CVM) method for the assessment of optimal treatment timing in dentofacial orthopedics. Semin Orthod. 2005;11(3):119-129. doi:10.1053/j.sodo.2005.04.005.)</span>"
+        "<span class='cita-biblio-img'>(Baccetti T, Franchi L, McNamara JA Jr. The cervical vertebral maturation (CVM) method for the assessment of optimal treatment timing in dentofacial orthopedics. Semin Orthod. 2005;11(3):119-129. doi:10.1053/j.sodo.2005.04.005.)</span>"
 
         +
 
@@ -4223,8 +4221,16 @@ const ARBOLES = {
         botones: [
 
           {
-            texto: "Volver",
-            siguiente: "origen2",
+            texto: "Volver maxilar",
+            siguiente: "maxilar",
+          },
+          {
+            texto: "Volver combinada",
+            siguiente: "combinada",
+          },
+          {
+            texto: "Volver mandibular",
+            siguiente: "mandibular",
           }
 
         ]
@@ -4965,15 +4971,19 @@ const ARBOLES = {
         
         +
 
-        "<br><br><img src='./image/Im34.png' style='width: 280px; height: 220px; object-fit: contain; border-radius: 12px; margin: 10px auto; display: block;'>"
+        "<br><br><img src='./image/Im34.png' style='width: 550px; height: 420px; object-fit: contain; border-radius: 12px; margin: 10px auto; display: block;'>"
 
         +
 
-        "<br><br><img src='./image/Im34_2.png' style='width: 280px; height: 220px; object-fit: contain; border-radius: 12px; margin: 10px auto; display: block;'>"
+        "<span class='cita-biblio-img'>(Gemini IA)</span>"
+
+        +
+
+        "<br><br><img src='./image/Im34_2.png' style='width: 550px; height: 360px; object-fit: contain; border-radius: 12px; margin: 10px auto; display: block;'>"
         
         +
 
-        "<span class='cita-biblio'>(Gemini IA)</span>"
+        "<span class='cita-biblio-img'>(Gemini IA)</span>"
 
         +
 
@@ -5028,7 +5038,7 @@ const ARBOLES = {
         
         +
 
-        "<span class='cita-biblio'>Singh, H., Kapoor, P., Sharma, P., Maurya, R. K., & Mittal, T. (2018). Skeletal Class III correction in permanent dentition using reverse twin block appliance and fixed mechanotherapy. The Saudi dental journal, 30(4), 379–388. https://doi.org/10.1016/j.sdentj.2018.05.009</span>"
+        "<span class='cita-biblio-img'>Singh, H., Kapoor, P., Sharma, P., Maurya, R. K., & Mittal, T. (2018). Skeletal Class III correction in permanent dentition using reverse twin block appliance and fixed mechanotherapy. The Saudi dental journal, 30(4), 379–388. https://doi.org/10.1016/j.sdentj.2018.05.009</span>"
 
         +
 
@@ -5071,7 +5081,7 @@ const ARBOLES = {
         
         +
 
-        "<span class='cita-biblio'>Ramos A. L. (2014). Class III treatment using facial mask: stability after 10 years. Dental press journal of orthodontics, 19(5), 123–135. https://doi.org/10.1590/2176-9451.19.5.123-135.bbo</span>"
+        "<span class='cita-biblio-img'>(Gemini IA)</span>"
 
         +
 
@@ -5323,7 +5333,7 @@ const ARBOLES = {
         
         +
 
-        "<span class='cita-biblio'>Feldmann, I., & Bazargani, F. (2016, December 28). Pain and discomfort during the first week of rapid maxillary expansion (RME) using two different RME... The Angle Orthodontist (EH Angle Education & Research Foundation). https://doi.org/10.2319/091216-686.1Autores</span>"
+        "<span class='cita-biblio-img'>Feldmann, I., & Bazargani, F. (2016, December 28). Pain and discomfort during the first week of rapid maxillary expansion (RME) using two different RME... The Angle Orthodontist (EH Angle Education & Research Foundation). https://doi.org/10.2319/091216-686.1Autores</span>"
 
         +
 
@@ -5741,7 +5751,7 @@ const ARBOLES = {
             siguiente: "mentonera",
           },
           {
-            texto: "Volver revercibles",
+            texto: "Volver removibles",
             siguiente: "removibles",
           },
           {
@@ -5888,7 +5898,7 @@ const ARBOLES = {
 
           {
             texto: "Volver",
-            siguiente: "evaluacion",
+            siguiente: "frecuencia",
           }
 
         ]
@@ -6325,6 +6335,10 @@ const ARBOLES = {
 
         "<br><br><img src='./image/Im41.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
 
+        +
+
+        "<br><br><img src='./image/Im41_2.png' style='max-width:100%; height:auto; border-radius:12px; margin: 10px 0;'>"
+
         ,
 
         imagen: "./image/LPH1_5.png",
@@ -6683,7 +6697,7 @@ const ARBOLES = {
         
         +
 
-        "<span class='cita-biblio'>Façanha, A. J., Lara, T. S., Garib, D. G., & da Silva Filho, O. G. (2014). Transverse effect of Haas and Hyrax appliances on the upper dental arch in patients with unilateral complete cleft lip and palate: a comparative study. Dental press journal of orthodontics, 19(2), 39–45. https://doi.org/10.1590/2176-9451.19.2.039-045.oar</span>"
+        "<span class='cita-biblio-img'>Façanha, A. J., Lara, T. S., Garib, D. G., & da Silva Filho, O. G. (2014). Transverse effect of Haas and Hyrax appliances on the upper dental arch in patients with unilateral complete cleft lip and palate: a comparative study. Dental press journal of orthodontics, 19(2), 39–45. https://doi.org/10.1590/2176-9451.19.2.039-045.oar</span>"
 
         +
 
@@ -6854,7 +6868,7 @@ const ARBOLES = {
         
         +
 
-        "<span class='cita-biblio'>Fahim, F. H., Othman, A., & von See, C. (2023). F-quad helix for simultaneous maxillary expansion and tooth alignment in patients with unilateral cleft lip and/or palate. Clinical case reports, 11(6), e7572. https://doi.org/10.1002/ccr3.7572</span>"
+        "<span class='cita-biblio-img'>Fahim, F. H., Othman, A., & von See, C. (2023). F-quad helix for simultaneous maxillary expansion and tooth alignment in patients with unilateral cleft lip and/or palate. Clinical case reports, 11(6), e7572. https://doi.org/10.1002/ccr3.7572</span>"
 
         +
 
@@ -6903,7 +6917,7 @@ const ARBOLES = {
         
         +
 
-        "<span class='cita-biblio'>Ponglertnapakorn AA, Burak MY, Barrios JCQ. Cambios maxilares en sentido anteroposterior y vertical con el uso de máscara facial en pacientes con secuela de labio y paladar hendidos unilaterales del Hospital General «Dr. Manuel Gea González». Revista Mexicana de Ortodoncia. 2014;2:174-82</span>"
+        "<span class='cita-biblio-img'>Ponglertnapakorn AA, Burak MY, Barrios JCQ. Cambios maxilares en sentido anteroposterior y vertical con el uso de máscara facial en pacientes con secuela de labio y paladar hendidos unilaterales del Hospital General «Dr. Manuel Gea González». Revista Mexicana de Ortodoncia. 2014;2:174-82</span>"
 
         +
 
@@ -9128,7 +9142,7 @@ const ARBOLES = {
         
         +
 
-        "<span class='cita-biblio'>Quinzi, V., Caruso, S., Mummolo, S., Nota, A., Angelone, A. M., Mattei, A., Gatto, R., & Marzo, G. (2020). Evaluation of Lower Dental Arch Crowding and Dimension after Treatment with Lip Bumper versus Schwarz Appliance. A Prospective Pilot Study. Dentistry journal, 8(2), 34. https://doi.org/10.3390/dj8020034</span>"
+        "<span class='cita-biblio-img'>Quinzi, V., Caruso, S., Mummolo, S., Nota, A., Angelone, A. M., Mattei, A., Gatto, R., & Marzo, G. (2020). Evaluation of Lower Dental Arch Crowding and Dimension after Treatment with Lip Bumper versus Schwarz Appliance. A Prospective Pilot Study. Dentistry journal, 8(2), 34. https://doi.org/10.3390/dj8020034</span>"
 
         +
 
@@ -9473,7 +9487,7 @@ const ARBOLES = {
         
         +
 
-        "<span class='cita-biblio'>Ponglertnapakorn AA, Burak MY, Barrios JCQ. Cambios maxilares en sentido anteroposterior y vertical con el uso de máscara facial en pacientes con secuela de labio y paladar hendidos unilaterales del Hospital General «Dr. Manuel Gea González». Revista Mexicana de Ortodoncia. 2014;2:174-82</span>"
+        "<span class='cita-biblio-img'>Ponglertnapakorn AA, Burak MY, Barrios JCQ. Cambios maxilares en sentido anteroposterior y vertical con el uso de máscara facial en pacientes con secuela de labio y paladar hendidos unilaterales del Hospital General «Dr. Manuel Gea González». Revista Mexicana de Ortodoncia. 2014;2:174-82</span>"
 
         +
 
@@ -10245,7 +10259,7 @@ const ARBOLES = {
         
         +
 
-        "<span class='cita-biblio'>Feldmann, I., & Bazargani, F. (2016, December 28). Pain and discomfort during the first week of rapid maxillary expansion (RME) using two different RME... The Angle Orthodontist (EH Angle Education & Research Foundation). https://doi.org/10.2319/091216-686.1Autores</span>"
+        "<span class='cita-biblio-img'>Feldmann, I., & Bazargani, F. (2016, December 28). Pain and discomfort during the first week of rapid maxillary expansion (RME) using two different RME... The Angle Orthodontist (EH Angle Education & Research Foundation). https://doi.org/10.2319/091216-686.1Autores</span>"
         
         +
         
@@ -10376,7 +10390,7 @@ const ARBOLES = {
         
         +
 
-        "<span class='cita-biblio'>tecnicas expansion maxilar [PDF]. (2024). https://www.lorenteortodoncia.com/wp-content/uploads/2024/09/tecnicas-expansion-maxilar.pdf</span>"
+        "<span class='cita-biblio-img'>tecnicas expansion maxilar [PDF]. (2024). https://www.lorenteortodoncia.com/wp-content/uploads/2024/09/tecnicas-expansion-maxilar.pdf</span>"
         
         ,
 
@@ -10516,7 +10530,7 @@ const ARBOLES = {
         
         +
 
-        "<span class='cita-biblio'>Muradova, N., & Özçırpıcı, A. A. (2019). Modified Haas Expander for the Treatment of Anterior Openbite and Posterior Crossbite Associated with Thumb Sucking-A Case Report: 3-Years Follow-Up. Turkish journal of orthodontics, 32(4), 247–252. https://doi.org/10.5152/TurkJOrthod.2019.19070</span>"
+        "<span class='cita-biblio-img'>Muradova, N., & Özçırpıcı, A. A. (2019). Modified Haas Expander for the Treatment of Anterior Openbite and Posterior Crossbite Associated with Thumb Sucking-A Case Report: 3-Years Follow-Up. Turkish journal of orthodontics, 32(4), 247–252. https://doi.org/10.5152/TurkJOrthod.2019.19070</span>"
         
         +
         

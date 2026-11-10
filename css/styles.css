@@ -619,16 +619,16 @@ a{
 
 .flow-button{
   position:relative;
-  min-width:150px;
-  padding:16px 28px;
+  min-width:auto;
+  padding:8px 16px;
   border:2px solid var(--green);
-  border-radius:15px;
+  border-radius:10px;
   background:#fff;
   color:var(--green-dark);
-  font-size:18px;
+  font-size:14px;
   font-weight:800;
   cursor:pointer;
-  box-shadow:0 6px 16px rgba(0,0,0,.07);
+  box-shadow:0 3px 8px rgba(0,0,0,.06);
   transition:.18s ease;
 
   /* Centrado perfecto de texto en botones */
@@ -641,8 +641,8 @@ a{
 .flow-button:hover{
   background:var(--green);
   color:#fff;
-  transform:translateY(-3px);
-  box-shadow:0 10px 22px rgba(22,148,71,.18);
+  transform:translateY(-2px);
+  box-shadow:0 6px 14px rgba(22,148,71,.16);
 }
 
 
@@ -653,18 +653,38 @@ a{
 .flow-button.back-btn,
 .back-btn {
   position: absolute;
-  top: 30px;
-  right: 30px;
+  top: 24px;
+  right: 24px;
   min-width: auto;
-  padding: 10px 20px;
-  font-size: 15px;
-  border-radius: 10px;
+  padding: 6px 14px;
+  font-size: 13px;
+  border-radius: 8px;
   z-index: 10;
 }
 
 .flow-button.back-btn:hover {
   background: var(--green);
   color: #fff;
+}
+
+
+/* =====================================================
+   BOTONES ADICIONALES MÁS PEQUEÑOS
+   (los que se crean dentro de .extra-buttons-wrapper)
+===================================================== */
+
+.extra-buttons-wrapper .flow-button {
+  min-width: auto;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 10px;
+  border-width: 2px;
+  box-shadow: 0 3px 8px rgba(0,0,0,.06);
+}
+
+.extra-buttons-wrapper .flow-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(22,148,71,.16);
 }
 
 
@@ -765,11 +785,28 @@ a{
 
 
 /* =====================================================
+   ➕ NUEVO: ESTILO PARA CITAS BIBLIOGRÁFICAS DE IMÁGENES (centrado)
+===================================================== */
+
+.cita-biblio-img {
+  font-size: var(--font-cita) !important;
+  font-style: italic !important;
+  line-height: 1.15 !important;
+  display: block !important;
+  margin-top: 8px !important;
+  text-align: center !important;       /* 👈 única diferencia con .cita-biblio */
+  text-align-last: center !important;  /* evita heredar el "left" de la regla unificada */
+  color: #6c757d !important;
+  opacity: 0.85;
+}
+
+
+/* =====================================================
    MÚLTIPLES OPCIONES ADICIONALES
 ===================================================== */
 
 .flow-options .flow-button:not(.yes-button):not(.no-button){
-  min-width:180px;
+  min-width:auto;
 }
 
 
