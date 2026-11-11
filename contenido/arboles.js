@@ -161,7 +161,7 @@ const ARBOLES = {
         
         +
 
-        "<br><br><img src='./image/Im1.png' style='max-width:50%; height:auto; border-radius:12px; margin: 10px 0;'>"
+        "<br><br><img src='./image/Im1.png' style='display:block; max-width:50%; height:auto; border-radius:12px; margin:10px auto;'>"
 
         + 
         
